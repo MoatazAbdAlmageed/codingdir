@@ -1,5 +1,5 @@
 ---
-title: 'AHMED SAMY"'
+title: "AHMED SAMY"
 date: "2021-05-05"
 categories:
   - "arabic"

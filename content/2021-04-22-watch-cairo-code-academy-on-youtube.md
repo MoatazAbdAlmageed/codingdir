@@ -1,5 +1,5 @@
 ---
-title: 'Cairo Code Academy"'
+title: "Cairo Code Academy"
 date: "2021-04-22"
 categories:
   - "arabic"

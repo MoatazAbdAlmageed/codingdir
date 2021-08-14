@@ -1,5 +1,5 @@
 ---
-title: 'Sec it Developers"'
+title: "Sec it Developers"
 date: "2021-07-12"
 categories:
   - "arabic"

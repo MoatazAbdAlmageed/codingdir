@@ -1,5 +1,5 @@
 ---
-title: 'Ahmad Sekmani"'
+title: "Ahmad Sekmani"
 date: "2021-03-15"
 categories:
   - "arabic"

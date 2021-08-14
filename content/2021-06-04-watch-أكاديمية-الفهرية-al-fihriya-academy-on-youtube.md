@@ -1,5 +1,5 @@
 ---
-title: 'أكاديمية الفهرية Al-Fihriya Academy"'
+title: "أكاديمية الفهرية Al-Fihriya Academy"
 date: "2021-06-04"
 categories:
   - "arabic"

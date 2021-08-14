@@ -1,5 +1,5 @@
 ---
-title: 'A.J. Hoge"'
+title: "A.J. Hoge"
 date: "2021-05-29"
 categories:
   - "english"

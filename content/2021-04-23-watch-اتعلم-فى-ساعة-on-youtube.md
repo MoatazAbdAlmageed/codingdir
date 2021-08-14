@@ -1,5 +1,5 @@
 ---
-title: 'اتعلم فى ساعة"'
+title: "اتعلم فى ساعة"
 date: "2021-04-23"
 categories:
   - "arabic"

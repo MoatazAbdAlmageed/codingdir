@@ -1,5 +1,5 @@
 ---
-title: 'Noura Sa''d"'
+title: "Noura Sa'd"
 date: "2021-05-09"
 categories:
   - "arabic"

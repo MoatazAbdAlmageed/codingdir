@@ -1,5 +1,5 @@
 ---
-title: 'Cyber Guy"'
+title: "Cyber Guy"
 date: "2021-03-20"
 categories:
   - "arabic"

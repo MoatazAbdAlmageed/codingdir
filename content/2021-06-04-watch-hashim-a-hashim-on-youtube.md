@@ -1,5 +1,5 @@
 ---
-title: 'Hashim A. Hashim"'
+title: "Hashim A. Hashim"
 date: "2021-06-04"
 categories:
   - "arabic"

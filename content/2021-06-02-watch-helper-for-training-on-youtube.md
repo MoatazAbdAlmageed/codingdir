@@ -1,5 +1,5 @@
 ---
-title: 'Helper For Training"'
+title: "Helper For Training"
 date: "2021-06-02"
 categories:
   - "arabic"

@@ -1,5 +1,5 @@
 ---
-title: 'Akwade - أكوادي"'
+title: "Akwade - أكوادي"
 date: "2021-05-09"
 categories:
   - "arabic"

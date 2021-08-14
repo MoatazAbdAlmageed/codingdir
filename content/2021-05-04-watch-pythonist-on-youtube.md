@@ -1,5 +1,5 @@
 ---
-title: 'Pythonist"'
+title: "Pythonist"
 date: "2021-05-04"
 tags:
   - "flask"

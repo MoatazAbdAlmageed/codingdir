@@ -1,5 +1,5 @@
 ---
-title: 'Berlin Tech Academy تعليم إنشاء مواقع"'
+title: "Berlin Tech Academy تعليم إنشاء مواقع"
 date: "2021-07-12"
 categories:
   - "arabic"

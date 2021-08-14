@@ -1,5 +1,5 @@
 ---
-title: 'Simply Explained"'
+title: "Simply Explained"
 date: "2021-04-20"
 categories:
   - "english"

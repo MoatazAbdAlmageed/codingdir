@@ -1,5 +1,5 @@
 ---
-title: 'The Dev Guy"'
+title: "The Dev Guy"
 date: "2021-08-02"
 categories:
   - "english"

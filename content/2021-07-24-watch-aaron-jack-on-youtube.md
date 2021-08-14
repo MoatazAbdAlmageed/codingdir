@@ -1,5 +1,5 @@
 ---
-title: 'Aaron Jack"'
+title: "Aaron Jack"
 date: "2021-07-24"
 categories:
   - "english"

@@ -1,5 +1,5 @@
 ---
-title: 'Mustafa Ahmed"'
+title: "Mustafa Ahmed"
 date: "2021-07-06"
 categories:
   - "arabic"

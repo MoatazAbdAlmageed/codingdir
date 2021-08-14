@@ -1,5 +1,5 @@
 ---
-title: 'knowledge of another kind المعرفة من نوع آخر"'
+title: "knowledge of another kind المعرفة من نوع آخر"
 date: "2021-07-05"
 categories:
   - "arabic"

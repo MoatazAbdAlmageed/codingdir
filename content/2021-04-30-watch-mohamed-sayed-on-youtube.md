@@ -1,5 +1,5 @@
 ---
-title: 'Mohamed Sayed"'
+title: "Mohamed Sayed"
 date: "2021-04-30"
 categories:
   - "arabic"

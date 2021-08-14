@@ -1,5 +1,5 @@
 ---
-title: 'Mohamed Moshrif"'
+title: "Mohamed Moshrif"
 date: "2021-06-04"
 categories:
   - "arabic"

@@ -1,5 +1,5 @@
 ---
-title: 'Dr. Ahmed Hagag"'
+title: "Dr. Ahmed Hagag"
 date: "2021-07-05"
 categories:
   - "arabic"

@@ -1,5 +1,5 @@
 ---
-title: 'Abdelrahman Elsheikh"'
+title: "Abdelrahman Elsheikh"
 date: "2021-05-31"
 categories:
   - "arabic"

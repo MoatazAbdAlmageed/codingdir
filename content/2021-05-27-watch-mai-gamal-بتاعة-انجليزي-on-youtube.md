@@ -1,5 +1,5 @@
 ---
-title: 'Mai Gamal بتاعة انجليزي"'
+title: "Mai Gamal بتاعة انجليزي"
 date: "2021-05-27"
 categories:
   - "arabic"

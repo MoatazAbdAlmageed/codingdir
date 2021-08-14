@@ -1,5 +1,5 @@
 ---
-title: 'Nabeel Alalmai نبيل الالمعي"'
+title: "Nabeel Alalmai نبيل الالمعي"
 date: "2021-05-08"
 categories:
   - "arabic"

@@ -1,5 +1,5 @@
 ---
-title: 'Code Nerds"'
+title: "Code Nerds"
 date: "2021-04-19"
 categories:
   - "arabic"

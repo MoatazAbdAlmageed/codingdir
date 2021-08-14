@@ -1,5 +1,5 @@
 ---
-title: 'Amr Ramadan"'
+title: "Amr Ramadan"
 date: "2021-05-29"
 categories:
   - "arabic"

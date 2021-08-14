@@ -1,5 +1,5 @@
 ---
-title: 'كوكب حسن - HsnPlnt"'
+title: "كوكب حسن - HsnPlnt"
 date: "2021-03-16"
 categories:
   - "arabic"

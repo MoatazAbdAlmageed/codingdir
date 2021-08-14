@@ -1,5 +1,5 @@
 ---
-title: 'BarmajaOnline - برمجة أونلاين"'
+title: "BarmajaOnline - برمجة أونلاين"
 date: "2021-05-03"
 categories:
   - "arabic"

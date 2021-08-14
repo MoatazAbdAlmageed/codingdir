@@ -1,5 +1,5 @@
 ---
-title: 'Ehab Fayez"'
+title: "Ehab Fayez"
 date: "2021-05-15"
 categories:
   - "arabic"

@@ -1,5 +1,5 @@
 ---
-title: 'OutsideTheCode"'
+title: "OutsideTheCode"
 date: "2021-06-03"
 tags:
   - "blockchain"

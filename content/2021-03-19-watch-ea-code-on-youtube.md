@@ -1,5 +1,5 @@
 ---
-title: 'EA CODE"'
+title: "EA CODE"
 date: "2021-03-19"
 categories:
   - "arabic"
