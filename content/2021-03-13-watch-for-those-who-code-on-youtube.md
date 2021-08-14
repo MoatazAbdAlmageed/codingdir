@@ -1,9 +1,9 @@
 ---
-title: ""For Those Who Code\" on YouTube"
+title: "For Those Who Code"
 date: "2021-03-13"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "js"
   - "nodejs"
   - "react"
