@@ -1,5 +1,5 @@
 ---
-title: "John Ahn on YouTube"
+title: "John Ahn"
 date: "2021-03-13"
 categories:
   - "english"

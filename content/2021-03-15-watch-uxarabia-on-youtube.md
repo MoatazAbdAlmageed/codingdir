@@ -1,5 +1,5 @@
 ---
-title: 'uxarabia" on YouTube'
+title: 'uxarabia"'
 date: "2021-03-15"
 categories:
   - "arabic"

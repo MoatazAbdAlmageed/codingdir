@@ -1,5 +1,5 @@
 ---
-title: 'Devoxx" on YouTube'
+title: 'Devoxx"'
 date: "2021-04-20"
 categories:
   - "english"

@@ -1,5 +1,5 @@
 ---
-title: 'Al-Munthir Saffan" on YouTube'
+title: 'Al-Munthir Saffan"'
 date: "2021-03-30"
 categories:
   - "arabic"

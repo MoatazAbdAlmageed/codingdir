@@ -1,5 +1,5 @@
 ---
-title: 'zArtOfProgramming" on YouTube'
+title: 'zArtOfProgramming"'
 date: "2021-03-13"
 categories:
   - "arabic"

@@ -1,5 +1,5 @@
 ---
-title: 'Ahmad Sekmani" on YouTube'
+title: 'Ahmad Sekmani"'
 date: "2021-03-15"
 categories:
   - "arabic"

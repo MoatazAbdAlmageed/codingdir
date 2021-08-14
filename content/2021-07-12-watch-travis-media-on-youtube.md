@@ -1,5 +1,5 @@
 ---
-title: 'Travis Media" on YouTube'
+title: 'Travis Media"'
 date: "2021-07-12"
 categories:
   - "english"

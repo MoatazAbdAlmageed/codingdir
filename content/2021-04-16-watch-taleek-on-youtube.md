@@ -1,5 +1,5 @@
 ---
-title: 'Taleek" on YouTube'
+title: 'Taleek"'
 date: "2021-04-16"
 categories:
   - "arabic"

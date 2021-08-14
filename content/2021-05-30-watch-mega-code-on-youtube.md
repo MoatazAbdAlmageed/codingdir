@@ -1,5 +1,5 @@
 ---
-title: 'Mega Code" on YouTube'
+title: 'Mega Code"'
 date: "2021-05-30"
 categories:
   - "arabic"

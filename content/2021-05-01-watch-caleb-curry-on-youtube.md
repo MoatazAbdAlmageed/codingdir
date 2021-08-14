@@ -1,5 +1,5 @@
 ---
-title: 'Caleb Curry" on YouTube'
+title: 'Caleb Curry"'
 date: "2021-05-01"
 categories:
   - "english"

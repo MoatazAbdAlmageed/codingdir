@@ -1,5 +1,5 @@
 ---
-title: 'Nology - نولوجي" on YouTube'
+title: 'Nology - نولوجي"'
 date: "2021-04-14"
 categories:
   - "arabic"

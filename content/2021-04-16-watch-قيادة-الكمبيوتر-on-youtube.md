@@ -1,5 +1,5 @@
 ---
-title: 'قيادة الكمبيوتر" on YouTube'
+title: 'قيادة الكمبيوتر"'
 date: "2021-04-16"
 categories:
   - "arabic"

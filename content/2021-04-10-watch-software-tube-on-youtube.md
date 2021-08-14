@@ -1,5 +1,5 @@
 ---
-title: 'Software Tube" on YouTube'
+title: 'Software Tube"'
 date: "2021-04-10"
 categories:
   - "arabic"

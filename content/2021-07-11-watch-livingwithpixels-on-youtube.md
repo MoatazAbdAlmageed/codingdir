@@ -1,5 +1,5 @@
 ---
-title: 'LivingWithPixels" on YouTube'
+title: 'LivingWithPixels"'
 date: "2021-07-11"
 categories:
   - "english"

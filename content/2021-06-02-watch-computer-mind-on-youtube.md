@@ -1,5 +1,5 @@
 ---
-title: 'Computer Mind" on YouTube'
+title: 'Computer Mind"'
 date: "2021-06-02"
 categories:
   - "arabic"

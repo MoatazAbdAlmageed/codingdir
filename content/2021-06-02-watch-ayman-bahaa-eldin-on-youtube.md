@@ -1,5 +1,5 @@
 ---
-title: 'Ayman Bahaa-Eldin" on YouTube'
+title: 'Ayman Bahaa-Eldin"'
 date: "2021-06-02"
 categories:
   - "arabic"

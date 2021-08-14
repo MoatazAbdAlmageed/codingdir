@@ -1,5 +1,5 @@
 ---
-title: 'Ebrahim Alkadim" on YouTube'
+title: 'Ebrahim Alkadim"'
 date: "2021-07-07"
 categories:
   - "arabic"

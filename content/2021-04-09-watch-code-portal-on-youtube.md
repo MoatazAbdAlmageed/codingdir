@@ -1,5 +1,5 @@
 ---
-title: 'Code Portal" on YouTube'
+title: 'Code Portal"'
 date: "2021-04-09"
 categories:
   - "arabic"

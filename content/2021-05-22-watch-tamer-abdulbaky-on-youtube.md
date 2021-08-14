@@ -1,5 +1,5 @@
 ---
-title: 'Tamer Abdulbaky" on YouTube'
+title: 'Tamer Abdulbaky"'
 date: "2021-05-22"
 categories:
   - "arabic"

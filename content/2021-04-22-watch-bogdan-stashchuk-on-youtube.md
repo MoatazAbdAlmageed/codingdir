@@ -1,5 +1,5 @@
 ---
-title: 'Bogdan Stashchuk" on YouTube'
+title: 'Bogdan Stashchuk"'
 date: "2021-04-22"
 categories:
   - "english"

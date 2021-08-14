@@ -1,5 +1,5 @@
 ---
-title: 'فاضل خداده FadelK" on YouTube'
+title: 'فاضل خداده FadelK"'
 date: "2021-06-13"
 categories:
   - "arabic"

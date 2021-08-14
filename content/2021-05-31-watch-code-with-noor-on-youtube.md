@@ -1,5 +1,5 @@
 ---
-title: 'Code with Noor" on YouTube'
+title: 'Code with Noor"'
 date: "2021-05-31"
 categories:
   - "arabic"

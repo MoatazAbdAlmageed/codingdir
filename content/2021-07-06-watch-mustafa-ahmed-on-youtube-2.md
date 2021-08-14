@@ -1,5 +1,5 @@
 ---
-title: 'MUSTAFA AHMED" on YouTube'
+title: 'MUSTAFA AHMED"'
 date: "2021-07-06"
 categories:
   - "arabic"

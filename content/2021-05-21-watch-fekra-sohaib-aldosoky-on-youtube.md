@@ -1,5 +1,5 @@
 ---
-title: 'Fekra - Sohaib Aldosoky" on YouTube'
+title: 'Fekra - Sohaib Aldosoky"'
 date: "2021-05-21"
 categories:
   - "arabic"

@@ -1,5 +1,5 @@
 ---
-title: 'Intellipaat" on YouTube'
+title: 'Intellipaat"'
 date: "2021-04-22"
 categories:
   - "english"

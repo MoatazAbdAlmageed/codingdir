@@ -1,5 +1,5 @@
 ---
-title: 'Arab TEC" on YouTube'
+title: 'Arab TEC"'
 date: "2021-05-03"
 categories:
   - "arabic"

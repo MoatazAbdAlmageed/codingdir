@@ -1,5 +1,5 @@
 ---
-title: 'Neso Academy" on YouTube'
+title: 'Neso Academy"'
 date: "2021-05-01"
 categories:
   - "english"

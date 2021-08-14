@@ -1,5 +1,5 @@
 ---
-title: 'برمجيات حسان" on YouTube'
+title: 'برمجيات حسان"'
 date: "2021-05-31"
 categories:
   - "arabic"

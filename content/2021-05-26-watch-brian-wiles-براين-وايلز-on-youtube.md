@@ -1,5 +1,5 @@
 ---
-title: 'Brian Wiles براين وايلز" on YouTube'
+title: 'Brian Wiles براين وايلز"'
 date: "2021-05-26"
 categories:
   - "english"

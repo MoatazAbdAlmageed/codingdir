@@ -1,5 +1,5 @@
 ---
-title: 'أكاديمية علوم المستقبل" on YouTube'
+title: 'أكاديمية علوم المستقبل"'
 date: "2021-05-22"
 categories:
   - "arabic"

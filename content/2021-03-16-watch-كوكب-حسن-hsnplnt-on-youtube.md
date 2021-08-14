@@ -1,5 +1,5 @@
 ---
-title: 'كوكب حسن - HsnPlnt" on YouTube'
+title: 'كوكب حسن - HsnPlnt"'
 date: "2021-03-16"
 categories:
   - "arabic"

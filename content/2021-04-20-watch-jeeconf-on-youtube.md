@@ -1,5 +1,5 @@
 ---
-title: 'jeeconf" on YouTube'
+title: 'jeeconf"'
 date: "2021-04-20"
 categories:
   - "english"

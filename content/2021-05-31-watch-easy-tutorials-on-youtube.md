@@ -1,5 +1,5 @@
 ---
-title: 'Easy Tutorials" on YouTube'
+title: 'Easy Tutorials"'
 date: "2021-05-31"
 categories:
   - "english"
