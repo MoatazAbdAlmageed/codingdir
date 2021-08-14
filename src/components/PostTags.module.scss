@@ -1,0 +1,16 @@
+.tag-container {
+    a {
+        text-decoration: none;
+        display: inline-grid;
+    }
+
+    span {
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.3rem .6rem;
+        margin: 0.3rem;
+        border-radius: 3px;
+        background: rgba(141, 154, 169, 0.21);
+        color: rgba(0, 0, 0, 0.54);
+    }
+}

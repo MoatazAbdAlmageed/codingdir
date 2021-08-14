@@ -1,0 +1,13 @@
+---
+title: ""For Those Who Code\" on YouTube"
+date: "2021-03-13"
+categories: 
+  - "english"
+tags: 
+  - "js"
+  - "nodejs"
+  - "react"
+  - "vue"
+---
+
+[https://youtube.com/channel/UCS3-MF_4ADqglU2OSly4vIw](https://youtube.com/channel/UCS3-MF_4ADqglU2OSly4vIw)
