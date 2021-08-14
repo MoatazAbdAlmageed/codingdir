@@ -23,7 +23,7 @@ const Categories = (props) => {
             key={category.fieldValue}
             activeClassName={props.activeClassName}
           >
-            {category.fieldValue.upperCase()}
+            {category.fieldValue.toUpperCase()}
             <strong> ({category.totalCount})</strong>
           </Link>
         </li>
