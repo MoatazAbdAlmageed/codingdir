@@ -1,12 +1,12 @@
 ---
-title: "Amr Atallah - عمرو عطاالله - YouTube"
+title: "Amr Atallah - عمرو عطاالله "
 date: "2021-04-11"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "graphics"
 ---
 
 > https://www.youtube.com/user/amr13330/playlists
-> 
-> [Amr Atallah - عمرو عطاالله - YouTube](https://www.youtube.com/user/amr13330/playlists)
+>
+> [Amr Atallah - عمرو عطاالله ](https://www.youtube.com/user/amr13330/playlists)

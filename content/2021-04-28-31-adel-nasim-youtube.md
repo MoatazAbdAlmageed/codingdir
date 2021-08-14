@@ -17,4 +17,4 @@ cover: "https://unsplash.it/400/300/?adel-nasim.jpg"
 
 > https://www.youtube.com/c/AdelNasim/playlists
 >
-> [(31) Adel Nasim - YouTube](https://www.youtube.com/c/AdelNasim/playlists)
+> [(31) Adel Nasim ](https://www.youtube.com/c/AdelNasim/playlists)

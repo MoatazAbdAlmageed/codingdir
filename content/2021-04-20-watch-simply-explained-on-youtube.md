@@ -1,9 +1,9 @@
 ---
-title: ""Simply Explained\" on YouTube"
+title: 'Simply Explained" on YouTube'
 date: "2021-04-20"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "short"
 ---
 

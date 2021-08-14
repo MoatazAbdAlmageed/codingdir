@@ -1,14 +1,14 @@
 ---
-title: "Omar Jahama - YouTube"
+title: "Omar Jahama "
 date: "2021-04-11"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "seo"
   - "woocommerce"
   - "wordpress"
 ---
 
 > https://www.youtube.com/c/OmarJahama/playlists
-> 
-> [Omar Jahama - YouTube](https://www.youtube.com/c/OmarJahama/playlists)
+>
+> [Omar Jahama ](https://www.youtube.com/c/OmarJahama/playlists)

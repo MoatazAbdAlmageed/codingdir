@@ -1,9 +1,9 @@
 ---
-title: ""Update - أب ديت\" on YouTube"
+title: 'Update - أب ديت" on YouTube'
 date: "2021-06-02"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "networking"
   - "security"
 ---

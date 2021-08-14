@@ -1,9 +1,9 @@
 ---
-title: ""Neso Academy\" on YouTube"
+title: 'Neso Academy" on YouTube'
 date: "2021-05-01"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "java"
 ---
 

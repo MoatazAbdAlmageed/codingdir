@@ -1,9 +1,9 @@
 ---
-title: "الباشمبرمج - alba4mbrmg - YouTube"
+title: "الباشمبرمج - alba4mbrmg "
 date: "2021-03-10"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "books"
 ---
 

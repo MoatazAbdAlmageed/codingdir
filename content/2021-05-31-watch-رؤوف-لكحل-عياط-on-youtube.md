@@ -1,9 +1,9 @@
 ---
-title: ""رؤوف لكحل عياط\" on YouTube"
+title: 'رؤوف لكحل عياط" on YouTube'
 date: "2021-05-31"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "algorithms"
   - "c-plus-plus"
 ---

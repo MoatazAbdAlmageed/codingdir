@@ -1,9 +1,9 @@
 ---
-title: ""UXDL User Experience Design Lab\" on YouTube"
+title: 'UXDL User Experience Design Lab" on YouTube'
 date: "2021-04-30"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "ui"
   - "ux"
 ---

@@ -1,9 +1,9 @@
 ---
-title: ""Mustafa Ahmed\" on YouTube"
+title: 'Mustafa Ahmed" on YouTube'
 date: "2021-07-06"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "c-plus-plus"
   - "data-structures"
   - "java"

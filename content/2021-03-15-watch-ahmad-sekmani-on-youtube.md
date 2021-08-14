@@ -1,9 +1,9 @@
 ---
-title: ""Ahmad Sekmani\" on YouTube"
+title: 'Ahmad Sekmani" on YouTube'
 date: "2021-03-15"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "ui"
   - "ux"
 ---

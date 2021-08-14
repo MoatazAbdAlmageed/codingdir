@@ -1,9 +1,9 @@
 ---
-title: ""LivingWithPixels\" on YouTube"
+title: 'LivingWithPixels" on YouTube'
 date: "2021-07-11"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "wordpress"
 ---
 

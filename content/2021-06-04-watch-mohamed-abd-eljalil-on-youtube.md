@@ -1,9 +1,9 @@
 ---
-title: ""Mohamed Abd Eljalil\" on YouTube"
+title: 'Mohamed Abd Eljalil" on YouTube'
 date: "2021-06-04"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "system-analysis"
 ---
 

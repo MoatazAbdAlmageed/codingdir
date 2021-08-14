@@ -1,9 +1,9 @@
 ---
-title: ""AlDawoode\" on YouTube"
+title: 'AlDawoode" on YouTube'
 date: "2021-05-21"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "adobe-xd"
   - "aws"
   - "css"

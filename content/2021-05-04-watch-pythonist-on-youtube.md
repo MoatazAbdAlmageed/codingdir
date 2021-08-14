@@ -1,7 +1,7 @@
 ---
-title: ""Pythonist\" on YouTube"
+title: 'Pythonist" on YouTube'
 date: "2021-05-04"
-tags: 
+tags:
   - "flask"
   - "front-end"
   - "html"

@@ -1,9 +1,9 @@
 ---
-title: ""Mahmoud Mansour\" on YouTube"
+title: 'Mahmoud Mansour" on YouTube'
 date: "2021-05-22"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "freelance"
   - "freelancing"
   - "ui"

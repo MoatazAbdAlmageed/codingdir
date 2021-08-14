@@ -1,9 +1,9 @@
 ---
-title: ""فَلْتَكُنْ - Be\" on YouTube"
+title: 'فَلْتَكُنْ - Be" on YouTube'
 date: "2021-05-12"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "productivity"
 ---
 

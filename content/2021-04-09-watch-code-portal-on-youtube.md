@@ -1,9 +1,9 @@
 ---
-title: ""Code Portal\" on YouTube"
+title: 'Code Portal" on YouTube'
 date: "2021-04-09"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "agile"
   - "algorithms"
   - "c-plus-plus"

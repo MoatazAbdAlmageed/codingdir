@@ -1,10 +1,10 @@
 ---
-title: ""The Companies Expert\" on YouTube"
+title: 'The Companies Expert" on YouTube'
 date: "2021-08-03"
-categories: 
+categories:
   - "english"
   - "favorites"
-tags: 
+tags:
   - "tips"
 ---
 

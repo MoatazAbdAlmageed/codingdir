@@ -1,9 +1,9 @@
 ---
-title: ""Cairo Code Academy\" on YouTube"
+title: 'Cairo Code Academy" on YouTube'
 date: "2021-04-22"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "tips"
 ---
 

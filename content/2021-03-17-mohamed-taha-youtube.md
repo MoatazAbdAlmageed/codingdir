@@ -1,13 +1,13 @@
 ---
-title: "Mohamed Taha - YouTube"
+title: "Mohamed Taha "
 date: "2021-03-17"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "c"
   - "networking"
 ---
 
 > Mohamed Taha
-> 
-> [Mohamed Taha - YouTube](https://www.youtube.com/channel/UCLbcXGFLi6j25vzZYssqr1A/playlists)
+>
+> [Mohamed Taha ](https://www.youtube.com/channel/UCLbcXGFLi6j25vzZYssqr1A/playlists)

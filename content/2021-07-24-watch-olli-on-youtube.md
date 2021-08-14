@@ -1,9 +1,9 @@
 ---
-title: ""Olli\" on YouTube"
+title: 'Olli" on YouTube'
 date: "2021-07-24"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "front-end"
   - "js"
   - "react"

@@ -17,4 +17,4 @@ cover: "https://unsplash.it/400/300/?unnamed-10-1.jpg"
 
 > https://www.youtube.com/channel/UCYiZceCCbaRLP27U5RXRHog
 >
-> [(8) Omar Ahmed - YouTube](https://www.youtube.com/channel/UCYiZceCCbaRLP27U5RXRHog)
+> [(8) Omar Ahmed ](https://www.youtube.com/channel/UCYiZceCCbaRLP27U5RXRHog)

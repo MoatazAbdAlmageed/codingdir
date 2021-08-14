@@ -1,9 +1,9 @@
 ---
-title: ""ScaffoldHub\" on YouTube"
+title: 'ScaffoldHub" on YouTube'
 date: "2021-05-27"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "front-end"
   - "graphql"
   - "nodejs"

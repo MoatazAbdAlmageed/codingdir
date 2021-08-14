@@ -1,9 +1,9 @@
 ---
 title: "Nour Homsi"
 date: "2021-03-14"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "back-end"
   - "css"
   - "front-end"
@@ -18,5 +18,5 @@ tags:
 ---
 
 > Nour Homsi
-> 
-> [(130) Nour Homsi - YouTube](https://www.youtube.com/c/NourHomsi/playlists)
+>
+> [(130) Nour Homsi ](https://www.youtube.com/c/NourHomsi/playlists)

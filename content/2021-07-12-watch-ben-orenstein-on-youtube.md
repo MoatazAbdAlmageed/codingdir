@@ -1,9 +1,9 @@
 ---
-title: ""Ben Orenstein\" on YouTube"
+title: 'Ben Orenstein" on YouTube'
 date: "2021-07-12"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "ruby-of-rails"
 ---
 

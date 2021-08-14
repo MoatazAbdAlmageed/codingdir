@@ -1,10 +1,10 @@
 ---
-title: ""Aaron Jack\" on YouTube"
+title: 'Aaron Jack" on YouTube'
 date: "2021-07-24"
-categories: 
+categories:
   - "english"
   - "favorites"
-tags: 
+tags:
   - "css"
   - "html"
   - "js"

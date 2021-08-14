@@ -1,9 +1,9 @@
 ---
-title: ""Akwade - أكوادي\" on YouTube"
+title: 'Akwade - أكوادي" on YouTube'
 date: "2021-05-09"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "wordpress"
 ---
 

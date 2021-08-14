@@ -1,9 +1,9 @@
 ---
-title: ""Code with Noor\" on YouTube"
+title: 'Code with Noor" on YouTube'
 date: "2021-05-31"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "c-plus-plus"
   - "python"
 ---

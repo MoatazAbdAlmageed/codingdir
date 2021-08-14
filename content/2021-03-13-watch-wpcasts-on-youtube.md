@@ -1,9 +1,9 @@
 ---
-title: ""WPCasts\" on YouTube"
+title: 'WPCasts" on YouTube'
 date: "2021-03-13"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "gatsby"
   - "javascript"
   - "wordpress"

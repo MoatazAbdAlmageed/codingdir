@@ -1,9 +1,9 @@
 ---
-title: ""Ebrahim Alkadim\" on YouTube"
+title: 'Ebrahim Alkadim" on YouTube'
 date: "2021-07-07"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "net"
   - "front-end"
   - "microsoft"

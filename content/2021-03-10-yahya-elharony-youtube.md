@@ -1,9 +1,9 @@
 ---
-title: "Yahya Elharony - YouTube"
+title: "Yahya Elharony "
 date: "2021-03-10"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "cli"
 ---
 

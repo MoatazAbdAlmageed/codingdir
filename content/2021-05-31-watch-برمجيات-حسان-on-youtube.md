@@ -1,9 +1,9 @@
 ---
-title: ""برمجيات حسان\" on YouTube"
+title: 'برمجيات حسان" on YouTube'
 date: "2021-05-31"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "cs"
   - "javascript"
   - "js"

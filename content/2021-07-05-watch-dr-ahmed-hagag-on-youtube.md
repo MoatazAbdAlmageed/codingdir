@@ -1,9 +1,9 @@
 ---
-title: ""Dr. Ahmed Hagag\" on YouTube"
+title: 'Dr. Ahmed Hagag" on YouTube'
 date: "2021-07-05"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "operating-systems"
   - "os"
 ---

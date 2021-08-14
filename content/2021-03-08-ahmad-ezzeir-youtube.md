@@ -1,16 +1,16 @@
 ---
-title: "Ahmad Ezzeir - YouTube"
+title: "Ahmad Ezzeir "
 date: "2021-03-08"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "devops"
   - "git"
   - "software-development"
 ---
 
 > Ahmad Ezzeir
-> 
-> [Ahmad Ezzeir - YouTube](https://www.youtube.com/channel/UCE2cLj1ZlV7EUKkCJ3UiZKg/playlists)
+>
+> [Ahmad Ezzeir ](https://www.youtube.com/channel/UCE2cLj1ZlV7EUKkCJ3UiZKg/playlists)
 
 https://www.youtube.com/channel/UCE2cLj1ZlV7EUKkCJ3UiZKg/playlists

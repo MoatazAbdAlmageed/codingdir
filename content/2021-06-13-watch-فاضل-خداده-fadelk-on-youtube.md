@@ -1,9 +1,9 @@
 ---
-title: ""فاضل خداده FadelK\" on YouTube"
+title: 'فاضل خداده FadelK" on YouTube'
 date: "2021-06-13"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "cs"
   - "java"
 ---

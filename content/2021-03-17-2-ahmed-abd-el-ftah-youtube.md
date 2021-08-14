@@ -12,4 +12,4 @@ cover: "https://unsplash.it/400/300/?unnamed-6.jpg"
 
 > Ahmed Abd El Ftah
 >
-> [(2) Ahmed Abd El Ftah - YouTube](https://www.youtube.com/channel/UCrlyl0lWSxJu-RS7g7V3H8Q/playlists)
+> [(2) Ahmed Abd El Ftah ](https://www.youtube.com/channel/UCrlyl0lWSxJu-RS7g7V3H8Q/playlists)

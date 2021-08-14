@@ -1,9 +1,9 @@
 ---
-title: ""Noura Sa'd\" on YouTube"
+title: 'Noura Sa''d" on YouTube'
 date: "2021-05-09"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "shopify"
   - "wordpress"
 ---

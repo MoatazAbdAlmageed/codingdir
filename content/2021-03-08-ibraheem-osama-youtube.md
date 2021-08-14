@@ -1,5 +1,5 @@
 ---
-title: "Ibraheem Osama - YouTube"
+title: "Ibraheem Osama "
 date: "2021-03-08"
 categories:
   - "arabic"
@@ -19,4 +19,4 @@ cover: "https://unsplash.it/400/300/?unnamed-13.jpg"
 >
 > https://www.youtube.com/channel/UC-0XB-AT2Q3rb1muG\_wtIiw
 >
-> [Ibraheem Osama - YouTube](https://www.youtube.com/channel/UC-0XB-AT2Q3rb1muG_wtIiw)
+> [Ibraheem Osama ](https://www.youtube.com/channel/UC-0XB-AT2Q3rb1muG_wtIiw)

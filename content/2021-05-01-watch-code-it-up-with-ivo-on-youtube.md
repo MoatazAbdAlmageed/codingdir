@@ -1,9 +1,9 @@
 ---
-title: ""Code It Up with Ivo\" on YouTube"
+title: 'Code It Up with Ivo" on YouTube'
 date: "2021-05-01"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "net"
   - "microsoft"
 ---

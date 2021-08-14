@@ -1,9 +1,9 @@
 ---
-title: ""MUSTAFA AHMED\" on YouTube"
+title: 'MUSTAFA AHMED" on YouTube'
 date: "2021-07-06"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "back-end"
   - "data-structures"
   - "front-end"

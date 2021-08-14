@@ -1,9 +1,9 @@
 ---
-title: "Strapi - YouTube"
+title: "Strapi "
 date: "2021-03-15"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "front-end"
   - "gatsby"
   - "headless-cmd"
@@ -13,5 +13,5 @@ tags:
 ---
 
 > Strapi
-> 
-> [Strapi - YouTube](https://www.youtube.com/c/Strapi/playlists)
+>
+> [Strapi ](https://www.youtube.com/c/Strapi/playlists)

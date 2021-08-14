@@ -1,9 +1,9 @@
 ---
-title: ""BarmajaOnline - برمجة أونلاين\" on YouTube"
+title: 'BarmajaOnline - برمجة أونلاين" on YouTube'
 date: "2021-05-03"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "java"
 ---
 

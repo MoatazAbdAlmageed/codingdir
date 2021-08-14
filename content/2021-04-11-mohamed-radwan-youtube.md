@@ -1,9 +1,9 @@
 ---
-title: "Mohamed Radwan - YouTube"
+title: "Mohamed Radwan "
 date: "2021-04-11"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "aws"
   - "devops"
   - "linux"
@@ -11,5 +11,5 @@ tags:
 ---
 
 > https://www.youtube.com/user/maradwan/playlists
-> 
-> [Mohamed Radwan - YouTube](https://www.youtube.com/user/maradwan/playlists)
+>
+> [Mohamed Radwan ](https://www.youtube.com/user/maradwan/playlists)

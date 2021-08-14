@@ -1,9 +1,9 @@
 ---
-title: "CS Younes - YouTube"
+title: "CS Younes "
 date: "2021-03-10"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "python"
 ---
 

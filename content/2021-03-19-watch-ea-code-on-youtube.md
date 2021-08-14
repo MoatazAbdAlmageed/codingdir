@@ -1,9 +1,9 @@
 ---
-title: ""EA CODE\" on YouTube"
+title: 'EA CODE" on YouTube'
 date: "2021-03-19"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "c-plus-plus"
 ---
 

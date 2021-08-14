@@ -1,13 +1,13 @@
 ---
-title: "DT Guide - YouTube"
+title: "DT Guide "
 date: "2021-04-14"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "cloud"
   - "devops"
 ---
 
 > https://www.youtube.com/c/DigitalTransformationGuide/playlists
-> 
-> [DT Guide - YouTube](https://www.youtube.com/c/DigitalTransformationGuide/playlists)
+>
+> [DT Guide ](https://www.youtube.com/c/DigitalTransformationGuide/playlists)

@@ -1,5 +1,5 @@
 ---
-title: "في العالم العربي Google مجموعات مطوري - GDGMENA - YouTube"
+title: "في العالم العربي Google مجموعات مطوري - GDGMENA "
 date: "2021-03-08"
 categories:
   - "arabic"

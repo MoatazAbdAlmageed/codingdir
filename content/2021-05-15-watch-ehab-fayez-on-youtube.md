@@ -1,9 +1,9 @@
 ---
-title: ""Ehab Fayez\" on YouTube"
+title: 'Ehab Fayez" on YouTube'
 date: "2021-05-15"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "ui"
   - "ux"
 ---

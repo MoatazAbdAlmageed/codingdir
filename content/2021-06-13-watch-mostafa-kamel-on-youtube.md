@@ -1,7 +1,7 @@
 ---
-title: ""Mostafa Kamel\" on YouTube"
+title: 'Mostafa Kamel" on YouTube'
 date: "2021-06-13"
-tags: 
+tags:
   - "algorithms"
   - "data-structures"
   - "java"

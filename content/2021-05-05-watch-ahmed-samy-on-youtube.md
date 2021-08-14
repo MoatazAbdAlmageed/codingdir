@@ -1,10 +1,10 @@
 ---
-title: ""AHMED SAMY\" on YouTube"
+title: 'AHMED SAMY" on YouTube'
 date: "2021-05-05"
-categories: 
+categories:
   - "arabic"
   - "english"
-tags: 
+tags:
   - "java"
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: ""Amr Ramadan\" on YouTube"
+title: 'Amr Ramadan" on YouTube'
 date: "2021-05-29"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "english"
 ---
 

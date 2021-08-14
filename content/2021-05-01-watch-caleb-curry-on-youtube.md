@@ -1,9 +1,9 @@
 ---
-title: ""Caleb Curry\" on YouTube"
+title: 'Caleb Curry" on YouTube'
 date: "2021-05-01"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "algorithms"
   - "c-plus-plus"
   - "data-structure"

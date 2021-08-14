@@ -20,4 +20,4 @@ https://www.linkedin.com/in/rami-mohsen/
 
 https://www.youtube.com/c/FCICareerBuild/playlists
 
-[(31) FCI-Career-Build - YouTube](https://www.youtube.com/c/FCICareerBuild/playlists)
+[(31) FCI-Career-Build ](https://www.youtube.com/c/FCICareerBuild/playlists)

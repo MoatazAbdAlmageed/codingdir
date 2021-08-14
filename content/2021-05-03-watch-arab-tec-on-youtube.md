@@ -1,9 +1,9 @@
 ---
-title: ""Arab TEC\" on YouTube"
+title: 'Arab TEC" on YouTube'
 date: "2021-05-03"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "java"
 ---
 

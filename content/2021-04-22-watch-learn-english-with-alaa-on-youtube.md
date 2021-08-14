@@ -1,9 +1,9 @@
 ---
-title: ""Learn English with Alaa\" on YouTube"
+title: 'Learn English with Alaa" on YouTube'
 date: "2021-04-22"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "english"
 ---
 

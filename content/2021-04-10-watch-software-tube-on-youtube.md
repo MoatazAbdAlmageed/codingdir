@@ -1,9 +1,9 @@
 ---
-title: ""Software Tube\" on YouTube"
+title: 'Software Tube" on YouTube'
 date: "2021-04-10"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "cs"
 ---
 

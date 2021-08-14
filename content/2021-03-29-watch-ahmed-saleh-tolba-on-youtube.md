@@ -1,9 +1,9 @@
 ---
-title: ""Ahmed Saleh Tolba\" on YouTube"
+title: 'Ahmed Saleh Tolba" on YouTube'
 date: "2021-03-29"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "c-plus-plus"
   - "embedded"
   - "games-development"

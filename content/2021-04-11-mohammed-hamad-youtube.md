@@ -1,9 +1,9 @@
 ---
-title: "Mohammed Hamad - YouTube"
+title: "Mohammed Hamad "
 date: "2021-04-11"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "css"
   - "html"
   - "jquery"
@@ -11,5 +11,5 @@ tags:
 ---
 
 > https://www.youtube.com/c/mohammed9895/playlists
-> 
-> [Mohammed Hamad - YouTube](https://www.youtube.com/c/mohammed9895/playlists)
+>
+> [Mohammed Hamad ](https://www.youtube.com/c/mohammed9895/playlists)

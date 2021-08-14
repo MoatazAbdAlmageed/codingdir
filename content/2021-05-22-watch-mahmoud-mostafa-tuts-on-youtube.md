@@ -1,9 +1,9 @@
 ---
-title: ""Mahmoud Mostafa Tuts\" on YouTube"
+title: 'Mahmoud Mostafa Tuts" on YouTube'
 date: "2021-05-22"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "graphics"
 ---
 

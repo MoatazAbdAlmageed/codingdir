@@ -1,9 +1,9 @@
 ---
-title: ""Taleek\" on YouTube"
+title: 'Taleek" on YouTube'
 date: "2021-04-16"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "english"
 ---
 

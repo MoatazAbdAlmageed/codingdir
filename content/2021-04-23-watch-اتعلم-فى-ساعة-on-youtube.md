@@ -1,9 +1,9 @@
 ---
-title: ""اتعلم فى ساعة\" on YouTube"
+title: 'اتعلم فى ساعة" on YouTube'
 date: "2021-04-23"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "css"
   - "html"
   - "javascript"

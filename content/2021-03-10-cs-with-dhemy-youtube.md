@@ -1,9 +1,9 @@
 ---
-title: "CS with Dhemy - YouTube"
+title: "CS with Dhemy "
 date: "2021-03-10"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "back-end"
   - "books"
   - "cs"

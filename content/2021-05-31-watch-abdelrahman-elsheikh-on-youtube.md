@@ -1,9 +1,9 @@
 ---
-title: ""Abdelrahman Elsheikh\" on YouTube"
+title: 'Abdelrahman Elsheikh" on YouTube'
 date: "2021-05-31"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "agile"
   - "business-analysis"
 ---

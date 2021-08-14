@@ -1,16 +1,16 @@
 ---
 title: "Contlization"
 date: "2021-04-14"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "devops"
   - "kubernetes"
 ---
 
 > https://www.youtube.com/c/Contlization/playlists
-> 
-> [Contlization - YouTube](https://www.youtube.com/c/Contlization/playlists)
+>
+> [Contlization ](https://www.youtube.com/c/Contlization/playlists)
 
 https://k4d.me/
 

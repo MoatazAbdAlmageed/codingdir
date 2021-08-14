@@ -1,9 +1,9 @@
 ---
-title: ""Code Nerds\" on YouTube"
+title: 'Code Nerds" on YouTube'
 date: "2021-04-19"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "problem-solving"
 ---
 

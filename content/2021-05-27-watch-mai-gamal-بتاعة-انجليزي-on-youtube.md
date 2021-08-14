@@ -1,9 +1,9 @@
 ---
-title: ""Mai Gamal بتاعة انجليزي\" on YouTube"
+title: 'Mai Gamal بتاعة انجليزي" on YouTube'
 date: "2021-05-27"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "english"
 ---
 

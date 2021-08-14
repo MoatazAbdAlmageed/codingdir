@@ -1,7 +1,7 @@
 ---
-title: ""The Dev Guy\" on YouTube"
+title: 'The Dev Guy" on YouTube'
 date: "2021-08-02"
-categories: 
+categories:
   - "english"
   - "favorites"
 ---

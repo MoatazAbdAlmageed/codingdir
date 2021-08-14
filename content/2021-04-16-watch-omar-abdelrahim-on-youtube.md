@@ -1,9 +1,9 @@
 ---
-title: ""Omar Abdelrahim\" on YouTube"
+title: 'Omar Abdelrahim" on YouTube'
 date: "2021-04-16"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "english"
 ---
 

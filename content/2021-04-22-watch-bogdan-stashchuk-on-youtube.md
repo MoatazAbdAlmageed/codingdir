@@ -1,9 +1,9 @@
 ---
-title: ""Bogdan Stashchuk\" on YouTube"
+title: 'Bogdan Stashchuk" on YouTube'
 date: "2021-04-22"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "docker"
   - "javascript"
   - "kafka"

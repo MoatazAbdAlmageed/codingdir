@@ -1,9 +1,9 @@
 ---
-title: ""Mohammed Alyazidi\" on YouTube"
+title: 'Mohammed Alyazidi" on YouTube'
 date: "2021-07-12"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "clean-code"
   - "java"
 ---

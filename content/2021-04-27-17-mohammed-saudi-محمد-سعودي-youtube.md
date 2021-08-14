@@ -1,14 +1,14 @@
 ---
-title: "(17) Mohammed Saudi - محمد سعودي - YouTube"
+title: "(17) Mohammed Saudi - محمد سعودي "
 date: "2021-04-27"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "c"
   - "flutter"
   - "java"
 ---
 
 > https://www.youtube.com/user/msaudiCSE/playlists
-> 
-> [(17) Mohammed Saudi - محمد سعودي - YouTube](https://www.youtube.com/user/msaudiCSE/playlists)
+>
+> [(17) Mohammed Saudi - محمد سعودي ](https://www.youtube.com/user/msaudiCSE/playlists)

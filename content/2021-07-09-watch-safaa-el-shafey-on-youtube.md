@@ -1,9 +1,9 @@
 ---
-title: ""Safaa El-Shafe'y\" on YouTube"
+title: 'Safaa El-Shafe''y" on YouTube'
 date: "2021-07-09"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "css"
   - "html"
   - "js"

@@ -1,9 +1,9 @@
 ---
-title: ""Easy Tutorials\" on YouTube"
+title: 'Easy Tutorials" on YouTube'
 date: "2021-05-31"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "css"
   - "e-commerce"
   - "html"

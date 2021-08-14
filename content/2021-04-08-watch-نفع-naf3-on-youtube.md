@@ -1,9 +1,9 @@
 ---
-title: ""نفع - Naf3\" on YouTube"
+title: 'نفع - Naf3" on YouTube'
 date: "2021-04-08"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "notion"
   - "productivity"
   - "tools"

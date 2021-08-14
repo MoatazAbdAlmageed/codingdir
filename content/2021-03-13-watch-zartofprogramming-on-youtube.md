@@ -1,9 +1,9 @@
 ---
-title: ""zArtOfProgramming\" on YouTube"
+title: 'zArtOfProgramming" on YouTube'
 date: "2021-03-13"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "net"
   - "c"
 ---

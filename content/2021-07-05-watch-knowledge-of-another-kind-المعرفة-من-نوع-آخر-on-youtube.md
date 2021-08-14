@@ -1,9 +1,9 @@
 ---
-title: ""knowledge of another kind المعرفة من نوع آخر\" on YouTube"
+title: 'knowledge of another kind المعرفة من نوع آخر" on YouTube'
 date: "2021-07-05"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "android"
   - "flutter"
 ---

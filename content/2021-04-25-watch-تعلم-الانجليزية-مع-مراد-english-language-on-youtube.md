@@ -1,9 +1,9 @@
 ---
-title: ""تعلم الانجليزية مع مراد English Language\" on YouTube"
+title: 'تعلم الانجليزية مع مراد English Language" on YouTube'
 date: "2021-04-25"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "english"
 ---
 

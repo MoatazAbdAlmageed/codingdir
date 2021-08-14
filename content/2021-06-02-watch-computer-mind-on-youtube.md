@@ -1,9 +1,9 @@
 ---
-title: ""Computer Mind\" on YouTube"
+title: 'Computer Mind" on YouTube'
 date: "2021-06-02"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "network"
   - "networking"
 ---

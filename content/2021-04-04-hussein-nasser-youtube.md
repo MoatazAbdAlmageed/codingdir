@@ -23,4 +23,4 @@ cover: "https://unsplash.it/400/300/?unnamed-36.jpg"
 
 > https://www.youtube.com/channel/UC\_ML5xP23TOWKUcc-oAE\_Eg/playlists
 >
-> [Hussein Nasser - YouTube](https://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/playlists)
+> [Hussein Nasser ](https://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/playlists)

@@ -1,9 +1,9 @@
 ---
-title: ""Sec it Developers\" on YouTube"
+title: 'Sec it Developers" on YouTube'
 date: "2021-07-12"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "clean-code"
   - "dart"
   - "flutter"

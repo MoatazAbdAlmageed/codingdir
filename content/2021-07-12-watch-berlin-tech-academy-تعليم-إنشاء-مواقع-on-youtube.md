@@ -1,9 +1,9 @@
 ---
-title: ""Berlin Tech Academy تعليم إنشاء مواقع\" on YouTube"
+title: 'Berlin Tech Academy تعليم إنشاء مواقع" on YouTube'
 date: "2021-07-12"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "bootstrap"
   - "css"
   - "html"

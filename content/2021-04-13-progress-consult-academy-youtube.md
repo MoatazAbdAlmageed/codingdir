@@ -1,12 +1,12 @@
 ---
-title: "Progress Consult Academy - YouTube"
+title: "Progress Consult Academy "
 date: "2021-04-13"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "pmp"
 ---
 
 > https://www.youtube.com/c/ProgressacademyUkpConsultAcademy/playlists
-> 
-> [Progress Consult Academy - YouTube](https://www.youtube.com/c/ProgressacademyUkpConsultAcademy/playlists)
+>
+> [Progress Consult Academy ](https://www.youtube.com/c/ProgressacademyUkpConsultAcademy/playlists)

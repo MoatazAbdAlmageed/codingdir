@@ -1,9 +1,9 @@
 ---
-title: ""uxarabia\" on YouTube"
+title: 'uxarabia" on YouTube'
 date: "2021-03-15"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "ui"
   - "ux"
 ---

@@ -1,9 +1,9 @@
 ---
-title: ""Bassem Magdy - EgyConnect\" on YouTube"
+title: 'Bassem Magdy - EgyConnect" on YouTube'
 date: "2021-05-21"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "graphics"
   - "marketing"
 ---

@@ -1,9 +1,9 @@
 ---
-title: ""Cyber Guy\" on YouTube"
+title: 'Cyber Guy" on YouTube'
 date: "2021-03-20"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "linux"
   - "security"
   - "sql"

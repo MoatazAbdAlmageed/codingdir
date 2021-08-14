@@ -1,9 +1,9 @@
 ---
-title: ""Tarek Alabd\" on YouTube"
+title: 'Tarek Alabd" on YouTube'
 date: "2021-05-29"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "c-plus-plus"
   - "flutter"
   - "python"

@@ -1,9 +1,9 @@
 ---
-title: ""قيادة الكمبيوتر\" on YouTube"
+title: 'قيادة الكمبيوتر" on YouTube'
 date: "2021-04-16"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "graphics"
   - "web"
 ---

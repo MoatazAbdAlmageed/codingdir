@@ -1,9 +1,9 @@
 ---
-title: ""Mohamed Moshrif\" on YouTube"
+title: 'Mohamed Moshrif" on YouTube'
 date: "2021-06-04"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "system-design"
 ---
 

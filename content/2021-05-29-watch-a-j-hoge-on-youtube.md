@@ -1,7 +1,7 @@
 ---
-title: ""A.J. Hoge\" on YouTube"
+title: 'A.J. Hoge" on YouTube'
 date: "2021-05-29"
-categories: 
+categories:
   - "english"
 ---
 

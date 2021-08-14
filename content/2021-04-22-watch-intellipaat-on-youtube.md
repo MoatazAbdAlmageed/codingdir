@@ -1,9 +1,9 @@
 ---
-title: ""Intellipaat\" on YouTube"
+title: 'Intellipaat" on YouTube'
 date: "2021-04-22"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "aws"
   - "kafka"
   - "nodejs"

@@ -1,13 +1,13 @@
 ---
-title: "(30) Next Trend - YouTube"
+title: "(30) Next Trend "
 date: "2021-04-28"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "android"
   - "java"
 ---
 
 > https://www.youtube.com/c/NextTrend/playlists
-> 
-> [(30) Next Trend - YouTube](https://www.youtube.com/c/NextTrend/playlists)
+>
+> [(30) Next Trend ](https://www.youtube.com/c/NextTrend/playlists)

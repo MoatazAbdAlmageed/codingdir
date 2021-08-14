@@ -1,9 +1,9 @@
 ---
-title: "Kyle Robinson Young - YouTube"
+title: "Kyle Robinson Young "
 date: "2021-03-29"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "electronjs"
   - "js"
   - "vujs"

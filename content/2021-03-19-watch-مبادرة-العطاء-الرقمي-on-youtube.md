@@ -1,9 +1,9 @@
 ---
-title: ""مبادرة العطاء الرقمي\" on YouTube"
+title: 'مبادرة العطاء الرقمي" on YouTube'
 date: "2021-03-19"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "talks"
 ---
 

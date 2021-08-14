@@ -1,9 +1,9 @@
 ---
-title: ""John Ahn\" on YouTube"
+title: "John Ahn on YouTube"
 date: "2021-03-13"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "js"
   - "react"
 ---

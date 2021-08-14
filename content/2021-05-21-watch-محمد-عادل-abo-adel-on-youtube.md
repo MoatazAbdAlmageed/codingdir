@@ -1,9 +1,9 @@
 ---
-title: ""محمد عادل Abo Adel\" on YouTube"
+title: 'محمد عادل Abo Adel" on YouTube'
 date: "2021-05-21"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "graphics"
   - "productivity"
 ---

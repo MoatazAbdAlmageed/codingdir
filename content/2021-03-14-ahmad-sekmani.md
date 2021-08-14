@@ -20,4 +20,4 @@ cover: "https://unsplash.it/400/300/?unnamed-7-1.jpg"
 
 > Ahmad Sekmani
 >
-> [(130) Ahmad Sekmani - YouTube](https://www.youtube.com/c/AhmadMSekmani/playlists)
+> [(130) Ahmad Sekmani ](https://www.youtube.com/c/AhmadMSekmani/playlists)

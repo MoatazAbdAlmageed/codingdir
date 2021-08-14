@@ -1,9 +1,9 @@
 ---
-title: ""Helper For Training\" on YouTube"
+title: 'Helper For Training" on YouTube'
 date: "2021-06-02"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "networking"
 ---
 

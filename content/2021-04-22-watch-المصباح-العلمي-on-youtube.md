@@ -1,9 +1,9 @@
 ---
-title: ""المصباح العلمي\" on YouTube"
+title: 'المصباح العلمي" on YouTube'
 date: "2021-04-22"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "math"
 ---
 

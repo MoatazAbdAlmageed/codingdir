@@ -1,9 +1,9 @@
 ---
-title: ""Sekab\" on YouTube"
+title: 'Sekab" on YouTube'
 date: "2021-04-16"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "design-patterns"
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: ""Mega Code\" on YouTube"
+title: 'Mega Code" on YouTube'
 date: "2021-05-30"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "c-plus-plus"
   - "data-structure"
   - "data-structures"

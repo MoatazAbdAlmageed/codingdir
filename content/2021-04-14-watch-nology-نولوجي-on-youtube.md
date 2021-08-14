@@ -1,9 +1,9 @@
 ---
-title: ""Nology - نولوجي\" on YouTube"
+title: 'Nology - نولوجي" on YouTube'
 date: "2021-04-14"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "productivity"
 ---
 

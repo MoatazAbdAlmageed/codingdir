@@ -1,9 +1,9 @@
 ---
-title: "An Object Is A - YouTube"
+title: "An Object Is A "
 date: "2021-03-29"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "chrome-extension"
   - "front-end"
   - "js"

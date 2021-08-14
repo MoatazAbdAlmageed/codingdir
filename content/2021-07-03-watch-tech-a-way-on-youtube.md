@@ -1,9 +1,9 @@
 ---
-title: ""Tech A Way\" on YouTube"
+title: 'Tech A Way" on YouTube'
 date: "2021-07-03"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "clean-code"
   - "css"
   - "html"

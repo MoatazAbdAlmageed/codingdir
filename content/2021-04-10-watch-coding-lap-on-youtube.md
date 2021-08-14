@@ -1,9 +1,9 @@
 ---
-title: ""Coding Lap\" on YouTube"
+title: 'Coding Lap" on YouTube'
 date: "2021-04-10"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "ui"
   - "ux"
 ---

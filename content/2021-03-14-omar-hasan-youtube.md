@@ -1,9 +1,9 @@
 ---
-title: "Omar Hasan - YouTube"
+title: "Omar Hasan "
 date: "2021-03-14"
-categories: 
+categories:
   - "arabic"
-tags: 
+tags:
   - "graphics"
   - "illustrator"
   - "photoshop"
