@@ -4,6 +4,8 @@ date: "2020-08-15"
 categories:
   - "arabic"
 tags:
+  - "gatsby"
+  - "loopback"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTZDblKLXdwbaVMseaPDl0dyGjJvZvQv3CwIjss=s176-c-k-c0x00ffffff-no-rj"
 ---
 
