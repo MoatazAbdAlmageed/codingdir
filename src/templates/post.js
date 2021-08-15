@@ -26,9 +26,6 @@ export default ({ data, pageContext }) => {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div>
           <h1>{post.title}</h1>
-          <p className={styles.postMeta}>
-            {date} &mdash; {postNode.timeToRead} Min Read{" "}
-          </p>
           <div className={styles.postMeta}>
             <PostTags tags={post.tags} />
           </div>
