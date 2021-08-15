@@ -4,6 +4,7 @@ date: "2020-08-15"
 categories:
   - "arabic"
 tags:
+  - "devops"
   - "Jenkins"
 cover: "https://yt3.ggpht.com/ytc/AKedOLQxvoY5bDoPs2AwLF8eYShVRT_E3od_wCSz9Vyo=s176-c-k-c0x00ffffff-no-rj"
 ---
