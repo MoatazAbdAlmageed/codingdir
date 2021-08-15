@@ -26,6 +26,7 @@ export default ({ data, pageContext }) => {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div>
           <h1>{post.title}</h1>
+          <img src={post.cover} />
           <div className={styles.postMeta}>
             <PostTags tags={post.tags} />
           </div>

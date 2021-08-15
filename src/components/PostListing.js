@@ -29,6 +29,7 @@ const PostListing = ({ postEdges }) => {
           <article className={styles.articleBox}>
             <div className={styles.right}>
               <h3>{post.title}</h3>
+              <img src={post.cover} />
               <div className={styles.meta}>
                 {post.date} &mdash;{" "}
                 <span>{post.categories && post.categories.join(" / ")}</span>{" "}
