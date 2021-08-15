@@ -7,7 +7,6 @@ tags:
   - "back-end"
   - "laravel"
   - "php"
-coverImage: "unnamed-1-2.jpg"
 ---
 
-https://www.youtube.com/c/MahmoudZalt/playlists
+https:categories:e.com/c/MahmoudZalt/playlists
