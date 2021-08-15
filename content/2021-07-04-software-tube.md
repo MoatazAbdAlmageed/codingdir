@@ -12,7 +12,7 @@ tags:
   - "software-architecture"
   - "software-engineering"
   - "system-analysis"
-cover: "https://unsplash.it/400/300/?unnamed.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AKedOLQyMIrUyde6SyaOsFmV6dUBRPsTRv8ODBptuc6Jjg=s176-c-k-c0x00ffffff-no-rj)

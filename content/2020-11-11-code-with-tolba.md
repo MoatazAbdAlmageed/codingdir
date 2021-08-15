@@ -15,7 +15,7 @@ tags:
   - "software-architecture"
   - "tips"
   - "typescript"
-cover: "https://unsplash.it/400/300/?unnamed-16-2.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 https://www.youtube.com/channel/UCOpR7Tg8CVUdgZCUbQlKY-g

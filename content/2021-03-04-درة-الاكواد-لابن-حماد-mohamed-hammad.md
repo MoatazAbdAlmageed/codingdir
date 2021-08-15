@@ -12,7 +12,7 @@ tags:
   - "fp"
   - "functional-programming"
   - "microsoft"
-cover: "https://unsplash.it/400/300/?unnamed-2.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 https://www.youtube.com/channel/UCFBuqAGEoQep87-oz27yjfQ

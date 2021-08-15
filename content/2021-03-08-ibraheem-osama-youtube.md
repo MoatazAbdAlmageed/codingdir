@@ -12,7 +12,7 @@ tags:
   - "js"
   - "solid"
   - "testing"
-cover: "https://unsplash.it/400/300/?unnamed-13.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 > Ibraheem Osama

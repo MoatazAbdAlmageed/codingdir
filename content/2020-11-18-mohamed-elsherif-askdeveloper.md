@@ -13,7 +13,7 @@ tags:
   - "software-development"
   - "talks"
   - "testing"
-cover: "https://unsplash.it/400/300/?unnamed.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 http://www.askdeveloper.com/

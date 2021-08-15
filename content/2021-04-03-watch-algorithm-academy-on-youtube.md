@@ -40,7 +40,7 @@ tags:
   - "webpack"
   - "webpackpromises"
   - "yarn"
-cover: "https://unsplash.it/400/300/?unnamed-1.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 [https://youtube.com/c/algorithmCoding](https://youtube.com/c/algorithmCoding)

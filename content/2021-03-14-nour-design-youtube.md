@@ -11,7 +11,7 @@ tags:
   - "ux"
   - "web-design"
   - "xd"
-cover: "https://unsplash.it/400/300/?unnamed-6-1.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 > Nour Design

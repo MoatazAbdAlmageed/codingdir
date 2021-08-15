@@ -11,7 +11,7 @@ tags:
   - "java"
   - "testing"
   - "windows"
-cover: "https://unsplash.it/400/300/?d8aed8a7d984d8af-d8a7d984d8b3d8b9d8afd8a7d986d98a-khalid-essaadani.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AKedOLSdPDzKB_WOGqGwuXNsVKkAwsmHWQY5yCFlapzdoQ=s176-c-k-c0x00ffffff-no-rj)

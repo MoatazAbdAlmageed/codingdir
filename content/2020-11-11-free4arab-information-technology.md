@@ -16,7 +16,7 @@ tags:
   - "python"
   - "red-hat"
   - "sql"
-cover: "https://unsplash.it/400/300/?free4arab.jpg"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 https://www.youtube.com/user/Nourelhoda2011
