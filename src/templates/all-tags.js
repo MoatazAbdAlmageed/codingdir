@@ -3,6 +3,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import styles from "../components/PostTags.module.scss";
 import Layout from "../layout";
+const _ = require("lodash");
 
 const AllTags = ({ pathContext }) => {
   const { tags } = pathContext;
@@ -16,9 +17,9 @@ const AllTags = ({ pathContext }) => {
             {tags.sort().map((tag) => {
               return (
                 <li>
-                  <Link to={`/tags/${tag}`}>
+                  <Link to={`/tags/${_.kebabCase(tag)}`}>
                     {" "}
-                    <span>{tag}</span>
+                    <span>{tag.toUpperCase()}</span>
                   </Link>
                 </li>
               );
