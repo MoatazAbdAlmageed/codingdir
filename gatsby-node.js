@@ -33,7 +33,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         createNodeField({
           node,
           name: "date",
-          value: date.toISOString()
+          value: date.toISOString(),
         });
       }
     }
@@ -46,6 +46,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const postPage = path.resolve("src/templates/post.js");
   const tagPage = path.resolve("src/templates/tag.js");
   const categoryPage = path.resolve("src/templates/category.js");
+  const allTagsTemplate = path.resolve(`src/templates/all-tags.js`);
 
   const markdownQueryResult = await graphql(
     `
@@ -98,15 +99,15 @@ exports.createPages = async ({ graphql, actions }) => {
 
   postsEdges.forEach((edge, index) => {
     if (edge.node.frontmatter.tags) {
-      edge.node.frontmatter.tags.forEach(tag => {
+      edge.node.frontmatter.tags.forEach((tag) => {
         tagSet.add(tag);
       });
     }
 
     if (edge.node.frontmatter.categories) {
-      edge.node.frontmatter.categories.forEach(category => {
-        categorySet.add(category)
-      })
+      edge.node.frontmatter.categories.forEach((category) => {
+        categorySet.add(category);
+      });
     }
 
     const nextID = index + 1 < postsEdges.length ? index + 1 : 0;
@@ -122,28 +123,36 @@ exports.createPages = async ({ graphql, actions }) => {
         nexttitle: nextEdge.node.frontmatter.title,
         nextslug: nextEdge.node.fields.slug,
         prevtitle: prevEdge.node.frontmatter.title,
-        prevslug: prevEdge.node.fields.slug
-      }
+        prevslug: prevEdge.node.fields.slug,
+      },
     });
   });
- // Generate link foreach tag page
-  tagSet.forEach(tag => {
+  createPage({
+    path: `/tags`,
+    component: allTagsTemplate,
+    context: {
+      tags: [...tagSet],
+    },
+  });
+
+  // Generate link foreach tag page
+  tagSet.forEach((tag) => {
     createPage({
       path: `/tags/${_.kebabCase(tag)}/`,
       component: tagPage,
       context: {
-        tag
-      }
+        tag,
+      },
     });
   });
   // Generate link foreach category page
-  categorySet.forEach(category => {
+  categorySet.forEach((category) => {
     createPage({
       path: `/${_.kebabCase(category)}/`,
       component: categoryPage,
       context: {
-        category
-      }
+        category,
+      },
     });
   });
 };

@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './Footer.module.scss'
-import config from '../../data/SiteConfig'
+import React from "react";
+import styles from "./Footer.module.scss";
+import config from "../../data/SiteConfig";
 
 const Footer = () => (
   <footer>
@@ -31,6 +31,6 @@ const Footer = () => (
       <div className={styles.copyright}>{config.copyright}</div>
     </div>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;
