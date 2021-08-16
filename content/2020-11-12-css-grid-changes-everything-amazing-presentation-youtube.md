@@ -1,8 +1,6 @@
 ---
-title: "CSS Grid Changes EVERYTHING – Amazing Presentation – YouTube"
+title: "CSS Grid Changes EVERYTHING – Amazing Presentation "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

@@ -1,8 +1,6 @@
 ---
-title: "Mike Locke – YouTube"
+title: "Mike Locke "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

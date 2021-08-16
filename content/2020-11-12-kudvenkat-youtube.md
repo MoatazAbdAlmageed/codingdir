@@ -1,8 +1,6 @@
 ---
-title: "kudvenkat – YouTube"
+title: "kudvenkat "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

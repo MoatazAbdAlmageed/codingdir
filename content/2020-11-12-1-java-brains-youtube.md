@@ -1,8 +1,6 @@
 ---
-title: "(1) Java Brains – YouTube"
+title: "(1) Java Brains "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

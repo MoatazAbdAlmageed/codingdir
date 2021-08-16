@@ -1,5 +1,5 @@
 ---
-title: "Traversy Media – YouTube"
+title: "Traversy Media "
 date: "2020-11-12"
 categories:
   - "english"

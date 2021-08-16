@@ -1,8 +1,6 @@
 ---
-title: "(2) DesignCourse – YouTube"
+title: "(2) DesignCourse "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

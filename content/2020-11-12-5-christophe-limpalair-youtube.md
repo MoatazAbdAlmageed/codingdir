@@ -1,8 +1,6 @@
 ---
-title: "(5) Christophe Limpalair – YouTube"
+title: "(5) Christophe Limpalair "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

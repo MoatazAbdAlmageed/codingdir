@@ -1,8 +1,6 @@
 ---
-title: "Github For The Rest Of Us – YouTube"
+title: "Github For The Rest Of Us "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

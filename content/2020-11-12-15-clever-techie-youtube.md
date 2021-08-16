@@ -1,8 +1,6 @@
 ---
-title: "(15) Clever Techie – YouTube"
+title: "(15) Clever Techie "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

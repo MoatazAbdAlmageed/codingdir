@@ -1,8 +1,6 @@
 ---
-title: "The AMP Channel – YouTube"
+title: "The AMP Channel "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

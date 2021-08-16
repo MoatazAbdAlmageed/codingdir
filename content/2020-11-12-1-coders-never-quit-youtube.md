@@ -1,8 +1,6 @@
 ---
-title: "(1) CODERS NEVER QUIT – YouTube"
+title: "(1) CODERS NEVER QUIT "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

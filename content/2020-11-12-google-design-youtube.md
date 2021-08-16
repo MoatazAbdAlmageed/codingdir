@@ -1,8 +1,6 @@
 ---
-title: "Google Design – YouTube"
+title: "Google Design "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

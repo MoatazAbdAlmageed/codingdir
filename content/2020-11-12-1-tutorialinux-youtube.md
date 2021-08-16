@@ -1,8 +1,6 @@
 ---
-title: "(1) tutoriaLinux – YouTube"
+title: "(1) tutoriaLinux "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

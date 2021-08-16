@@ -1,8 +1,6 @@
 ---
-title: "Northwest Chicago Javascript – YouTube"
+title: "Northwest Chicago Javascript "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

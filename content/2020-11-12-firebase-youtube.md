@@ -1,8 +1,6 @@
 ---
-title: "Firebase – YouTube"
+title: "Firebase "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

@@ -1,8 +1,6 @@
 ---
-title: "Google Chrome Developers – YouTube"
+title: "Google Chrome Developers "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

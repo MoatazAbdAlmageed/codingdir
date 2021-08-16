@@ -1,8 +1,6 @@
 ---
-title: "(1) LearnCode.academy – YouTube"
+title: "(1) LearnCode.academy "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

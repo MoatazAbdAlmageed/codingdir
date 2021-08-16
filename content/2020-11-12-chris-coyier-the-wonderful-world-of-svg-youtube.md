@@ -1,8 +1,6 @@
 ---
-title: "Chris Coyier – The Wonderful World of SVG – YouTube"
+title: "Chris Coyier – The Wonderful World of SVG "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

@@ -1,8 +1,6 @@
 ---
-title: "(28) Aaron Frost – YouTube"
+title: "(28) Aaron Frost "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

@@ -1,8 +1,6 @@
 ---
-title: "JsFunc – YouTube"
+title: "JsFunc "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

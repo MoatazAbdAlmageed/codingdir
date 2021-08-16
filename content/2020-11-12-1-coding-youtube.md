@@ -1,8 +1,6 @@
 ---
-title: "(1) Coding – YouTube"
+title: "(1) Coding "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

@@ -1,8 +1,6 @@
 ---
-title: "(15) Caleb Curry – YouTube"
+title: "(15) Caleb Curry "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

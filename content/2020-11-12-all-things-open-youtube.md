@@ -1,8 +1,6 @@
 ---
-title: "All Things Open – YouTube"
+title: "All Things Open "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

@@ -1,8 +1,6 @@
 ---
-title: "(19) InfoQ – YouTube"
+title: "(19) InfoQ "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

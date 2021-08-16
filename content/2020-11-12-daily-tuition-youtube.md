@@ -1,8 +1,6 @@
 ---
-title: "Daily Tuition – YouTube"
+title: "Daily Tuition "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

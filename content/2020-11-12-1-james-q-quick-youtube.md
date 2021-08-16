@@ -1,8 +1,6 @@
 ---
-title: "(1) James Q Quick – YouTube"
+title: "(1) James Q Quick "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

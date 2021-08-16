@@ -1,8 +1,6 @@
 ---
-title: "(5) Amihay Bereby – YouTube"
+title: "(5) Amihay Bereby "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

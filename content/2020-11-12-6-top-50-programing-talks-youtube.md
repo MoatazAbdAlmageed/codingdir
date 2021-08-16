@@ -1,8 +1,6 @@
 ---
-title: "(6) Top 50 Programing Talks – YouTube"
+title: "(6) Top 50 Programing Talks "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

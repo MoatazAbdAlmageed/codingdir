@@ -1,8 +1,6 @@
 ---
-title: "(3) Esterling Accime – YouTube"
+title: "(3) Esterling Accime "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

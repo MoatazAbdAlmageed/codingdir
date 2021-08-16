@@ -1,8 +1,6 @@
 ---
-title: "(1) codedamn – YouTube"
+title: "(1) codedamn "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

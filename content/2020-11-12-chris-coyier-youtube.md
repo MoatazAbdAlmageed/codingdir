@@ -1,8 +1,6 @@
 ---
-title: "Chris Coyier – YouTube"
+title: "Chris Coyier "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

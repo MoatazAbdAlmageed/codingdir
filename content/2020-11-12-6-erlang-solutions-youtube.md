@@ -1,8 +1,6 @@
 ---
-title: "(6) Erlang Solutions – YouTube"
+title: "(6) Erlang Solutions "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

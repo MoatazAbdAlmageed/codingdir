@@ -1,8 +1,6 @@
 ---
-title: "(28) Code Apprentice – YouTube"
+title: "(28) Code Apprentice "
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-
