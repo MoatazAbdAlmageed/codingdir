@@ -6,15 +6,17 @@ categories:
   - "favorites"
 tags:
   - "back-end"
+  - "flutter"
+  - "mobile-development"
   - "books"
   - "computer-programming"
   - "computer-science"
   - "cs"
   - "front-end"
   - "java"
-cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
+cover: "https://yt3.ggpht.com/ytc/AKedOLRrs4qpXvQlM4HUgSyrKpebvN7IVH8uSDNh6SKemA=s176-c-k-c0x00ffffff-no-rj"
 ---
 
 > https://www.youtube.com/channel/UCYiZceCCbaRLP27U5RXRHog
 >
-> [(8) Omar Ahmed ](https://www.youtube.com/channel/UCYiZceCCbaRLP27U5RXRHog)
+> [ Omar Ahmed ](https://www.youtube.com/channel/UCYiZceCCbaRLP27U5RXRHog)
