@@ -2,7 +2,7 @@
 title: "Arab Source عرب سورس "
 date: "2021-04-14"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "arduino"
   - "js"

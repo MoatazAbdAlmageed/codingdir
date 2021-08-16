@@ -2,7 +2,7 @@
 title: "Omar Ahmed"
 date: "2021-03-08"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "back-end"

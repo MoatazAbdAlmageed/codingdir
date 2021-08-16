@@ -2,7 +2,7 @@
 title: "Dr. Ahmed Hagag"
 date: "2021-07-05"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "operating-systems"
   - "os"

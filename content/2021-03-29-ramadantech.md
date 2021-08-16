@@ -1,9 +1,9 @@
 ---
 title: "RamadanTech"
 date: "2021-03-29"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "authentication"
 ---
 

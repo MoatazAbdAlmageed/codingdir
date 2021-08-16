@@ -1,9 +1,9 @@
 ---
 title: "Alaa Attya"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "back-end"
   - "laravel"
   - "microservices"

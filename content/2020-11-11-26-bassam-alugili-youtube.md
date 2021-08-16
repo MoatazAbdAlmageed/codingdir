@@ -1,11 +1,9 @@
 ---
 title: "Bassam Alugili"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "c-plus-plus"
   - "entity-framework"
 ---
-
-

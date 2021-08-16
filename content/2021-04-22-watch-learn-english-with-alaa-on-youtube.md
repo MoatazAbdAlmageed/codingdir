@@ -2,7 +2,7 @@
 title: "Learn English with Alaa"
 date: "2021-04-22"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "english"
 ---

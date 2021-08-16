@@ -1,9 +1,9 @@
 ---
 title: "Mohammed Al-Shawwa"
 date: "2021-04-19"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "back-end"
   - "c-plus-plus"
   - "java"

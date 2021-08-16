@@ -2,7 +2,7 @@
 title: "Software Tube"
 date: "2021-04-10"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "cs"
 ---

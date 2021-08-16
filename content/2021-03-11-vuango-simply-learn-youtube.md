@@ -2,7 +2,7 @@
 title: "Vuango Simply Learn "
 date: "2021-03-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "js"
   - "vue"

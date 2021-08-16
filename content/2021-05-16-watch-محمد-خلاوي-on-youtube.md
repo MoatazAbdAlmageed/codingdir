@@ -2,7 +2,7 @@
 title: "محمد خلاوي"
 date: "2021-05-16"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "html"
   - "php"

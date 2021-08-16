@@ -2,7 +2,7 @@
 title: "Mohammed Alyazidi"
 date: "2021-07-12"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "clean-code"
   - "java"

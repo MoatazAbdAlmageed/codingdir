@@ -2,7 +2,7 @@
 title: "Progress Consult Academy "
 date: "2021-04-13"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "pmp"
 ---

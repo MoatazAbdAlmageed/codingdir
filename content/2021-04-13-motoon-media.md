@@ -2,7 +2,7 @@
 title: "Motoon Media"
 date: "2021-04-13"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "live"
   - "talks"

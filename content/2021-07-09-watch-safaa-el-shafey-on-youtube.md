@@ -2,7 +2,7 @@
 title: "Safaa El-Shafe'y"
 date: "2021-07-09"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "css"
   - "html"

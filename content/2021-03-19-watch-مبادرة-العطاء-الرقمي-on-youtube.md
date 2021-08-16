@@ -2,7 +2,7 @@
 title: "مبادرة العطاء الرقمي"
 date: "2021-03-19"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "talks"
 ---

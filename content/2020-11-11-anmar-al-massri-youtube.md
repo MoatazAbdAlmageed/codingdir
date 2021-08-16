@@ -1,9 +1,9 @@
 ---
 title: "anmar al-massri"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "asp"
   - "c-plus-plus"
   - "crm"

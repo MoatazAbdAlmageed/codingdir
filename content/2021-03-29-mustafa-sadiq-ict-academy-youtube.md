@@ -2,7 +2,7 @@
 title: "Mustafa Sadiq ICT Academy "
 date: "2021-03-29"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "blockchain"
   - "c"

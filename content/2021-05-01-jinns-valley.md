@@ -1,9 +1,9 @@
 ---
 title: "Jinns Valley"
 date: "2021-05-01"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "c-plus-plus"
   - "linux"
   - "os"

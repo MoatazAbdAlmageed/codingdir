@@ -2,7 +2,7 @@
 title: "رؤوف لكحل عياط"
 date: "2021-05-31"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "algorithms"
   - "c-plus-plus"

@@ -2,7 +2,7 @@
 title: "(3) Emam Academy - أكاديمية إمام "
 date: "2021-03-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "express"
   - "mongodb"

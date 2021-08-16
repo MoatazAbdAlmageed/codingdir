@@ -2,7 +2,7 @@
 title: "uxarabia"
 date: "2021-03-15"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "ui"
   - "ux"

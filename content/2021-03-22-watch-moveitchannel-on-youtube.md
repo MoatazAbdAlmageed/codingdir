@@ -2,7 +2,7 @@
 title: "MoveITChannel"
 date: "2021-03-22"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "asp"
   - "asp-net"

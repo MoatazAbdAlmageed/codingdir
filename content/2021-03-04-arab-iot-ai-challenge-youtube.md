@@ -2,7 +2,7 @@
 title: "Arab IoT & AI Challenge "
 date: "2021-03-04"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "ai"
   - "iot"

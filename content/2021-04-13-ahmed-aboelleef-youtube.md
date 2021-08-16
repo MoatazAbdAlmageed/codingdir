@@ -2,7 +2,7 @@
 title: "Ahmed Aboelleef "
 date: "2021-04-13"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "productivity"
 ---

@@ -2,7 +2,7 @@
 title: "Update - أب ديت"
 date: "2021-06-02"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "networking"
   - "security"

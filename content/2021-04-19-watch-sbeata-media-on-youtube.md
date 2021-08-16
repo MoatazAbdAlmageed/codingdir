@@ -1,9 +1,9 @@
 ---
 title: "Sbeata Media"
 date: "2021-04-19"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "english"
 ---
 

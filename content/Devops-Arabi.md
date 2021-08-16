@@ -2,7 +2,7 @@
 title: "Devops Arabi"
 date: "2020-08-15"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "devops"
   - "Jenkins"

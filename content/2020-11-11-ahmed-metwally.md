@@ -1,9 +1,9 @@
 ---
 title: "Metwally Labs"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "aws"
   - "devops"
   - "linux"

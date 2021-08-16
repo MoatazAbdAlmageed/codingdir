@@ -1,9 +1,9 @@
 ---
 title: "NabilHelmy [Mr.Error]"
 date: "2021-03-24"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "asp"
   - "bootstrap"
   - "c"

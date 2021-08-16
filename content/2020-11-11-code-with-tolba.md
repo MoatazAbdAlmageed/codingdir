@@ -2,7 +2,7 @@
 title: "Code With Tolba"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "net"
   - "ai"

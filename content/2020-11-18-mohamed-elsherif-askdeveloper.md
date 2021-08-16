@@ -2,7 +2,7 @@
 title: "Mohamed Elsherif | AskDeveloper"
 date: "2020-11-18"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "c-plus-plus"

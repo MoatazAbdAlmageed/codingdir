@@ -1,9 +1,9 @@
 ---
 title: "khaled alharbi"
 date: "2021-05-18"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "cs"
   - "db"
 ---

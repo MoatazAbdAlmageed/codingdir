@@ -2,7 +2,7 @@
 title: "Mega Code"
 date: "2021-05-30"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "c-plus-plus"
   - "data-structure"

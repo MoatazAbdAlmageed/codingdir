@@ -1,9 +1,9 @@
 ---
 title: "Hassouna Academy"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "net"
   - "bootstrap"
   - "c-plus-plus"

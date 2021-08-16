@@ -1,9 +1,9 @@
 ---
 title: "أحمد عادل Ahmad Adel"
 date: "2021-05-14"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "cs50"
 ---
 

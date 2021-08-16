@@ -2,7 +2,7 @@
 title: "Ahmed Mohamed"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "back-end"
   - "front-end"

@@ -2,7 +2,7 @@
 title: "(11) AbdoELAziz Gamal "
 date: "2021-04-22"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "css"
   - "html"

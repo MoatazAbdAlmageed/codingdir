@@ -2,7 +2,7 @@
 title: "DevCreed "
 date: "2021-04-04"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "net"
   - "c"

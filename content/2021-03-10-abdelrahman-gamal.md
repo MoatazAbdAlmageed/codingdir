@@ -1,9 +1,9 @@
 ---
 title: "Abdelrahman Gamal"
 date: "2021-03-10"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "bootstrap"
   - "cs50"
   - "css"

@@ -2,7 +2,7 @@
 title: "Hackers .0f.sYr "
 date: "2021-04-21"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "hacking"
 ---

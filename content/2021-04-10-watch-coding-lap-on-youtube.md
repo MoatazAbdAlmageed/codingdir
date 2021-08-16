@@ -2,7 +2,7 @@
 title: "Coding Lap"
 date: "2021-04-10"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "ui"
   - "ux"

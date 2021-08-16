@@ -2,7 +2,7 @@
 title: "Ebrahim Alkadim"
 date: "2021-07-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "net"
   - "front-end"

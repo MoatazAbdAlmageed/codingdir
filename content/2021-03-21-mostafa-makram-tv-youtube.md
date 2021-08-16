@@ -2,7 +2,7 @@
 title: "mostafa makram TV"
 date: "2021-03-21"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "adobe"
   - "graphics"

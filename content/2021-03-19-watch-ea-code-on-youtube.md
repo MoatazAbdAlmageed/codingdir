@@ -2,7 +2,7 @@
 title: "EA CODE"
 date: "2021-03-19"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "c-plus-plus"
 ---

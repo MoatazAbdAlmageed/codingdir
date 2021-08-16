@@ -2,7 +2,7 @@
 title: "(30) Next Trend "
 date: "2021-04-28"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "android"
   - "java"

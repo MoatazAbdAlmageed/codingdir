@@ -2,7 +2,7 @@
 title: "debugger; "
 date: "2021-04-25"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "html"
 ---

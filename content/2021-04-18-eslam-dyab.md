@@ -2,7 +2,7 @@
 title: "Eslam Dyab"
 date: "2021-04-18"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "notion"
   - "productivity"

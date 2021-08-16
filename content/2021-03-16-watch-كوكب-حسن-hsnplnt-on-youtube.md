@@ -2,7 +2,7 @@
 title: "كوكب حسن - HsnPlnt"
 date: "2021-03-16"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "graphics"
   - "ui"

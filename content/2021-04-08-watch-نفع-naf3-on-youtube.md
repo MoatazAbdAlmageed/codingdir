@@ -2,7 +2,7 @@
 title: "نفع - Naf3"
 date: "2021-04-08"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "notion"
   - "productivity"

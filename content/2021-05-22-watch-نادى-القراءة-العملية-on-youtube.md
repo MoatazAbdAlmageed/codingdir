@@ -2,7 +2,7 @@
 title: "نادى القراءة العملية"
 date: "2021-05-22"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "english"
   - "freelance"

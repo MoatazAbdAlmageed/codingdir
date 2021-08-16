@@ -2,7 +2,7 @@
 title: "DT Guide "
 date: "2021-04-14"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "cloud"
   - "devops"

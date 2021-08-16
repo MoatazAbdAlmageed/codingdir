@@ -2,7 +2,7 @@
 title: "Ahmed Saleh Tolba"
 date: "2021-03-29"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "c-plus-plus"
   - "embedded"

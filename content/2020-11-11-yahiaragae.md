@@ -2,7 +2,7 @@
 title: "Yahia Ragae"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "android"
   - "flutter"

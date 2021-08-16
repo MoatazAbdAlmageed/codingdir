@@ -1,9 +1,9 @@
 ---
 title: "م. علي جمال – Arab Coding"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "api"
   - "back-end"
   - "c-plus-plus"
@@ -13,5 +13,3 @@ tags:
   - "mysql"
   - "php"
 ---
-
-

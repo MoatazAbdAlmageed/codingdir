@@ -2,7 +2,7 @@
 title: "Yahya Elharony "
 date: "2021-03-10"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "cli"
 ---

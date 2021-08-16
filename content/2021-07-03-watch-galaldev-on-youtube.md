@@ -2,7 +2,7 @@
 title: "GalalDev"
 date: "2021-07-03"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "blazor"
   - "db"

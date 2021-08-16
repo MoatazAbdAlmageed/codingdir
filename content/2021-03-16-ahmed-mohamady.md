@@ -1,9 +1,9 @@
 ---
 title: "ahmed mohamady"
 date: "2021-03-16"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "net"
   - "unity"
   - "android"

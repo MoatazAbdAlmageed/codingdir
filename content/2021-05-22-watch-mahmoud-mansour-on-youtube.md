@@ -2,7 +2,7 @@
 title: "Mahmoud Mansour"
 date: "2021-05-22"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "freelance"
   - "freelancing"

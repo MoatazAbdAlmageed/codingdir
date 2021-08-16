@@ -2,7 +2,7 @@
 title: "Mohamad Eldhemy"
 date: "2021-07-03"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "flowchart"
   - "html"

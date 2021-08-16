@@ -2,7 +2,7 @@
 title: "Troubleshooter Youssef Shawky"
 date: "2020-11-15"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "c-plus-plus"

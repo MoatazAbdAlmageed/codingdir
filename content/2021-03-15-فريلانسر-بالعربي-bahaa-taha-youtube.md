@@ -2,7 +2,7 @@
 title: "فريلانسر بالعربي - Bahaa Taha "
 date: "2021-03-15"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "flutter"
   - "strapi"

@@ -2,7 +2,7 @@
 title: "Mohammed Hamad "
 date: "2021-04-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "css"
   - "html"

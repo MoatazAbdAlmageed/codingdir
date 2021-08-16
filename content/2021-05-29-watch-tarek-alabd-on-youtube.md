@@ -2,7 +2,7 @@
 title: "Tarek Alabd"
 date: "2021-05-29"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "c-plus-plus"
   - "flutter"

@@ -1,9 +1,9 @@
 ---
 title: "برمج Barmej"
 date: "2021-03-14"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "android"
   - "asp-net"
   - "c-plus-plus"

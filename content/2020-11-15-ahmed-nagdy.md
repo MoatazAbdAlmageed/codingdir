@@ -2,7 +2,7 @@
 title: "Ahmed Nagdy"
 date: "2020-11-15"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "back-end"
   - "localization"

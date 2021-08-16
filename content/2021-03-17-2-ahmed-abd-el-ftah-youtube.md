@@ -2,7 +2,7 @@
 title: "Ahmed Abd El Ftah"
 date: "2021-03-17"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "back-end"
   - "laravel"

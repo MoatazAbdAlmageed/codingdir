@@ -2,7 +2,7 @@
 title: "Design Maker "
 date: "2021-04-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "graphics"
 ---

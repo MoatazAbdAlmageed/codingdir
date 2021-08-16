@@ -2,7 +2,7 @@
 title: "Ahmed Tartour"
 date: "2021-03-10"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "oracle"
 ---

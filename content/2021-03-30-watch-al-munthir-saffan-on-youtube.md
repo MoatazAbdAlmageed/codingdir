@@ -2,7 +2,7 @@
 title: "Al-Munthir Saffan"
 date: "2021-03-30"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "graphics"
   - "microsoft-office"

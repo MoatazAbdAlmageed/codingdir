@@ -2,7 +2,7 @@
 title: "Free4arab | Information Technology"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "angular"

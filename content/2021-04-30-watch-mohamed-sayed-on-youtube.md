@@ -2,7 +2,7 @@
 title: "Mohamed Sayed"
 date: "2021-04-30"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "cyber-security"
 ---

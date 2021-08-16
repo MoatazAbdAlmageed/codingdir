@@ -2,7 +2,7 @@
 title: "DevLoopers"
 date: "2020-11-12"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "clear-code"
   - "cs"

@@ -2,7 +2,7 @@
 title: "Mohamed Abusrea |  محمد ابوسريع"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "css"

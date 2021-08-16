@@ -2,7 +2,7 @@
 title: "Eslam Mahmoud"
 date: "2021-03-20"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "golang"

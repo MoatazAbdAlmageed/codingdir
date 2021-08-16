@@ -2,7 +2,7 @@
 title: "Programmer of the future"
 date: "2021-04-28"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "java"
 ---

@@ -1,9 +1,9 @@
 ---
 title: "student guide دليل الطالب"
 date: "2021-05-18"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "database"
   - "db"
   - "encryption"

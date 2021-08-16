@@ -2,7 +2,7 @@
 title: "Computer Mind"
 date: "2021-06-02"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "network"
   - "networking"

@@ -2,7 +2,7 @@
 title: "5dmat-web | عبد العزيز حسن"
 date: "2021-03-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "back-end"
   - "chat"

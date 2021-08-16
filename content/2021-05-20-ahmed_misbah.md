@@ -2,7 +2,7 @@
 title: "Ahmed Misbah"
 date: "2021-05-20"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "devops"
   - "kubeless"

@@ -2,7 +2,7 @@
 title: "Amr Ramadan"
 date: "2021-05-29"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "english"
 ---

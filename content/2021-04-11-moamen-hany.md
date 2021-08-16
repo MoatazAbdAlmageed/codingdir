@@ -2,7 +2,7 @@
 title: "Moamen Hany"
 date: "2021-04-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "cloud"
   - "devops"

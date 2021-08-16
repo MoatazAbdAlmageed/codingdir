@@ -1,9 +1,9 @@
 ---
 title: "Mohamed Faroug Hassan"
 date: "2021-03-10"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "cs"
   - "cs50"
 ---

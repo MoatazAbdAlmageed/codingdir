@@ -2,7 +2,7 @@
 title: "فاضل خداده FadelK"
 date: "2021-06-13"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "cs"
   - "java"

@@ -2,7 +2,7 @@
 title: "Ahmed Elsayed"
 date: "2021-05-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "net"
   - "c-plus-plus"

@@ -2,7 +2,7 @@
 title: "Nour Design "
 date: "2021-03-14"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "freelance"
   - "freelancing"

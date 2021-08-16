@@ -2,7 +2,7 @@
 title: "Alexunisoft"
 date: "2021-05-20"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "back-end"

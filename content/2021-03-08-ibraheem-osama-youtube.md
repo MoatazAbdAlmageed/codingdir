@@ -2,7 +2,7 @@
 title: "Ibraheem Osama "
 date: "2021-03-08"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "devops"
   - "di"

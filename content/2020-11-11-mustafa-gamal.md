@@ -1,9 +1,9 @@
 ---
 title: "Mustafa Gamal"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "microservices"
   - "software-architecture"
 ---

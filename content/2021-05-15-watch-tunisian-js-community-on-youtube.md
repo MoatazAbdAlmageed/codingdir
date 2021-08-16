@@ -1,9 +1,9 @@
 ---
 title: "Tunisian js-community"
 date: "2021-05-15"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "js"
 ---
 

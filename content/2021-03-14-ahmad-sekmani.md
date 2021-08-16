@@ -2,7 +2,7 @@
 title: "Ahmad Sekmani"
 date: "2021-03-14"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "adobe"
   - "figma"

@@ -2,7 +2,7 @@
 title: "المصباح العلمي"
 date: "2021-04-22"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "math"
 ---

@@ -2,7 +2,7 @@
 title: "FCI-Career-Build | Rami Mohsen"
 date: "2021-04-28"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "algorithms"

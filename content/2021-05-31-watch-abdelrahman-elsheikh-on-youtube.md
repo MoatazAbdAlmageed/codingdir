@@ -2,7 +2,7 @@
 title: "Abdelrahman Elsheikh"
 date: "2021-05-31"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "agile"
   - "business-analysis"

@@ -2,7 +2,7 @@
 title: "(28) Mohamed Elsabbahy / محمد الصباحي "
 date: "2021-04-18"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "productivity"
 ---

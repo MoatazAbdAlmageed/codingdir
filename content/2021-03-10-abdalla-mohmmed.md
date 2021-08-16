@@ -1,9 +1,9 @@
 ---
 title: "Abdalla Mohmmed"
 date: "2021-03-10"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "back-end"
   - "css"
   - "front-end"

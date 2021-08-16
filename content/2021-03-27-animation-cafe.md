@@ -1,9 +1,9 @@
 ---
 title: "Animation Cafe"
 date: "2021-03-27"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "adobe"
   - "front-end"
   - "web"

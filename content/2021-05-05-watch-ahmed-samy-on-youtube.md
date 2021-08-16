@@ -2,7 +2,7 @@
 title: "AHMED SAMY"
 date: "2021-05-05"
 categories:
-  - "arabic"
+  - "عربي"
   - "english"
 tags:
   - "java"

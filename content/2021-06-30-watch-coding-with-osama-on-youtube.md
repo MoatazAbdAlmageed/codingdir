@@ -2,7 +2,7 @@
 title: "Coding with Osama"
 date: "2021-06-30"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "front-end"

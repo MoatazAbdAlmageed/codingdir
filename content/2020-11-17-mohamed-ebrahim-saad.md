@@ -2,7 +2,7 @@
 title: "Mohamed Ebrahim Saad"
 date: "2020-11-17"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "asp-net"
   - "bootstrap"

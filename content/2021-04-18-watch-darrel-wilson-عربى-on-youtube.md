@@ -1,10 +1,10 @@
 ---
 title: "Darrel Wilson"
 date: "2021-04-18"
-categories: 
-  - "arabic"
+categories:
+  - "عربي"
   - "english"
-tags: 
+tags:
   - "e-commerce"
   - "hosting"
   - "woocommerce"

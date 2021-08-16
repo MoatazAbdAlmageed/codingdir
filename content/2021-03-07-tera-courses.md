@@ -1,9 +1,9 @@
 ---
 title: "Tera Courses"
 date: "2021-03-07"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "nodejs"
   - "seo"
 ---

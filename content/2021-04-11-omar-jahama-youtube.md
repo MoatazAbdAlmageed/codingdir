@@ -2,7 +2,7 @@
 title: "Omar Jahama "
 date: "2021-04-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "seo"
   - "woocommerce"

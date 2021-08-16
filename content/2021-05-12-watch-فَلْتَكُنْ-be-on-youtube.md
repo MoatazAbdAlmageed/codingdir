@@ -2,7 +2,7 @@
 title: "فَلْتَكُنْ - Be"
 date: "2021-05-12"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "productivity"
 ---

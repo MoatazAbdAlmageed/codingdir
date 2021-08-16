@@ -2,7 +2,7 @@
 title: "Creative Online Courses "
 date: "2021-03-29"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "ccna"
   - "graphics"

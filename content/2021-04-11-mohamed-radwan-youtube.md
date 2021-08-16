@@ -2,7 +2,7 @@
 title: "Mohamed Radwan "
 date: "2021-04-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "aws"
   - "devops"

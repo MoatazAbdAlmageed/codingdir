@@ -2,7 +2,7 @@
 title: "Khalid Elshafie"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "design-patterns"

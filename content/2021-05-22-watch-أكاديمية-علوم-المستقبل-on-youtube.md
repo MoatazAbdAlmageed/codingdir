@@ -2,7 +2,7 @@
 title: "أكاديمية علوم المستقبل"
 date: "2021-05-22"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "database"
   - "db"

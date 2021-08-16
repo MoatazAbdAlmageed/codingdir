@@ -1,9 +1,9 @@
 ---
 title: "FCI Community"
 date: "2021-03-18"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "cyber-security"
   - "flutter"
   - "mobile-development"

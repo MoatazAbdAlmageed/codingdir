@@ -2,7 +2,7 @@
 title: "Algorithm Academy"
 date: "2021-04-03"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "axios"

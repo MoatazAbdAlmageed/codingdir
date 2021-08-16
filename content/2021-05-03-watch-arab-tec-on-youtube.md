@@ -2,7 +2,7 @@
 title: "Arab TEC"
 date: "2021-05-03"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "java"
 ---

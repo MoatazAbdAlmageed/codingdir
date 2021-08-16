@@ -2,7 +2,7 @@
 title: "eman kamal - ايمان كمال"
 date: "2021-03-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "android"
   - "java"

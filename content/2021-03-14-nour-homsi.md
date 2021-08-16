@@ -2,7 +2,7 @@
 title: "Nour Homsi"
 date: "2021-03-14"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "back-end"
   - "css"

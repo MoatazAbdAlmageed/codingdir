@@ -1,9 +1,9 @@
 ---
 title: "islam ismail - إسلام إسماعيل"
 date: "2021-05-18"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "excel"
   - "productivity"
 ---

@@ -1,9 +1,9 @@
 ---
 title: "MoveITChannel"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "cloud"
   - "database"
   - "scrum"
@@ -11,5 +11,3 @@ tags:
   - "software-development"
   - "software-engineering"
 ---
-
-

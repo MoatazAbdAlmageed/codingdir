@@ -2,7 +2,7 @@
 title: "MUSTAFA AHMED"
 date: "2021-07-06"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "back-end"
   - "data-structures"

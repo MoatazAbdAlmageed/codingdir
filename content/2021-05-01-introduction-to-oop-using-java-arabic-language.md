@@ -1,9 +1,9 @@
 ---
 title: "Ayman Ezzat"
 date: "2021-05-01"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "database"
   - "java"
   - "system-analysis"

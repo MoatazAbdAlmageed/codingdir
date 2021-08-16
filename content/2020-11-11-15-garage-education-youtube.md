@@ -2,7 +2,7 @@
 title: "Garage Education"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "agile"
   - "big-data"

@@ -2,7 +2,7 @@
 title: "Adel Nasim"
 date: "2021-04-28"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "back-end"

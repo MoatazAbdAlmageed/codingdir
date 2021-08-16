@@ -2,7 +2,7 @@
 title: "Mohamed Moshrif"
 date: "2021-06-04"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "system-design"
 ---

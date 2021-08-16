@@ -2,7 +2,7 @@
 title: "UXDL User Experience Design Lab"
 date: "2021-04-30"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "ui"
   - "ux"

@@ -2,7 +2,7 @@
 title: "Eslam Khder"
 date: "2021-05-18"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "testing"
   - "java"

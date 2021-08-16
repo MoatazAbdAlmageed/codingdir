@@ -1,9 +1,9 @@
 ---
 title: "UniqueCoderzAcademy | Hamza Nabil"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "bootstrap"
   - "c-plus-plus"
   - "css"

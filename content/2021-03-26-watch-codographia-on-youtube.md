@@ -2,7 +2,7 @@
 title: "Codographia"
 date: "2021-03-26"
 categories:
-  - "arabic"
+  - "عربي"
   - "top"
 tags:
   - "net"

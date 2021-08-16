@@ -2,7 +2,7 @@
 title: "Mohamed Adel"
 date: "2021-05-21"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "graphics"
 ---

@@ -1,9 +1,9 @@
 ---
-title: "Rani Fayez Ahmad | superlinux" 
+title: "Rani Fayez Ahmad | superlinux"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "c-plus-plus"
   - "linux"
   - "math"
@@ -12,6 +12,5 @@ tags:
   - "Java"
   - "Python"
 ---
-
 
 https://www.youtube.com/c/ranixlb/playlists

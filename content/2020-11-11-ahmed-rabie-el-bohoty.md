@@ -1,9 +1,9 @@
 ---
 title: "Ahmed Rabie EL Bohoty | ITSHARE"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "angular"
   - "asp"
   - "blockchain"

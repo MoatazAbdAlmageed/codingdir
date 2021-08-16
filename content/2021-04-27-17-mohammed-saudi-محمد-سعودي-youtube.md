@@ -2,7 +2,7 @@
 title: "(17) Mohammed Saudi - محمد سعودي "
 date: "2021-04-27"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "c"
   - "flutter"

@@ -2,7 +2,7 @@
 title: "Software Quality Academy"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "agile"
   - "business-analysis"

@@ -1,9 +1,9 @@
 ---
 title: "Hadi Hawla"
 date: "2021-03-14"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "bootstrap"
   - "css"
   - "html"

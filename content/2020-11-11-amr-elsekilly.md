@@ -2,7 +2,7 @@
 title: "Amr Elsekilly"
 date: "2020-11-11"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "git"
   - "js"

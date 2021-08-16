@@ -2,7 +2,7 @@
 title: "Helper For Training"
 date: "2021-06-02"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "networking"
 ---

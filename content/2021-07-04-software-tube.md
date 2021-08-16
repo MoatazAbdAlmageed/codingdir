@@ -2,7 +2,7 @@
 title: "Software Tube"
 date: "2021-07-04"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "networking"
   - "os"

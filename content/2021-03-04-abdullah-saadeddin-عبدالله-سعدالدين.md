@@ -1,9 +1,9 @@
 ---
 title: "Abdullah SaadEddin - عبدالله سعدالدين -"
 date: "2021-03-04"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "automation"
   - "js"
   - "notion"

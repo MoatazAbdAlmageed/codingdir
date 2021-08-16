@@ -2,7 +2,7 @@
 title: "fatima chakour"
 date: "2021-04-20"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "english"
 ---

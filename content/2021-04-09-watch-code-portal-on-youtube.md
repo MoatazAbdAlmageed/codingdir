@@ -2,7 +2,7 @@
 title: "Code Portal"
 date: "2021-04-09"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "agile"
   - "algorithms"

@@ -1,9 +1,9 @@
 ---
 title: "Help Channel"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "c-plus-plus"
   - "data-structures"
 ---

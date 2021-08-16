@@ -2,7 +2,7 @@
 title: "Sekab"
 date: "2021-04-16"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "design-patterns"
 ---

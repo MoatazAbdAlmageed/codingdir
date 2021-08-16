@@ -1,9 +1,9 @@
 ---
 title: "Arabic Competitive Programming | Mostafa Saad Ibrahim"
 date: "2020-11-11"
-categories: 
-  - "arabic"
-tags: 
+categories:
+  - "عربي"
+tags:
   - "algorithms"
   - "c-plus-plus"
   - "competitive-programming"
