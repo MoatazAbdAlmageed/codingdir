@@ -14,7 +14,7 @@ const Header = () => (
     <nav>
       <ul className={styles.mainNav}>
         <li>
-          <Link to="/tags">Tags</Link>
+          <Link to="/tags">TAGS</Link>
         </li>
         <Categories activeClassName={styles.activeNav} />
       </ul>
