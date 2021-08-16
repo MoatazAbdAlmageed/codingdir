@@ -131,7 +131,7 @@ exports.createPages = async ({ graphql, actions }) => {
     path: `/tags`,
     component: allTagsTemplate,
     context: {
-      tags: [...tagSet],
+      tags: [...tagSet].sort(),
     },
   });
 

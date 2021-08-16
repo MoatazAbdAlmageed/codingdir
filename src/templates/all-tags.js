@@ -13,7 +13,7 @@ const AllTags = ({ pathContext }) => {
         <Helmet title="Tags" />
         <div className={styles.tagContainer}>
           <ul>
-            {tags.map((tag) => {
+            {tags.sort().map((tag) => {
               return (
                 <li>
                   <Link to={`/tags/${tag}`}>
