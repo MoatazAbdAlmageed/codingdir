@@ -1,10 +1,10 @@
 ---
 title: "techsith"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
-  - "favorites"
-tags: 
+  - "top"
+tags:
   - "docker"
   - "js"
   - "node"

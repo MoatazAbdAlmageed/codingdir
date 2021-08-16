@@ -3,7 +3,7 @@ title: "Ahmed Samir El Khadrawy"
 date: "2020-11-11"
 categories:
   - "arabic"
-  - "favorites"
+  - "top"
 tags:
   - "asp"
   - "azure"

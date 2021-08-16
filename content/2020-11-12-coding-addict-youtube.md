@@ -3,7 +3,7 @@ title: "Coding Addict – John Smilga"
 date: "2020-11-12"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "front-end"
   - "javascript"

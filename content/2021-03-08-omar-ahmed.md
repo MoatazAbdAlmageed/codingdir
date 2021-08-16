@@ -3,7 +3,7 @@ title: "Omar Ahmed"
 date: "2021-03-08"
 categories:
   - "arabic"
-  - "favorites"
+  - "top"
 tags:
   - "back-end"
   - "flutter"

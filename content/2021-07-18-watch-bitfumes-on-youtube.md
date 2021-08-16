@@ -3,7 +3,7 @@ title: "Bitfumes"
 date: "2021-07-18"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "adonis"
   - "back-end"

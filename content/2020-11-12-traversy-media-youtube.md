@@ -3,7 +3,7 @@ title: "Traversy Media "
 date: "2020-11-12"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "back-end"
   - "bootstrap"

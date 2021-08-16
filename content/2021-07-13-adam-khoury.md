@@ -3,7 +3,7 @@ title: "Adam Khoury"
 date: "2021-07-13"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "android"
   - "back-end"

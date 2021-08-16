@@ -3,7 +3,7 @@ title: "Osama Elzero"
 date: "2020-11-11"
 categories:
   - "arabic"
-  - "favorites"
+  - "top"
 tags:
   - "back-end"
   - "bootstrap"

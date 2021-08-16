@@ -3,7 +3,7 @@ title: "Mr. Web Designer"
 date: "2021-07-12"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "css"
   - "front-end"

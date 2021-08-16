@@ -3,7 +3,7 @@ title: "خالد السعداني - Khalid ESSAADANI"
 date: "2021-06-27"
 categories:
   - "arabic"
-  - "favorites"
+  - "top"
 tags:
   - "net"
   - "angular"

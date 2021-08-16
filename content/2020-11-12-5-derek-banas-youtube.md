@@ -3,7 +3,7 @@ title: "Derek Banas"
 date: "2020-11-12"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "back-end"
   - "c-plus-plus"

@@ -3,7 +3,7 @@ title: "DevTips"
 date: "2020-11-12"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "adobe-xd"
   - "css"

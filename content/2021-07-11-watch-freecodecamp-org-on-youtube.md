@@ -3,7 +3,7 @@ title: "FreeCodeCamp.org"
 date: "2021-07-11"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "css"
   - "database"

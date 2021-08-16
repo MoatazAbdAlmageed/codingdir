@@ -3,7 +3,7 @@ title: "Medhat Dawoud | SemiColon Academy"
 date: "2020-11-11"
 categories:
   - "arabic"
-  - "favorites"
+  - "top"
 tags:
   - "css"
   - "es6"

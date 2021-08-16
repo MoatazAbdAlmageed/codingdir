@@ -3,7 +3,7 @@ title: "Eduonix Learning Solutions"
 date: "2021-07-12"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "mobile-development"
   - "ruby-of-rails"

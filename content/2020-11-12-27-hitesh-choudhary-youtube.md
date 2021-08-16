@@ -1,10 +1,10 @@
 ---
 title: "Hitesh Choudhary"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
-  - "favorites"
-tags: 
+  - "top"
+tags:
   - "css"
   - "docker"
   - "js"

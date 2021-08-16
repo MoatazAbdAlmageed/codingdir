@@ -3,7 +3,7 @@ title: "Mohamed Elsherif | AskDeveloper"
 date: "2020-11-18"
 categories:
   - "arabic"
-  - "favorites"
+  - "top"
 tags:
   - "c-plus-plus"
   - "c"

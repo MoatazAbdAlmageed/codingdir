@@ -3,7 +3,7 @@ title: "Coders Camp | Rasha Abden"
 date: "2021-05-09"
 categories:
   - "arabic"
-  - "favorites"
+  - "top"
 tags:
   - "cs"
   - "cs50"

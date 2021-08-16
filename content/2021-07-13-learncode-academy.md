@@ -3,7 +3,7 @@ title: "LearnCode.academy"
 date: "2021-07-13"
 categories:
   - "english"
-  - "favorites"
+  - "top"
 tags:
   - "front-end"
   - "js"
