@@ -5,6 +5,9 @@ categories:
   - "english"
 tags:
   - "graphql"
+  - "nuxtjs"
+  - "gatsby"
+  - "nodejs"
 cover: "https://yt3.ggpht.com/ytc/AKedOLRqNyy2HI9vLhxFkk4Z2kEJHAkZO-Cn8eNBkydukQ=s176-c-k-c0x00ffffff-no-rj"
 ---
 
