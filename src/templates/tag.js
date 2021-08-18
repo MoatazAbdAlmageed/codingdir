@@ -11,6 +11,7 @@ const TagTemplate = ({ data, pageContext }) => (
       <Helmet
         title={`Posts tagged as "${pageContext.tag}" | ${config.siteTitle}`}
       />
+      <h1>Tag: {pageContext.tag.toUpperCase()}</h1>
       <PostListing postEdges={data.allMarkdownRemark.edges} />
     </main>
   </Layout>

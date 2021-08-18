@@ -25,8 +25,8 @@ const PostListing = ({ postEdges }) => {
     <div className={styles.articleList}>
       {/* Your post list here. */
       postList.map((post) => (
-        <Link to={post.path} key={post.title}>
-          <article className={styles.articleBox}>
+        <Link className={styles.articleBox} to={post.path} key={post.title}>
+          <article>
             <div className={styles.right}>
               <h3>{post.title}</h3>
               <img src={post.cover} />
