@@ -20,7 +20,7 @@ tags:
   - "pugjs"
   - "sass"
   - "jquery"
-  - "Problems Solving"
+  - "problem-solving"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTHKPaCC8X70K4JHAeg_05JFL98z_wbnAPzWrgKIg=s176-c-k-c0x00ffffff-no-rj-mo"
 ---
 
