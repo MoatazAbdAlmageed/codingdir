@@ -3,6 +3,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import PostTags from "../components/PostTags";
+import PostCategories from "../components/PostCategories";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
 import Layout from "../layout";
@@ -29,6 +30,7 @@ export default ({ data, pageContext }) => {
           <img src={post.cover} />
           <div className={styles.postMeta}>
             <PostTags tags={post.tags} />
+            <PostCategories categories={post.categories} />
           </div>
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
 
