@@ -21,6 +21,13 @@ const Footer = () => (
           GitHub
         </a>
         <a
+          href={`https://www.linkedin.com/in/${config.userLinkedin}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Linkedin
+        </a>
+        <a
           href={config.siteUrl + config.siteRss}
           target="_blank"
           rel="noopener noreferrer"
@@ -29,6 +36,12 @@ const Footer = () => (
         </a>
       </div>
       <div className={styles.copyright}>{config.copyright}</div>
+    </div>
+
+    <div className={styles.container}>
+      <a target="_blank" href="https://www.gatsbyjs.com/">
+        Built with love using Gatsbyjs
+      </a>
     </div>
   </footer>
 );

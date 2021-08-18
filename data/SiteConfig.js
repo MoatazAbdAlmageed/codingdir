@@ -8,19 +8,20 @@ const config = {
   siteDescription:
     "A Gatsby Markdown Blog stater with Advanced design in mind.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
+  siteFBAppID: "", // FB Application ID for using app insights
   googleAnalyticsID: "G-3L50VKML54", // GA tracking ID.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "moataz.mohammady", // Username to display in the author segment.
   userEmail: "moataz.mohammady@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "gatsbyjs", // Optionally renders "Follow Me" in the Bio segment.
-  userGitHub: "gatsbyjs", // Optionally renders "Follow Me" in the Bio segment.
+  userGitHub: "MoatazAbdAlmageed", // Optionally renders "Follow Me" in the Bio segment.
+  userLinkedin: "moatazabdelmageed", // Optionally renders "Follow Me" in the Bio segment.
   userLocation: "Egypt", // User location to display in the author segment.
   userAvatar: "https://i.ibb.co/WPz9CNk/avatar.jpg", // User avatar to display in the author segment.
   userDescription:
     "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
-  copyright: "Copyright © 2020. All rights reserved.", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2021. All rights reserved.", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "red", // Used for setting manifest background color.
 };

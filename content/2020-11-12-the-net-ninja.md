@@ -26,7 +26,7 @@ tags:
   - "json"
   - "laravel"
   - "material-ui"
-  - "next"
+  - "nextjs"
   - "nodejs"
   - "php"
   - "pwd"

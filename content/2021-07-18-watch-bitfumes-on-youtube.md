@@ -12,7 +12,7 @@ tags:
   - "front-end"
   - "js"
   - "laravel"
-  - "next"
+  - "nextjs"
   - "nodejs"
   - "php"
   - "python"
