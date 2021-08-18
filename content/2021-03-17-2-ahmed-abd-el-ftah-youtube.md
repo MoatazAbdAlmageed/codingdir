@@ -3,6 +3,7 @@ title: "Ahmed Abd El Ftah"
 date: "2021-03-17"
 categories:
   - "عربي"
+  - "top"
 tags:
   - "back-end"
   - "laravel"
@@ -12,4 +13,4 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw
 
 > Ahmed Abd El Ftah
 >
-> [(2) Ahmed Abd El Ftah ](https://www.youtube.com/channel/UCrlyl0lWSxJu-RS7g7V3H8Q/playlists)
+> [Ahmed Abd El Ftah ](https://www.youtube.com/channel/UCrlyl0lWSxJu-RS7g7V3H8Q/playlists)
