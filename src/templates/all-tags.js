@@ -5,8 +5,8 @@ import styles from "../components/PostTags.module.scss";
 import Layout from "../layout";
 const _ = require("lodash");
 
-const AllTags = ({ pathContext }) => {
-  const { tags } = pathContext;
+const AllTags = ({ pageContext }) => {
+  const { tags } = pageContext;
 
   return (
     <Layout>
