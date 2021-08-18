@@ -7,9 +7,9 @@ const PostCategories = ({ categories }) => {
   return (
     <div className={styles.categoryContainer}>
       {categories &&
-        categories.map((tag) => (
-          <Link key={tag} to={`/${_.kebabCase(tag)}`}>
-            <span>{tag}</span>
+        categories.map((category) => (
+          <Link key={category} to={`/${_.kebabCase(category)}`}>
+            <span>{category.toUpperCase()}</span>
           </Link>
         ))}
     </div>
