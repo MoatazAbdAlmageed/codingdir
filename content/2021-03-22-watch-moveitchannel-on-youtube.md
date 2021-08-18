@@ -8,7 +8,7 @@ tags:
   - "asp-net"
   - "atdd"
   - "c-plus-plus"
-  - "clear-code"
+  - "clean-code"
   - "cloud"
   - "database"
   - "ddd"
