@@ -6,6 +6,10 @@ import styles from "./Header.module.scss";
 
 const Header = () => (
   <header>
+    <meta
+      name="google-site-verification"
+      content="Uyx7zn5ADHSsjqw3VQQ5opqVl3XmgkMHKEYPF3ZCpPw"
+    />
     <h1>
       <Link to="/" activeClassName={styles.activeNav}>
         {config.siteTitle}
