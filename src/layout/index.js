@@ -7,12 +7,13 @@ import config from "../../data/SiteConfig";
 const MainLayout = ({ children }) => (
   <>
     <Header />
-    <meta
-      name="google-site-verification"
-      content="Uyx7zn5ADHSsjqw3VQQ5opqVl3XmgkMHKEYPF3ZCpPw"
-    />
+
     <Helmet>
       <meta name="description" content={config.siteDescription} />
+      <meta
+        name="google-site-verification"
+        content="Uyx7zn5ADHSsjqw3VQQ5opqVl3XmgkMHKEYPF3ZCpPw"
+      />
     </Helmet>
     {children}
     <Footer />
