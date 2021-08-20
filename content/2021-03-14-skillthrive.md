@@ -1,9 +1,10 @@
 ---
 title: "Skillthrive"
 date: "2021-03-14"
-categories: 
+categories:
   - "english"
-tags: 
+  - "top"
+tags:
   - "css"
   - "figma"
   - "front-end"
