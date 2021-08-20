@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "database"
-  - "db"
+  - "database"
   - "mobile-development"
   - "web"
 ---

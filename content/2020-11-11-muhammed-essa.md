@@ -33,7 +33,7 @@ tags:
   - "php"
   - "project-management"
   - "python"
-  - "sql"
+  - "database"
   - "vuejs"
 ---
 

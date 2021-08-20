@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "oraclee"
-  - "sql"
+  - "database"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AAUvwnjbwE637Q9gHdeD-ZOo_cKTBWOmxJRcukaE1g=s176-c-k-c0x00ffffff-no-rj)

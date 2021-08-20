@@ -15,7 +15,7 @@ tags:
   - "ml"
   - "project-management"
   - "scrum"
-  - "sql"
+  - "database"
 ---
 
 [https://youtube.com/user/MoveITChannel](https://youtube.com/user/MoveITChannel)

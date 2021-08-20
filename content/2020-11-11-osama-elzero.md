@@ -14,7 +14,7 @@ tags:
   - "mysql"
   - "php"
   - "python"
-  - "sql"
+  - "database"
   - "wordpress"
   - "vuejs"
   - "pugjs"

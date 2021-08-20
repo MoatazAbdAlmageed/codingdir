@@ -10,7 +10,7 @@ tags:
   - "perl"
   - "ruby"
   - "ruby-of-rails"
-  - "sql"
+  - "database"
   - "wordpress"
   - "zend"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"

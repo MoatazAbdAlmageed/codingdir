@@ -8,7 +8,7 @@ tags:
   - "adonis"
   - "back-end"
   - "css"
-  - "db"
+  - "database"
   - "front-end"
   - "js"
   - "laravel"

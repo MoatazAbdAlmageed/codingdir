@@ -5,14 +5,14 @@ categories:
   - "عربي"
 tags:
   - "database"
-  - "db"
+  - "database"
   - "encryption"
   - "english"
   - "java"
   - "math"
   - "mysql"
   - "operating-systems"
-  - "sql"
+  - "database"
   - "system-analysis"
 ---
 

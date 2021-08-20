@@ -6,7 +6,7 @@ categories:
 tags:
   - "linux"
   - "security"
-  - "sql"
+  - "database"
 ---
 
 [https://youtube.com/c/CyberGuy1](https://youtube.com/c/CyberGuy1)

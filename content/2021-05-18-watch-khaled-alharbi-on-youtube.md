@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "cs"
-  - "db"
+  - "database"
 ---
 
 [https://youtube.com/channel/UCl-LvMjBUMzWeKw7-BfyFSA](https://youtube.com/channel/UCl-LvMjBUMzWeKw7-BfyFSA)

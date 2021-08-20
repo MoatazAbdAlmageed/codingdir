@@ -5,11 +5,11 @@ categories:
   - "عربي"
 tags:
   - "blazor"
-  - "db"
+  - "database"
   - "ddd"
   - "js"
   - "microsoft"
-  - "sql"
+  - "database"
 ---
 
 [https://youtube.com/channel/UCxO_n4yJkQXn0kzDZ_nGqtg](https://youtube.com/channel/UCxO_n4yJkQXn0kzDZ_nGqtg)

@@ -12,7 +12,7 @@ tags:
   - "js"
   - "php"
   - "python"
-  - "sql"
+  - "database"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AAUvwnjuGnWUdA6K5_7XF9AlXt9fUZMGbj7BD4rCtLiQ=s176-c-k-c0x00ffffff-no-rj)

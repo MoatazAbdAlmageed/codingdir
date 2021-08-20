@@ -7,9 +7,9 @@ tags:
   - "android"
   - "c"
   - "database"
-  - "db"
+  - "database"
   - "java"
-  - "sql"
+  - "database"
   - "web"
 ---
 
