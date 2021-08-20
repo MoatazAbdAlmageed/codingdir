@@ -7,7 +7,7 @@ tags:
   - "js"
   - "nodejs"
   - "react"
-  - "vue"
+  - "vuejs"
 ---
 
 [https://youtube.com/channel/UCS3-MF_4ADqglU2OSly4vIw](https://youtube.com/channel/UCS3-MF_4ADqglU2OSly4vIw)

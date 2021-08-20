@@ -13,7 +13,7 @@ tags:
   - "laravel"
   - "php"
   - "testing"
-  - "vue"
+  - "vuejs"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AKedOLQWwEeejYM627wvLo197GLE7P6EE0r0G0_8_uJhkA=s176-c-k-c0x00ffffff-no-rj)

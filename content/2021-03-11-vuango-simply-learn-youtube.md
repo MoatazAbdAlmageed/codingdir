@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "js"
-  - "vue"
+  - "vuejs"
   - "vuejs"
 ---
 

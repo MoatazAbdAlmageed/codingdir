@@ -6,7 +6,7 @@ categories:
 tags:
   - "devops"
   - "di"
-  - "go"
+  - "golang"
   - "golang"
   - "ionic"
   - "js"

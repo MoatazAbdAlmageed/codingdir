@@ -1,17 +1,15 @@
 ---
 title: "InfoQ"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "net"
   - "apache"
   - "dart"
-  - "go"
+  - "golang"
   - "html"
   - "java"
   - "js"
   - "talks"
 ---
-
-

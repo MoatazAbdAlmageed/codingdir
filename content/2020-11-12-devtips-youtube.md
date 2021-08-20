@@ -5,7 +5,7 @@ categories:
   - "english"
   - "top"
 tags:
-  - "adobe-xd"
+  - "xd"
   - "css"
   - "git"
   - "github"

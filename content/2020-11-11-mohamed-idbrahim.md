@@ -15,7 +15,7 @@ tags:
   - "react"
   - "srping-boot"
   - "symfony"
-  - "vue"
+  - "vuejs"
 ---
 
 https://www.youtube.com/c/IDBRAHIMMohamed/playlists
