@@ -2,7 +2,7 @@
 title: "Ali Khaled"
 date: "2021-08-20"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "android"
   - "haskell"

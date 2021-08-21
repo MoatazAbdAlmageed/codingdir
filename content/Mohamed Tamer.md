@@ -2,7 +2,7 @@
 title: "Mohamed Tamer"
 date: "2021-08-20"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "java"
   - "kotlin"
