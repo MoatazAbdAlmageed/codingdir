@@ -1,4 +1,4 @@
-import { Box, Image } from "@chakra-ui/react";
+import { Box, Heading, Image } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
@@ -14,7 +14,6 @@ export default ({ data, pageContext }) => {
   const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext;
   const postNode = data.markdownRemark;
   const post = postNode.frontmatter;
-  const date = postNode.fields.date;
   if (!post.id) {
     post.id = slug;
   }
@@ -26,7 +25,7 @@ export default ({ data, pageContext }) => {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <Box>
-          <h1>{post.title}</h1>
+          <Heading>{post.title}</Heading>
           <Image
             src={
               post.cover ||
