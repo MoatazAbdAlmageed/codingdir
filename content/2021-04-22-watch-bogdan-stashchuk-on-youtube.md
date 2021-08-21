@@ -7,7 +7,7 @@ tags:
   - "docker"
   - "js"
   - "kafka"
-  - "mongo"
+  - "mongodb"
 ---
 
 [https://youtube.com/c/CodingTutorials](https://youtube.com/c/CodingTutorials)

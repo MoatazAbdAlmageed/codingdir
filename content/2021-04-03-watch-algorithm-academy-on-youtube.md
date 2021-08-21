@@ -26,7 +26,7 @@ tags:
   - "lodash"
   - "moment-js"
   - "mongodb"
-  - "node"
+  - "nodejs"
   - "parcel"
   - "php"
   - "problems-solving"

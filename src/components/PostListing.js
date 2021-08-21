@@ -66,7 +66,7 @@ const PostListing = ({ postEdges }) => {
           onChange={handleInputChange}
         />
       </div>
-
+      <div>Channels : {posts.length}</div>
       <div className={styles.articleList}>
         {/* Your post list here. */
         posts.map((post) => (
