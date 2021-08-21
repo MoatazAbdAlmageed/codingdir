@@ -37,6 +37,7 @@
     "react-share": "^2.4.0",
     "react-twitter-widgets": "^1.7.1",
     "react-typography": "^0.16.19",
+    "react-uuid": "^1.0.2",
     "typography": "^0.16.19",
     "typography-theme-stow-lake": "^0.16.19",
     "url-join": "^4.0.1"

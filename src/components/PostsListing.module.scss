@@ -1,4 +1,12 @@
+.searchBox {
+  .searchInput {
+    width: 100%;
+    display: block;
+  }
+}
+
 .article-list {
+  margin-top: 2em;
   display: grid;
   grid-template-columns: 50% 50%;
 
