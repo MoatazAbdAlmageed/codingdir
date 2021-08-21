@@ -1,6 +1,6 @@
-import React from "react";
+import { Box, Grid, Image, Input, Stack, Text } from "@chakra-ui/react";
 import { Link } from "gatsby";
-import styles from "./PostsListing.module.scss";
+import React from "react";
 import uuid from "react-uuid";
 
 const PostListing = ({ postEdges }) => {
@@ -56,36 +56,38 @@ const PostListing = ({ postEdges }) => {
   const posts = hasSearchResults ? filteredData : postList;
 
   return (
-    <div>
-      <div className={styles.searchBox}>
-        <input
-          className={styles.searchInput}
-          type="text"
-          aria-label="Search"
-          placeholder="Search by title, tags ,excerpt"
-          onChange={handleInputChange}
-        />
-      </div>
-      <div>Channels : {posts.length}</div>
-      <div className={styles.articleList}>
-        {/* Your post list here. */
-        posts.map((post) => (
-          <Link className={styles.articleBox} to={post.path} key={uuid()}>
-            <article>
-              <div className={styles.right}>
-                <h3>{post.title}</h3>
-                <img src={post.cover} />
-                <div className={styles.meta}>
-                  {post.date} &mdash;{" "}
-                  <span>{post.categories && post.categories.join(" / ")}</span>{" "}
-                </div>
-                <p>{post.excerpt}</p>
-              </div>
-            </article>
-          </Link>
+    <Stack>
+      <Input
+        placeholder="Search by title, tags ,excerpt"
+        onChange={handleInputChange}
+      />
+
+      <Box p={8}>
+        <Text fontSize="xl">Channels : {posts.length}</Text>
+      </Box>
+      <Grid templateColumns="repeat(3, 1fr)">
+        {posts.map((post) => (
+          <Box w="100%" key={uuid()} overflow="hidden">
+            <Link
+              to={post.path}
+              textDecoration="none"
+              _hover={{ textDecoration: "none" }}
+            >
+              <Text margin="0">{post.title}</Text>
+
+              <Image
+                src={post.cover}
+                width="150px"
+                transition="0.3s ease-in-out"
+                _hover={{
+                  transform: "scale(1.05)",
+                }}
+              />
+            </Link>
+          </Box>
         ))}
-      </div>
-    </div>
+      </Grid>
+    </Stack>
   );
 };
 

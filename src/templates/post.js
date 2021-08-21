@@ -1,15 +1,15 @@
+import { Box, Image } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
-import PostTags from "../components/PostTags";
 import PostCategories from "../components/PostCategories";
+import PostTags from "../components/PostTags";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
 import Layout from "../layout";
 import styles from "./post.module.scss";
 import "./prism-okaidia.css";
-
 export default ({ data, pageContext }) => {
   const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext;
   const postNode = data.markdownRemark;
@@ -25,10 +25,10 @@ export default ({ data, pageContext }) => {
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <div>
+        <Box>
           <h1>{post.title}</h1>
-          <img src={post.cover} />
-          <div className={styles.postMeta}>
+          <Image src={post.cover} />
+          <div>
             <PostTags tags={post.tags} />
             <PostCategories categories={post.categories} />
           </div>
@@ -36,10 +36,11 @@ export default ({ data, pageContext }) => {
 
           <hr />
           {/* <Bio config={config} /> */}
-          <div className={styles.postMeta}>
+          <div>
             <SocialLinks postPath={slug} postNode={postNode} />
           </div>
-        </div>
+        </Box>
+
         <nav>
           <ul className={styles.pagination}>
             <li>

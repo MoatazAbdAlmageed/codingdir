@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import config from "../../data/SiteConfig";
-import styles from "./index.module.scss";
+import { Container } from "@chakra-ui/react";
 
 const MainLayout = ({ children }) => (
   <>
@@ -15,8 +15,10 @@ const MainLayout = ({ children }) => (
         content="Uyx7zn5ADHSsjqw3VQQ5opqVl3XmgkMHKEYPF3ZCpPw"
       />
     </Helmet>
-    {children}
-    <Footer />
+    <Container maxW={"7xl"} p="12">
+      {children}
+      <Footer />
+    </Container>
   </>
 );
 

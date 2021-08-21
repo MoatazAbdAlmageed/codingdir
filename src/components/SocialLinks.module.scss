@@ -1,32 +1,32 @@
 .social-links {
-    position: fixed;
-    top: 100px;
-    left: 30px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin: 15px 0;
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 15px 0;
 
-    div {
-        margin: 5px 15px;
-        cursor: pointer;
-    }
+  div {
+    margin: 5px 15px;
+    cursor: pointer;
+  }
 }
 
 .share-count {
-    text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
-    .social-links {
-        position: relative;
-        top: 0;
-    }
+  .social-links {
+    position: relative;
+    top: 0;
+  }
 
-    .social-links div {
-        display: inline-grid;
-        position: relative;
-    }
+  .social-links div {
+    display: inline-grid;
+    position: relative;
+  }
 }
