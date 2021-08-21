@@ -4,7 +4,7 @@ date: "2021-05-29"
 categories:
   - "عربي"
 tags:
-  - "c++"
+  - "c#"
   - "flutter"
   - "python"
 ---

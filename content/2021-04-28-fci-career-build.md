@@ -7,7 +7,7 @@ categories:
 tags:
   - "algorithms"
   - "back-end"
-  - "c++"
+  - "c#"
   - "computer-science"
   - "data-structure"
   - "java"

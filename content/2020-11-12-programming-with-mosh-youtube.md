@@ -7,7 +7,7 @@ categories:
 tags:
   - "angular"
   - "backend"
-  - "c++"
+  - "c#"
   - "css"
   - "html"
   - "js"

@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "back-end"
-  - "c++"
+  - "c#"
   - "java"
   - "php"
 ---

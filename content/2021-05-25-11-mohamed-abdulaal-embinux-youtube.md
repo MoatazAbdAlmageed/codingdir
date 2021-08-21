@@ -4,7 +4,7 @@ date: "2021-05-25"
 categories:
   - "عربي"
 tags:
-  - "c++"
+  - "c#"
   - "linux"
 ---
 

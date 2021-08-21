@@ -7,7 +7,7 @@ categories:
 tags:
   - "angular"
   - "aws"
-  - "ccna"
+  - "CCNA"
   - "cisco"
   - "java"
   - "linux"

@@ -6,7 +6,7 @@ categories:
   - "top"
 tags:
   - "net"
-  - "c++"
+  - "c#"
   - "cs"
   - "declarative-programming"
   - "fp"

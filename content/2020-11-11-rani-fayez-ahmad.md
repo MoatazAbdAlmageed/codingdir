@@ -5,7 +5,7 @@ categories:
   - "عربي"
   - "top"
 tags:
-  - "c++"
+  - "c#"
   - "linux"
   - "math"
   - "Groovy"

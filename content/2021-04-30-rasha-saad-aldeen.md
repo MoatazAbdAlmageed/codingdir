@@ -4,8 +4,7 @@ date: "2021-04-30"
 categories:
   - "عربي"
 tags:
-  - "c"
-  - "games"
+  - "Game Development"
   - "unity"
 ---
 

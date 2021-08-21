@@ -6,7 +6,6 @@ categories:
   - "top"
 tags:
   - "c"
-  - "c++"
   - "css"
   - "docker"
   - "front-end"
@@ -16,6 +15,7 @@ tags:
   - "python"
   - "react"
   - "springboot"
+  - "networking"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
 ---
 

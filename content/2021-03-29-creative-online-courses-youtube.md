@@ -4,7 +4,7 @@ date: "2021-03-29"
 categories:
   - "عربي"
 tags:
-  - "ccna"
+  - "CCNA"
   - "graphics"
   - "it"
 ---

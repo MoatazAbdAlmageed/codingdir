@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "c++"
+  - "c#"
 ---
 
 [https://youtube.com/channel/UC9nwgcxvx9qYP8WpFPeQxUA](https://youtube.com/channel/UC9nwgcxvx9qYP8WpFPeQxUA)

@@ -7,7 +7,7 @@ categories:
 tags:
   - "c#"
   - "back-end"
-  - "c++"
+  - "c#"
   - "html"
   - "php"
   - "python"
