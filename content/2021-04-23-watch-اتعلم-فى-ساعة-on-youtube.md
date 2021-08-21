@@ -6,7 +6,7 @@ categories:
 tags:
   - "css"
   - "html"
-  - "javascript"
+  - "js"
 ---
 
 [https://youtube.com/channel/UCs8PwUcH93uchrEZkB8ltNw](https://youtube.com/channel/UCs8PwUcH93uchrEZkB8ltNw)

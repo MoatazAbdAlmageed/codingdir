@@ -32,7 +32,7 @@ tags:
   - "problems-solving"
   - "python"
   - "react"
-  - "reactjs"
+  - "react"
   - "solid"
   - "tailwindcss"
   - "typescript"

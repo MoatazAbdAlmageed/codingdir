@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "cs"
-  - "javascript"
+  - "js"
   - "js"
   - "nodejs"
 ---

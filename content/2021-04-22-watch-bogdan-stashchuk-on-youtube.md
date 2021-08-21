@@ -5,7 +5,7 @@ categories:
   - "english"
 tags:
   - "docker"
-  - "javascript"
+  - "js"
   - "kafka"
   - "mongo"
 ---

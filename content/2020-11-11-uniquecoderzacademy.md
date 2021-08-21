@@ -8,7 +8,7 @@ tags:
   - "c-plus-plus"
   - "css"
   - "html"
-  - "javascript"
+  - "js"
   - "jquery"
   - "js"
   - "php"
