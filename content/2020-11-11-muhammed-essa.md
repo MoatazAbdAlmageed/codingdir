@@ -10,7 +10,7 @@ tags:
   - "back-end"
   - "blockchain"
   - "bootstrap"
-  - "c-plus-plus"
+  - "c++"
   - "css"
   - "dart"
   - "database"

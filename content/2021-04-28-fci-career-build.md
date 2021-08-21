@@ -7,7 +7,7 @@ categories:
 tags:
   - "algorithms"
   - "back-end"
-  - "c-plus-plus"
+  - "c++"
   - "computer-science"
   - "data-structure"
   - "java"

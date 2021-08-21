@@ -4,7 +4,7 @@ date: "2021-07-12"
 categories:
   - "عربي"
 tags:
-  - "clean-code"
+  - "clean code"
   - "dart"
   - "flutter"
 ---

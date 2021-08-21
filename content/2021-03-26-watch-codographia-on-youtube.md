@@ -6,7 +6,7 @@ categories:
   - "top"
 tags:
   - "net"
-  - "c-plus-plus"
+  - "c++"
   - "c"
   - "docker"
   - "wordpress"

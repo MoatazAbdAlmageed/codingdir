@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "back-end"
-  - "c-plus-plus"
+  - "c++"
   - "java"
   - "php"
 ---

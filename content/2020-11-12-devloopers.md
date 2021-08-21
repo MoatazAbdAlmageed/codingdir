@@ -4,7 +4,7 @@ date: "2020-11-12"
 categories:
   - "عربي"
 tags:
-  - "clean-code"
+  - "clean code"
   - "cs"
   - "cs50"
   - "solid"

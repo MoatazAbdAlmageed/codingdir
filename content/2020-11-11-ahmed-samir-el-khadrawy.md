@@ -5,6 +5,7 @@ categories:
   - "عربي"
   - "top"
 tags:
+  - "c#"
   - "asp"
   - "azure"
   - "back-end"

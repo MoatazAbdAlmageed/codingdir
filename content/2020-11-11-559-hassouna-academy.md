@@ -6,7 +6,7 @@ categories:
 tags:
   - "net"
   - "bootstrap"
-  - "c-plus-plus"
+  - "c++"
   - "css"
   - "django"
   - "html"

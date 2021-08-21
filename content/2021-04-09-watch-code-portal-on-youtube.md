@@ -6,7 +6,7 @@ categories:
 tags:
   - "agile"
   - "algorithms"
-  - "c-plus-plus"
+  - "c++"
   - "cryptographic"
   - "data-structure"
   - "database"

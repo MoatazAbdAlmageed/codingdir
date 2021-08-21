@@ -7,7 +7,7 @@ categories:
 tags:
   - "back-end"
   - "books"
-  - "clean-code"
+  - "clean code"
   - "laravel"
   - "php"
   - "testing"

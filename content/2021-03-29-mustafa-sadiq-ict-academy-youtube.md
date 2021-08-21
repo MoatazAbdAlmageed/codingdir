@@ -6,7 +6,7 @@ categories:
 tags:
   - "blockchain"
   - "c"
-  - "clean-code"
+  - "clean code"
   - "cloud-ccna"
   - "emotional-intelligence"
   - "networking"

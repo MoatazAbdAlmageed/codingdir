@@ -6,7 +6,7 @@ categories:
 tags:
   - "android"
   - "asp-net"
-  - "c-plus-plus"
+  - "c++"
   - "c"
   - "c"
   - "css"

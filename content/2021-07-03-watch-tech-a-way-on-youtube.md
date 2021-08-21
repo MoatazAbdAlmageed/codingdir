@@ -4,7 +4,7 @@ date: "2021-07-03"
 categories:
   - "عربي"
 tags:
-  - "clean-code"
+  - "clean code"
   - "css"
   - "html"
   - "microsoft"

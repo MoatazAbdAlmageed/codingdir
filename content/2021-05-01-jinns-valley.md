@@ -4,7 +4,7 @@ date: "2021-05-01"
 categories:
   - "عربي"
 tags:
-  - "c-plus-plus"
+  - "c++"
   - "linux"
   - "os"
 ---

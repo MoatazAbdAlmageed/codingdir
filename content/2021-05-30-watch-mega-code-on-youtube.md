@@ -4,7 +4,7 @@ date: "2021-05-30"
 categories:
   - "عربي"
 tags:
-  - "c-plus-plus"
+  - "c++"
   - "data-structure"
   - "data-structures"
 ---

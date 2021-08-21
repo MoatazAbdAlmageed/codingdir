@@ -9,7 +9,7 @@ tags:
   - "android"
   - "back-end"
   - "blockhain"
-  - "c-plus-plus"
+  - "c++"
   - "css"
   - "data-structure"
   - "firebase"

@@ -6,7 +6,7 @@ categories:
   - "top"
 tags:
   - "back-end"
-  - "c-plus-plus"
+  - "c++"
   - "front-end"
   - "js"
   - "math"

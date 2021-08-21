@@ -6,7 +6,7 @@ categories:
   - "top"
 tags:
   - "c"
-  - "c-plus-plus"
+  - "c++"
   - "css"
   - "docker"
   - "front-end"

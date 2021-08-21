@@ -4,6 +4,6 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "c-plus-plus"
+  - "c++"
   - "entity-framework"
 ---

@@ -5,7 +5,7 @@ categories:
   - "عربي"
   - "top"
 tags:
-  - "c-plus-plus"
+  - "c++"
   - "c"
   - "meetup"
   - "microsoft"

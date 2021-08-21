@@ -6,7 +6,7 @@ categories:
   - "top"
 tags:
   - "angular"
-  - "c-plus-plus"
+  - "c#"
   - "data-science"
   - "oop"
   - "software-engineering"
