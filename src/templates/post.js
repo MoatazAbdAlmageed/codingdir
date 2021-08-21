@@ -27,7 +27,12 @@ export default ({ data, pageContext }) => {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <Box>
           <h1>{post.title}</h1>
-          <Image src={post.cover} />
+          <Image
+            src={
+              post.cover ||
+              "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
+            }
+          />
           <div>
             <PostTags tags={post.tags} />
             <PostCategories categories={post.categories} />
