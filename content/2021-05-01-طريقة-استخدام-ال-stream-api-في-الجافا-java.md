@@ -4,7 +4,6 @@ date: "2021-05-01"
 categories:
   - "عربي"
 tags:
-  - "fp"
   - "java"
   - "kotlen"
   - "pascal"

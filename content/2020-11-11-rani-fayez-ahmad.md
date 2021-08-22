@@ -5,12 +5,14 @@ categories:
   - "عربي"
   - "top"
 tags:
-  - "c#"
+  - "c++"
   - "linux"
   - "math"
   - "Groovy"
   - "functional-programming"
   - "Java"
+  - "php"
+  - "mysql"
   - "Python"
 ---
 
