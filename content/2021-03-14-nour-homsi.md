@@ -11,8 +11,8 @@ tags:
   - "js"
   - "python"
   - "react"
-  - "ui"
-  - "ux"
+  - "ui/ux"
+  - "ui/ux"
   - "web-design"
   - "xd"
 ---

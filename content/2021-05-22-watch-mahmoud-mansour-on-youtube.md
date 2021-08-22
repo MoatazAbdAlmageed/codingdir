@@ -6,8 +6,8 @@ categories:
 tags:
   - "freelance"
   - "freelancing"
-  - "ui"
-  - "ux"
+  - "ui/ux"
+  - "ui/ux"
 ---
 
 [https://youtube.com/c/MahmoudMansourSec](https://youtube.com/c/MahmoudMansourSec)

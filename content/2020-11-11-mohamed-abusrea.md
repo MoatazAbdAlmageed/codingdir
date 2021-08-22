@@ -9,7 +9,7 @@ tags:
   - "front end"
   - "js"
   - "react"
-  - "ui"
+  - "ui/ux"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTOwKbmIWVyivmmKQ_NzvsbhCc1SOPSFu5T4Mc1FQ=s176-c-k-c0x00ffffff-no-rj"
 ---
 

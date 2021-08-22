@@ -5,6 +5,6 @@ categories:
   - "عربي"
 tags:
   - "front end"
-  - "ui"
-  - "ux"
+  - "ui/ux"
+  - "ui/ux"
 ---

@@ -19,8 +19,8 @@ tags:
   - "js"
   - "python"
   - "swift"
-  - "ui"
-  - "ux"
+  - "ui/ux"
+  - "ui/ux"
   - "wordpress"
 ---
 

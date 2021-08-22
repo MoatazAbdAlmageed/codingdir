@@ -5,8 +5,8 @@ categories:
   - "عربي"
 tags:
   - "graphics"
-  - "ui"
-  - "ux"
+  - "ui/ux"
+  - "ui/ux"
 ---
 
 [https://youtube.com/c/Hsnplnt](https://youtube.com/c/Hsnplnt)

@@ -5,8 +5,8 @@ categories:
   - "عربي"
 tags:
   - "photoshop"
-  - "ui"
-  - "ux"
+  - "ui/ux"
+  - "ui/ux"
 ---
 
 > Alaa Darwish
