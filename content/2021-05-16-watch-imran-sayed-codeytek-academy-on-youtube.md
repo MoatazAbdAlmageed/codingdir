@@ -4,9 +4,9 @@ date: "2021-05-16"
 categories:
   - "english"
 tags:
-  - "back-end"
+  - "backend"
   - "docker"
-  - "front-end"
+  - "front end"
   - "gatsby"
   - "graphql"
   - "js"

@@ -4,7 +4,7 @@ date: "2021-05-27"
 categories:
   - "english"
 tags:
-  - "front-end"
+  - "front end"
   - "graphql"
   - "nodejs"
   - "react"

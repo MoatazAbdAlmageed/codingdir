@@ -5,10 +5,10 @@ categories:
   - "عربي"
   - "top"
 tags:
-  - "back-end"
+  - "backend"
   - "bootstrap"
   - "css"
-  - "front-end"
+  - "front end"
   - "html"
   - "js"
   - "mysql"

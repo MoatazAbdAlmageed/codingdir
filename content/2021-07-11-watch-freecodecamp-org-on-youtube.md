@@ -7,7 +7,7 @@ categories:
 tags:
   - "css"
   - "database"
-  - "front-end"
+  - "front end"
   - "html"
   - "js"
   - "mnogodb"

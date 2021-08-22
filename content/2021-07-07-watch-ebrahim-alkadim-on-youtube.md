@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "net"
-  - "front-end"
+  - "front end"
   - "microsoft"
   - "react"
   - "redux"

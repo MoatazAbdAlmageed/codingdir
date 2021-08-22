@@ -7,7 +7,7 @@ categories:
 tags:
   - "android"
   - "angular"
-  - "back-end"
+  - "backend"
   - "blockchain"
   - "bootstrap"
   - "c#"
@@ -18,7 +18,7 @@ tags:
   - "django"
   - "docker"
   - "flutter"
-  - "front-end"
+  - "front end"
   - "git"
   - "hosting"
   - "ionic"

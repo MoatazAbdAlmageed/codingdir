@@ -6,7 +6,7 @@ categories:
   - "top"
 tags:
   - "algorithms"
-  - "back-end"
+  - "backend"
   - "c#"
   - "computer-science"
   - "data-structure"

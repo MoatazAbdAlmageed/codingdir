@@ -8,7 +8,7 @@ tags:
   - "c"
   - "css"
   - "docker"
-  - "front-end"
+  - "front end"
   - "java"
   - "js"
   - "nodejs"

@@ -4,7 +4,7 @@ date: "2020-11-15"
 categories:
   - "عربي"
 tags:
-  - "front-end"
+  - "front end"
   - "ui"
   - "ux"
 ---

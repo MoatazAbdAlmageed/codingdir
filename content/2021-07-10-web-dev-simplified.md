@@ -8,7 +8,7 @@ tags:
   - "css"
   - "data-structures"
   - "firebase"
-  - "front-end"
+  - "front end"
   - "graphql"
   - "html"
   - "js"

@@ -6,7 +6,7 @@ categories:
   - "top"
 tags:
   - "css"
-  - "front-end"
+  - "front end"
   - "git"
   - "html"
   - "js"

@@ -6,7 +6,7 @@ categories:
 tags:
   - "ajax"
   - "android"
-  - "back-end"
+  - "backend"
   - "java"
   - "js"
   - "mysql"

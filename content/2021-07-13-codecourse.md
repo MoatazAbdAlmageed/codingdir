@@ -5,9 +5,9 @@ categories:
   - "english"
   - "top"
 tags:
-  - "back-end"
+  - "backend"
   - "css"
-  - "front-end"
+  - "front end"
   - "html"
   - "js"
   - "laravel"

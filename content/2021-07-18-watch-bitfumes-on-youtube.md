@@ -6,10 +6,10 @@ categories:
   - "top"
 tags:
   - "adonis"
-  - "back-end"
+  - "backend"
   - "css"
   - "database"
-  - "front-end"
+  - "front end"
   - "js"
   - "laravel"
   - "nextjs"

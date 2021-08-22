@@ -7,7 +7,7 @@ categories:
 tags:
   - "css"
   - "es6"
-  - "front-end"
+  - "front end"
   - "git"
   - "graphql"
   - "js"
