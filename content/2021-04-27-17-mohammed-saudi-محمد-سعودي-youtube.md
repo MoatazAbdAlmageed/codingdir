@@ -1,5 +1,5 @@
 ---
-title: "(17) Mohammed Saudi - محمد سعودي "
+title: "Mohammed Saudi - محمد سعودي "
 date: "2021-04-27"
 categories:
   - "عربي"
@@ -11,4 +11,4 @@ tags:
 
 > https://www.youtube.com/user/msaudiCSE/playlists
 >
-> [(17) Mohammed Saudi - محمد سعودي ](https://www.youtube.com/user/msaudiCSE/playlists)
+> [Mohammed Saudi - محمد سعودي ](https://www.youtube.com/user/msaudiCSE/playlists)

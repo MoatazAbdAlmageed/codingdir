@@ -2,7 +2,7 @@
 title: "devpulses"
 date: "2021-08-21"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "devops"
   - "azure"
