@@ -33,7 +33,7 @@ export default ({ data, pageContext }) => {
             }
           />
           <div>
-            <PostTags tags={post.tags} />
+            <PostTags tags={[...new Set(post.tags)]} />
             <PostCategories categories={post.categories} />
           </div>
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
