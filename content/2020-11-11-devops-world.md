@@ -9,4 +9,4 @@ tags:
   - "kubernetes"
 ---
 
-https://www.youtube.com/channel/UC7xJj9ocIL9hYZKJNvN0A\_Q
+https://www.youtube.com/channel/UC7xJj9ocIL9hYZKJNvN0A_Q
