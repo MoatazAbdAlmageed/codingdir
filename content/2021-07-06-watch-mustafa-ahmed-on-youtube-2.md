@@ -4,7 +4,7 @@ date: "2021-07-06"
 categories:
   - "عربي"
 tags:
-  - "backend"
+  - "back end"
   - "data-structures"
   - "front end"
   - "java"

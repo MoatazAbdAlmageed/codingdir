@@ -1,13 +1,11 @@
 ---
 title: "International PHP Conference"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
-tags: 
-  - "backend"
+tags:
+  - "back end"
   - "devops"
   - "php"
   - "talks"
 ---
-
-
