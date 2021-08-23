@@ -1,4 +1,4 @@
-import { Box, Grid, Image, Input, Stack, Text } from "@chakra-ui/react";
+import { Box, Grid, Image, Input, Stack, Text, Badge } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import React from "react";
 import uuid from "react-uuid";
@@ -65,7 +65,9 @@ const PostListing = ({ postEdges }) => {
           onChange={handleInputChange}
         />
 
-        <Text mt={2}>{posts.length} channel(s) found</Text>
+        <Text mt={2}>
+          <Badge>{posts.length}</Badge> channel(s) found
+        </Text>
       </Box>
       <Grid templateColumns="repeat(5, 1fr)" gap={2}>
         {posts.map((post) => (
