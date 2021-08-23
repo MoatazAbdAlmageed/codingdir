@@ -1,9 +1,9 @@
 ---
 title: "WeAreDevelopers"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "cms"
   - "devops"
   - "font-end"
@@ -12,4 +12,4 @@ tags:
   - "testing"
 ---
 
-https://www.youtube.com/channel/UCSD0dLRGQk\_T-D3RvpM5aFQ/playlists
+https://www.youtube.com/channel/UCSD0dLRGQk_T-D3RvpM5aFQ/playlists

@@ -7,4 +7,4 @@ tags:
   - "cli"
 ---
 
-https://www.youtube.com/channel/UCcWSbBe\_s-T\_gZRnqFbtyIA/playlists
+https://www.youtube.com/channel/UCcWSbBe_s-T_gZRnqFbtyIA/playlists

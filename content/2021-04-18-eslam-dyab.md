@@ -8,6 +8,6 @@ tags:
   - "productivity"
 ---
 
-> https://www.youtube.com/channel/UCrRm7NBADmf\_PBhA8HhyaTw/playlists
+> https://www.youtube.com/channel/UCrRm7NBADmf_PBhA8HhyaTw/playlists
 >
 > [(30) Eslam Dyab ](https://www.youtube.com/channel/UCrRm7NBADmf_PBhA8HhyaTw/playlists)

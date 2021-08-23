@@ -7,6 +7,6 @@ tags:
   - "html"
 ---
 
-> https://www.youtube.com/channel/UC9w\_IQR7XjBBVjOvVdQ-BJw/playlists
+> https://www.youtube.com/channel/UC9w_IQR7XjBBVjOvVdQ-BJw/playlists
 >
 > [debugger; ](https://www.youtube.com/channel/UC9w_IQR7XjBBVjOvVdQ-BJw/playlists)

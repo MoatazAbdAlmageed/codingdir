@@ -13,6 +13,6 @@ tags:
   - "python"
 ---
 
-> https://www.youtube.com/c/mustafasadiq/playlistshttps://yt3.ggpht.com/yti/ANoDKi5leW3--\_VecCQ9Y-n\_4ljomkNdVhd1iOiz\_g=s88-c-k-c0x00ffffff-no-rj-mo
+> https://www.youtube.com/c/mustafasadiq/playlistshttps://yt3.ggpht.com/yti/ANoDKi5leW3--_VecCQ9Y-n_4ljomkNdVhd1iOiz_g=s88-c-k-c0x00ffffff-no-rj-mo
 >
 > [Mustafa Sadiq ICT Academy ](https://www.youtube.com/c/mustafasadiq/playlists)

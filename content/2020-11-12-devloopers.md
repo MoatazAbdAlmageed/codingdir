@@ -12,4 +12,4 @@ tags:
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
-https://www.youtube.com/channel/UC1YDD4M9FKgW\_4dzfESxD\_Q
+https://www.youtube.com/channel/UC1YDD4M9FKgW_4dzfESxD_Q

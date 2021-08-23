@@ -14,4 +14,4 @@ cover: "/YouTube-Icon-Gray-Box.png"
 >
 > [kimz codes ](https://www.youtube.com/channel/UC-MNF_TXywelItd7M8d-uHA/playlists)
 
-https://www.youtube.com/channel/UC-MNF\_TXywelItd7M8d-uHA/playlists
+https://www.youtube.com/channel/UC-MNF_TXywelItd7M8d-uHA/playlists

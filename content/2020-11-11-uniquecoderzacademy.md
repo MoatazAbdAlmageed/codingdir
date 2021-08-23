@@ -17,4 +17,4 @@ tags:
   - "redux"
 ---
 
-https://www.youtube.com/channel/UCq\_xgufsy1KrGsmJq7mFH-g
+https://www.youtube.com/channel/UCq_xgufsy1KrGsmJq7mFH-g

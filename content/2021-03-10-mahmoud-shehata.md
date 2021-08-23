@@ -4,10 +4,10 @@ date: "2021-03-10"
 categories:
   - "english"
 tags:
-  - "chakra"
+  - "chakra ui"
   - "react"
   - "ui/ux"
-cover: "/YouTube-Icon-Gray-Box.png"
+cover: "https://yt3.ggpht.com/ytc/AKedOLRmG-E2g-vl3XZ_TzYrTa2LP7EIFRr7UTdUa2wxmA=s176-c-k-c0x00ffffff-no-rj"
 ---
 
-https://www.youtube.com/channel/UC3c4mF6UDQ\_MW9PRg7SgE-A/playlists
+https://www.youtube.com/channel/UC3c4mF6UDQ_MW9PRg7SgE-A/playlists

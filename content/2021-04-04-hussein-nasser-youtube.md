@@ -21,6 +21,6 @@ tags:
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
-> https://www.youtube.com/channel/UC\_ML5xP23TOWKUcc-oAE\_Eg/playlists
+> https://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/playlists
 >
 > [Hussein Nasser ](https://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/playlists)

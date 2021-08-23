@@ -17,6 +17,6 @@ cover: "/YouTube-Icon-Gray-Box.png"
 
 > Ibraheem Osama
 >
-> https://www.youtube.com/channel/UC-0XB-AT2Q3rb1muG\_wtIiw
+> https://www.youtube.com/channel/UC-0XB-AT2Q3rb1muG_wtIiw
 >
 > [Ibraheem Osama ](https://www.youtube.com/channel/UC-0XB-AT2Q3rb1muG_wtIiw)

@@ -8,4 +8,4 @@ tags:
   - "cs50"
 ---
 
-https://www.youtube.com/channel/UCs0OFOK4\_nLlpWlCrpAkpRg
+https://www.youtube.com/channel/UCs0OFOK4_nLlpWlCrpAkpRg

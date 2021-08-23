@@ -7,4 +7,4 @@ tags:
   - "authentication"
 ---
 
-https://www.youtube.com/channel/UC-PaUtM\_9B03LszvIdcafPg/videos
+https://www.youtube.com/channel/UC-PaUtM_9B03LszvIdcafPg/videos

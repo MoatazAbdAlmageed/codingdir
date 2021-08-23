@@ -20,4 +20,4 @@ tags:
 >
 > [Smart Team](https://www.youtube.com/c/Smartteam016/playlists)
 
-https://www.youtube.com/channel/UCs9QB-ccbNQDWvIQIu\_RWlQ/playlists
+https://www.youtube.com/channel/UCs9QB-ccbNQDWvIQIu_RWlQ/playlists

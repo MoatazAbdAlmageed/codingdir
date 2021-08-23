@@ -1,9 +1,9 @@
 ---
 title: "AngularNYC"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "angular"
   - "ionic"
   - "js"
@@ -11,4 +11,4 @@ tags:
   - "rx"
 ---
 
-https://www.youtube.com/channel/UCIv7H\_9j9MHL5ghT6nqWmGQ
+https://www.youtube.com/channel/UCIv7H_9j9MHL5ghT6nqWmGQ

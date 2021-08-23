@@ -15,4 +15,4 @@ tags:
   - "web-design"
 ---
 
-https://www.youtube.com/channel/UCKf3RcB1iyZpqysT-K6Q\_3w/videos
+https://www.youtube.com/channel/UCKf3RcB1iyZpqysT-K6Q_3w/videos

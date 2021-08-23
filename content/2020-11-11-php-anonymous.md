@@ -13,4 +13,4 @@ tags:
   - "php"
 ---
 
-https://www.youtube.com/channel/UC7MGfS6e-6iwnNR9Y\_iBJAA
+https://www.youtube.com/channel/UC7MGfS6e-6iwnNR9Y_iBJAA

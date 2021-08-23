@@ -13,4 +13,4 @@ tags:
 >
 > [(3) Emam Academy - أكاديمية إمام ](https://www.youtube.com/channel/UCCsfHSAt1tbcYQ_QWK6UIhg/playlists)
 
-https://www.youtube.com/channel/UCCsfHSAt1tbcYQ\_QWK6UIhg/playlists
+https://www.youtube.com/channel/UCCsfHSAt1tbcYQ_QWK6UIhg/playlists
