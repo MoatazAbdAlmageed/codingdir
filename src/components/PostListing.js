@@ -65,7 +65,7 @@ const PostListing = ({ postEdges }) => {
       <Box p={8}>
         <Text fontSize="xl">Channels : {posts.length}</Text>
       </Box>
-      <Grid templateColumns="repeat(3, 1fr)">
+      <Grid templateColumns="repeat(5, 1fr)" gap={2}>
         {posts.map((post) => (
           <Box w="100%" key={uuid()} overflow="hidden">
             <Link
