@@ -10,7 +10,7 @@ const CategoryTemplate = ({ data, pageContext }) => (
   <Layout>
     <main>
       <Helmet title={` "${pageContext.category}" - ${config.siteTitle}`} />
-      <Heading>Category: {pageContext.category.toUpperCase()}</Heading>
+      <Heading mb={5}>Category: {pageContext.category.toUpperCase()}</Heading>
       <PostListing postEdges={data.allMarkdownRemark.edges} />
     </main>
   </Layout>

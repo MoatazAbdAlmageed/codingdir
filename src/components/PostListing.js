@@ -57,7 +57,7 @@ const PostListing = ({ postEdges }) => {
 
   return (
     <Stack>
-      <Box p={8}>
+      <Box>
         <Input
           rounded="md"
           boxShadow="md"
