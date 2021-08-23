@@ -1,4 +1,4 @@
-import { Box, Heading, Image } from "@chakra-ui/react";
+import { Box, Heading, Image, Center } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
@@ -24,27 +24,28 @@ export default ({ data, pageContext }) => {
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <Box>
-          <Heading>{post.title}</Heading>
-          <Image
-            borderRadius="full"
-            boxSize="150px"
-            src={post.cover}
-            fallbackSrc="/YouTube-Icon-Gray-Box.png"
-          />
-          <div>
-            <PostTags tags={[...new Set(post.tags)]} />
-            <PostCategories categories={post.categories} />
-          </div>
-          <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+        <Center>
+          <Box>
+            <Heading>{post.title}</Heading>
+            <Image
+              borderRadius="full"
+              boxSize="150px"
+              src={post.cover}
+              fallbackSrc="/YouTube-Icon-Gray-Box.png"
+            />
+            <div>
+              <PostTags tags={[...new Set(post.tags)]} />
+              <PostCategories categories={post.categories} />
+            </div>
+            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
 
-          <hr />
-          {/* <Bio config={config} /> */}
-          <div>
-            <SocialLinks postPath={slug} postNode={postNode} />
-          </div>
-        </Box>
-
+            <hr />
+            {/* <Bio config={config} /> */}
+            <div>
+              <SocialLinks postPath={slug} postNode={postNode} />
+            </div>
+          </Box>
+        </Center>
         <nav>
           <ul className={styles.pagination}>
             <li>
