@@ -14,6 +14,9 @@ const Header = () => (
     <nav>
       <ul className={styles.mainNav}>
         <li>
+          <Link to="/tags/podcast">Podcasts</Link>
+        </li>
+        <li>
           <Link to="/tags">TAGS</Link>
         </li>
         <Categories activeClassName={styles.activeNav} />
