@@ -10,7 +10,7 @@ tags:
   - "data-structure"
   - "java"
   - "oop"
-cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
+cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AAUvwng1Ph3BupuwlC8e9GRH2MCYZMcTEHV1nA182iZGXA=s176-c-k-c0x00ffffff-no-rj)

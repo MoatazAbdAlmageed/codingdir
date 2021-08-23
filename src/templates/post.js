@@ -26,12 +26,7 @@ export default ({ data, pageContext }) => {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <Box>
           <Heading>{post.title}</Heading>
-          <Image
-            src={
-              post.cover ||
-              "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
-            }
-          />
+          <Image src={post.cover || "/YouTube-Icon-Gray-Box.png"} />
           <div>
             <PostTags tags={[...new Set(post.tags)]} />
             <PostCategories categories={post.categories} />

@@ -76,10 +76,7 @@ const PostListing = ({ postEdges }) => {
               <Text margin="0">{post.title}</Text>
 
               <Image
-                src={
-                  post.cover ||
-                  "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
-                }
+                src={post.cover || "/YouTube-Icon-Gray-Box.png"}
                 width="150px"
                 transition="0.3s ease-in-out"
                 _hover={{

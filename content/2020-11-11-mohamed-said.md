@@ -7,7 +7,7 @@ tags:
   - "back end"
   - "laravel"
   - "php"
-cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
+cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
 https://www.youtube.com/channel/UCOcg7do7yccfY412KBm6bhA

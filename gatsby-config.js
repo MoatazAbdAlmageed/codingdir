@@ -99,6 +99,11 @@ module.exports = {
             sizes: "1024x1024",
             type: "image/png",
           },
+          {
+            src: "YouTube-Icon-Gray-Box.png",
+            sizes: "494x493",
+            type: "image/png",
+          },
         ],
       },
     },

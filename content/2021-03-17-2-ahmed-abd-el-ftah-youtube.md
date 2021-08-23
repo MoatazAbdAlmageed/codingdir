@@ -8,7 +8,7 @@ tags:
   - "back end"
   - "laravel"
   - "php"
-cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
+cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
 > Ahmed Abd El Ftah

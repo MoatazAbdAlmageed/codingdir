@@ -16,7 +16,7 @@ tags:
   - "react"
   - "springboot"
   - "networking"
-cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
+cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AKedOLTXM_7Bq_VZhCw-7JOSJJDiCC14D39B3ajrldMVSA=s176-c-k-c0x00ffffff-no-rj)

@@ -8,7 +8,7 @@ tags:
   - "talks"
   - "ui/ux"
   - "ui/ux"
-cover: "https://yt3.ggpht.com/ytc/AKedOLTs5xPwjVzxhss34sTUBnFyrJApSllD0pa3oQaOhw=s88-c-k-c0x00ffffff-no-rj"
+cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
 [https://youtube.com/channel/UC5aPUqUIp8-awNOyE-tKHYQ](https://youtube.com/channel/UC5aPUqUIp8-awNOyE-tKHYQ)
