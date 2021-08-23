@@ -7,7 +7,11 @@ import {
   Text,
   Badge,
   Center,
+  InputGroup,
+  InputLeftElement,
 } from "@chakra-ui/react";
+
+import { SearchIcon } from "@chakra-ui/icons";
 import { Link } from "gatsby";
 import React from "react";
 import uuid from "react-uuid";
@@ -67,13 +71,18 @@ const PostListing = ({ postEdges }) => {
   return (
     <Stack>
       <Box>
-        <Input
-          rounded="md"
-          boxShadow="md"
-          placeholder="Search by title, tags ,excerpt"
-          onChange={handleInputChange}
-        />
-
+        <InputGroup mt={2}>
+          <InputLeftElement
+            pointerEvents="none"
+            children={<SearchIcon color="gray.300" />}
+          />
+          <Input
+            rounded="md"
+            boxShadow="md"
+            placeholder="Search by title, tags ,excerpt"
+            onChange={handleInputChange}
+          />
+        </InputGroup>
         <Text mt={2}>
           <Badge colorScheme="red">{posts.length}</Badge> channel(s) found
         </Text>

@@ -15,7 +15,7 @@ const MainLayout = ({ children }) => (
         content="Uyx7zn5ADHSsjqw3VQQ5opqVl3XmgkMHKEYPF3ZCpPw"
       />
     </Helmet>
-    <Container maxW="container.xl">
+    <Container maxW="container.xl" mb={2}>
       {children}
       <Footer />
     </Container>
