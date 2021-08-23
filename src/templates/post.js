@@ -26,7 +26,10 @@ export default ({ data, pageContext }) => {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <Box>
           <Heading>{post.title}</Heading>
-          <Image src={post.cover || "/YouTube-Icon-Gray-Box.png"} />
+          <Image
+            width="200px"
+            src={post.cover || "/YouTube-Icon-Gray-Box.png"}
+          />
           <div>
             <PostTags tags={[...new Set(post.tags)]} />
             <PostCategories categories={post.categories} />
