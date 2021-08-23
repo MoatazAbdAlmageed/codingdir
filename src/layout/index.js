@@ -1,13 +1,13 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Nav from "../components/Nav";
 import config from "../../data/SiteConfig";
 import { Container } from "@chakra-ui/react";
 
 const MainLayout = ({ children }) => (
   <>
-    <Header />
+    <Nav />
     <Helmet>
       <meta name="description" content={config.siteDescription} />
       <meta

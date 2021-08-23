@@ -59,6 +59,8 @@ const PostListing = ({ postEdges }) => {
     <Stack>
       <Box p={8}>
         <Input
+          rounded="md"
+          boxShadow="md"
           placeholder="Search by title, tags ,excerpt"
           onChange={handleInputChange}
         />

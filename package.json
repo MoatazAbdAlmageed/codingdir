@@ -5,6 +5,7 @@
   "author": "Ammar Jabakji <ammarjabakji@gmail.com>",
   "dependencies": {
     "@chakra-ui/gatsby-plugin": "^2.0.1",
+    "@chakra-ui/icons": "^1.0.15",
     "@chakra-ui/react": "^1.6.6",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
