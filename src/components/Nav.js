@@ -248,4 +248,8 @@ const NAV_ITEMS = [
     label: "Podcasts",
     href: "/tags/podcast",
   },
+  {
+    label: "Topics",
+    href: "/tags",
+  },
 ];

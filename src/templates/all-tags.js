@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import styles from "../components/PostTags.module.scss";
 import Layout from "../layout";
 const _ = require("lodash");
+import { Grid } from "@chakra-ui/react";
 
 const AllTags = ({ pageContext }) => {
   const { tags } = pageContext;
@@ -13,18 +14,16 @@ const AllTags = ({ pageContext }) => {
       <main>
         <Helmet title="Tags" />
         <div className={styles.tagContainer}>
-          <ul>
+          <Grid templateColumns="repeat(6, 1fr)" gap={2}>
             {tags.sort().map((tag) => {
               return (
-                <li>
-                  <Link to={`/tags/${_.kebabCase(tag)}`}>
-                    {" "}
-                    <span>{tag.toUpperCase()}</span>
-                  </Link>
-                </li>
+                <Link to={`/tags/${_.kebabCase(tag)}`}>
+                  {" "}
+                  <span>{tag.toUpperCase()}</span>
+                </Link>
               );
             })}
-          </ul>
+          </Grid>
         </div>
       </main>
     </Layout>
