@@ -61,7 +61,12 @@ export default function Nav() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            {config.siteTitle}
+            <Link
+              href="/"
+              _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}
+            >
+              {config.siteTitle}
+            </Link>
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
