@@ -66,7 +66,7 @@ const PostListing = ({ postEdges }) => {
         />
 
         <Text mt={2}>
-          <Badge>{posts.length}</Badge> channel(s) found
+          <Badge colorScheme="red">{posts.length}</Badge> channel(s) found
         </Text>
       </Box>
       <Grid templateColumns="repeat(5, 1fr)" gap={2}>
