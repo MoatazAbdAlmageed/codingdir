@@ -57,13 +57,13 @@ const PostListing = ({ postEdges }) => {
 
   return (
     <Stack>
-      <Input
-        placeholder="Search by title, tags ,excerpt"
-        onChange={handleInputChange}
-      />
-
       <Box p={8}>
-        <Text fontSize="xl">Channels : {posts.length}</Text>
+        <Input
+          placeholder="Search by title, tags ,excerpt"
+          onChange={handleInputChange}
+        />
+
+        <Text mt={2}>{posts.length} channel(s) found</Text>
       </Box>
       <Grid templateColumns="repeat(5, 1fr)" gap={2}>
         {posts.map((post) => (

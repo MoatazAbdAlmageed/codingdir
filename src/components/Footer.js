@@ -6,13 +6,6 @@ const Footer = () => (
   <footer>
     <div className={styles.container}>
       <div>
-        <a
-          href={`https://twitter.com/${config.userTwitter}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Twitter
-        </a>
         <a href={config.gitHub} target="_blank" rel="noopener noreferrer">
           GitHub
         </a>

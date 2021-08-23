@@ -4,12 +4,13 @@ import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
 import config from "../../data/SiteConfig";
+import { Heading } from "@chakra-ui/react";
 
 const CategoryTemplate = ({ data, pageContext }) => (
   <Layout>
     <main>
       <Helmet title={` "${pageContext.category}" - ${config.siteTitle}`} />
-      <h1>Category: {pageContext.category.toUpperCase()}</h1>
+      <Heading>Category: {pageContext.category.toUpperCase()}</Heading>
       <PostListing postEdges={data.allMarkdownRemark.edges} />
     </main>
   </Layout>

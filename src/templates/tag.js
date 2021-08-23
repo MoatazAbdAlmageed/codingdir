@@ -4,14 +4,13 @@ import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
 import config from "../../data/SiteConfig";
+import { Heading } from "@chakra-ui/react";
 
 const TagTemplate = ({ data, pageContext }) => (
   <Layout>
     <main>
-      <Helmet
-        title={`Channels tagged as "${pageContext.tag}" | ${config.siteTitle}`}
-      />
-      <h1>Tag: {pageContext.tag.toUpperCase()}</h1>
+      <Helmet title={`${pageContext.tag} Channels | ${config.siteTitle}`} />
+      <Heading>Tag: {pageContext.tag.toUpperCase()}</Heading>
       <PostListing postEdges={data.allMarkdownRemark.edges} />
     </main>
   </Layout>
