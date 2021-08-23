@@ -3,7 +3,7 @@ title: "Mohamed Elsherif | AskDeveloper"
 date: "2020-11-18"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "c#"
   - "c"

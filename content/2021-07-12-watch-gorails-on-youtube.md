@@ -3,7 +3,7 @@ title: "GoRails"
 date: "2021-07-12"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "ruby-of-rails"
 cover: "/YouTube-Icon-Gray-Box.png"

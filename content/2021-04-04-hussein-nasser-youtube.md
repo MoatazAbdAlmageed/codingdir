@@ -3,7 +3,7 @@ title: "Hussein Nasser"
 date: "2021-04-04"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "net"
   - "back end"
@@ -16,7 +16,7 @@ tags:
   - "security"
   - "software-architecture"
   - "database"
-  - "top"
+
   - "web-sockets"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

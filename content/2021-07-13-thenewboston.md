@@ -3,7 +3,7 @@ title: "The new boston"
 date: "2021-07-13"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "c"
   - "css"

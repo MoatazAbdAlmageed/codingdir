@@ -3,7 +3,7 @@ title: "Web Dev Simplified"
 date: "2021-07-10"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "css"
   - "data-structures"

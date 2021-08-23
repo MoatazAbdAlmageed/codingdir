@@ -3,7 +3,7 @@ title: "Free4arab | Information Technology"
 date: "2020-11-11"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "angular"
   - "aws"

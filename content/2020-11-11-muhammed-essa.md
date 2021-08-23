@@ -3,7 +3,7 @@ title: "Muhammed Essa"
 date: "2020-11-11"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "android"
   - "angular"

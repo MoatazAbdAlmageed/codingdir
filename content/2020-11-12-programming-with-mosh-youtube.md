@@ -3,7 +3,7 @@ title: "Programming with Mosh"
 date: "2020-11-12"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "angular"
   - "back end"

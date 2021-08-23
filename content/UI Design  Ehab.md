@@ -3,7 +3,7 @@ title: "UI Design | Ehab"
 date: "2021-08-22"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "UI/UX"
   - "XD"

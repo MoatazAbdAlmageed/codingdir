@@ -3,7 +3,7 @@ title: "Algorithm Academy"
 date: "2021-04-03"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "axios"
   - "back end"

@@ -3,7 +3,7 @@ title: "Ali Shahin"
 date: "2020-11-11"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "angular"
   - "c#"

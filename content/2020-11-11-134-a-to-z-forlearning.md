@@ -3,7 +3,7 @@ title: "A-To-Z ForLearning"
 date: "2020-11-11"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "c#"
   - "back end"

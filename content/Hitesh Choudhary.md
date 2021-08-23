@@ -3,7 +3,7 @@ title: "Hitesh Choudhary "
 date: "2021-08-20"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "wordpress"
   - "xd"

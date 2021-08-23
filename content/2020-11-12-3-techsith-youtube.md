@@ -3,7 +3,7 @@ title: "techsith"
 date: "2020-11-12"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "docker"
   - "js"

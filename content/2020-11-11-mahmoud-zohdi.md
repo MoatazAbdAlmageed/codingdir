@@ -3,7 +3,7 @@ title: "Mahmoud Zohdi"
 date: "2020-11-11"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "css"
   - "front end"

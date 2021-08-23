@@ -3,7 +3,7 @@ title: "Khalid Elshafie"
 date: "2020-11-11"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "design-patterns"
   - "git"

@@ -3,7 +3,7 @@ title: "Wes Bos"
 date: "2020-11-12"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "css"
   - "js"

@@ -3,7 +3,7 @@ title: "WebWash"
 date: "2021-08-19"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "graphql"
   - "nuxtjs"

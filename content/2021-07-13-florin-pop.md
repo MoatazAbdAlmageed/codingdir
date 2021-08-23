@@ -3,7 +3,7 @@ title: "Florin Pop"
 date: "2021-07-13"
 categories:
   - "english"
-  - "top"
+
 tags:
   - "js"
 ---

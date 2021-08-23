@@ -3,7 +3,7 @@ title: "Troubleshooter Youssef Shawky"
 date: "2020-11-15"
 categories:
   - "عربي"
-  - "top"
+
 tags:
   - "c#"
   - "cs"
