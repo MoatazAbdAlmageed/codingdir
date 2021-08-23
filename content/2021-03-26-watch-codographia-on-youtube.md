@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "net"
+  - ".net"
   - "c#"
   - "c"
   - "docker"

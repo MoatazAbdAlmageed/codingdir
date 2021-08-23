@@ -5,7 +5,7 @@ categories:
   - "english"
 
 tags:
-  - "net"
+  - ".net"
   - "back end"
   - "c"
   - "database"

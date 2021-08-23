@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "net"
+  - ".net"
   - "c#"
   - "cs"
   - "declarative-programming"

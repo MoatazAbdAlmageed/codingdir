@@ -87,6 +87,10 @@ const PostListing = ({ postEdges }) => {
             w="100%"
             key={uuid()}
             overflow="hidden"
+            transition="0.3s ease-in-out"
+            _hover={{
+              transform: "scale(1.05)",
+            }}
           >
             <Link
               to={post.path}
@@ -101,10 +105,6 @@ const PostListing = ({ postEdges }) => {
                   src={post.cover}
                   fallbackSrc="/YouTube-Icon-Gray-Box.png"
                   width="150px"
-                  transition="0.3s ease-in-out"
-                  _hover={{
-                    transform: "scale(1.05)",
-                  }}
                 />
               </Center>
             </Link>
