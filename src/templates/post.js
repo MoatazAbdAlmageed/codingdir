@@ -27,8 +27,10 @@ export default ({ data, pageContext }) => {
         <Box>
           <Heading>{post.title}</Heading>
           <Image
-            width="200px"
-            src={post.cover || "/YouTube-Icon-Gray-Box.png"}
+            borderRadius="full"
+            boxSize="150px"
+            src={post.cover}
+            fallbackSrc="/YouTube-Icon-Gray-Box.png"
           />
           <div>
             <PostTags tags={[...new Set(post.tags)]} />

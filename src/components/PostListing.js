@@ -1,4 +1,13 @@
-import { Box, Grid, Image, Input, Stack, Text, Badge } from "@chakra-ui/react";
+import {
+  Box,
+  Grid,
+  Image,
+  Input,
+  Stack,
+  Text,
+  Badge,
+  Center,
+} from "@chakra-ui/react";
 import { Link } from "gatsby";
 import React from "react";
 import uuid from "react-uuid";
@@ -71,22 +80,33 @@ const PostListing = ({ postEdges }) => {
       </Box>
       <Grid templateColumns="repeat(5, 1fr)" gap={2}>
         {posts.map((post) => (
-          <Box w="100%" key={uuid()} overflow="hidden">
+          <Box
+            textAlign="center"
+            boxShadow="md"
+            rounded="lg"
+            w="100%"
+            key={uuid()}
+            overflow="hidden"
+          >
             <Link
               to={post.path}
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              <Text margin="0">{post.title}</Text>
-
-              <Image
-                src={post.cover || "/YouTube-Icon-Gray-Box.png"}
-                width="150px"
-                transition="0.3s ease-in-out"
-                _hover={{
-                  transform: "scale(1.05)",
-                }}
-              />
+              <Text mb={2}>{post.title}</Text>
+              <Center>
+                <Image
+                  borderRadius="full"
+                  boxSize="150px"
+                  src={post.cover}
+                  fallbackSrc="/YouTube-Icon-Gray-Box.png"
+                  width="150px"
+                  transition="0.3s ease-in-out"
+                  _hover={{
+                    transform: "scale(1.05)",
+                  }}
+                />
+              </Center>
             </Link>
           </Box>
         ))}
