@@ -13,11 +13,7 @@ const Footer = () => (
         >
           Twitter
         </a>
-        <a
-          href={`https://github.com/${config.userGitHub}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={config.gitHub} target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
         <a
