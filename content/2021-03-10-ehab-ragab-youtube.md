@@ -4,7 +4,7 @@ date: "2021-03-10"
 categories:
   - "عربي"
 tags:
-  - "computer-science"
+  - "computer science"
   - "cs"
 ---
 

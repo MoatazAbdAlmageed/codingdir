@@ -7,7 +7,7 @@ categories:
 tags:
   - "back end"
   - "c++"
-  - "data-structure"
+  - "data structure"
   - "java"
   - "oop"
 cover: "/YouTube-Icon-Gray-Box.png"

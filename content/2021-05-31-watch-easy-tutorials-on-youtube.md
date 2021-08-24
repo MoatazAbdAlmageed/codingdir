@@ -8,7 +8,7 @@ tags:
   - "e-commerce"
   - "html"
   - "js"
-  - "web-design"
+  - "web design"
 ---
 
 [https://youtube.com/c/EasyTutorialsVideo](https://youtube.com/c/EasyTutorialsVideo)

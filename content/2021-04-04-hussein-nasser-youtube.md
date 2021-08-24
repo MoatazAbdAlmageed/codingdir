@@ -17,7 +17,7 @@ tags:
   - "software architecture"
   - "database"
 
-  - "web-sockets"
+  - "web sockets"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

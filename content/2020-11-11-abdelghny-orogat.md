@@ -4,7 +4,7 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "computer-programming"
+  - "computer programming"
   - "cs"
   - "database"
   - "java"

@@ -8,8 +8,8 @@ tags:
   - "algorithms"
   - "back end"
   - "c++"
-  - "computer-science"
-  - "data-structure"
+  - "computer science"
+  - "data structure"
   - "java"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

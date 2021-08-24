@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "c"
-  - "data-structures"
+  - "data structures"
 ---
 
 https://www.youtube.com/channel/UC8uhyNxfvzT73ltenWfEBKw/playlists

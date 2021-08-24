@@ -7,7 +7,7 @@ categories:
 tags:
   - "angular"
   - "c#"
-  - "data-science"
+  - "data science"
   - "oop"
   - "software engineering"
   - "tips"

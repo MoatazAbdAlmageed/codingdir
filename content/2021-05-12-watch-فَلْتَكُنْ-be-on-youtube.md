@@ -6,6 +6,7 @@ categories:
 tags:
   - "productivity"
   - "interviews"
+  - "podcast"
 ---
 
 [https://youtube.com/channel/UCWmfyi3LyjOhMw75UqCsLmA](https://youtube.com/channel/UCWmfyi3LyjOhMw75UqCsLmA)

@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import styles from "../components/PostTags.module.scss";
 import Layout from "../layout";
 const _ = require("lodash");
-import { Grid } from "@chakra-ui/react";
+import { Grid , Heading } from "@chakra-ui/react";
 
 const AllTags = ({ pageContext }) => {
   const { tags } = pageContext;
@@ -13,6 +13,7 @@ const AllTags = ({ pageContext }) => {
     <Layout>
       <main>
         <Helmet title="Tags" />
+        <Heading>Topics</Heading>
         <div className={styles.tagContainer}>
           <Grid templateColumns="repeat(6, 1fr)" gap={2}>
             {tags.sort().map((tag) => {

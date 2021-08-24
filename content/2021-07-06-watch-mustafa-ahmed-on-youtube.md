@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "c++"
-  - "data-structures"
+  - "data structures"
   - "java"
   - "js"
   - "php"

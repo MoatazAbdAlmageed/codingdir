@@ -8,7 +8,7 @@ tags:
   - "algorithms"
   - "c#"
   - "cryptographic"
-  - "data-structure"
+  - "data structure"
   - "database"
   - "jquery"
   - "js"

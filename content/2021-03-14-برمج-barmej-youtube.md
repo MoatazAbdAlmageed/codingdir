@@ -10,7 +10,7 @@ tags:
   - "c"
   - "c"
   - "css"
-  - "data-structures"
+  - "data structures"
   - "e-commerce"
   - "figma"
   - "html"

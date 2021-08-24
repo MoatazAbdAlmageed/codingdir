@@ -14,7 +14,7 @@ tags:
   - "php"
   - "react"
   - "vuejs"
-  - "web-design"
+  - "web design"
 ---
 
 https://www.youtube.com/c/GoArabGo/featured

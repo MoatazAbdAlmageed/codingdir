@@ -12,7 +12,7 @@ tags:
   - "photoshop"
   - "ui/ux"
   - "ui/ux"
-  - "web-design"
+  - "web design"
   - "webflow"
   - "xd"
 cover: "/YouTube-Icon-Gray-Box.png"

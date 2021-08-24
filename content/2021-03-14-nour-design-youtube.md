@@ -9,7 +9,7 @@ tags:
   - "graphics"
   - "ui/ux"
   - "ui/ux"
-  - "web-design"
+  - "web design"
   - "xd"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

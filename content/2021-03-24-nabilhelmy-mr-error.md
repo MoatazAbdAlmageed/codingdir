@@ -12,7 +12,7 @@ tags:
   - "html"
   - "js"
   - "mvc"
-  - "web-design"
+  - "web design"
 ---
 
 https://www.youtube.com/channel/UCKf3RcB1iyZpqysT-K6Q_3w/videos

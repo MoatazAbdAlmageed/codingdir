@@ -5,8 +5,8 @@ categories:
   - "عربي"
 tags:
   - "c#"
-  - "data-structure"
-  - "data-structures"
+  - "data structure"
+  - "data structures"
 ---
 
 [https://youtube.com/c/megacodeyt](https://youtube.com/c/megacodeyt)

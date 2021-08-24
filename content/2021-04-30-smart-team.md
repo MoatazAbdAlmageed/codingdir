@@ -6,7 +6,7 @@ categories:
 tags:
   - "algorithms"
   - "css"
-  - "data-structure"
+  - "data structure"
   - "database"
   - "graphics"
   - "html"

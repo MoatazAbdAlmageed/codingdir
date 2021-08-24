@@ -13,7 +13,7 @@ tags:
   - "react"
   - "ui/ux"
   - "ui/ux"
-  - "web-design"
+  - "web design"
   - "xd"
 ---
 

@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "css"
-  - "data-structures"
+  - "data structures"
   - "firebase"
   - "front end"
   - "graphql"

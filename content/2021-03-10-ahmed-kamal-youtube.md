@@ -4,9 +4,9 @@ date: "2021-03-10"
 categories:
   - "عربي"
 tags:
-  - "computer-science"
+  - "computer science"
   - "cs"
-  - "data-structure"
+  - "data structure"
 ---
 
 https://www.youtube.com/c/AhmedKamal94/playlists

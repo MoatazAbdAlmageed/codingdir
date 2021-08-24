@@ -6,7 +6,7 @@ categories:
 tags:
   - "ai"
   - "algorithms"
-  - "data-science"
+  - "data science"
   - "deep-learning"
   - "design-patterns"
   - "games-development"

@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "back end"
-  - "data-structures"
+  - "data structures"
   - "front end"
   - "java"
   - "js"
