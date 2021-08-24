@@ -29,7 +29,7 @@ tags:
   - "nodejs"
   - "parcel"
   - "php"
-  - "problems-solving"
+  - "problem solving"
   - "python"
   - "react"
   - "react"

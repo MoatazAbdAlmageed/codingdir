@@ -8,7 +8,7 @@ tags:
   - "c++"
   - "chatbot"
   - "nodejs"
-  - "problem-solving"
+  - "problem solving"
   - "python"
 ---
 

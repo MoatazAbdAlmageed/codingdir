@@ -12,7 +12,7 @@ tags:
   - "jquery"
   - "js"
   - "php"
-  - "problem-solving"
+  - "problem solving"
   - "react"
   - "redux"
 ---
