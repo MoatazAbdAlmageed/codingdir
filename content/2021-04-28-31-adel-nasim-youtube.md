@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "back end"
-  - "c#"
+  - "c++"
   - "data-structure"
   - "java"
   - "oop"

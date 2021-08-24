@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "c#"
+  - "c"
   - "cs"
   - "front end"
   - "microsoft"

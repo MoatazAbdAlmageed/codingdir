@@ -5,7 +5,7 @@ categories:
   - "english"
 tags:
   - "algorithms"
-  - "c#"
+  - "c++"
   - "data-structure"
   - "java"
   - "python"

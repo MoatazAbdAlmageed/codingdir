@@ -4,7 +4,6 @@ date: "2021-03-27"
 categories:
   - "عربي"
 tags:
-  - "c#"
   - "cs"
   - "electronic"
   - "embedded"

@@ -1,12 +1,12 @@
 ---
-title: "Soufyane Hamimed"
+title: "Soufyane Hamimed | Array Minds"
 date: "2021-04-30"
 categories:
   - "عربي"
 tags:
   - "algorithms"
+  - "c++"
   - "c#"
-  - "c"
   - "c"
 ---
 

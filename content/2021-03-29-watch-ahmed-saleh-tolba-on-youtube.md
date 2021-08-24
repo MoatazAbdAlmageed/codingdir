@@ -4,7 +4,6 @@ date: "2021-03-29"
 categories:
   - "عربي"
 tags:
-  - "c#"
   - "embedded"
   - "games-development"
 ---
