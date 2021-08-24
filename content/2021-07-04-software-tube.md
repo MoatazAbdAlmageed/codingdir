@@ -11,7 +11,7 @@ tags:
   - "python"
   - "software-architecture"
   - "software-engineering"
-  - "system-analysis"
+  - "system analysis"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

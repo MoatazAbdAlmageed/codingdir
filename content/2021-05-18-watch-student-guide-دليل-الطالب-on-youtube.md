@@ -13,7 +13,7 @@ tags:
   - "mysql"
   - "operating-systems"
   - "database"
-  - "system-analysis"
+  - "system analysis"
 ---
 
 [https://youtube.com/channel/UCgb-b47IPE1BbsiZr-Oip2Q](https://youtube.com/channel/UCgb-b47IPE1BbsiZr-Oip2Q)

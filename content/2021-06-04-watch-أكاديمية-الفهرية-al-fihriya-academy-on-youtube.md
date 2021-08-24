@@ -7,7 +7,7 @@ tags:
   - "algorithms"
   - "cyber-security"
   - "python"
-  - "system-design"
+  - "system design"
 ---
 
 [https://youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA](https://youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)

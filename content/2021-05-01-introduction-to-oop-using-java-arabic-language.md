@@ -6,7 +6,7 @@ categories:
 tags:
   - "database"
   - "java"
-  - "system-analysis"
+  - "system analysis"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AAUvwngltZN-o1D9-PF6CDqs49kVDKJXlJm9j1AKWmN1tw=s176-c-k-c0x00ffffff-no-rj)

@@ -1,12 +1,10 @@
 ---
 title: "System Design Interview"
 date: "2020-11-17"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "software-architecture"
   - "software-engineering"
-  - "system-design"
+  - "system design"
 ---
-
-
