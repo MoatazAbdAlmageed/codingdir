@@ -1,6 +1,6 @@
 import {
   Box,
-  Grid,
+  SimpleGrid,
   Image,
   Input,
   Stack,
@@ -87,7 +87,7 @@ const PostListing = ({ postEdges }) => {
           <Badge colorScheme="red">{posts.length}</Badge> channel(s) found
         </Text>
       </Box>
-      <Grid templateColumns="repeat(5, 1fr)" gap={2}>
+      <SimpleGrid columns={{ lg: 5, sm: 1, md: 3 }} spacing="40px">
         {posts.map((post) => (
           <Box
             textAlign="center"
@@ -119,7 +119,7 @@ const PostListing = ({ postEdges }) => {
             </Link>
           </Box>
         ))}
-      </Grid>
+      </SimpleGrid>
     </Stack>
   );
 };
