@@ -5,6 +5,8 @@ categories:
   - "عربي"
 tags:
   - "system design"
+  - "tips"
+  - "talks"
 ---
 
 [https://youtube.com/c/mmeshref](https://youtube.com/c/mmeshref)

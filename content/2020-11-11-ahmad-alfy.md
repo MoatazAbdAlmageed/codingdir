@@ -6,6 +6,7 @@ categories:
 
 tags:
   - "podcast"
+  - "interviews"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
