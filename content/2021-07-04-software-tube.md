@@ -9,8 +9,8 @@ tags:
   - "programming"
   - "programming-languages"
   - "python"
-  - "software-architecture"
-  - "software-engineering"
+  - "software architecture"
+  - "software engineering"
   - "system analysis"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

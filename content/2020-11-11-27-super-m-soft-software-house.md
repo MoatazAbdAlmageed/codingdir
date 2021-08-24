@@ -6,8 +6,8 @@ categories:
 tags:
   - "algorithms"
   - "blockchain-and-bitcoin"
-  - "software-development"
-  - "software-engineering"
+  - "software development"
+  - "software engineering"
 ---
 
 https://www.youtube.com/channel/UCvL74VwauXZb9RbpjjPApXQ/playlists

@@ -17,6 +17,12 @@ const Header = () => (
           <Link to="/tags/podcast">Podcasts</Link>
         </li>
         <li>
+          <Link to="/tags/talks">Talks</Link>
+        </li>
+        <li>
+          <Link to="/tags/podcast">Podcasts</Link>
+        </li>
+        <li>
           <Link to="/tags">TAGS</Link>
         </li>
         <Categories activeClassName={styles.activeNav} />

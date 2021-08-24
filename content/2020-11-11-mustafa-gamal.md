@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "microservices"
-  - "software-architecture"
+  - "software architecture"
 ---
 
 https://www.youtube.com/user/mustafamg

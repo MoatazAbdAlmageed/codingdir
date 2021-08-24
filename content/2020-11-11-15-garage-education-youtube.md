@@ -11,9 +11,9 @@ tags:
   - "docker"
   - "git"
   - "hadoop"
-  - "software-architecture"
-  - "software-development"
-  - "software-engineering"
+  - "software architecture"
+  - "software development"
+  - "software engineering"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

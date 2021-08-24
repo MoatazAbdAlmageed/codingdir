@@ -4,9 +4,9 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "software-architecture"
-  - "software-development"
-  - "software-engineering"
+  - "software architecture"
+  - "software development"
+  - "software engineering"
   - "tdd"
   - "testing"
 cover: "/YouTube-Icon-Gray-Box.png"

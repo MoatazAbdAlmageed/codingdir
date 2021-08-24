@@ -7,7 +7,7 @@ tags:
   - "cloud"
   - "database"
   - "scrum"
-  - "software-architecture"
-  - "software-development"
-  - "software-engineering"
+  - "software architecture"
+  - "software development"
+  - "software engineering"
 ---

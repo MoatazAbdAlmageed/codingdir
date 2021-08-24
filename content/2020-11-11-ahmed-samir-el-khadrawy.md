@@ -13,9 +13,9 @@ tags:
   - "microservices"
   - "mvc"
   - "sharepoint"
-  - "software-architecture"
-  - "software-development"
-  - "software-engineering"
+  - "software architecture"
+  - "software development"
+  - "software engineering"
   - "database"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

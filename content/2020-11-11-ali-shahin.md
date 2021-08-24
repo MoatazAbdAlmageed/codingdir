@@ -9,7 +9,7 @@ tags:
   - "c#"
   - "data-science"
   - "oop"
-  - "software-engineering"
+  - "software engineering"
   - "tips"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

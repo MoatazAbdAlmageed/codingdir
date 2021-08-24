@@ -14,7 +14,7 @@ tags:
   - "kafka"
   - "python"
   - "security"
-  - "software-architecture"
+  - "software architecture"
   - "database"
 
   - "web-sockets"

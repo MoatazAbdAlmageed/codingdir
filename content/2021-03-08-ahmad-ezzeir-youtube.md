@@ -6,7 +6,7 @@ categories:
 tags:
   - "devops"
   - "git"
-  - "software-development"
+  - "software development"
 ---
 
 > Ahmad Ezzeir

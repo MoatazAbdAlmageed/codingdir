@@ -12,7 +12,7 @@ tags:
   - "js"
   - "ml"
   - "react"
-  - "software-architecture"
+  - "software architecture"
   - "tips"
   - "typescript"
 cover: "/YouTube-Icon-Gray-Box.png"
