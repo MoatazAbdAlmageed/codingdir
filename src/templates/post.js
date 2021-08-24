@@ -25,7 +25,7 @@ export default ({ data, pageContext }) => {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <Center>
-          <Box>
+          <Box width={{ base: "50%", sm: "80%" }}>
             <Heading>{post.title}</Heading>
             <Image
               borderRadius="full"
