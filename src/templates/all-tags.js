@@ -15,7 +15,7 @@ const AllTags = ({ pageContext }) => {
         <Helmet title="Tags" />
         <Heading>Topics</Heading>
         <div className={styles.tagContainer}>
-          <SimpleGrid columns={{ lg: 5, sm: 1, md: 3 }} spacing="40px">
+          <SimpleGrid columns={{ lg: 5, sm: 1, md: 3 }}>
             {tags.sort().map((tag) => {
               return (
                 <Link to={`/tags/${_.kebabCase(tag)}`}>
