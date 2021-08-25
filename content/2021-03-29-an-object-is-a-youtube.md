@@ -4,7 +4,7 @@ date: "2021-03-29"
 categories:
   - "english"
 tags:
-  - "chrome-extension"
+  - "chrome extension"
   - "front end"
   - "js"
   - "react"
