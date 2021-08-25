@@ -4,7 +4,7 @@ date: "2021-07-04"
 categories:
   - "عربي"
 tags:
-  - "os"
+  - "Operating System"
   - "project-management"
 ---
 
@@ -12,4 +12,4 @@ tags:
 
 > https://www.youtube.com/user/haneenhijazi/playlists
 >
-> [Operating Systems Course نظم التشغيل](https://www.youtube.com/user/haneenhijazi/playlists)
+> [Operating System Course نظم التشغيل](https://www.youtube.com/user/haneenhijazi/playlists)

@@ -9,7 +9,7 @@ tags:
   - "encryption"
   - "js"
   - "network"
-  - "network-programming"
+  - "network programming"
   - "python"
   - "react"
   - "react native"

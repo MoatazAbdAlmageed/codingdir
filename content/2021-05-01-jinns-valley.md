@@ -6,7 +6,7 @@ categories:
 tags:
   - "c"
   - "linux"
-  - "os"
+  - "Operating System"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AAUvwnirchvt2VabFqdR87mN5VvyHf835AOO84N8kYp3=s176-c-k-c0x00ffffff-no-rj)

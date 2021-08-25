@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "operating-systems"
-  - "os"
+  - "Operating System"
 ---
 
 [https://youtube.com/channel/UCzYgAyyZTLfnLFjQexOKxbQ](https://youtube.com/channel/UCzYgAyyZTLfnLFjQexOKxbQ)
