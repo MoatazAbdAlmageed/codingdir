@@ -8,7 +8,7 @@ tags:
   - "ai"
   - "angular"
   - "books"
-  - "design-patterns"
+  - "design patterns"
   - "js"
   - "ml"
   - "react"

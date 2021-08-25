@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "android"
-  - "asp-net"
+  - ".net"
   - "c#"
   - "c"
   - "c"

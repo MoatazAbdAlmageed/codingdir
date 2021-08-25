@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "blockchain-and-bitcoin"
+  - "blockchain and bitcoin"
   - "software development"
   - "software engineering"
 ---

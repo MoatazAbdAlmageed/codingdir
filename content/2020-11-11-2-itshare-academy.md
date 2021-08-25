@@ -7,5 +7,5 @@ tags:
   - "angular"
   - "blockchain"
   - "js"
-  - "ruby-of-rails"
+  - "ruby on rails"
 ---

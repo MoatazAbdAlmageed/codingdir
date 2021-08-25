@@ -4,7 +4,7 @@ date: "2021-04-30"
 categories:
   - "عربي"
 tags:
-  - "design-patterns"
+  - "design patterns"
   - "scratch"
   - "solid-principles"
   - "testing"

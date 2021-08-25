@@ -4,7 +4,7 @@ date: "2020-11-17"
 categories:
   - "عربي"
 tags:
-  - "asp-net"
+  - ".net"
   - "bootstrap"
   - "c++"
   - "c"

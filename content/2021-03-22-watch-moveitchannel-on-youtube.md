@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "asp"
-  - "asp-net"
+  - ".net"
   - "atdd"
   - "c#"
   - "clean code"

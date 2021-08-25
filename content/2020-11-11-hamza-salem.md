@@ -9,7 +9,7 @@ tags:
   - "docker"
 
   - "ionic"
-  - "react-native"
+  - "react native"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

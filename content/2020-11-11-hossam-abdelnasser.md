@@ -12,7 +12,7 @@ tags:
   - "network-programming"
   - "python"
   - "react"
-  - "react-native"
+  - "react native"
 ---
 
 https://www.youtube.com/channel/UCsOAJUByh1oULbZJZRlSdDg

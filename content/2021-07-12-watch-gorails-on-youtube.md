@@ -5,7 +5,7 @@ categories:
   - "english"
 
 tags:
-  - "ruby-of-rails"
+  - "ruby on rails"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

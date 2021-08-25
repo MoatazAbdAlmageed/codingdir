@@ -9,7 +9,7 @@ tags:
   - "oracle"
   - "perl"
   - "ruby"
-  - "ruby-of-rails"
+  - "ruby on rails"
   - "database"
   - "wordpress"
   - "zend"

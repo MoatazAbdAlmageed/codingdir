@@ -8,7 +8,7 @@ tags:
   - "bootstrap"
   - "c"
   - "css"
-  - "design-patterns"
+  - "design patterns"
   - "html"
   - "js"
   - "mvc"

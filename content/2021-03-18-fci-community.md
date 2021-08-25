@@ -6,7 +6,7 @@ categories:
 tags:
   - "cyber-security"
   - "flutter"
-  - "mobile-development"
+  - "mobile development"
   - "security"
   - "talk"
 ---

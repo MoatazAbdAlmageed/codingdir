@@ -5,9 +5,17 @@ categories:
   - "english"
 
 tags:
-  - "mobile-development"
-  - "ruby-of-rails"
+  - "mobile development"
+  - "ruby on rails"
   - "web"
+  - "AI"
+  - "python"
+  - "Operating System"
+  - "software development"
+  - "design patterns"
+  - "database"
+  - "ML"
+  - "network programming"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

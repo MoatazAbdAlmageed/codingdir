@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "back end"
-  - "design-patterns"
+  - "design patterns"
   - "docker"
   - "php"
 cover: "/YouTube-Icon-Gray-Box.png"

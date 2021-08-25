@@ -7,7 +7,7 @@ tags:
   - "bootstrap"
   - "css"
   - "html"
-  - "ruby-of-rails"
+  - "ruby on rails"
 ---
 
 [https://youtube.com/channel/UC46RFw00fno4-2WX6dhS-og](https://youtube.com/channel/UC46RFw00fno4-2WX6dhS-og)

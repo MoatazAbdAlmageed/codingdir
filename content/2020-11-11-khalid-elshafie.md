@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "design-patterns"
+  - "design patterns"
   - "git"
   - "java"
   - "laravel"
@@ -13,7 +13,7 @@ tags:
   - "mongodb"
   - "nodejs"
   - "react"
-  - "react-native"
+  - "react native"
   - "serverless"
   - "springboot"
   - "strapi"
