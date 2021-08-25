@@ -10,7 +10,7 @@ tags:
   - "c"
   - "js"
   - "sharepoint"
-  - "sql-server"
+  - "sql"
 ---
 
 https://www.youtube.com/user/Ahmedbohoty/playlists

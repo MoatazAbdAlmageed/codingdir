@@ -15,7 +15,7 @@ tags:
   - "sap"
   - "testing"
   - "ui/ux"
-  - "unit-testing"
+  - "unit testing"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

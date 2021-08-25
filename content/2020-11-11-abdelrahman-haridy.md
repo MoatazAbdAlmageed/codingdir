@@ -6,7 +6,7 @@ categories:
 tags:
   - "angular"
   - "testing"
-  - "unit-testing"
+  - "unit testing"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

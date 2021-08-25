@@ -6,7 +6,7 @@ categories:
 tags:
   - "angular"
   - "rxjs"
-  - "unit-testing"
+  - "unit testing"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

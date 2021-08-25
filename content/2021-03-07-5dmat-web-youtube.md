@@ -18,7 +18,7 @@ tags:
   - "nextjs"
   - "nodejs"
   - "php"
-  - "real-time"
+  - "realtime"
   - "database"
   - "vuejs"
 cover: "/YouTube-Icon-Gray-Box.png"
