@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "data structure"
+  - "data structures"
   - "oop"
   - "python"
 ---

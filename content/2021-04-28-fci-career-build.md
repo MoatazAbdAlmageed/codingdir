@@ -9,7 +9,7 @@ tags:
   - "back end"
   - "c++"
   - "computer science"
-  - "data structure"
+  - "data structures"
   - "java"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

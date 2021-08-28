@@ -6,7 +6,7 @@ categories:
 tags:
   - "computer science"
   - "cs"
-  - "data structure"
+  - "data structures"
 ---
 
 https://www.youtube.com/c/AhmedKamal94/playlists

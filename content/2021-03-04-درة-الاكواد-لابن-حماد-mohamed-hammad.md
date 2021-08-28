@@ -5,10 +5,11 @@ categories:
   - "عربي"
 
 tags:
+  - "AI"
   - ".net"
   - "c#"
   - "cs"
-  - "declarative-programming"
+  - "declarative programming"
 
   - "functional-programming"
   - "microsoft"

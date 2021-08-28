@@ -11,7 +11,7 @@ tags:
   - "blockhain"
   - "c#"
   - "css"
-  - "data structure"
+  - "data structures"
   - "firebase"
   - "front end"
   - "html"

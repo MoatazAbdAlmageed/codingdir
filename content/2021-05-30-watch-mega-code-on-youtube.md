@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "c#"
-  - "data structure"
+  - "data structures"
   - "data structures"
 ---
 

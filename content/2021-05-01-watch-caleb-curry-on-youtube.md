@@ -6,7 +6,7 @@ categories:
 tags:
   - "algorithms"
   - "c++"
-  - "data structure"
+  - "data structures"
   - "java"
   - "python"
 ---
