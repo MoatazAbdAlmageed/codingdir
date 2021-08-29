@@ -8,7 +8,7 @@ tags:
   - "java"
   - "python"
   - "c#"
-  - "c++";
+  - "c++"
   - "c"
   - "html"
   - "css"
@@ -19,4 +19,3 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLTWGzZyJRivQxKbHVJCR2pUfDQqAhK_-l4iWFHbZQ
 ---
 
 https://www.youtube.com/c/BroCodez/playlists
-;;;
