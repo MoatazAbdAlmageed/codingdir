@@ -29,12 +29,13 @@ tags:
   - "nextjs"
   - "nodejs"
   - "php"
-  - "pwd"
   - "python"
   - "react"
   - "redux"
   - "tailind"
   - "websockets"
+  - "sass"
+  - "xd"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
