@@ -13,6 +13,7 @@ tags:
   - "computer science"
   - "cs"
   - "java"
+  - "solid"
 cover: "https://yt3.ggpht.com/ytc/AKedOLRrs4qpXvQlM4HUgSyrKpebvN7IVH8uSDNh6SKemA=s176-c-k-c0x00ffffff-no-rj"
 ---
 
