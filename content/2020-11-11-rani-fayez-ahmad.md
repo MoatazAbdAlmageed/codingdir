@@ -8,12 +8,12 @@ tags:
   - "c++"
   - "linux"
   - "math"
-  - "Groovy"
+  - "groovy"
   - "functional-programming"
-  - "Java"
+  - "java"
   - "php"
   - "mysql"
-  - "Python"
+  - "python"
 ---
 
 https://www.youtube.com/c/ranixlb/playlists
