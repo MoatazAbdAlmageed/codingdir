@@ -10,7 +10,7 @@ tags:
   - "vuejs"
   - "deno"
   - "git"
-  - "OOP"
+  - "oop"
   - "webpack"
   - "js"
 
