@@ -12,7 +12,7 @@ const SubmitChannel = () => (
         <Stack spacing={6} w={"full"} maxW={"lg"}>
           <Helmet title={`Submit Channel | ${config.siteTitle}`} />
           <div>
-            <Heading>Submit Channe</Heading>
+            <Heading>Submit Channel</Heading>
             <Text>
               If you need to submit your channel or another useful one please
               submit a pull request to project repo{" "}
