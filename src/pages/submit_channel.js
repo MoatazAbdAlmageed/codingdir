@@ -22,7 +22,7 @@ const SubmitChannel = () => (
           awesome tutorial here First check this tutorial here
           https://www.youtube.com/watch?v=G1I3HF4YWEw
         </li>
-        <li>duplicate .\content\template.md file with channel name</li>
+        <li>duplicate `.\content\template.md` file with channel name</li>
         <li>Update file with channel name , tags , link , ...</li>
         <li>Send a pull request</li>
       </ul>

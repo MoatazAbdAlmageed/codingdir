@@ -1,5 +1,5 @@
 ---
-title: "Jamie Barton"
+title: "Colin Rubbert"
 date: "2020-08-16"
 categories:
   - "english"
@@ -8,7 +8,7 @@ tags:
   - "nuxtjs"
   - "gatsby"
   - "nodejs"
-cover: "https://yt3.ggpht.com/ytc/AKedOLRqNyy2HI9vLhxFkk4Z2kEJHAkZO-Cn8eNBkydukQ=s176-c-k-c0x00ffffff-no-rj"
+cover: "https://yt3.ggpht.com/ytc/AKedOLT6bzgQ1JbhjLCq5vn2b7lQG8qD-lDF_mK1y030KAU=s88-c-k-c0x00ffffff-no-rj"
 ---
 
-https://www.youtube.com/c/JamieBartonCodes/playlists
+https://www.youtube.com/channel/UCzN9GrqP3be0aAWEhTfd_kw/videos

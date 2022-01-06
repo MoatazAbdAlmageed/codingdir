@@ -1,29 +1,27 @@
-import React from "react";
-import config from "../../data/SiteConfig";
-
 import {
-  Box,
-  Flex,
-  Text,
-  IconButton,
-  Button,
-  Stack,
-  Collapse,
-  Icon,
-  Link,
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  useColorModeValue,
-  useBreakpointValue,
-  useDisclosure,
-} from "@chakra-ui/react";
-import {
-  HamburgerIcon,
-  CloseIcon,
   ChevronDownIcon,
   ChevronRightIcon,
+  CloseIcon,
+  HamburgerIcon,
 } from "@chakra-ui/icons";
+import {
+  Box,
+  Collapse,
+  Flex,
+  Icon,
+  IconButton,
+  Link,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+  Stack,
+  Text,
+  useBreakpointValue,
+  useColorModeValue,
+  useDisclosure,
+} from "@chakra-ui/react";
+import React from "react";
+import config from "../../data/SiteConfig";
 
 export default function Nav() {
   const { isOpen, onToggle } = useDisclosure();
@@ -251,5 +249,9 @@ const NAV_ITEMS = [
   {
     label: "Topics",
     href: "/tags",
+  },
+  {
+    label: "Submit Channel",
+    href: "/submit-channel",
   },
 ];
