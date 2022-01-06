@@ -1,5 +1,5 @@
 ---
-title: "Hadith Tech"
+title: "Programmer Mind"
 date: "2022-01-06"
 categories:
   - "english"

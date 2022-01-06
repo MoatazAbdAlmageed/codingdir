@@ -1,5 +1,5 @@
 ---
-title: "Hadith Tech"
+title: "عقلية مبرمج"
 date: "2022-01-06"
 categories:
   - "Arabic"
