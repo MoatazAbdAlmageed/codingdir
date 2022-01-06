@@ -77,6 +77,9 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   const tagSet = new Set();
+  console.log("\n".repeat(5));
+  console.log("************ tagSet **************");
+  console.log(tagSet);
   const categorySet = new Set();
 
   const postsEdges = markdownQueryResult.data.allMarkdownRemark.edges;
@@ -128,6 +131,9 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
+  console.log("\n".repeat(5));
+  console.log("************ [...tagSet] **************");
+  console.log([...tagSet]);
   createPage({
     path: `/tags`,
     component: allTagsTemplate,
