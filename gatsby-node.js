@@ -135,9 +135,6 @@ exports.createPages = async ({ graphql, actions }) => {
   createPage({
     path: `/submit-channel`,
     component: SubmitChannel,
-    context: {
-      tags: [...tagSet],
-    },
   });
 
   // Generate link foreach tag page
