@@ -131,6 +131,9 @@ exports.createPages = async ({ graphql, actions }) => {
   createPage({
     path: `/tags`,
     component: allTagsTemplate,
+    context: {
+      tags: [...tagSet],
+    },
   });
   createPage({
     path: `/submit-channel`,

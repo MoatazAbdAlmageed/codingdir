@@ -1,10 +1,10 @@
+import { Heading, SimpleGrid } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import styles from "../components/PostTags.module.scss";
 import Layout from "../layout";
 const _ = require("lodash");
-import { SimpleGrid, Heading } from "@chakra-ui/react";
 
 const AllTags = ({ pageContext }) => {
   const { tags } = pageContext;
