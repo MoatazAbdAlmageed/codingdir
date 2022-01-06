@@ -1,17 +1,16 @@
+import { SearchIcon } from "@chakra-ui/icons";
 import {
+  Badge,
   Box,
-  SimpleGrid,
+  Center,
   Image,
   Input,
-  Stack,
-  Text,
-  Badge,
-  Center,
   InputGroup,
   InputLeftElement,
+  SimpleGrid,
+  Stack,
+  Text,
 } from "@chakra-ui/react";
-
-import { SearchIcon } from "@chakra-ui/icons";
 import { Link } from "gatsby";
 import React from "react";
 import uuid from "react-uuid";
@@ -66,7 +65,10 @@ const PostListing = ({ postEdges }) => {
   };
   const { filteredData, query } = state;
   const hasSearchResults = filteredData && query;
-  const posts = hasSearchResults ? filteredData : postList;
+  const rowPosts = hasSearchResults ? filteredData : postList;
+  const posts = [...new Set(rowPosts)].sort((a, b) =>
+    a.tags?.length > b.tags?.length ? -1 : 1
+  );
 
   return (
     <Stack>
