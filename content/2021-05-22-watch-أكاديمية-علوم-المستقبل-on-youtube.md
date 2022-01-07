@@ -6,7 +6,7 @@ categories:
 tags:
   - "database"
   - "database"
-  - "mobile development"
+  - "mobile "
   - "web"
 ---
 

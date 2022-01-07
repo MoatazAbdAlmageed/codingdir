@@ -6,8 +6,10 @@ categories:
 tags:
   - "cs"
   - "js"
-  - "js"
   - "nodejs"
+  - "web"
+
+cover: "https://yt3.ggpht.com/ytc/AKedOLSHApUh4avWcT85358kRkrJB7_mvt5kHH7A-N1-=s48-c-k-c0x00ffffff-no-rj"
 ---
 
-[https://youtube.com/channel/UCaD5hX1OzVezzbIqHm3VHsQ](https://youtube.com/channel/UCaD5hX1OzVezzbIqHm3VHsQ)
+https://youtube.com/channel/UCaD5hX1OzVezzbIqHm3VHsQ

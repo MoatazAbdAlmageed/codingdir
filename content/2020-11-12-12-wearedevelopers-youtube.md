@@ -7,7 +7,7 @@ tags:
   - "cms"
   - "devops"
   - "font-end"
-  - "mobile development"
+  - "mobile "
   - "talks"
   - "testing"
 ---

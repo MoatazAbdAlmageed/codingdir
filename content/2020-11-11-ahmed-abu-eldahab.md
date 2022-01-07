@@ -7,7 +7,7 @@ tags:
   - "back end"
   - "dart"
   - "flutter"
-  - "mobile development"
+  - "mobile "
   - "mysql"
   - "php"
 ---

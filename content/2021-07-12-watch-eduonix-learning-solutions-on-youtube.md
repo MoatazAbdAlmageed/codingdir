@@ -5,7 +5,7 @@ categories:
   - "english"
 
 tags:
-  - "mobile development"
+  - "mobile "
   - "ruby on rails"
   - "web"
   - "AI"

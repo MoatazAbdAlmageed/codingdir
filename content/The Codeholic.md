@@ -1,5 +1,5 @@
 ---
-title: "Osama Al-Atraqchi"
+title: "The Codeholic"
 date: "2020-11-11"
 categories:
   - "english"
@@ -13,6 +13,7 @@ tags:
   - "oop"
   - "webpack"
   - "js"
+  - "web"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLSaQFgUzVlatJkpyAzXZU1Vvy_26MUyYYXg9O3qkg=s176-c-k-c0x00ffffff-no-rj"
 ---

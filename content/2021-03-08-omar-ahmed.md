@@ -7,7 +7,7 @@ categories:
 tags:
   - "back end"
   - "flutter"
-  - "mobile development"
+  - "mobile "
   - "books"
   - "computer programming"
   - "computer science"
