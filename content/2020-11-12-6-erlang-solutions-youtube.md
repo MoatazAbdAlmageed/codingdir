@@ -1,5 +1,5 @@
 ---
-title: "(6) Erlang Solutions "
+title: "Erlang Solutions "
 date: "2020-11-12"
 categories:
   - "english"

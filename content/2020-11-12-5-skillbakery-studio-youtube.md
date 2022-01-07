@@ -1,5 +1,5 @@
 ---
-title: "(5) SkillBakery Studio "
+title: "SkillBakery Studio "
 date: "2020-11-12"
 categories:
   - "english"

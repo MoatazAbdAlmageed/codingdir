@@ -1,5 +1,5 @@
 ---
-title: "(3) Emam Academy - أكاديمية إمام "
+title: "Emam Academy - أكاديمية إمام "
 date: "2021-03-07"
 categories:
   - "عربي"
@@ -11,6 +11,6 @@ tags:
 
 > Emam
 >
-> [(3) Emam Academy - أكاديمية إمام ](https://www.youtube.com/channel/UCCsfHSAt1tbcYQ_QWK6UIhg/playlists)
+> [ Emam Academy - أكاديمية إمام ](https://www.youtube.com/channel/UCCsfHSAt1tbcYQ_QWK6UIhg/playlists)
 
 https://www.youtube.com/channel/UCCsfHSAt1tbcYQ_QWK6UIhg/playlists

@@ -1,5 +1,5 @@
 ---
-title: "(1) iTech Empires "
+title: "iTech Empires "
 date: "2020-11-12"
 categories:
   - "english"

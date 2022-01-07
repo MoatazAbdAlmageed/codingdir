@@ -8,4 +8,4 @@ cover: "/YouTube-Icon-Gray-Box.png"
 
 > Women in tech Egypt
 >
-> [(10) Women in tech Egypt ](https://www.youtube.com/channel/UCp9pN3K95UdoFv7zmf-GVlw/featured)
+> [ Women in tech Egypt ](https://www.youtube.com/channel/UCp9pN3K95UdoFv7zmf-GVlw/featured)

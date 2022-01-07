@@ -1,5 +1,5 @@
 ---
-title: "(11) Mohamed Abdulaal - Embinux "
+title: "Mohamed Abdulaal - Embinux "
 date: "2021-05-25"
 categories:
   - "عربي"

@@ -1,5 +1,5 @@
 ---
-title: "(3) Gerard Gold "
+title: "Gerard Gold "
 date: "2020-11-12"
 categories:
   - "english"

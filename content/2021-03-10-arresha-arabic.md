@@ -11,6 +11,6 @@ cover: "/YouTube-Icon-Gray-Box.png"
 
 > Arresha Arabic
 >
-> [(3) Arresha Arabic ](https://www.youtube.com/c/ArreshaStudios)
+> [ Arresha Arabic ](https://www.youtube.com/c/ArreshaStudios)
 
 https://www.youtube.com/c/ArreshaStudios

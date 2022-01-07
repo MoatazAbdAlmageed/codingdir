@@ -1,5 +1,5 @@
 ---
-title: "(1) Coding "
+title: "Coding "
 date: "2020-11-12"
 categories:
   - "english"

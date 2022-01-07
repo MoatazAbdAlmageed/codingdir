@@ -67,7 +67,8 @@ const PostListing = ({ postEdges }) => {
   const hasSearchResults = filteredData && query;
   const rowPosts = hasSearchResults ? filteredData : postList;
   const posts = [...new Set(rowPosts)].sort((a, b) =>
-    a.tags?.length > b.tags?.length ? -1 : 1
+    // a.tags?.length > b.tags?.length ? -1 : 1
+    a.title > b.title ? -1 : 1
   );
 
   return (
