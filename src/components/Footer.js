@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./Footer.module.scss";
 import config from "../../data/SiteConfig";
+import styles from "./Footer.module.scss";
 
 const Footer = () => (
   <footer>
@@ -24,13 +24,12 @@ const Footer = () => (
           RSS
         </a>
       </div>
-      <div className={styles.copyright}>{config.copyright}</div>
-    </div>
-
-    <div className={styles.container}>
-      <a target="_blank" href="https://www.gatsbyjs.com/">
-        Built with love using Gatsbyjs
-      </a>
+      <div>
+        {" "}
+        <a target="_blank" href="https://www.gatsbyjs.com/">
+          Built with love using Gatsbyjs
+        </a>
+      </div>
     </div>
   </footer>
 );
