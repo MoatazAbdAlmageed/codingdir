@@ -1,5 +1,5 @@
 ---
-title: "(30) Next Trend "
+title: "Next Trend "
 date: "2021-04-28"
 categories:
   - "عربي"
@@ -10,4 +10,4 @@ tags:
 
 > https://www.youtube.com/c/NextTrend/playlists
 >
-> [(30) Next Trend ](https://www.youtube.com/c/NextTrend/playlists)
+> [Next Trend ](https://www.youtube.com/c/NextTrend/playlists)

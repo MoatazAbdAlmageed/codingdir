@@ -1,5 +1,5 @@
 ---
-title: "(28) NG-Poland "
+title: "NG-Poland "
 date: "2020-11-12"
 categories:
   - "english"

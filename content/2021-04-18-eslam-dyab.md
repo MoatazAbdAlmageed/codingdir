@@ -10,4 +10,4 @@ tags:
 
 > https://www.youtube.com/channel/UCrRm7NBADmf_PBhA8HhyaTw/playlists
 >
-> [(30) Eslam Dyab ](https://www.youtube.com/channel/UCrRm7NBADmf_PBhA8HhyaTw/playlists)
+> [Eslam Dyab ](https://www.youtube.com/channel/UCrRm7NBADmf_PBhA8HhyaTw/playlists)

@@ -1,5 +1,5 @@
 ---
-title: "(28) JSNation "
+title: "JSNation "
 date: "2020-11-12"
 categories:
   - "english"

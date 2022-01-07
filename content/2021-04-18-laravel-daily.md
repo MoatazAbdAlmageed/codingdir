@@ -9,4 +9,4 @@ tags:
 
 > https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA
 >
-> [(30) Laravel Daily ](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
+> [Laravel Daily ](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
