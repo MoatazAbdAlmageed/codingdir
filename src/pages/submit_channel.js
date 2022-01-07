@@ -12,29 +12,35 @@ const SubmitChannel = () => (
         <Stack spacing={6} w={"full"} maxW={"lg"}>
           <Helmet title={`Submit Channel | ${config.siteTitle}`} />
           <div>
-            <Heading>Submit Channel</Heading>
+            <Heading>Submit Channel?</Heading>
             <Text>
               If you need to submit your channel or another useful one please
               submit a pull request to project repo{" "}
-              <a
-                target="_blank"
-                href="https://github.com/MoatazAbdAlmageed/YouTube-Channels"
-              >
-                here
-              </a>
+              <i>
+                {" "}
+                <a
+                  target="_blank"
+                  href="https://github.com/MoatazAbdAlmageed/YouTube-Channels"
+                >
+                  here
+                </a>
+              </i>
             </Text>
             <Heading as="h2">Steps</Heading>
             <Text>
               <ol>
                 <li>
                   Fork the repo If you don't know how to contribute kindly check
-                  this awesome tutorial here First check this tutorial{" "}
-                  <a
-                    target="_blank"
-                    href="https://www.youtube.com/watch?v=G1I3HF4YWEw"
-                  >
-                    here
-                  </a>
+                  this awesome tutorial
+                  <i>
+                    {" "}
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/watch?v=G1I3HF4YWEw"
+                    >
+                      here
+                    </a>
+                  </i>
                 </li>
                 <li>
                   duplicate `.\content\template.md` file with channel name
