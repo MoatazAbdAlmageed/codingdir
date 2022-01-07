@@ -251,7 +251,7 @@ const NAV_ITEMS = [
     href: "/tags",
   },
   {
-    label: "Submit Channel",
+    label: "Contribute?",
     href: "/submit-channel",
   },
 ];
