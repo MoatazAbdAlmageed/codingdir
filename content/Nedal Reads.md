@@ -1,5 +1,5 @@
 ---
-title: "Nedal Reads "
+title: "Nedal Reads"
 date: "2022-01-07"
 categories:
   - "arabic"
