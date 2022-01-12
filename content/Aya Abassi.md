@@ -9,7 +9,12 @@ tags:
   - "reading"
 
 cover: "https://yt3.ggpht.com/oUhuIqAH70cmxNpSpU0L262Q4WjF3vznBxcCMGgiPhf-wNfS85b1HJcZq2aUi1J7gLWOBt_h=s88-c-k-c0x00ffffff-no-rj"
-youtube: "https://www.youtube.com/user/itsahumanthing1/videos"
+youtube: "https://www.youtube.com/user/itsahumanthing1/featured"
 ---
 
-https://www.youtube.com/user/itsahumanthing1/videos
+سلام انا آية، على اليوتيوب من ٢٠١١، بدأت رحلتي بمشاركة فيديوهات بناقش فيها مواضيع اجتماعية، اللي بالمناسبة ما راح تلاقوها على قناتي لسبب اني كنت صغيرة ومش ناضجة كفاية، لأحس بالفخر اني احافظ على الفيديوهات تكون عامة، لاحقا بدات بمشاركة كل ما تعلمته من لغات ومهارات مثل فيديوهات تعلم الهندية مع آية، ثم بخلق مجتمع للقراء بمشاركة قراءاتي
+والان اشارك تجربتي كفتاة تعيش في الريف وتحاول ان تقود
+نمط حياة بسيط وصديق للبيئة, ولا يخلو الأمر من عدد كبير من الفيديوهات التي اشارك فيها ما اتعلم واخوض من تجارب في هذه الحياة .
+شاركوني الرحلة بالاشتراك والضغط على زر الجرس..
+
+https://www.youtube.com/user/itsahumanthing1/featured
