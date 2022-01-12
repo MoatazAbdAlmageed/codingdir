@@ -1,4 +1,4 @@
-import { Box, Heading, Image, Center } from "@chakra-ui/react";
+import { Box, Center, Heading, Image } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
@@ -33,10 +33,17 @@ export default ({ data, pageContext }) => {
               src={post.cover}
               fallbackSrc="/YouTube-Icon-Gray-Box.png"
             />
+
+            {post.youtube && (
+              <Link to={post.youtube} activeClassName={styles.activeNav}>
+                go to {post.title} channel
+              </Link>
+            )}
             <div>
               <PostTags tags={[...new Set(post.tags)]} />
               <PostCategories categories={post.categories} />
             </div>
+            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
 
             <hr />
