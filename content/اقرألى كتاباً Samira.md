@@ -10,5 +10,3 @@ tags:
 
 youtube: "https://www.youtube.com/channel/UC07Zh1gD7Yw2HTtj18LR8nA/featured"
 ---
-
-https://www.youtube.com/channel/UC07Zh1gD7Yw2HTtj18LR8nA/featured
