@@ -3,11 +3,15 @@ title: "غريب الشيخ || Ghareeb Elshaikh"
 date: "2021-06-01"
 categories:
   - "عربي"
+cover: "https://yt3.ggpht.com/y5pUokPt6yjKevAU8NmV5u_HrHWFQBwbZi5A5-AOzFHMjvdHf8UqfB_1TNRfYpWe5NjYXVoi=s88-c-k-c0x00ffffff-no-rj"
+
 tags:
   - "freelance"
   - "freelancing"
   - "git"
   - "productivity"
+  - "talks"
+  - "podcast"
 ---
 
 ![](https://yt3.ggpht.com/gx_guGnIHVIQeCC4Dg1vSADWi_gAFMs1eyp3UVGbWWsneYsOrhCLBoBSfUPpKiI4tlYG8QR_ZQ=s176-c-k-c0x00ffffff-no-rj)
