@@ -34,18 +34,20 @@ export default ({ data, pageContext }) => {
               fallbackSrc="/YouTube-Icon-Gray-Box.png"
             />
 
-            {post.youtube && (
-              <Link to={post.youtube} activeClassName={styles.activeNav}>
-                go to {post.title} channel
-              </Link>
-            )}
             <div>
               <PostTags tags={[...new Set(post.tags)]} />
               <PostCategories categories={post.categories} />
             </div>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-
+            {post.youtube && (
+              <Link
+                target="_blank"
+                to={post.youtube}
+                activeClassName={styles.activeNav}
+              >
+                {post.youtube}
+              </Link>
+            )}
             <hr />
             {/* <Bio config={config} /> */}
             <div>
@@ -85,6 +87,7 @@ export const pageQuery = graphql`
         date
         categories
         tags
+        youtube
       }
       fields {
         slug
