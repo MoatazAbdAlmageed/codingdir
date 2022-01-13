@@ -2,7 +2,6 @@
 title: "من الآخر-Menalaa5r"
 date: "2022-01-07"
 categories:
-categories:
   - "arabic"
 tags:
   - "productivity"
