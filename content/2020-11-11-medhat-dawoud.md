@@ -1,10 +1,13 @@
 ---
-title: "Medhat Dawoud | SemiColon Academy"
+title: "SemiColon Academy | Medhat Dawoud"
 date: "2020-11-11"
 categories:
   - "عربي"
 
 tags:
+  - "popular"
+  - "html"
+  - "web"
   - "css"
   - "es6"
   - "front end"
@@ -16,7 +19,8 @@ tags:
   - "testing"
   - "ui/ux"
   - "unit testing"
-cover: "/YouTube-Icon-Gray-Box.png"
+  - "talks"
+  - "podcast"
+cover: "https://yt3.ggpht.com/ytc/AKedOLRKNj1yJG5-kYHV5_Ts4lxFv4ES250Sw1v0uGzd=s88-c-k-c0x00ffffff-no-rj"
+youtube: "https://www.youtube.com/channel/UCuwTHYdMavwEPsZ6OAkXfig"
 ---
-
-https://www.youtube.com/channel/UCuwTHYdMavwEPsZ6OAkXfig
