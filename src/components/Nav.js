@@ -247,6 +247,10 @@ const NAV_ITEMS = [
     href: "/tags/podcast",
   },
   {
+    label: "popular",
+    href: "/tags/popular",
+  },
+  {
     label: "Topics",
     href: "/tags",
   },
