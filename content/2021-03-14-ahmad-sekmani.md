@@ -6,7 +6,6 @@ categories:
 tags:
   - "adobe"
   - "figma"
-  - "freelance"
   - "freelancing"
   - "graphics"
   - "photoshop"

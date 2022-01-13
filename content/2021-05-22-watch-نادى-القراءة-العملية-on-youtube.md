@@ -5,7 +5,6 @@ categories:
   - "عربي"
 tags:
   - "english"
-  - "freelance"
   - "freelancing"
   - "graphics"
   - "productivity"

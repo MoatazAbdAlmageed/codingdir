@@ -4,7 +4,6 @@ date: "2021-03-14"
 categories:
   - "عربي"
 tags:
-  - "freelance"
   - "freelancing"
   - "graphics"
   - "ui/ux"
