@@ -38,7 +38,7 @@ export default ({ data, pageContext }) => {
               <PostTags tags={[...new Set(post.tags)]} />
               <PostCategories categories={post.categories} />
             </div>
-            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+
             {post.youtube && (
               <b>
                 <Link
@@ -51,6 +51,9 @@ export default ({ data, pageContext }) => {
                 </Link>
               </b>
             )}
+
+            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+
             <hr />
             {/* <Bio config={config} /> */}
             <div>
