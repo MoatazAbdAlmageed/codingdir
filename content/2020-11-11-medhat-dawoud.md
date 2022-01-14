@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "popular"
+  - "pin"
   - "html"
   - "web"
   - "css"

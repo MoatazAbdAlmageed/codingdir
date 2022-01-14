@@ -1,6 +1,7 @@
 ---
 title: "Hussein Nasser"
 date: "2021-04-04"
+youtube: "https://www.youtube.com/c/HusseinNasser-software-engineering/videos"
 categories:
   - "english"
 
@@ -16,11 +17,7 @@ tags:
   - "security"
   - "software architecture"
   - "database"
-
   - "web sockets"
-cover: "/YouTube-Icon-Gray-Box.png"
+  - "pin"
+cover: "https://yt3.ggpht.com/ytc/AKedOLQBFiy-urLmvQpjRxsZNutt53btgsu-JMTpMdojQQ=s88-c-k-c0x00ffffff-no-rj"
 ---
-
-> https://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/playlists
->
-> [Hussein Nasser ](https://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/playlists)

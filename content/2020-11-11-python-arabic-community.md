@@ -12,5 +12,5 @@ tags:
   - "podcast"
   - "cs"
   - "ai"
-  - "popular"
+  - "pin"
 ---

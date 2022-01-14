@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "popular"
+  - "pin"
   - "back end"
   - "bootstrap"
   - "css"

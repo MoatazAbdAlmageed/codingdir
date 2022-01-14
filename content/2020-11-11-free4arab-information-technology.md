@@ -17,6 +17,6 @@ tags:
   - "python"
   - "red-hat"
   - "database"
-  - "popular"
+  - "pin"
 cover: "https://yt3.ggpht.com/ytc/AKedOLSvBjPFASubo51und9eDxMTNgAihqN5H3PU6_7_=s88-c-k-c0x00ffffff-no-rj"
 ---

@@ -15,7 +15,7 @@ tags:
   - "software development"
   - "talks"
   - "testing"
-  - "popular"
+  - "pin"
 ---
 
 http://www.askdeveloper.com/

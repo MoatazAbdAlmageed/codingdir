@@ -247,8 +247,8 @@ const NAV_ITEMS = [
     href: "/tags/podcast",
   },
   {
-    label: "Popular",
-    href: "/tags/popular",
+    label: "Pin",
+    href: "/tags/pin",
   },
   {
     label: "Topics",
