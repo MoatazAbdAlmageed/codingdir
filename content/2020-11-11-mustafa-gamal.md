@@ -11,3 +11,5 @@ tags:
   - "software architecture"
   - "pin"
 ---
+
+Also please check https://www.youtube.com/user/MoveITChannel/featured
