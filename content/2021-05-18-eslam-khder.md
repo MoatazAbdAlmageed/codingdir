@@ -12,8 +12,7 @@ tags:
   - "swagger"
   - "devops"
   - "docker"
-  - "microservices"
-  - "microservices"
+  - "microservice"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AAUvwnhLYMkf7gWs70rWraSlygOr6PAyVI0oqCZtVrgZ=s176-c-k-c0x00ffffff-no-rj)

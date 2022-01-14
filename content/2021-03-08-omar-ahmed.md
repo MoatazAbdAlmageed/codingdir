@@ -14,9 +14,7 @@ tags:
   - "cs"
   - "java"
   - "solid"
+  - "pin"
 cover: "https://yt3.ggpht.com/ytc/AKedOLRrs4qpXvQlM4HUgSyrKpebvN7IVH8uSDNh6SKemA=s176-c-k-c0x00ffffff-no-rj"
+youtube: "https://www.youtube.com/c/OmarAhmedx14/videos"
 ---
-
-> https://www.youtube.com/channel/UCYiZceCCbaRLP27U5RXRHog
->
-> [ Omar Ahmed ](https://www.youtube.com/channel/UCYiZceCCbaRLP27U5RXRHog)

@@ -6,7 +6,7 @@ categories:
 tags:
   - "back end"
   - "laravel"
-  - "microservices"
+  - "microservice"
   - "php"
 ---
 

@@ -10,7 +10,7 @@ tags:
   - "azure"
   - "back end"
   - "database"
-  - "microservices"
+  - "microservice"
   - "mvc"
   - "sharepoint"
   - "software architecture"
