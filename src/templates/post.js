@@ -26,7 +26,7 @@ export default ({ data, pageContext }) => {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <Center>
           <Box width={{ base: "50%", sm: "80%" }}>
-            <Heading>{post.title}</Heading>
+            <Heading style={{ color: "#C62828" }}>{post.title}</Heading>
             <Image
               borderRadius="full"
               boxSize="150px"
@@ -40,13 +40,16 @@ export default ({ data, pageContext }) => {
             </div>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             {post.youtube && (
-              <Link
-                target="_blank"
-                to={post.youtube}
-                activeClassName={styles.activeNav}
-              >
-                {post.youtube}
-              </Link>
+              <b>
+                <Link
+                  style={{ color: "#C62828" }}
+                  target="_blank"
+                  to={post.youtube}
+                  activeClassName={styles.activeNav}
+                >
+                  {post.youtube}
+                </Link>
+              </b>
             )}
             <hr />
             {/* <Bio config={config} /> */}
