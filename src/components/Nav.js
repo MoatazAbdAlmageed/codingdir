@@ -409,6 +409,10 @@ const NAV_ITEMS = [
     label: "Podcasts",
     href: "/tags/podcast",
   },
+  {
+    label: "Islamic",
+    href: "/tags/islamic",
+  },
 
   {
     label: "Topics",

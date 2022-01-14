@@ -9,6 +9,8 @@ tags:
   - "react"
   - "vuejs"
   - "pin"
+  - "talks"
+  - "meetup"
 cover: "https://yt3.ggpht.com/ytc/AKedOLRobjmTzYtryM_uzcvl2arbfRdp0eBMksdl8BEv=s88-c-k-c0x00ffffff-no-rj"
 youtube: "https://www.youtube.com/c/EgyptJS/videos"
 ---
