@@ -312,6 +312,14 @@ const NAV_ITEMS = [
         label: "GOLANG",
         href: "/tags/golang",
       },
+      {
+        label: "java",
+        href: "/tags/java",
+      },
+      {
+        label: "Ruby",
+        href: "/tags/ruby",
+      },
     ],
   },
   {
