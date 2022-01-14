@@ -10,7 +10,6 @@ import {
   Flex,
   Icon,
   IconButton,
-  Link,
   Popover,
   PopoverContent,
   PopoverTrigger,
@@ -20,6 +19,8 @@ import {
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react";
+import { Link } from "gatsby";
+import { upperCase } from "lodash";
 import React from "react";
 import config from "../../data/SiteConfig";
 
@@ -105,7 +106,8 @@ const DesktopNav = () => {
                 {navItem.label}
               </Link>
             </PopoverTrigger>
-
+            {/* // TODO:todo */}
+            {/* <img src={navItem.img} width="100px" /> */}
             {navItem.children && (
               <PopoverContent
                 border={0}
@@ -146,7 +148,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
             _groupHover={{ color: "pink.400" }}
             fontWeight={500}
           >
-            {label}
+            {upperCase(label)}
           </Text>
           <Text fontSize={"sm"}>{subLabel}</Text>
         </Box>
@@ -237,15 +239,140 @@ const NAV_ITEMS = [
   {
     label: "Pin",
     href: "/tags/pin",
+    img:
+      "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
+  },
+  // {
+  //   label: "Lang",
+  //   href: "#",
+  //   children: [
+  //     { label: "Arabic", href: "/عربي" },
+  //     {
+  //       label: "English",
+  //       href: "/english",
+  //     },
+  //   ],
+  // },
+  {
+    label: "Front-end",
+    href: "#",
+    children: [
+      {
+        label: "HTML",
+        subLabel: "HTML description here",
+        href: "/tags/html",
+      },
+      {
+        label: "CSS",
+        href: "/tags/css",
+      },
+      {
+        label: "JS",
+        href: "/tags/js",
+      },
+      {
+        label: "react",
+        href: "/tags/react",
+      },
+      {
+        label: "angular",
+        href: "/tags/angular",
+      },
+      {
+        label: "vuejs",
+        href: "/tags/vuejs",
+      },
+    ],
   },
   {
-    label: "Arabic",
-    href: "/عربي",
+    label: "Back-end",
+    href: "#",
+    children: [
+      {
+        label: "nodejs",
+        href: "/tags/nodejs",
+      },
+      {
+        label: "php",
+        href: "/tags/php",
+      },
+      {
+        label: "c#",
+        href: "/tags/c#",
+      },
+      {
+        label: "python",
+        href: "/tags/python",
+      },
+      {
+        label: "GOLANG",
+        href: "/tags/golang",
+      },
+    ],
   },
   {
-    label: "English",
-    href: "/english",
+    label: "Database",
+    href: "#",
+    children: [
+      {
+        label: "sql",
+        href: "/tags/sql",
+      },
+      {
+        label: "mysql",
+        href: "/tags/mysql",
+      },
+      {
+        label: "mongodb",
+        href: "/tags/mongodb",
+      },
+      {
+        label: "sqlite",
+        href: "/tags/sqlite",
+      },
+      {
+        label: "firebase",
+        href: "/tags/firebase",
+      },
+      {
+        label: "oracel",
+        href: "/tags/oracel",
+      },
+    ],
   },
+  {
+    label: "Mobile",
+    href: "#",
+    children: [
+      {
+        label: "android",
+        href: "/tags/android",
+      },
+      {
+        label: "flutter",
+        href: "/tags/flutter",
+      },
+    ],
+  },
+  {
+    label: "Devops",
+    href: "#",
+    children: [
+      {
+        label: "linux",
+        href: "/tags/linux",
+      },
+      {
+        label: "docker",
+        href: "/tags/docker",
+      },
+      {
+        label: "Kubernetes",
+        href: "/tags/kubernetes",
+      },
+    ],
+  },
+
   {
     label: "Podcasts",
     href: "/tags/podcast",

@@ -14,6 +14,7 @@ import {
 import { Link } from "gatsby";
 import React from "react";
 import uuid from "react-uuid";
+import PostCategories from "../components/PostCategories";
 
 const PostListing = ({ postEdges }) => {
   const getPostList = () => {
@@ -118,6 +119,7 @@ const PostListing = ({ postEdges }) => {
                   width="150px"
                 />
               </Center>
+              <PostCategories categories={post.categories} />
             </Link>
           </Box>
         ))}
