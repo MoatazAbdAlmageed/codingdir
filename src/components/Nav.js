@@ -103,7 +103,11 @@ const DesktopNav = () => {
                   color: linkHoverColor,
                 }}
               >
-                {navItem.label}
+                {navItem.label == "Contribute?" ? (
+                  <b style={{ color: "#C62828" }}>{navItem.label}</b>
+                ) : (
+                  navItem.label
+                )}
               </Link>
             </PopoverTrigger>
             {/* // TODO:todo */}
@@ -351,6 +355,18 @@ const NAV_ITEMS = [
       {
         label: "flutter",
         href: "/tags/flutter",
+      },
+      {
+        label: "Kotlin",
+        href: "/tags/kotlin",
+      },
+      {
+        label: "Swift",
+        href: "/tags/swift",
+      },
+      {
+        label: "react-native",
+        href: "/tags/react-native",
       },
     ],
   },
