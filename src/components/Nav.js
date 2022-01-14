@@ -100,7 +100,24 @@ const DesktopNav = () => {
                   as={navItem.children && Button}
                   rightIcon={navItem.children && <ChevronDownIcon />}
                 >
-                  <MenuItem>{navItem.label}</MenuItem>
+                  {navItem.label == "Contribute?" ? (
+                    <MenuButton
+                      backgroundColor="#c62828"
+                      color="white"
+                      px={4}
+                      py={2}
+                      transition="all 0.2s"
+                      borderRadius="md"
+                      borderWidth="1px"
+                      _hover={{ bg: "gray.400" }}
+                      _expanded={{ bg: "blue.400" }}
+                      _focus={{ boxShadow: "outline" }}
+                    >
+                      {navItem.label}
+                    </MenuButton>
+                  ) : (
+                    <MenuItem>{navItem.label}</MenuItem>
+                  )}
                 </MenuButton>
               </Link>
               {navItem.children && (
