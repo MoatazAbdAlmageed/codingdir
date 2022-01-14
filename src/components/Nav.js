@@ -6,13 +6,16 @@ import {
 } from "@chakra-ui/icons";
 import {
   Box,
+  Button,
   Collapse,
   Flex,
   Icon,
   IconButton,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
   Popover,
-  PopoverContent,
-  PopoverTrigger,
   Stack,
   Text,
   useBreakpointValue,
@@ -91,43 +94,25 @@ const DesktopNav = () => {
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
-            <PopoverTrigger>
-              <Link
-                p={2}
-                href={navItem.href ?? "#"}
-                fontSize={"sm"}
-                fontWeight={500}
-                color={linkColor}
-                _hover={{
-                  textDecoration: "none",
-                  color: linkHoverColor,
-                }}
-              >
-                {navItem.label == "Contribute?" ? (
-                  <b style={{ color: "#C62828" }}>{navItem.label}</b>
-                ) : (
-                  navItem.label
-                )}
+            <Menu>
+              <Link key={navItem.label} py={2} href={navItem.href}>
+                <MenuButton
+                  as={navItem.children && Button}
+                  rightIcon={navItem.children && <ChevronDownIcon />}
+                >
+                  <MenuItem>{navItem.label}</MenuItem>
+                </MenuButton>
               </Link>
-            </PopoverTrigger>
-            {/* // TODO:todo */}
-            {/* <img src={navItem.img} width="100px" /> */}
-            {navItem.children && (
-              <PopoverContent
-                border={0}
-                boxShadow={"xl"}
-                bg={popoverContentBgColor}
-                p={4}
-                rounded={"xl"}
-                minW={"sm"}
-              >
-                <Stack>
+              {navItem.children && (
+                <MenuList>
                   {navItem.children.map((child) => (
-                    <DesktopSubNav key={child.label} {...child} />
+                    <Link key={child.label} py={2} href={child.href}>
+                      <MenuItem>{upperCase(child.label)}</MenuItem>
+                    </Link>
                   ))}
-                </Stack>
-              </PopoverContent>
-            )}
+                </MenuList>
+              )}
+            </Menu>
           </Popover>
         </Box>
       ))}
