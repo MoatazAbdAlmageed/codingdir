@@ -383,8 +383,16 @@ const NAV_ITEMS = [
     href: "#",
     children: [
       {
+        label: "git",
+        href: "/tags/git",
+      },
+      {
         label: "linux",
         href: "/tags/linux",
+      },
+      {
+        label: "Jenkins",
+        href: "/tags/jenkins",
       },
       {
         label: "docker",
