@@ -235,6 +235,10 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
   {
+    label: "Pin",
+    href: "/tags/pin",
+  },
+  {
     label: "Arabic",
     href: "/عربي",
   },
@@ -246,10 +250,7 @@ const NAV_ITEMS = [
     label: "Podcasts",
     href: "/tags/podcast",
   },
-  {
-    label: "Pin",
-    href: "/tags/pin",
-  },
+
   {
     label: "Topics",
     href: "/tags",
