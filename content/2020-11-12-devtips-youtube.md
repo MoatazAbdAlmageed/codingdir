@@ -11,6 +11,7 @@ tags:
   - "github"
   - "react"
   - "ruby on rails"
+  - "ruby"
   - "xd"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

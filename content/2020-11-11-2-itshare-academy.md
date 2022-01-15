@@ -9,5 +9,4 @@ tags:
   - "blockchain"
   - "js"
   - ".net"
-  - "ruby on rails"
 ---

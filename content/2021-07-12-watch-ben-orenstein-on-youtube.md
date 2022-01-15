@@ -5,6 +5,7 @@ categories:
   - "english"
 tags:
   - "ruby on rails"
+  - "ruby"
 ---
 
 [https://youtube.com/user/r00k123123](https://youtube.com/user/r00k123123)

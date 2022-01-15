@@ -7,6 +7,7 @@ categories:
 tags:
   - "mobile "
   - "ruby on rails"
+  - "ruby"
   - "web"
   - "AI"
   - "python"

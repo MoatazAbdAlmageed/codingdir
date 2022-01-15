@@ -8,6 +8,7 @@ tags:
   - "css"
   - "html"
   - "ruby on rails"
+  - "ruby"
 ---
 
 [https://youtube.com/channel/UC46RFw00fno4-2WX6dhS-og](https://youtube.com/channel/UC46RFw00fno4-2WX6dhS-og)

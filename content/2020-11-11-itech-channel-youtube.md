@@ -10,6 +10,7 @@ tags:
   - "perl"
   - "ruby"
   - "ruby on rails"
+  - "ruby"
   - "database"
   - "wordpress"
   - "zend"

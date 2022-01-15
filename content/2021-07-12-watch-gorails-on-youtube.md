@@ -6,6 +6,7 @@ categories:
 
 tags:
   - "ruby on rails"
+  - "ruby"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 
