@@ -52,7 +52,11 @@ export default ({ data, pageContext }) => {
               </b>
             )}
 
-            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+            <div
+              dangerouslySetInnerHTML={{
+                __html: postNode.html.replace(/href/g, "target='_blank' href"),
+              }}
+            />
 
             <hr />
             {/* <Bio config={config} /> */}
