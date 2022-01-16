@@ -1,9 +1,9 @@
+import { Container } from "@chakra-ui/react";
 import React from "react";
 import Helmet from "react-helmet";
+import config from "../../data/SiteConfig";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import config from "../../data/SiteConfig";
-import { Container } from "@chakra-ui/react";
 
 const MainLayout = ({ children }) => (
   <>
@@ -15,7 +15,7 @@ const MainLayout = ({ children }) => (
         content="Uyx7zn5ADHSsjqw3VQQ5opqVl3XmgkMHKEYPF3ZCpPw"
       />
     </Helmet>
-    <Container maxW="container.xl" mb={2}>
+    <Container maxW="container.xl" mb={40}>
       {children}
       <Footer />
     </Container>
