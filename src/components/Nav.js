@@ -2,7 +2,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
   CloseIcon,
-  HamburgerIcon,
+  HamburgerIcon
 } from "@chakra-ui/icons";
 import {
   Box,
@@ -20,7 +20,7 @@ import {
   Text,
   useBreakpointValue,
   useColorModeValue,
-  useDisclosure,
+  useDisclosure
 } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import { upperCase } from "lodash";
@@ -301,6 +301,14 @@ const NAV_ITEMS = [
       {
         label: "php",
         href: "/tags/php",
+      },
+      {
+        label: "- Laravel",
+        href: "/tags/laravel",
+      },
+      {
+        label: "- wordpress",
+        href: "/tags/wordpress",
       },
       {
         label: "c#",
