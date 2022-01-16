@@ -6,6 +6,7 @@ categories:
 tags:
   - "docker"
   - "js"
+  - "pin"
   - "kafka"
   - "mongodb"
 ---
