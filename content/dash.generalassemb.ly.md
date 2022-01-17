@@ -1,5 +1,5 @@
 ---
-title: "dash.generalassemb.ly
+title: "dash.generalassemb.ly"
 date: "2021-07-11"
 categories:
   - "english"
