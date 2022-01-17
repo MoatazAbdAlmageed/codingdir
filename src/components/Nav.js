@@ -431,6 +431,10 @@ const NAV_ITEMS = [
     href: "/tags",
   },
   {
+    label: "Websites",
+    href: "/website",
+  },
+  {
     label: "Contribute?",
     href: "/submit-channel",
   },
