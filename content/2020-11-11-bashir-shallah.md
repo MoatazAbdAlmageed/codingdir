@@ -6,9 +6,9 @@ categories:
 tags:
   - "angular"
   - "aws"
-  - "back end"
+  - "backend"
   - "codeigniter"
-  - "front end"
+  - "frontend"
   - "hooks"
   - "laravel"
   - "php"

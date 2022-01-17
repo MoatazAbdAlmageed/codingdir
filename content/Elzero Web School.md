@@ -6,10 +6,10 @@ categories:
 
 tags:
   - "pin"
-  - "back end"
+  - "backend"
   - "bootstrap"
   - "css"
-  - "front end"
+  - "frontend"
   - "html"
   - "js"
   - "mysql"

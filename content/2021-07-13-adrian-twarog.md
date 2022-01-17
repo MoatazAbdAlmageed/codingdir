@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "css"
-  - "front end"
+  - "frontend"
   - "html"
   - "js"
   - "wordpress"

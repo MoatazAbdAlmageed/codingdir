@@ -6,13 +6,13 @@ categories:
 
 tags:
   - "axios"
-  - "back end"
+  - "backend"
   - "cli"
   - "css"
   - "design-principles"
   - "docker"
   - "flask"
-  - "front end"
+  - "frontend"
   - "git"
   - "github"
   - "golang"

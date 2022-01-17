@@ -5,12 +5,12 @@ categories:
   - "english"
 
 tags:
-  - "back end"
+  - "backend"
   - "bootstrap"
   - "css"
   - "database"
   - "dom"
-  - "front end"
+  - "frontend"
   - "graphql"
   - "html"
   - "js"

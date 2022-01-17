@@ -4,7 +4,7 @@ date: "2021-07-24"
 categories:
   - "english"
 tags:
-  - "front end"
+  - "frontend"
   - "js"
   - "react"
 ---

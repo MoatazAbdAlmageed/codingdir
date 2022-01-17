@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "css"
-  - "front end"
+  - "frontend"
   - "js"
   - "productivity"
   - "talks"

@@ -1,10 +1,10 @@
 ---
 title: "Scott Spence"
 date: "2021-03-14"
-categories: 
+categories:
   - "english"
-tags: 
-  - "front end"
+tags:
+  - "frontend"
   - "gatsby"
   - "js"
   - "react"

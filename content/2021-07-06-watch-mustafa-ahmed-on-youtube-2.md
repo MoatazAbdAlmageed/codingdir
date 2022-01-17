@@ -4,9 +4,9 @@ date: "2021-07-06"
 categories:
   - "عربي"
 tags:
-  - "back end"
+  - "backend"
   - "data structures"
-  - "front end"
+  - "frontend"
   - "java"
   - "js"
   - "laravel"

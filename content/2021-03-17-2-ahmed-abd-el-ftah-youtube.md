@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "back end"
+  - "backend"
   - "laravel"
   - "php"
 cover: "/YouTube-Icon-Gray-Box.png"

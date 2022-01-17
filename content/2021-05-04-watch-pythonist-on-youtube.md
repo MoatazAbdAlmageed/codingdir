@@ -3,7 +3,7 @@ title: "Pythonist"
 date: "2021-05-04"
 tags:
   - "flask"
-  - "front end"
+  - "frontend"
   - "html"
   - "js"
   - "react"

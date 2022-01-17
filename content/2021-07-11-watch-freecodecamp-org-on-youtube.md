@@ -5,14 +5,20 @@ categories:
   - "english"
 
 tags:
-  - "css"
-  - "database"
-  - "front end"
+  - "pin"
+  - "web"
   - "html"
+  - "css"
+  - "php"
   - "js"
+  - "database"
+  - "frontend"
+  - "backend"
   - "mnogodb"
   - "react"
-cover: "/YouTube-Icon-Gray-Box.png"
+  - "ai"
+  - "ml"
+cover: "https://yt3.ggpht.com/ytc/AKedOLRyPFojwY3CXV5ks5TwPrt2VifQn-nYNfkgLvVPkw=s48-c-k-c0x00ffffff-no-rj"
 ---
 
 [https://youtube.com/c/Freecodecamp](https://youtube.com/c/Freecodecamp)

@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "algorithms"
-  - "back end"
+  - "backend"
   - "c++"
   - "computer science"
   - "data structures"

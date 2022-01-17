@@ -5,9 +5,9 @@ categories:
   - "english"
 
 tags:
-  - "back end"
+  - "backend"
   - "c#"
-  - "front end"
+  - "frontend"
   - "js"
   - "math"
   - "python"

@@ -6,8 +6,8 @@ categories:
   - "عربي"
 
 tags:
-  - "back end"
-  - "front end"
+  - "backend"
+  - "frontend"
   - "js"
   - "php"
   - "pin"

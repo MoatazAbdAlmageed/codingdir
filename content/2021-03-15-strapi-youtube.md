@@ -4,7 +4,7 @@ date: "2021-03-15"
 categories:
   - "english"
 tags:
-  - "front end"
+  - "frontend"
   - "gatsby"
   - "headless-cmd"
   - "js"

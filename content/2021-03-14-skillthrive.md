@@ -7,7 +7,7 @@ categories:
 tags:
   - "css"
   - "figma"
-  - "front end"
+  - "frontend"
   - "gatsby"
   - "html"
   - "js"

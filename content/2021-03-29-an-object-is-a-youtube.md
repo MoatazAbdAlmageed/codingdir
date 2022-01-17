@@ -5,7 +5,7 @@ categories:
   - "english"
 tags:
   - "chrome extension"
-  - "front end"
+  - "frontend"
   - "js"
   - "react"
 ---

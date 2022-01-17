@@ -6,8 +6,8 @@ categories:
 
 tags:
   - "android"
-  - "back end"
-  - "front end"
+  - "backend"
+  - "frontend"
   - "html"
   - "js"
   - "php"

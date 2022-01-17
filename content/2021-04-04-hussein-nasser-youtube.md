@@ -7,7 +7,7 @@ categories:
 
 tags:
   - ".net"
-  - "back end"
+  - "backend"
   - "c"
   - "database"
   - "devops"

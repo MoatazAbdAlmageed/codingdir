@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "angular"
-  - "back end"
+  - "backend"
   - "bootstrap"
   - "bulma"
   - "css"
@@ -15,7 +15,7 @@ tags:
   - "dneo"
   - "firebase"
   - "flutter"
-  - "front end"
+  - "frontend"
   - "git"
   - "golang"
   - "graphql"

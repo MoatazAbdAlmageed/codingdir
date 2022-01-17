@@ -4,9 +4,9 @@ date: "2021-03-10"
 categories:
   - "عربي"
 tags:
-  - "back end"
+  - "backend"
   - "css"
-  - "front end"
+  - "frontend"
   - "html"
   - "js"
   - "mysql"

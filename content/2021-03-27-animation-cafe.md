@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "adobe"
-  - "front end"
+  - "frontend"
   - "web"
   - "xd"
 ---

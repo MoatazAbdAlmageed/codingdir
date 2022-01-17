@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "back end"
+  - "backend"
   - "c++"
   - "data structures"
   - "java"

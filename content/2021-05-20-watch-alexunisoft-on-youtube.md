@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "back end"
+  - "backend"
   - "books"
   - "clean code"
   - "laravel"

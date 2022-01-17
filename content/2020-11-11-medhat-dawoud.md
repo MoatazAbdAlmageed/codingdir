@@ -10,7 +10,7 @@ tags:
   - "web"
   - "css"
   - "es6"
-  - "front end"
+  - "frontend"
   - "git"
   - "graphql"
   - "js"

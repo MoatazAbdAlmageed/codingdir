@@ -4,8 +4,8 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "back end"
-  - "front end"
+  - "backend"
+  - "frontend"
   - "js"
   - "php"
   - "react"

@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "css"
-  - "front end"
+  - "frontend"
   - "git"
   - "html"
   - "js"

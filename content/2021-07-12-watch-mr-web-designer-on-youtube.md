@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "css"
-  - "front end"
+  - "frontend"
   - "html"
   - "js"
 cover: "/YouTube-Icon-Gray-Box.png"

@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "front end"
+  - "frontend"
   - "js"
   - "react"
 cover: "/YouTube-Icon-Gray-Box.png"

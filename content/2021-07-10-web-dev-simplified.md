@@ -10,7 +10,7 @@ tags:
   - "css"
   - "data structures"
   - "firebase"
-  - "front end"
+  - "frontend"
   - "graphql"
   - "html"
   - "js"
