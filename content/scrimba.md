@@ -6,6 +6,11 @@ categories:
 
 tags:
   - "website"
+  - "html"
+  - "css"
+  - "js"
+  - "react"
 ---
 
 https://scrimba.com/
+https://www.youtube.com/c/Scrimba
