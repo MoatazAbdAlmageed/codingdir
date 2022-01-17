@@ -432,7 +432,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Websites",
-    href: "/website",
+    href: "/tags/website",
   },
   {
     label: "Contribute?",
