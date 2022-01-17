@@ -9,6 +9,10 @@ categories:
 tags:
   - "microservice"
   - "software architecture"
+  - "islamic"
+  - "software architecture"
+  - "software development"
+  - "software engineering"
   - "pin"
 ---
 

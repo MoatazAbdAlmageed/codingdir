@@ -94,9 +94,10 @@ const DesktopNav = () => {
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
-            <Menu>
+            <Menu size="sm">
               <Link key={navItem.label} py={2} href={navItem.href}>
                 <MenuButton
+                  size="sm"
                   as={navItem.children && Button}
                   rightIcon={navItem.children && <ChevronDownIcon />}
                 >
@@ -106,6 +107,7 @@ const DesktopNav = () => {
                       color="white"
                       px={4}
                       py={2}
+                      size="sm"
                       transition="all 0.2s"
                       borderRadius="md"
                       borderWidth="1px"
@@ -123,7 +125,7 @@ const DesktopNav = () => {
               {navItem.children && (
                 <MenuList>
                   {navItem.children.map((child) => (
-                    <Link key={child.label} py={2} href={child.href}>
+                    <Link size="sm" key={child.label} py={2} href={child.href}>
                       <MenuItem>{upperCase(child.label)}</MenuItem>
                     </Link>
                   ))}
@@ -301,6 +303,14 @@ const NAV_ITEMS = [
       {
         label: "php",
         href: "/tags/php",
+      },
+      {
+        label: "::Laravel",
+        href: "/tags/laravel",
+      },
+      {
+        label: "::wordpress",
+        href: "/tags/wordpress",
       },
       {
         label: "c#",
