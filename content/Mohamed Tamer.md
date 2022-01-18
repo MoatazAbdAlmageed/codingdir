@@ -5,8 +5,11 @@ categories:
   - "عربي"
 tags:
   - "java"
+  - "solid"
   - "kotlin"
   - "android"
+  - "mobile"
+  - "pin"
 ---
 
-https://www.youtube.com/user/tamer3044/playlists
+https://www.youtube.com/c/MohamedTamer0/featured
