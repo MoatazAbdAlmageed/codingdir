@@ -7,6 +7,7 @@ categories:
   - "عربي"
 
 tags:
+  - "pin"
   - "c"
   - "cs"
   - "microsoft"
