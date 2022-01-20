@@ -5,7 +5,8 @@ categories:
   - "عربي"
 
 tags:
-  - "AI"
+  - "pin"
+  - "ai"
   - ".net"
   - "c#"
   - "cs"
