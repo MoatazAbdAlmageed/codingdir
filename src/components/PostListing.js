@@ -76,8 +76,9 @@ const PostListing = ({ postEdges }) => {
       <Box>
         <InputGroup mt={2}>
           <InputLeftElement
+            zIndex={0}
             pointerEvents="none"
-            children={<SearchIcon style={(zIndex = 0)} color="gray.300" />}
+            children={<SearchIcon color="gray.300" />}
           />
           <Input
             rounded="md"
