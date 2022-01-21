@@ -17,3 +17,5 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLRCKVTF49I6AWHXA8BRkhfsU0k2H69F56fkQX2v=s
 ---
 
 https://www.youtube.com/channel/UCFBuqAGEoQep87-oz27yjfQ
+
+https://www.linkedin.com/in/mohamed-hammad-a720a622
