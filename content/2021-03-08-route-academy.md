@@ -7,7 +7,8 @@ tags:
   - "css"
   - "html"
   - "js"
-cover: "/YouTube-Icon-Gray-Box.png"
+  - "tips"
+cover: "https://yt3.ggpht.com/ytc/AKedOLThKwFykzeHOPDNkS0vLnZJb2R4yOFy-E8WBEe1xA=s176-c-k-c0x00ffffff-no-rj"
 ---
 
 > Route Academy
