@@ -26,8 +26,13 @@ const Footer = () => (
       </div>
       <div>
         {" "}
+        Built with love by{" "}
+        <a target="_blank" href="https://moatazabdalmageed.github.io/">
+          Moataz Mohammady
+        </a>{" "}
+        using{" "}
         <a target="_blank" href="https://www.gatsbyjs.com/">
-          Built with love using Gatsbyjs
+          Gatsbyjs
         </a>
       </div>
     </div>
