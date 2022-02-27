@@ -1,6 +1,7 @@
 ---
-title: "Ahmed Tartour"
+title: "Ahmed Tartour - أحمد طرطور"
 date: "2021-03-10"
+youtube:"https://www.youtube.com/c/AhmedTartourAT/playlists"
 categories:
   - "عربي"
 tags:
@@ -9,4 +10,4 @@ tags:
 
 > Ahmed Tartour
 >
-> [Ahmed Tartour ](https://www.youtube.com/c/AhmedTartourAT/playlists)
+https://www.youtube.com/c/AhmedTartourAT/playlists
