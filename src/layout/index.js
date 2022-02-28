@@ -17,8 +17,8 @@ const MainLayout = ({ children }) => (
     </Helmet>
     <Container maxW="container.xl" mb={40}>
       {children}
-      <Footer />
     </Container>
+    <Footer />
   </>
 );
 

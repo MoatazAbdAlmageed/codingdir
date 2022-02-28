@@ -14,9 +14,9 @@ const config = {
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "moataz.mohammady", // Username to display in the author segment.
   userEmail: "moataz.mohammady@gmail.com", // Email used for RSS feed's author segment
-  userTwitter: "gatsbyjs", // Optionally renders "Follow Me" in the Bio segment.
+  userTwitter: "https://twitter.com/MoatazMohammady", // Optionally renders "Follow Me" in the Bio segment.
   gitHub: "https://github.com/MoatazAbdAlmageed/YouTube-Channels", // Optionally renders "Follow Me" in the Bio segment.
-  userLinkedin: "moatazabdelmageed", // Optionally renders "Follow Me" in the Bio segment.
+  userLinkedin: "https://www.linkedin.com/in/moatazabdelmageed/", // Optionally renders "Follow Me" in the Bio segment.
   userLocation: "Egypt", // User location to display in the author segment.
   userAvatar: "https://i.ibb.co/WPz9CNk/avatar.jpg", // User avatar to display in the author segment.
   userDescription:
