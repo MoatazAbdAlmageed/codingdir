@@ -89,7 +89,7 @@ const DesktopNav = () => {
                 <MenuButton>
                   {navItem.label == "Contribute?" ? (
                     <MenuButton
-                      backgroundColor="#c62828"
+                      backgroundColor="orange"
                       color="white"
                       px={4}
                       py={2}
@@ -108,7 +108,7 @@ const DesktopNav = () => {
                       {navItem.label}
                       {navItem.children && (
                         <Icon
-                          color="#c62828"
+                          color="orange"
                           as={ChevronDownIcon}
                           transition={"all .25s ease-in-out"}
                           w={6}
@@ -173,7 +173,7 @@ const MobileNavItem = ({ label, children, href }) => {
         </Text>
         {children && (
           <Icon
-            color="#c62828"
+            color="orange"
             as={ChevronDownIcon}
             transition={"all .25s ease-in-out"}
             transform={isOpen ? "rotate(180deg)" : ""}

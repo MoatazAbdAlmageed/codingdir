@@ -26,7 +26,7 @@ export default ({ data, pageContext }) => {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <Center>
           <Box width={{ base: "50%", sm: "80%" }}>
-            <Heading style={{ color: "#C62828" }}>{post.title}</Heading>
+            <Heading style={{ color: "orange" }}>{post.title}</Heading>
             <Image
               borderRadius="full"
               boxSize="150px"
@@ -42,7 +42,7 @@ export default ({ data, pageContext }) => {
             {post.youtube && (
               <b>
                 <Link
-                  style={{ color: "#C62828" }}
+                  style={{ color: "orange" }}
                   target="_blank"
                   to={post.youtube}
                   activeClassName={styles.activeNav}
