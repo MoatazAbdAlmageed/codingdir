@@ -16,8 +16,3 @@ linkedin: "https://www.linkedin.com/in/moatazabdelmageed/"
 behance: "https://www.behance.net/moatazmohammady?isa0=1"
 cover: "https://moatazabdalmageed.github.io/static/avatar-a4b39fc62e0388090bfeb4cb8549da75.jpg"
 ---
-
-site: "https://moatazabdalmageed.github.io/"
-github: "https://github.com/MoatazAbdAlmageed"
-linkedin: "https://www.linkedin.com/in/moatazabdelmageed/"
-behance: "https://www.behance.net/moatazmohammady?isa0=1"

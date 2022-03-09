@@ -40,16 +40,58 @@ export default ({ data, pageContext }) => {
             </div>
 
             {post.youtube && (
-              <b>
-                <Link
-                  style={{ color: "orange" }}
-                  target="_blank"
-                  to={post.youtube}
-                  activeClassName={styles.activeNav}
-                >
-                  {post.youtube}
-                </Link>
-              </b>
+              <Link
+                style={{ color: "orange" }}
+                target="_blank"
+                to={post.youtube}
+                activeClassName={styles.activeNav}
+              >
+                {post.youtube}
+              </Link>
+            )}
+            <br />
+            {post.linkedin && (
+              <Link
+                style={{ color: "orange" }}
+                target="_blank"
+                to={post.linkedin}
+                activeClassName={styles.activeNav}
+              >
+                {post.linkedin}
+              </Link>
+            )}
+            <br />
+            {post.github && (
+              <Link
+                style={{ color: "orange" }}
+                target="_blank"
+                to={post.github}
+                activeClassName={styles.activeNav}
+              >
+                {post.github}
+              </Link>
+            )}
+            <br />
+            {post.site && (
+              <Link
+                style={{ color: "orange" }}
+                target="_blank"
+                to={post.site}
+                activeClassName={styles.activeNav}
+              >
+                {post.site}
+              </Link>
+            )}
+            <br />
+            {post.behance && (
+              <Link
+                style={{ color: "orange" }}
+                target="_blank"
+                to={post.behance}
+                activeClassName={styles.activeNav}
+              >
+                {post.behance}
+              </Link>
             )}
 
             <div
@@ -98,6 +140,10 @@ export const pageQuery = graphql`
         categories
         tags
         youtube
+        site
+        github
+        linkedin
+        behance
       }
       fields {
         slug
