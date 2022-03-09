@@ -14,7 +14,7 @@ site: "https://moatazabdalmageed.github.io/"
 github: "https://github.com/MoatazAbdAlmageed"
 linkedin: "https://www.linkedin.com/in/moatazabdelmageed/"
 behance: "https://www.behance.net/moatazmohammady?isa0=1"
-cover: "https://yt3.ggpht.com/ytc/AKedOLQEl606ghwSBtn40XEf3gtmSGmNo9n6UroQMxKkxIc=s88-c-k-c0x00ffffff-no-rj"
+cover: "https://moatazabdalmageed.github.io/static/avatar-a4b39fc62e0388090bfeb4cb8549da75.jpg"
 ---
 
 site: "https://moatazabdalmageed.github.io/"
