@@ -120,7 +120,7 @@ const PostListing = ({ postEdges }) => {
                   width="150px"
                 />
               </Center>
-              <PostCategories categories={post.categories} />
+              <PostCategories categories={post.categories} margin="auto" />
             </Link>
           </Box>
         ))}
