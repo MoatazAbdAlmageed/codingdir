@@ -1,15 +1,39 @@
-import { Box, Center, Heading, Image } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  HStack,
+  Image,
+  Tag,
+  Text,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import PostCategories from "../components/PostCategories";
-import PostTags from "../components/PostTags";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
 import Layout from "../layout";
 import styles from "./post.module.scss";
 import "./prism-okaidia.css";
+
+const BlogTags = (props) => {
+  return (
+    <HStack spacing={2} marginTop={props.marginTop}>
+      {props.tags.map((tag) => {
+        return (
+          <Tag size={"md"} variant="solid" colorScheme="orange" key={tag}>
+            <Link key={tag} to={`/tags/${_.kebabCase(tag)}`}>
+              <span>{tag.toUpperCase()}</span>
+            </Link>
+          </Tag>
+        );
+      })}
+    </HStack>
+  );
+};
+
 export default ({ data, pageContext }) => {
   const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext;
   const postNode = data.markdownRemark;
@@ -17,111 +41,148 @@ export default ({ data, pageContext }) => {
   if (!post.id) {
     post.id = slug;
   }
+
   return (
-    <Layout>
-      <main>
-        <Helmet>
-          <title>{`${post.title} | ${config.siteTitle}`}</title>
-        </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
-        <Center>
-          <Box width={{ base: "50%", sm: "80%" }}>
-            <Heading style={{ color: "orange" }}>{post.title}</Heading>
+    <Layout maxW={"7xl"} p="12">
+      <Helmet>
+        <title>{`${post.title} | ${config.siteTitle}`}</title>
+      </Helmet>
+      <SEO postPath={slug} postNode={postNode} postSEO />
+
+      <Box
+        marginTop={{ base: "1", sm: "5" }}
+        display="flex"
+        flexDirection={{ base: "column", sm: "row" }}
+        justifyContent="space-between"
+      >
+        <Box
+          display="flex"
+          flex="1"
+          marginRight="3"
+          position="relative"
+          alignItems="center"
+        >
+          <Box
+            width={{ base: "100%", sm: "85%" }}
+            marginLeft={{ base: "0", sm: "5%" }}
+            marginTop="5%"
+            zIndex={1}
+          >
             <Image
-              borderRadius="full"
-              boxSize="150px"
-              src={post.cover}
-              fallbackSrc="/YouTube-Icon-Gray-Box.png"
+              margin={"auto"}
+              borderRadius="lg"
+              src={post.cover || "/YouTube-Icon-Gray-Box.png"}
+              alt={post.title}
+              objectFit="contain"
             />
-
-            <div>
-              <PostTags tags={[...new Set(post.tags)]} />
-              <PostCategories categories={post.categories} />
-            </div>
-
-            {post.youtube && (
-              <Link
-                style={{ color: "orange" }}
-                target="_blank"
-                to={post.youtube}
-                activeClassName={styles.activeNav}
-              >
-                {post.youtube}
-              </Link>
-            )}
-            <br />
-            {post.linkedin && (
-              <Link
-                style={{ color: "orange" }}
-                target="_blank"
-                to={post.linkedin}
-                activeClassName={styles.activeNav}
-              >
-                {post.linkedin}
-              </Link>
-            )}
-            <br />
-            {post.github && (
-              <Link
-                style={{ color: "orange" }}
-                target="_blank"
-                to={post.github}
-                activeClassName={styles.activeNav}
-              >
-                {post.github}
-              </Link>
-            )}
-            <br />
-            {post.site && (
-              <Link
-                style={{ color: "orange" }}
-                target="_blank"
-                to={post.site}
-                activeClassName={styles.activeNav}
-              >
-                {post.site}
-              </Link>
-            )}
-            <br />
-            {post.behance && (
-              <Link
-                style={{ color: "orange" }}
-                target="_blank"
-                to={post.behance}
-                activeClassName={styles.activeNav}
-              >
-                {post.behance}
-              </Link>
-            )}
-
+          </Box>
+          <Box width="100%" position="absolute" height="100%">
+            <Box
+              bgGradient={useColorModeValue(
+                "radial(orange.600 1px, transparent 1px)",
+                "radial(orange.300 1px, transparent 1px)"
+              )}
+              backgroundSize="20px 20px"
+              opacity="0.4"
+              height="100%"
+            />
+          </Box>
+        </Box>
+        <Box
+          display="flex"
+          flex="1"
+          flexDirection="column"
+          justifyContent="center"
+          marginTop={{ base: "3", sm: "0" }}
+        >
+          <Heading marginBottom={2}>{post.title}</Heading>
+          <PostCategories categories={post.categories} />
+          <BlogTags tags={[...new Set(post.tags)]} />
+          <Text
+            as="p"
+            marginTop="2"
+            color={useColorModeValue("gray.700", "gray.200")}
+            fontSize="lg"
+          >
             <div
               dangerouslySetInnerHTML={{
                 __html: postNode.html.replace(/href/g, "target='_blank' href"),
               }}
             />
+          </Text>
 
-            <hr />
-            {/* <Bio config={config} /> */}
-            <div>
-              <SocialLinks postPath={slug} postNode={postNode} />
-            </div>
-          </Box>
-        </Center>
-        <nav>
-          <ul className={styles.pagination}>
-            <li>
-              <Link to={prevslug} rel="prev">
-                ← {prevtitle}
-              </Link>
-            </li>
-            <li>
-              <Link to={nextslug} rel="next">
-                {nexttitle}→
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </main>
+          {post.youtube && (
+            <Link
+              style={{ color: "orange" }}
+              target="_blank"
+              to={post.youtube}
+              activeClassName={styles.activeNav}
+            >
+              {post.youtube}
+            </Link>
+          )}
+          <br />
+          {post.linkedin && (
+            <Link
+              style={{ color: "orange" }}
+              target="_blank"
+              to={post.linkedin}
+              activeClassName={styles.activeNav}
+            >
+              {post.linkedin}
+            </Link>
+          )}
+          <br />
+          {post.github && (
+            <Link
+              style={{ color: "orange" }}
+              target="_blank"
+              to={post.github}
+              activeClassName={styles.activeNav}
+            >
+              {post.github}
+            </Link>
+          )}
+          <br />
+          {post.site && (
+            <Link
+              style={{ color: "orange" }}
+              target="_blank"
+              to={post.site}
+              activeClassName={styles.activeNav}
+            >
+              {post.site}
+            </Link>
+          )}
+          <br />
+          {post.behance && (
+            <Link
+              style={{ color: "orange" }}
+              target="_blank"
+              to={post.behance}
+              activeClassName={styles.activeNav}
+            >
+              {post.behance}
+            </Link>
+          )}
+        </Box>
+      </Box>
+
+      <SocialLinks postPath={slug} postNode={postNode} />
+      <nav>
+        <ul className={styles.pagination}>
+          <li>
+            <Link to={prevslug} rel="prev">
+              ← {prevtitle}
+            </Link>
+          </li>
+          <li>
+            <Link to={nextslug} rel="next">
+              {nexttitle}→
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </Layout>
   );
 };

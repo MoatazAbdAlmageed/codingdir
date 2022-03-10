@@ -21,9 +21,8 @@ import { upperCase } from "lodash";
 import React from "react";
 import config from "../../data/SiteConfig";
 
-export default function Nav() {
+export default function Nav(props) {
   const { isOpen, onToggle } = useDisclosure();
-
   return (
     <Box>
       <Flex
@@ -66,21 +65,21 @@ export default function Nav() {
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
-            <DesktopNav />
+            <DesktopNav zIndex={props.zIndex} />
           </Flex>
         </Flex>
       </Flex>
 
       <Collapse in={isOpen} animateOpacity>
-        <MobileNav />
+        <MobileNav zIndex={props.zIndex} />
       </Collapse>
     </Box>
   );
 }
 
-const DesktopNav = () => {
+const DesktopNav = (props) => {
   return (
-    <Stack direction={"row"} spacing={4}>
+    <Stack direction={"row"} spacing={4} zIndex={props.zIndex}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
@@ -136,12 +135,13 @@ const DesktopNav = () => {
   );
 };
 
-const MobileNav = () => {
+const MobileNav = (props) => {
   return (
     <Stack
       bg={useColorModeValue("white", "gray.800")}
       p={4}
       display={{ md: "none" }}
+      zIndex={props.zIndex}
     >
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
