@@ -17,6 +17,7 @@ import SocialLinks from "../components/SocialLinks";
 import Layout from "../layout";
 import styles from "./post.module.scss";
 import "./prism-okaidia.css";
+const _ = require("lodash");
 
 const BlogTags = (props) => {
   return (
