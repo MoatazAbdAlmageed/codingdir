@@ -116,7 +116,7 @@ const PostListing = ({ postEdges }) => {
                   borderRadius="full"
                   boxSize="150px"
                   src={post.cover}
-                  fallbackSrc="/YouTube-Icon-Gray-Box.png"
+                  fallbackSrc="/YouTube-Icon-Gray-Box.jpg"
                   width="150px"
                 />
               </Center>

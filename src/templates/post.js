@@ -59,7 +59,7 @@ export default ({ data, pageContext }) => {
           <Image
             margin={"auto"}
             borderRadius="lg"
-            src={post.cover || "/YouTube-Icon-Gray-Box.png"}
+            src={post.cover || "/YouTube-Icon-Gray-Box.jpg"}
             alt={post.title}
             objectFit="contain"
           />
