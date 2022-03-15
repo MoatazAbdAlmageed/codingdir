@@ -1,6 +1,7 @@
 ---
 title: "Colin Rubbert"
 date: "2020-08-16"
+youtube: "https://www.youtube.com/channel/UCzN9GrqP3be0aAWEhTfd_kw/videos"
 categories:
   - "english"
 tags:
