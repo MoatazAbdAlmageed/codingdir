@@ -125,14 +125,18 @@ const PostListing = ({ postEdges }) => {
               </Center>
             </Link>
             <PostCategories categories={post.categories} margin="auto" />
-            <Link
-              to={post.youtube}
-              target="_blank"
-              textDecoration="none"
-              _hover={{ textDecoration: "none" }}
-            >
-              📺 <FaYoutube />
-            </Link>
+            {post.youtube && (
+              <Center>
+                <Link
+                  to={post.youtube}
+                  target="_blank"
+                  textDecoration="none"
+                  _hover={{ textDecoration: "none" }}
+                >
+                  <FaYoutube color="#ff0000" />
+                </Link>
+              </Center>
+            )}
           </Box>
         ))}
       </SimpleGrid>
