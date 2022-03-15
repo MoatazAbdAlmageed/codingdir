@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import React from "react";
+import { FaYoutube } from "react-icons/fa";
 import uuid from "react-uuid";
 import PostCategories from "../components/PostCategories";
 
@@ -27,6 +28,7 @@ const PostListing = ({ postEdges }) => {
         cover: postEdge.node.frontmatter.cover,
         title: postEdge.node.frontmatter.title,
         date: postEdge.node.fields.date,
+        youtube: postEdge.node.frontmatter.youtube,
         excerpt: postEdge.node.excerpt,
         timeToRead: postEdge.node.timeToRead,
       });
@@ -111,6 +113,7 @@ const PostListing = ({ postEdges }) => {
               _hover={{ textDecoration: "none" }}
             >
               <Text mb={2}>{post.title}</Text>
+
               <Center>
                 <Image
                   borderRadius="full"
@@ -120,7 +123,15 @@ const PostListing = ({ postEdges }) => {
                   width="150px"
                 />
               </Center>
-              <PostCategories categories={post.categories} margin="auto" />
+            </Link>
+            <PostCategories categories={post.categories} margin="auto" />
+            <Link
+              to={post.youtube}
+              target="_blank"
+              textDecoration="none"
+              _hover={{ textDecoration: "none" }}
+            >
+              📺 <FaYoutube />
             </Link>
           </Box>
         ))}

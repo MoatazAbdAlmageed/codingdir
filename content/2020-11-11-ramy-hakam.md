@@ -9,6 +9,7 @@ tags:
   - "docker"
   - "php"
   - "pin"
+  - "symfony"
 youtube: "https://www.youtube.com/c/PencilsoftNet/videos"
 cover: "https://yt3.ggpht.com/ytc/AKedOLQtMsE_PHy7KH2u5dK2boor4LtkYHolOUQXgNlrRQ=s88-c-k-c0x00ffffff-no-rj"
 ---

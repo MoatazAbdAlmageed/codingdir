@@ -1,10 +1,10 @@
+import { graphql } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
-import Layout from "../layout";
+import config from "../../data/SiteConfig";
 import PostListing from "../components/PostListing";
 import SEO from "../components/SEO";
-import config from "../../data/SiteConfig";
+import Layout from "../layout";
 
 const Index = ({ data }) => (
   <Layout>
@@ -38,6 +38,7 @@ export const pageQuery = graphql`
             tags
             cover
             date
+            youtube
             categories
           }
         }
