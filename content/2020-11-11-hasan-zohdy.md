@@ -9,6 +9,7 @@ tags:
   - "js"
   - "php"
   - "react"
+  - "pin"
 ---
 
 https://www.youtube.com/user/hasanzohdy
