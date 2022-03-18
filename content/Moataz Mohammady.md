@@ -8,6 +8,8 @@ tags:
   - "chrome"
   - "extensions"
   - "productivity"
+  - "camtasia"
+  - "zapier"
 
 youtube: "https://www.youtube.com/channel/UClP1ys1YN3IX8LvpeMlI2rg"
 site: "https://moatazabdalmageed.github.io/"
