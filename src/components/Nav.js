@@ -249,6 +249,29 @@ const NAV_ITEMS = [
     ],
   },
   {
+    label: "CS",
+    href: "#",
+    children: [
+      {
+        label: "algorithms",
+        subLabel: "algorithms description here",
+        href: "/tags/algorithms",
+      },
+      {
+        label: "operating System",
+        href: "/tags/operating-system",
+      },
+      {
+        label: "system-design",
+        href: "/tags/system-design",
+      },
+      {
+        label: "system-analysis",
+        href: "/tags/system-analysis",
+      },
+    ],
+  },
+  {
     label: "Back-end",
     href: "#",
     children: [
