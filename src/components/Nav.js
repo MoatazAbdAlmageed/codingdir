@@ -212,7 +212,30 @@ const NAV_ITEMS = [
       "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
   },
   {
-    label: "Front-end",
+    label: "CS 🏫",
+    href: "#",
+    children: [
+      {
+        label: "algorithms",
+        subLabel: "algorithms description here",
+        href: "/tags/algorithms",
+      },
+      {
+        label: "operating System",
+        href: "/tags/operating-system",
+      },
+      {
+        label: "system-design",
+        href: "/tags/system-design",
+      },
+      {
+        label: "system-analysis",
+        href: "/tags/system-analysis",
+      },
+    ],
+  },
+  {
+    label: "Front-end 🧑‍💻",
     href: "#",
     children: [
       {
@@ -242,31 +265,9 @@ const NAV_ITEMS = [
       },
     ],
   },
+
   {
-    label: "CS",
-    href: "#",
-    children: [
-      {
-        label: "algorithms",
-        subLabel: "algorithms description here",
-        href: "/tags/algorithms",
-      },
-      {
-        label: "operating System",
-        href: "/tags/operating-system",
-      },
-      {
-        label: "system-design",
-        href: "/tags/system-design",
-      },
-      {
-        label: "system-analysis",
-        href: "/tags/system-analysis",
-      },
-    ],
-  },
-  {
-    label: "Back-end",
+    label: "Back-end 💾",
     href: "#",
     children: [
       {
@@ -308,7 +309,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Database",
+    label: "Database 🗃️",
     href: "#",
     children: [
       {
@@ -338,7 +339,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Mobile",
+    label: "Mobile 📱",
     href: "#",
     children: [
       {
@@ -364,7 +365,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Devops",
+    label: "Devops ",
     href: "#",
     children: [
       {
@@ -391,24 +392,24 @@ const NAV_ITEMS = [
   },
 
   {
-    label: "Podcasts",
+    label: "Podcasts 🔉",
     href: "/tags/podcast",
   },
   {
-    label: "Islamic",
+    label: "Islamic 🕌",
     href: "/tags/islamic",
   },
 
   {
-    label: "Topics",
+    label: "Topics 🏷️",
     href: "/tags",
   },
   {
-    label: "Websites",
+    label: "Websites 🕸️",
     href: "/tags/website",
   },
   {
-    label: "Contribute?",
+    label: "Contribute 💁",
     href:
       "https://github.com/MoatazAbdAlmageed/YouTube-Channels/blob/main/CONTRIBUTING.md",
   },
