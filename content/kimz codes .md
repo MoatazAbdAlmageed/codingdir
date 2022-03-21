@@ -2,7 +2,7 @@
 title: "kimz codes "
 date: "2021-03-10"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "es6"
   - "js"

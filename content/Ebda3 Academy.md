@@ -2,7 +2,7 @@
 title: "Ebda3 Academy"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "3d"
   - "graphics"

@@ -2,7 +2,7 @@
 title: "Fahad Abed"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "web"
   - "mysql"

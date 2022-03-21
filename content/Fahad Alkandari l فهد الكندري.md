@@ -2,7 +2,7 @@
 title: "Fahad Alkandari l فهد الكندري"
 date: "2022-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "islamic"
 

@@ -2,7 +2,7 @@
 title: "Ahmed Ibrahim"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "adobe"
   - "photoshop"

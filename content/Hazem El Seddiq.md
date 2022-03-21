@@ -2,7 +2,7 @@
 title: "Hazem El Seddiq"
 date: "2022-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "islamic"
 

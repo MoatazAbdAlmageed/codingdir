@@ -2,7 +2,7 @@
 title: "Ahmed Shahin"
 date: "2022-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "islamic"
   - "productivity"

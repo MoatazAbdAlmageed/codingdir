@@ -2,7 +2,7 @@
 title: "Amr Ezz El-Din Rashed"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "matlab"
   - "python"

@@ -2,7 +2,7 @@
 title: "Mahmoud Ahmed - محمود أحمد"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "pin"
   - "web"

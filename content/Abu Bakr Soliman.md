@@ -2,7 +2,7 @@
 title: "Abu Bakr Soliman"
 date: "2022"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "web"
   - "python"

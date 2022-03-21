@@ -2,7 +2,7 @@
 title: "Ali Muhammad Ali"
 date: "2022-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "productivity"
   - "books"

@@ -2,7 +2,7 @@
 title: "Scrum-on باللغة العربية"
 date: "2020-08-16"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "scrum"
   - "agile"

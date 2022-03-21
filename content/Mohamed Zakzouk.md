@@ -2,7 +2,7 @@
 title: "Mohamed Zakzouk"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "adobe"
   - "graphics"

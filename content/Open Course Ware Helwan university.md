@@ -2,7 +2,7 @@
 title: "Open Course Ware Helwan university"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "cs"
 

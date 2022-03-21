@@ -2,7 +2,7 @@
 title: "MyLegacy in Programming"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "java"
   - "c++"

@@ -2,7 +2,7 @@
 title: "Abdelrahman Eid"
 date: "2020-01-07"
 categories:
-  - "arabic"
+  - "عربي"
 tags:
   - "js"
   - "php"
