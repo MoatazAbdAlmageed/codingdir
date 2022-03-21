@@ -242,6 +242,10 @@ const NAV_ITEMS = [
         label: "system-analysis",
         href: "/tags/system-analysis",
       },
+      {
+        label: "Computer Architecture",
+        href: "/tags/computer-architecture",
+      },
     ],
   },
   {

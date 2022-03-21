@@ -11,6 +11,7 @@ tags:
   - "php"
   - "web"
   - "c"
+  - "computer-architecture"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLSxBejSBQoUJWIyJNtR-OZx1Ur0KIp2nHA6qYMpEw=s88-c-k-c0x00ffffff-no-rj"
 ---
