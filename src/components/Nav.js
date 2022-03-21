@@ -221,6 +221,11 @@ const NAV_ITEMS = [
     href: "#",
     children: [
       {
+        label: "cs",
+        subLabel: "cs description here",
+        href: "/tags/cs",
+      },
+      {
         label: "algorithms",
         subLabel: "algorithms description here",
         href: "/tags/algorithms",
