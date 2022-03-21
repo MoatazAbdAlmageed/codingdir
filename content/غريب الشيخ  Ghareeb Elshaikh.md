@@ -12,4 +12,7 @@ tags:
   - "productivity"
   - "talks"
   - "podcast"
+  - "chrome"
+  - "cs"
+  - "tips"
 ---
