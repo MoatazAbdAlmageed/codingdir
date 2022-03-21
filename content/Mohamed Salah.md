@@ -13,6 +13,7 @@ tags:
   - "python"
   - "docker"
   - "kubernetes"
+  - "system design"
 ---
 
 https://www.youtube.com/c/MohamedSalahimmortal/featured
