@@ -9,5 +9,4 @@ tags:
   - "talks"
 ---
 
-[https://youtube.com/c/mmeshref](https://youtube.com/c/mmeshref)
-https://mmoshrif.blogspot.com/?m=1
+https://www.youtube.com/c/mmeshref
