@@ -218,13 +218,8 @@ const NAV_ITEMS = [
   },
   {
     label: "CS 🏫",
-    href: "#",
+    href: "/tags/cs",
     children: [
-      {
-        label: "cs",
-        subLabel: "cs description here",
-        href: "/tags/cs",
-      },
       {
         label: "problem-solving",
         subLabel: "problem-solving description here",
