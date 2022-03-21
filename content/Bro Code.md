@@ -1,22 +1,21 @@
 ---
 title: "Bro Code"
-date: "2021-08-20"
+date: "2021-05-01"
 categories:
   - "english"
-
 tags:
-  - "java"
-  - "python"
-  - "c#"
-  - "c++"
-  - "c"
-  - "html"
-  - "css"
-  - "js"
-  - "Data Structures"
   - "algorithms"
-cover: "https://yt3.ggpht.com/ytc/AKedOLTWGzZyJRivQxKbHVJCR2pUfDQqAhK_-l4iWFHbZQ=s176-c-k-c0x00ffffff-no-rj"
+  - "c"
+  - "c"
+  - "data structures"
+  - "html"
+  - "java"
+  - "js"
+  - "python"
 ---
 
-https://www.youtube.com/c/BroCodez/playlists
-na
+![](https://yt3.ggpht.com/ytc/AAUvwngkLa2K2hztBjibf2pUaX9jdT9ytpNdPJqvRUUniw=s176-c-k-c0x00ffffff-no-rj)
+
+> Coding bootcamps hate him! See how he can teach you to code with this one weird trick... https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ/playlists
+>
+> [Bro Code](https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ/playlists)
