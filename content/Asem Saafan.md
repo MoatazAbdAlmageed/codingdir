@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "ui/ux"
-  - "Algorithms"
+  - "algorithms"
   - "Data Structures"
   - "dart"
   - "flutter"

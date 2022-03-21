@@ -14,7 +14,7 @@ tags:
   - "css"
   - "js"
   - "Data Structures"
-  - "Algorithms"
+  - "algorithms"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTWGzZyJRivQxKbHVJCR2pUfDQqAhK_-l4iWFHbZQ=s176-c-k-c0x00ffffff-no-rj"
 ---
 
