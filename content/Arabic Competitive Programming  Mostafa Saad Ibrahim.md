@@ -1,5 +1,5 @@
 ---
-title: "Arabic Competitive Programming | Mostafa Saad Ibrahim"
+title: "Arabic Competitive ProgrammingMostafa Saad Ibrahim"
 date: "2020-11-11"
 categories:
   - "عربي"

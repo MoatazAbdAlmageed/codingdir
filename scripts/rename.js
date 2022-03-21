@@ -1,8 +1,8 @@
 const { join } = require("path");
 const { readdirSync, renameSync } = require("fs");
 const [dir, search, replace] = process.argv.slice(2);
-// const match = RegExp(search, "g"); // contains
-const match = RegExp("^" + search, "i"); // start with
+const match = RegExp(search, "g"); // contains
+// const match = RegExp("^" + search, "i"); // start with
 
 const files = readdirSync(dir);
 
@@ -17,4 +17,4 @@ files
 
 // Usage
 // node rename.js path/to/directory 'string-to-search' 'string-to-replace'
-// node.exe  script.js . ' ' ''
+// node.exe scripts/rename.js content/ "" ""

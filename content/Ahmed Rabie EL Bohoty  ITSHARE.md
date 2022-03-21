@@ -1,5 +1,5 @@
 ---
-title: "Ahmed Rabie EL Bohoty | ITSHARE"
+title: "Ahmed Rabie EL Bohoty ITSHARE"
 date: "2020-11-11"
 categories:
   - "عربي"

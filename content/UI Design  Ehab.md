@@ -1,5 +1,5 @@
 ---
-title: "UI Design | Ehab"
+title: "UI Design Ehab"
 date: "2021-08-22"
 categories:
   - "عربي"

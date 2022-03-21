@@ -1,5 +1,5 @@
 ---
-title: "Rani Fayez Ahmad | superlinux"
+title: "Rani Fayez Ahmad superlinux"
 date: "2020-11-11"
 categories:
   - "عربي"

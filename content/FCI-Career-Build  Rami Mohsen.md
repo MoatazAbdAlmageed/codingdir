@@ -1,5 +1,5 @@
 ---
-title: "FCI-Career-Build | Rami Mohsen"
+title: "FCI-Career-BuildRami Mohsen"
 date: "2021-04-28"
 categories:
   - "عربي"

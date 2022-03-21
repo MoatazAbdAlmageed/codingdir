@@ -1,5 +1,5 @@
 ---
-title: "Mohamed Salah | MohamedStudios"
+title: "Mohamed Salah Mohamed Studios"
 date: "2021-05-22"
 categories:
   - "عربي"

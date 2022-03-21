@@ -1,5 +1,5 @@
 ---
-title: "Coders Camp | Rasha Abden"
+title: "Coders CampRasha Abden"
 date: "2021-05-09"
 categories:
   - "عربي"

@@ -1,5 +1,5 @@
 ---
-title: "Soufyane Hamimed | Array Minds"
+title: "Soufyane Hamimed Array Minds"
 date: "2021-04-30"
 categories:
   - "عربي"

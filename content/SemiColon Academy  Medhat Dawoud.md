@@ -1,5 +1,5 @@
 ---
-title: "SemiColon Academy | Medhat Dawoud"
+title: "SemiColon Academy Medhat Dawoud"
 date: "2020-11-11"
 categories:
   - "عربي"

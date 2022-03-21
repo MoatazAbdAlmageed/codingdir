@@ -1,5 +1,5 @@
 ---
-title: "Free4arab | Information Technology"
+title: "Free4arabInformation Technology"
 date: "2020-11-11"
 youtube: "https://www.youtube.com/user/Nourelhoda2011"
 categories:

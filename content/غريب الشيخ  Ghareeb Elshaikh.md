@@ -1,5 +1,5 @@
 ---
-title: "غريب الشيخ || Ghareeb Elshaikh"
+title: "غريب الشيخ  Ghareeb Elshaikh"
 date: "2021-06-01"
 categories:
   - "عربي"

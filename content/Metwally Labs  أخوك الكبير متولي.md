@@ -1,5 +1,5 @@
 ---
-title: "Metwally Labs | أخوك الكبير متولي"
+title: "Metwally Labs أخوك الكبير متولي"
 date: "2020-11-11"
 categories:
   - "عربي"

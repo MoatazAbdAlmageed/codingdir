@@ -1,5 +1,5 @@
 ---
-title: "سامح دعبس | Sameh Deabes"
+title: "سامح دعبس Sameh Deabes"
 date: "2020-11-11"
 categories:
   - "عربي"
