@@ -4,7 +4,7 @@ import {
   Image,
   Tag,
   Text,
-  useColorModeValue
+  useColorModeValue,
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
 import React from "react";
@@ -100,70 +100,70 @@ export default ({ data, pageContext }) => {
         </Text>
 
         {post.youtube && (
-          <Link
+          <a
             style={{ color: "orange" }}
             target="_blank"
-            to={post.youtube}
+            href={post.youtube}
             activeClassName={styles.activeNav}
           >
             {post.youtube}
-          </Link>
+          </a>
         )}
         <br />
         {post.linkedin && (
-          <Link
+          <a
             style={{ color: "orange" }}
             target="_blank"
-            to={post.linkedin}
+            href={post.linkedin}
             activeClassName={styles.activeNav}
           >
             {post.linkedin}
-          </Link>
+          </a>
         )}
         <br />
         {post.github && (
-          <Link
+          <a
             style={{ color: "orange" }}
             target="_blank"
-            to={post.github}
+            href={post.github}
             activeClassName={styles.activeNav}
           >
             {post.github}
-          </Link>
+          </a>
         )}
         <br />
         {post.site && (
-          <Link
+          <a
             style={{ color: "orange" }}
             target="_blank"
-            to={post.site}
+            href={post.site}
             activeClassName={styles.activeNav}
           >
             {post.site}
-          </Link>
+          </a>
         )}
         <br />
         {post.behance && (
-          <Link
+          <a
             style={{ color: "orange" }}
             target="_blank"
-            to={post.behance}
+            href={post.behance}
             activeClassName={styles.activeNav}
           >
             {post.behance}
-          </Link>
+          </a>
         )}
 
-        <Link
+        <a
           style={{ color: "orange" }}
           target="_blank"
-          to={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
+          href={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
             .trim()
             .replace("-", " ")}.md`}
           activeClassName={styles.activeNav}
         >
           Edit ✏
-        </Link>
+        </a>
       </Box>
 
       <SocialLinks postPath={slug} postNode={postNode} />

@@ -11,7 +11,6 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { Link } from "gatsby";
 import React from "react";
 import { FaYoutube } from "react-icons/fa";
 import uuid from "react-uuid";
@@ -107,8 +106,8 @@ const PostListing = ({ postEdges }) => {
               transform: "scale(1.05)",
             }}
           >
-            <Link
-              to={post.path}
+            <a
+              href={post.path}
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
@@ -123,18 +122,18 @@ const PostListing = ({ postEdges }) => {
                   width="150px"
                 />
               </Center>
-            </Link>
+            </a>
             <PostCategories categories={post.categories} margin="auto" />
             {post.youtube && (
               <Center>
-                <Link
-                  to={post.youtube}
+                <a
+                  href={post.youtube}
                   target="_blank"
                   textDecoration="none"
                   _hover={{ textDecoration: "none" }}
                 >
                   <FaYoutube color="#ff0000" />
-                </Link>
+                </a>
               </Center>
             )}
           </Box>
