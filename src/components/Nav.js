@@ -386,6 +386,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Contribute?",
-    href: "/submit-channel",
+    href:
+      "https://github.com/MoatazAbdAlmageed/YouTube-Channels/blob/main/CONTRIBUTING.md",
   },
 ];
