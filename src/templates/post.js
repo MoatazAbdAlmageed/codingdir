@@ -153,6 +153,15 @@ export default ({ data, pageContext }) => {
             {post.behance}
           </Link>
         )}
+
+        <Link
+          style={{ color: "orange" }}
+          target="_blank"
+          to={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title}.md`}
+          activeClassName={styles.activeNav}
+        >
+          Edit ✏
+        </Link>
       </Box>
 
       <SocialLinks postPath={slug} postNode={postNode} />
