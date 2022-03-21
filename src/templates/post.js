@@ -4,7 +4,7 @@ import {
   Image,
   Tag,
   Text,
-  useColorModeValue,
+  useColorModeValue
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
 import React from "react";
@@ -159,7 +159,7 @@ export default ({ data, pageContext }) => {
           target="_blank"
           to={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
             .trim()
-            .replace("-", "")}.md`}
+            .replace("-", " ")}.md`}
           activeClassName={styles.activeNav}
         >
           Edit ✏
