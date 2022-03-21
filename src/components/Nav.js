@@ -226,6 +226,11 @@ const NAV_ITEMS = [
         href: "/tags/problem-solving",
       },
       {
+        label: "data-structures",
+        subLabel: "data-structures description here",
+        href: "/tags/data-structures",
+      },
+      {
         label: "algorithms",
         subLabel: "algorithms description here",
         href: "/tags/algorithms",
