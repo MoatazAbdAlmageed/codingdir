@@ -84,13 +84,7 @@ const DesktopNav = (props) => {
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <Menu size="sm">
-              <Link
-                target="_blank"
-                rel="noopener"
-                key={navItem.label}
-                py={2}
-                href={navItem.href}
-              >
+              <Link key={navItem.label} py={2} href={navItem.href}>
                 <MenuButton>
                   {navItem.label == "Contribute?" ? (
                     <MenuButton
