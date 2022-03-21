@@ -1,8 +1,7 @@
 ---
-title: "https://www.youtube.com/user/derekbanas"
+title: "derekbanas"
+youtube: "https://www.youtube.com/user/derekbanas"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
 ---
-
-

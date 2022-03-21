@@ -1,5 +1,5 @@
 ---
-title: "المبرمجين العرب / Ayman Hussein"
+title: "المبرمجين العرب  Ayman Hussein"
 date: "2021-05-20"
 categories:
   - "عربي"
