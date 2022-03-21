@@ -18,3 +18,4 @@ files
 // Usage
 // node rename.js path/to/directory 'string-to-search' 'string-to-replace'
 // node.exe scripts/rename.js content/ "" ""
+// node.exe scripts/rename.js content/ "-" " "

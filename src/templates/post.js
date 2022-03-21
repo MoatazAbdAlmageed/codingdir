@@ -157,7 +157,9 @@ export default ({ data, pageContext }) => {
         <Link
           style={{ color: "orange" }}
           target="_blank"
-          to={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title}.md`}
+          to={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
+            .trim()
+            .replace("-", "")}.md`}
           activeClassName={styles.activeNav}
         >
           Edit ✏
