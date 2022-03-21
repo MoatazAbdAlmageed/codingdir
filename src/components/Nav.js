@@ -84,10 +84,15 @@ const DesktopNav = (props) => {
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <Menu size="sm">
-              <Link key={navItem.label} py={2} href={navItem.href}>
+              <Link
+                target={navItem.label == "Contribute 💁" && "_blank"}
+                key={navItem.label}
+                py={2}
+                href={navItem.href}
+              >
                 <MenuButton>
-                  {navItem.label == "Contribute?" ? (
-                    <MenuButton
+                  {navItem.label == "Contribute 💁" ? (
+                    <MenuItem
                       backgroundColor="orange"
                       color="white"
                       px={4}
@@ -101,7 +106,7 @@ const DesktopNav = (props) => {
                       _focus={{ boxShadow: "outline" }}
                     >
                       {navItem.label}
-                    </MenuButton>
+                    </MenuItem>
                   ) : (
                     <MenuItem padding={1}>
                       {navItem.label}
@@ -206,7 +211,7 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
   {
-    label: "Pin",
+    label: "Pin 📌",
     href: "/tags/pin",
     img:
       "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
@@ -262,6 +267,18 @@ const NAV_ITEMS = [
       {
         label: "vuejs",
         href: "/tags/vuejs",
+      },
+      {
+        label: "ui-ux",
+        href: "/tags/ui-ux",
+      },
+      {
+        label: "xd",
+        href: "/tags/xd",
+      },
+      {
+        label: "figma",
+        href: "/tags/figma",
       },
     ],
   },
