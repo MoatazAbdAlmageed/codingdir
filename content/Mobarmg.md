@@ -8,7 +8,7 @@ tags:
   - "angular"
   - ".net"
   - "bootstrap"
-  - "c#"
+  - "csharp"
   - "css"
   - "design patterns"
   - "es6"

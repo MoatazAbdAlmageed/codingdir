@@ -6,7 +6,7 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "c++"
+  - "cplusplus"
   - "chatbot"
   - "nodejs"
   - "problem solving"

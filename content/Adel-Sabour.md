@@ -6,7 +6,7 @@ categories:
 tags:
   - "ai"
   - "big-data"
-  - "c#"
+  - "csharp"
   - "js"
   - "nodejs"
   - "python"

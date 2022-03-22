@@ -6,7 +6,7 @@ categories:
 tags:
   - ".net"
   - "bootstrap"
-  - "c#"
+  - "csharp"
   - "css"
   - "django"
   - "html"

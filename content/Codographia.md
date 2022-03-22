@@ -6,7 +6,7 @@ categories:
 
 tags:
   - ".net"
-  - "c#"
+  - "csharp"
   - "c"
   - "docker"
   - "wordpress"

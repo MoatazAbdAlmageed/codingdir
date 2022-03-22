@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - ".net"
-  - "c#"
+  - "csharp"
   - "microsoft"
 ---
 

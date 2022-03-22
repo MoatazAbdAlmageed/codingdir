@@ -6,7 +6,7 @@ categories:
 tags:
   - "android"
   - ".net"
-  - "c#"
+  - "csharp"
   - "c"
   - "c"
   - "css"

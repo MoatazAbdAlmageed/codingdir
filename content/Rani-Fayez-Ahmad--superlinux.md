@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "c++"
+  - "cplusplus"
   - "linux"
   - "math"
   - "groovy"

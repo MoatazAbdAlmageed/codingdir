@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "backend"
-  - "c++"
+  - "cplusplus"
   - "data structures"
   - "java"
   - "oop"

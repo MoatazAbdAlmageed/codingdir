@@ -7,7 +7,7 @@ categories:
 tags:
   - ".net"
   - "angular"
-  - "c#"
+  - "csharp"
   - "java"
   - "testing"
   - "windows"

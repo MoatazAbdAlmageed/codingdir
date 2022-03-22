@@ -9,7 +9,7 @@ categories:
 tags:
   - "pin"
   - "c"
-  - "c++"
+  - "cplusplus"
   - "cs"
   - "microsoft"
   - "database"

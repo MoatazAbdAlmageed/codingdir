@@ -271,6 +271,10 @@ const NAV_ITEMS = [
         label: "software-development",
         href: "/tags/software-development",
       },
+      {
+        label: "software-systems",
+        href: "/tags/software-systems",
+      },
     ],
   },
   {
@@ -443,6 +447,10 @@ const NAV_ITEMS = [
       {
         label: "Kubernetes",
         href: "/tags/kubernetes",
+      },
+      {
+        label: "cloud",
+        href: "/tags/cloud",
       },
     ],
   },

@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "angular"
-  - "c#"
+  - "csharp"
   - "data science"
   - "oop"
   - "software engineering"

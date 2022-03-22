@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "asp"
-  - "c#"
+  - "csharp"
   - "crm"
   - "entity-framework"
   - "iti"

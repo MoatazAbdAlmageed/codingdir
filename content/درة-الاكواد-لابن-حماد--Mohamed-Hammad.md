@@ -8,7 +8,7 @@ tags:
   - "pin"
   - "ai"
   - ".net"
-  - "c#"
+  - "csharp"
   - "cs"
   - "declarative programming"
   - "functional-programming"

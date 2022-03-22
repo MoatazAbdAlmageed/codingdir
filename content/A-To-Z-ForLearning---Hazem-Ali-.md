@@ -5,9 +5,9 @@ categories:
   - "عربي"
 
 tags:
-  - "c#"
+  - "csharp"
   - "backend"
-  - "c#"
+  - "csharp"
   - "html"
   - "php"
   - "python"

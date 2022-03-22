@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "backend"
-  - "c#"
+  - "csharp"
   - "frontend"
   - "js"
   - "math"

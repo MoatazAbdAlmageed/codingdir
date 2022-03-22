@@ -7,7 +7,7 @@ tags:
   - "dl"
   - "ai"
   - "ip"
-  - "c#"
+  - "csharp"
   - "data structures"
   - "cs"
 ---

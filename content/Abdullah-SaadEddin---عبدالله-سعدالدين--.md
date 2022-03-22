@@ -7,6 +7,7 @@ categories:
   - "عربي"
 tags:
   - "automation"
+  - "cypress"
   - "js"
   - "notion"
   - "productivity"

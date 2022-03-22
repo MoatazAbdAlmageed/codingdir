@@ -7,7 +7,7 @@ categories:
   - "عربي"
 
 tags:
-  - "c#"
+  - "csharp"
   - "c"
   - "meetup"
   - "microsoft"

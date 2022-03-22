@@ -10,7 +10,7 @@ tags:
   - "android"
   - "backend"
   - "blockhain"
-  - "c#"
+  - "csharp"
   - "css"
   - "data structures"
   - "firebase"

@@ -6,7 +6,7 @@ categories:
 tags:
   - "agile"
   - "algorithms"
-  - "c#"
+  - "csharp"
   - "cryptographic"
   - "data structures"
   - "database"

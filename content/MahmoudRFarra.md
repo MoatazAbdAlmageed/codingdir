@@ -6,7 +6,7 @@ categories:
 tags:
   - "web"
   - "sql"
-  - "c#"
+  - "csharp"
   - "cs"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLTw99877nUvcN3AQKF9SpKLZMMrn8TcCnxF_irf=s88-c-k-c0x00ffffff-no-rj"

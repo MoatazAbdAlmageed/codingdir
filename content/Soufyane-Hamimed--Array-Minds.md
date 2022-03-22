@@ -5,8 +5,8 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "c++"
-  - "c#"
+  - "cplusplus"
+  - "csharp"
   - "c"
 ---
 

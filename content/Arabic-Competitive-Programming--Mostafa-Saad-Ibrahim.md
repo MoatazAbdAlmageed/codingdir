@@ -6,7 +6,7 @@ categories:
 tags:
   - "algorithms"
   - "cs"
-  - "c++"
+  - "cplusplus"
   - "competitive-programming"
   - "kids"
   - "talks"
