@@ -86,18 +86,6 @@ export default ({ data, pageContext }) => {
         <Heading marginBottom={2}>{post.title}</Heading>
         <PostCategories categories={post.categories} />
         <BlogTags tags={[...new Set(post.tags)]} />
-        <Text
-          as="p"
-          marginTop="2"
-          color={useColorModeValue("gray.700", "gray.200")}
-          fontSize="lg"
-        >
-          <div
-            dangerouslySetInnerHTML={{
-              __html: postNode.html.replace(/href/g, "target='_blank' href"),
-            }}
-          />
-        </Text>
 
         {post.youtube && (
           <a
@@ -106,6 +94,7 @@ export default ({ data, pageContext }) => {
             href={post.youtube}
             activeClassName={styles.activeNav}
           >
+            📺
             {post.youtube}
           </a>
         )}
@@ -153,6 +142,19 @@ export default ({ data, pageContext }) => {
             {post.behance}
           </a>
         )}
+
+        <Text
+          as="p"
+          marginTop="2"
+          color={useColorModeValue("gray.700", "gray.200")}
+          fontSize="lg"
+        >
+          <div
+            dangerouslySetInnerHTML={{
+              __html: postNode.html.replace(/href/g, "target='_blank' href"),
+            }}
+          />
+        </Text>
 
         <a
           className="admin_only"

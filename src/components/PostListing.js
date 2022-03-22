@@ -68,9 +68,9 @@ const PostListing = ({ postEdges }) => {
   const { filteredData, query } = state;
   const hasSearchResults = filteredData && query;
   const rowPosts = hasSearchResults ? filteredData : postList;
-  const posts = [...new Set(rowPosts)].sort((a, b) =>
-    a.title > b.title ? -1 : 1
-  );
+  const posts = [...new Set(rowPosts)]
+    .filter(({ title }) => title !== "Template")
+    .sort((a, b) => (a.title > b.title ? 1 : -1));
 
   return (
     <Stack>

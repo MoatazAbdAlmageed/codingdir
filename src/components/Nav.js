@@ -430,6 +430,10 @@ const NAV_ITEMS = [
     label: "Islamic 🕌",
     href: "/tags/islamic",
   },
+  {
+    label: "English 🗣️",
+    href: "/tags/english",
+  },
 
   {
     label: "Topics 🏷️",

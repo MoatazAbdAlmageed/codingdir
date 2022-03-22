@@ -1,5 +1,5 @@
 ---
-title: "Moataz Mohammady"
+title: "Template"
 date: "2022-02-28"
 categories:
   - "عربي"
