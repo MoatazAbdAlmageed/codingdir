@@ -5,6 +5,7 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
+  - "cs"
   - "c++"
   - "competitive-programming"
   - "kids"
