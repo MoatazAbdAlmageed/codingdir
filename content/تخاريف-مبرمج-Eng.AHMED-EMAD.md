@@ -1,5 +1,5 @@
 ---
-title: "تخاريف مبرمج  Eng.AHMED EMAD"
+title: "تخاريف مبرمج  Eng AHMED EMAD"
 date: "2021-03-08"
 categories:
   - "عربي"
