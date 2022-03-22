@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "android"
-  - ".net"
+  - "dotnet"
   - "csharp"
   - "c"
   - "c"

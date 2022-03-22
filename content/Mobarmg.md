@@ -6,7 +6,7 @@ categories:
 tags:
   - "ajax"
   - "angular"
-  - ".net"
+  - "dotnet"
   - "bootstrap"
   - "csharp"
   - "css"

@@ -4,7 +4,7 @@ date: "2021-07-07"
 categories:
   - "عربي"
 tags:
-  - ".net"
+  - "dotnet"
   - "frontend"
   - "microsoft"
   - "react"

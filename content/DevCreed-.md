@@ -4,7 +4,7 @@ date: "2021-04-04"
 categories:
   - "عربي"
 tags:
-  - ".net"
+  - "dotnet"
   - "c"
   - "mvc"
 ---

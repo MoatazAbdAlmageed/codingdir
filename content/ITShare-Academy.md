@@ -8,5 +8,5 @@ tags:
   - "angular"
   - "blockchain"
   - "js"
-  - ".net"
+  - "dotnet"
 ---

@@ -4,7 +4,7 @@ date: "2020-11-17"
 categories:
   - "عربي"
 tags:
-  - ".net"
+  - "dotnet"
   - "bootstrap"
   - "cplusplus"
   - "c"

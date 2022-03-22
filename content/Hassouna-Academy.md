@@ -4,7 +4,7 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - ".net"
+  - "dotnet"
   - "bootstrap"
   - "csharp"
   - "css"

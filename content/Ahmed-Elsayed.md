@@ -4,7 +4,7 @@ date: "2021-05-07"
 categories:
   - "عربي"
 tags:
-  - ".net"
+  - "dotnet"
   - "csharp"
   - "microsoft"
 ---

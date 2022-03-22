@@ -7,7 +7,7 @@ categories:
 tags:
   - "pin"
   - "ai"
-  - ".net"
+  - "dotnet"
   - "csharp"
   - "cs"
   - "declarative programming"

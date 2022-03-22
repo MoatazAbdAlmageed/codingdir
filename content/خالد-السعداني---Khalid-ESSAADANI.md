@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - ".net"
+  - "dotnet"
   - "angular"
   - "csharp"
   - "java"
