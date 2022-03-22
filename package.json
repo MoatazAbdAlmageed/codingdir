@@ -73,6 +73,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "rename": " node.exe scripts/rename.js",
     "develop": "gatsby develop",
     "dev": "npm run develop",
     "serve": "gatsby serve",

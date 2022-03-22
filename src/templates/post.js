@@ -15,7 +15,7 @@ import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
 import Layout from "../layout";
 import styles from "./post.module.scss";
-import "./prism-okaidia.css";
+// import "./prism-okaidia.css";
 const _ = require("lodash");
 
 const BlogTags = (props) => {
@@ -155,12 +155,13 @@ export default ({ data, pageContext }) => {
         )}
 
         <a
-          style={{ color: "orange" }}
+          className="admin_only"
+          style={{ color: "orange", visibility: "hidden" }}
           target="_blank"
           href={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
             .trim()
-            .replace("-", " ")}.md`}
-          activeClassName={styles.activeNav}
+            .replace(" ", "-")
+            .replace(".", "-")}.md`}
         >
           Edit ✏
         </a>
