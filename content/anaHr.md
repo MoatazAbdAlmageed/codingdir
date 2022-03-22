@@ -10,6 +10,8 @@ tags:
   - "math"
   - "operating-systems"
   - "pin"
+  - "mechanics"
+  - "computing"
 ---
 
 
