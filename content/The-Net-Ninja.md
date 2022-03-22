@@ -6,6 +6,7 @@ categories:
 
 tags:
   - "angular"
+  - "mongodb"
   - "backend"
   - "bootstrap"
   - "bulma"
@@ -37,6 +38,11 @@ tags:
   - "sass"
   - "xd"
   - "pin"
+  - "figma"
+  - "docker"
+  - "svelt"
+  - "games"
+  
 cover: "https://yt3.ggpht.com/ytc/AKedOLT3v89U-2iVX-78hqPk1-lBIduTcljrKLIH9YJg1A=s88-c-k-c0x00ffffff-no-rj"
 youtube: "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
 ---
