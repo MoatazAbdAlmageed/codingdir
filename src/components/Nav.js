@@ -275,7 +275,8 @@ const NAV_ITEMS = [
   },
   {
     label: "Front-end 🧑‍💻",
-    href: "#",
+    href: "/tags/frontend",
+
     children: [
       {
         label: "HTML",
@@ -319,7 +320,7 @@ const NAV_ITEMS = [
 
   {
     label: "Back-end 💾",
-    href: "#",
+    href: "/tags/backend",
     children: [
       {
         label: "nodejs",
@@ -361,7 +362,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Database 🗃️",
-    href: "#",
+    href: "/tags/database",
     children: [
       {
         label: "sql",
@@ -391,7 +392,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Mobile 📱",
-    href: "#",
+    href: "/tags/mobile",
     children: [
       {
         label: "android",
@@ -417,7 +418,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Devops ",
-    href: "#",
+    href: "/tags/devops",
     children: [
       {
         label: "git",
