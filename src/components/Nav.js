@@ -240,6 +240,14 @@ const NAV_ITEMS = [
         href: "/tags/operating-system",
       },
       {
+        label: "networking",
+        href: "/tags/networking",
+      },
+      {
+        label: "computer-programming",
+        href: "/tags/computer-programming",
+      },
+      {
         label: "system-design",
         href: "/tags/system-design",
       },
@@ -248,8 +256,20 @@ const NAV_ITEMS = [
         href: "/tags/system-analysis",
       },
       {
-        label: "Computer Architecture",
+        label: "computer-architecture",
         href: "/tags/computer-architecture",
+      },
+      {
+        label: "software-engineering",
+        href: "/tags/software-engineering",
+      },
+      {
+        label: "software-architecture",
+        href: "/tags/software-architecture",
+      },
+      {
+        label: "software-development",
+        href: "/tags/software-development",
       },
     ],
   },
@@ -410,6 +430,10 @@ const NAV_ITEMS = [
       {
         label: "Jenkins",
         href: "/tags/jenkins",
+      },
+      {
+        label: "containerization",
+        href: "/tags/containerization",
       },
       {
         label: "docker",
