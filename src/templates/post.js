@@ -160,8 +160,8 @@ export default ({ data, pageContext }) => {
           target="_blank"
           href={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
             .trim()
-            .replace(" ", "-")
-            .replace(".", "-")}.md`}
+            .replaceAll(" ", "-")
+            .replaceAll(".", "-")}.md`}
         >
           Edit ✏
         </a>
