@@ -89,8 +89,9 @@ const DesktopNav = (props) => {
                 key={navItem.label}
                 py={2}
                 href={navItem.href}
+                fontSize="14px"
               >
-                <MenuButton>
+                <MenuButton fontSize="14px">
                   {navItem.label == "Contribute 💁" ? (
                     <MenuItem
                       backgroundColor="orange"
@@ -104,6 +105,7 @@ const DesktopNav = (props) => {
                       _hover={{ bg: "gray.400" }}
                       _expanded={{ bg: "blue.400" }}
                       _focus={{ boxShadow: "outline" }}
+                      fontSize="14px"
                     >
                       {navItem.label}
                     </MenuItem>
@@ -124,7 +126,7 @@ const DesktopNav = (props) => {
                 </MenuButton>
               </Link>
               {navItem.children && (
-                <MenuList>
+                <MenuList fontSize="14px">
                   {navItem.children.map((child) => (
                     <Link size="sm" key={child.label} py={2} href={child.href}>
                       <MenuItem>{upperCase(child.label)}</MenuItem>
@@ -278,7 +280,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Front-end 🧑‍💻",
+    label: "FrontEnd 🎨",
     href: "/tags/frontend",
 
     children: [
@@ -323,7 +325,7 @@ const NAV_ITEMS = [
   },
 
   {
-    label: "Back-end 💾",
+    label: "BackEnd ⚙",
     href: "/tags/backend",
     children: [
       {
@@ -421,7 +423,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Devops ",
+    label: "Devops 🖲",
     href: "/tags/devops",
     children: [
       {

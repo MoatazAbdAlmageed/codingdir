@@ -8,7 +8,14 @@ const Footer = () => (
       <Link style={{ color: "orange" }} target="_blank" to="/moataz-mohammady">
         By Moataz Mohammady
       </Link>{" "}
-      &copy; {new Date().getFullYear()} Chakra UI Pro, Inc. All rights reserved.
+      &copy; {new Date().getFullYear()} Built with ♥ using{" "}
+      <a href="https://www.gatsbyjs.com/" target="_blank">
+        Gatsby
+      </a>{" "}
+      and{" "}
+      <a href="https://chakra-ui.com/" target="_blank">
+        Chakra UI
+      </a>{" "}
     </Text>
   </Container>
 );
