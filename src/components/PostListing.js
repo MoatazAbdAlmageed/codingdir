@@ -70,7 +70,7 @@ const PostListing = ({ postEdges }) => {
   const rowPosts = hasSearchResults ? filteredData : postList;
   const posts = [...new Set(rowPosts)]
     .filter(({ title }) => title !== "Template")
-    .sort((a, b) => (a.title > b.title ? 1 : -1));
+    .sort((a, b) => (a?.tags?.length > b?.tags?.length ? -1 : 1));
 
   return (
     <Stack>

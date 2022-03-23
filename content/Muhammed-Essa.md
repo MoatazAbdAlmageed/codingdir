@@ -1,6 +1,8 @@
 ---
 title: "Muhammed Essa"
 date: "2020-11-11"
+cover: "https://yt3.ggpht.com/ytc/AKedOLS_Ba0NDK7MLQoyPZYcjEQbZbbHsPnYD4Ov6LnMkg=s176-c-k-c0x00ffffff-no-rj"
+youtube: "https://www.youtube.com/user/muhammedgalaxy"
 categories:
   - "عربي"
 
@@ -36,5 +38,3 @@ tags:
   - "database"
   - "vuejs"
 ---
-
-https://www.youtube.com/user/muhammedgalaxy

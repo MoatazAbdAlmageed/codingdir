@@ -1,5 +1,5 @@
 ---
-title: "TheNewBaghdadHussein Alrubaye"
+title: "The New Baghdad Hussein Alrubaye"
 date: "2020-11-11"
 categories:
   - "عربي"
