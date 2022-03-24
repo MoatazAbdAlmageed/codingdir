@@ -17,7 +17,8 @@ tags:
   - "serverless"
   - "springboot"
   - "strapi"
-cover: "/YouTube-Icon-Gray-Box.png"
+cover: "https://yt3.ggpht.com/ytc/AKedOLRh6xl8TUUc7ciC_fpMPQWFpu0xSbYKsIKTxpM2Sw=s88-c-k-c0x00ffffff-no-rj"
+youtube: "https://www.youtube.com/user/abolkog"
 ---
 
-https://www.youtube.com/user/abolkog
+
