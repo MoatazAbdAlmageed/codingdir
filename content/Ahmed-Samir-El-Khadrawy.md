@@ -17,6 +17,7 @@ tags:
   - "software development"
   - "software engineering"
   - "database"
+  - "python"
 cover: "https://yt3.ggpht.com/ytc/AKedOLSqpo4NV6ZjjCTeHNc4zqjZRNcwfYMa0OJjobvXCw=s88-c-k-c0x00ffffff-no-rj"
 youtube: "https://www.youtube.com/user/devAhmed1"
 ---
