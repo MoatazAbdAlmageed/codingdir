@@ -10,6 +10,7 @@ tags:
   - "css"
   - "js"
   - "react"
+  - "pin"
 ---
 
 https://scrimba.com/
