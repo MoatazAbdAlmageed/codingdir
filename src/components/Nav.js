@@ -220,7 +220,7 @@ const NAV_ITEMS = [
   },
   {
     label: "CS 🏫",
-    href: "/tags/cs",
+    href: "#",
     children: [
       {
         label: "problem-solving",
@@ -281,7 +281,7 @@ const NAV_ITEMS = [
   },
   {
     label: "FrontEnd 🎨",
-    href: "/tags/frontend",
+    href: "#",
 
     children: [
       {
@@ -326,7 +326,7 @@ const NAV_ITEMS = [
 
   {
     label: "BackEnd ⚙",
-    href: "/tags/backend",
+    href: "#",
     children: [
       {
         label: "nodejs",
@@ -368,7 +368,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Database 🗃️",
-    href: "/tags/database",
+    href: "#",
     children: [
       {
         label: "sql",
@@ -398,7 +398,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Mobile 📱",
-    href: "/tags/mobile",
+    href: "#",
     children: [
       {
         label: "android",
@@ -424,7 +424,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Devops 🖲",
-    href: "/tags/devops",
+    href: "#",
     children: [
       {
         label: "git",
