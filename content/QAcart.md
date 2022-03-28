@@ -7,6 +7,12 @@ categories:
   - "عربي"
 tags:
   - "testing"
+  - "cypress"
+  - "postman
+  - "cypress"
+  - "selenium"
+  - "appium
+  - "istqb
 ---
 
 - QAcart - Home | Facebook
