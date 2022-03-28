@@ -22,3 +22,20 @@ youtube: "https://www.youtube.com/user/abolkog"
 ---
 
 
+لمزيد من الفيديوهات التعليمة الرجاء زيارة الموقع-  
+http://abolkog.com
+
+كورساتي علي موقع يوديمي-  
+www.abolkog.com/udemy
+
+
+جميع الاكواد موجودة علي ال-  Github 
+https://github.com/abolkog
+
+- For more tutorials please visit my website:
+http://abolkog.com
+
+- Tutorials codes are available at my github repo: 
+https://github.com/abolkog
+
+- https://twitter.com/BarmagaIo
