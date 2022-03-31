@@ -36,7 +36,6 @@ tags:
   - "flutter"
   - "shorts"
 ---
-
 - Fireship.io: https://fireship.io/
 
 - codediodeio (Jeff Delaney): https://github.com/codediodeio
