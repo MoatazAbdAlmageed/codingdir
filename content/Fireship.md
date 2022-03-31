@@ -12,7 +12,6 @@ tags:
   - "cs"
   - "tips"
   - "js"
-  - "cypress"
   - "linux"
   - "react"
   - "css"
@@ -36,6 +35,7 @@ tags:
   - "flutter"
   - "shorts"
 ---
+
 - Fireship.io: https://fireship.io/
 
 - codediodeio (Jeff Delaney): https://github.com/codediodeio
