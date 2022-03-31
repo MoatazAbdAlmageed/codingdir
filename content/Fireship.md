@@ -33,6 +33,8 @@ tags:
   - "typescript"
   - "firebase"
   - "angular"
+  - "flutter"
+  - "shorts"
 ---
 
 - Fireship.io: https://fireship.io/
