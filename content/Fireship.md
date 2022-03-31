@@ -8,6 +8,8 @@ categories:
 
 tags:
   - "pin"
+  - "cs"
+  - "tips"
   - "js"
   - "cypress"
   - "linux"
