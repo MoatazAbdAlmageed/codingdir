@@ -1,10 +1,35 @@
 ---
 tags:
-  - "nodejs"
-  - "pin"
-  - "cs"
-  - "tips"
-  - "js"
+  [
+    "nodejs",
+    "pin",
+    "cs",
+    "tips",
+    "js",
+    "cypress",
+    "linux",
+    "react",
+    "css",
+    "html",
+    "prisma",
+    "ruby",
+    "rails",
+    "csharp",
+    "swift",
+    "java",
+    "python",
+    "php",
+    "golang",
+    "bash",
+    "nestjs",
+    "svg",
+    "vim",
+    "typescript",
+    "firebase",
+    "angular",
+    "flutter",
+    "shorts",
+  ]
 
 title: "Fireship"
 date: "2021-07-13"
