@@ -27,4 +27,11 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLTHKPaCC8X70K4JHAeg_05JFL98z_wbnAPzWrgKIg
 youtube: "https://www.youtube.com/c/ElzeroInfo"
 ---
 
-https://elzero.org/
+- https://elzero.org/
+- أكاديمية الزيرو: https://elzero.org/
+- ElzeroWebSchool (Elzero Web School): https://github.com/ElzeroWebSchool
+- https://twitter.com/Osama_Elzero: https://twitter.com/Osama_Elzero
+- Osama on CodePen: https://codepen.io/OsamaElzero/
+- Osama Mohamed | Facebook: https://www.facebook.com/OsElzero
+- كيف تدعمنا؟ | أكاديمية الزيرو: https://elzero.org/support/
+- Osama Elzero is Creating Educational Videos On Youtube: https://www.buymeacoffee.com/OsamaElzero
