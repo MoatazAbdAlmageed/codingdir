@@ -11,6 +11,7 @@ tags:
   - "linux"
   - "nodejs"
   - "podcast"
+  - "pin"
 ---
 
 🔉
