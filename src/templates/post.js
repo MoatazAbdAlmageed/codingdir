@@ -1,3 +1,5 @@
+import { FaYoutube } from "react-icons/fa";
+
 import {
   Box,
   Heading,
@@ -94,7 +96,7 @@ export default ({ data, pageContext }) => {
             href={post.youtube}
             activeClassName={styles.activeNav}
           >
-            📺
+            <FaYoutube color="#ff0000" />
             {post.youtube}
           </a>
         )}
