@@ -13,4 +13,5 @@ tags:
   - "design patterns"
 cover: "https://yt3.ggpht.com/ytc/AKedOLQrUIHFE3Vk_5wdLXLweyZadNRG0iLpXa7g78bmy00=s88-c-k-c0x00ffffff-no-rj"
 youtube: "https://www.youtube.com/channel/UCrKr6aiLvFxj1csAUfekiuw/featured"
+linkedin: "https://www.linkedin.com/in/amr-taher-442228140/recent-activity/shares/"
 ---
