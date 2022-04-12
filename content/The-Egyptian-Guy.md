@@ -1,6 +1,7 @@
 ---
 title: "The Egyptian Guy"
 date: "2021-08-23"
+cover: "https://cdn.podu.me/img/resources/shows/profile/49.jpg"
 categories:
   - "عربي"
 
