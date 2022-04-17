@@ -15,7 +15,11 @@ tags:
   - "python"
   - "react"
   - "redux"
-cover: "/YouTube-Icon-Gray-Box.png"
+  - "pin"
+  - "docker"
+  - "java"
+cover: "https://yt3.ggpht.com/tBEPr-zTNXEeae7VZKSZYfiy6azzs9OHowq5ZvogJeHoVtKtEw2PXSwzMBKVR7W0MI7gyND8=s88-c-k-c0x00ffffff-no-rj"
+youtube: "https://www.youtube.com/user/programmingwithmosh"
 ---
 
-https://www.youtube.com/user/programmingwithmosh
+
