@@ -19,6 +19,18 @@ const MainLayout = ({ children }) => (
                 src="//code.tidio.co/hu1y1yihc632mh3wnzjitnrvou1gkrhq.js"
                 async
               ></script>
+  <div className="a2a_kit a2a_kit_size_32 a2a_default_style">
+                <a className="a2a_dd" href="https://www.addtoany.com/share"></a>
+                <a className="a2a_button_facebook"></a>
+                <a className="a2a_button_twitter"></a>
+                <a className="a2a_button_email"></a>
+                <a className="a2a_button_linkedin"></a>
+                <a className="a2a_button_facebook_messenger"></a>
+              </div>
+              <script
+                async
+                src="https://static.addtoany.com/menu/page.js"
+              ></script>
     </Helmet>
     <Container maxW="container.xl" mb={40} zIndex={1}>
       {children}
