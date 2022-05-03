@@ -1,10 +1,6 @@
 const urljoin = require("url-join");
 const config = require("./data/SiteConfig");
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
-
 module.exports = {
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
