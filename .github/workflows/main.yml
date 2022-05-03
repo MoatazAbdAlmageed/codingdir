@@ -62,8 +62,9 @@ jobs:
 
           git config --global user.name "Moataz Mohammady"
           git config --global user.email "moataz.mohamamdy@gamil.com"
-
+          git checkout main
           git pull
+          git checkout -b add_${title// /_}_channel
           git add -A
           git commit -m "add $title"
           git push
