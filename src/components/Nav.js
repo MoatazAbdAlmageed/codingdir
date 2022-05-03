@@ -86,10 +86,6 @@ const DesktopNav = (props) => {
             <Menu size="sm">
               <Link
                 target={navItem.label == "Contribute 💁" && "_blank"}
-                style={{
-                  visibility: navItem.label == "Submit" && "hidden",
-                }}
-                className={`${navItem.label == "Submit" ? "admin_only" : ""}`}
                 key={navItem.label}
                 py={2}
                 href={navItem.href}
