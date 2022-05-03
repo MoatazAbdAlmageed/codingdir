@@ -1,4 +1,4 @@
-name: Expo CI CD
+name: Publish Channel
 
 on:
   push:
@@ -8,21 +8,70 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      channelName:
-        description: "channel Name"
+      fileName:
+        description: "File Name"
         required: true
-        default: "Arab Hardware"
+        default: "mohammed-besar"
         type: string
+      
+      title:
+        description: "title"
+        required: true
+        default: "Mohammed Besar"
+        type: string
+        
+      category:
+        description: "category"
+        required: true
+        default: "عربي"
+        type: string        
+      
+      tag:
+        description: "tag"
+        required: true
+        default: "tips"
+        type: string        
+      
+      youtube:
+        description: "youtube"
+        required: true
+        default: "https://www.youtube.com/watch?v=CRADesdEtO4&ab_channel=MohammedBesar-%D9%85%D8%AD%D9%85%D8%AF%D8%A8%D9%8A%D8%B5%D8%A7%D8%B1"
+        type: string      
+      
+      cover:
+        description: "cover"
+        required: true
+        default: "https://yt3.ggpht.com/FvlGXX4-PzNbyiBdlJFwrSh1Kaa9RhtY65smY_ntNtcUfKnwIOu9ItnvbWpW30dT-nrBSG7YElU=s48-c-k-c0x00ffffff-no-rj"
+        type: string      
 
 jobs:
   create-md-file-in-content-dir:
     runs-on: ubuntu-latest
     env:
-      APP_NAME: ${{ github.event.inputs.channelName }}
+      fileName: ${{ github.event.inputs.fileName }}
+      title: ${{ github.event.inputs.title }}
+      category: ${{ github.event.inputs.category }}
+      tag: ${{ github.event.inputs.tag }}
+      youtube: ${{ github.event.inputs.youtube }}
+      cover: ${{ github.event.inputs.cover }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - name: create md file
-        run: echo $APP_NAME
+      - name: generate md file
+        run: |
+          # make file runnable, might not be necessary
+          chmod +x "${GITHUB_WORKSPACE}/scripts/generate.sh"
+
+          # run script
+          "${GITHUB_WORKSPACE}/scripts/generate.sh"
+
+          git config --global user.name "Moataz Mohammady"
+          git config --global user.email "moataz.mohamamdy@gamil.com"
+
+          git pull
+          git add -A
+          git commit -m "add $title"
+          git push
+          
