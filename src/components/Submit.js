@@ -6,6 +6,7 @@ import styles from "../pages/index.module.scss";
 import React, { Fragment, useState } from "react";
 import Tooltip from "@atlaskit/tooltip";
 import Button from "@atlaskit/button";
+import Select from "@atlaskit/select";
 import TextField from "@atlaskit/textfield";
 import Form, {
   ErrorMessage,
@@ -123,27 +124,15 @@ const Submit = () => {
                         );
                       }}
                     </Field>
-                    <Field
-                      aria-required={true}
+                    <Select
                       name="category"
-                      label="Category"
-                      isRequired
-                      defaultValue={formData?.category}
-                    >
-                      {({ fieldProps, error }) => (
-                        <Fragment>
-                          <Tooltip position="top" content="Category">
-                            <TextField
-                              type="text"
-                              {...fieldProps}
-                              value={formData?.category}
-                              onChange={(e) => handleChange(e)}
-                            />
-                          </Tooltip>
-                          {error && <ErrorMessage>{error}</ErrorMessage>}
-                        </Fragment>
-                      )}
-                    </Field>
+                      classNamePrefix="react-select"
+                      options={[
+                        { label: "عربي", value: "عربي" },
+                        { label: "English", value: "English" },
+                      ]}
+                      placeholder="Choose Language"
+                    />
                     <Field aria-required={true} name="youtube" label="youtube">
                       {({ fieldProps }) => {
                         return (
