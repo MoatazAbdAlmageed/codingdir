@@ -67,5 +67,5 @@ jobs:
           git checkout -b add_${title// /_}_channel
           git add -A
           git commit -m "add $title"
-          git push
+          git push --set-upstream origin "add $title"
           
