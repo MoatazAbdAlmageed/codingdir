@@ -17,17 +17,15 @@ import Form, {
 const Submit = () => {
   const [success, setSuccess] = useState(false);
   const [formData, setFormData] = useState({
-    appName: "",
-    url: "",
-    bundleIdentifier: "",
-    icon: "",
-    splash: "",
-    adaptiveIcon: "",
-    slug: "",
+    title: "",
+    category: "",
+    youtube: "",
+    cover: "",
+    tag: "",
     email: "",
   });
 
-  const onSubmit = (values) => {
+  const onSubmit = () => {
     const requestOptions = {
       method: "POST",
       headers: {
@@ -37,33 +35,30 @@ const Submit = () => {
       body: JSON.stringify({
         ref: "main",
         inputs: {
-          url: values?.url,
-          appName: values?.appName,
-          slug: values?.slug,
-          splash: values?.splash,
-          bundleIdentifier: values?.bundleIdentifier,
-          adaptiveIcon: values?.adaptiveIcon,
-          icon: values?.icon,
-          email: values?.email,
+          category: formData?.category,
+          title: formData?.title,
+          tag: formData?.tag,
+          youtube: formData?.youtube,
+          cover: formData?.cover,
         },
       }),
     };
     fetch(
-      "https://api.github.com/repos/wuilt/storefront-mobile/actions/workflows/main.yml/dispatches",
+      "https://api.github.com/repos/MoatazAbdAlmageed/YouTube-Channels/actions/workflows/main.yml/dispatches",
       requestOptions
     ).then((res) => {
-      alert("DONE");
+      console.log(formData);
+      console.log(res?.status);
+      console.log(success);
       res?.status === 204 ? setSuccess(true) : setSuccess(false);
+      alert(success);
     });
     setFormData({
-      appName: "",
-      url: "",
-      bundleIdentifier: "",
-      icon: "",
-      splash: "",
-      adaptiveIcon: "",
-      slug: "",
-      email: "",
+      title: "",
+      category: "",
+      youtube: "",
+      cover: "",
+      tag: "",
     });
   };
 
@@ -90,19 +85,16 @@ const Submit = () => {
                   <FormSection>
                     <Field
                       aria-required={true}
-                      name="appName"
-                      label="App Name"
+                      name="title"
+                      label="Title"
                       isRequired
                     >
                       {({ fieldProps, error }) => (
                         <Fragment>
-                          <Tooltip
-                            content="The name of your app as it appears on your home screen as a standalone app."
-                            position="top"
-                          >
+                          <Tooltip content="Channel title" position="top">
                             <TextField
                               {...fieldProps}
-                              value={formData?.appName}
+                              value={formData?.title}
                               onChange={(e) => handleChange(e)}
                             />
                           </Tooltip>
@@ -111,21 +103,18 @@ const Submit = () => {
                     </Field>
                     <Field
                       aria-required={true}
-                      name="slug"
-                      label="Slug"
+                      name="tag"
+                      label="tag"
                       isRequired
                     >
                       {({ fieldProps, error }) => {
                         return (
                           <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="The friendly URL name for publishing. For example, myAppName will refer to the expo.dev/@project-owner/myAppName project."
-                            >
+                            <Tooltip position="top" content="Channel tag">
                               <TextField
                                 type="text"
                                 {...fieldProps}
-                                value={formData?.slug}
+                                value={formData?.tag}
                                 onChange={(e) => handleChange(e)}
                               />
                             </Tooltip>
@@ -136,18 +125,18 @@ const Submit = () => {
                     </Field>
                     <Field
                       aria-required={true}
-                      name="url"
-                      label="Store Link"
+                      name="category"
+                      label="Category"
                       isRequired
-                      defaultValue={formData?.url}
+                      defaultValue={formData?.category}
                     >
                       {({ fieldProps, error }) => (
                         <Fragment>
-                          <Tooltip position="top" content="Preview Link">
+                          <Tooltip position="top" content="Category">
                             <TextField
                               type="text"
                               {...fieldProps}
-                              value={formData?.url}
+                              value={formData?.category}
                               onChange={(e) => handleChange(e)}
                             />
                           </Tooltip>
@@ -155,20 +144,18 @@ const Submit = () => {
                         </Fragment>
                       )}
                     </Field>
-                    <Field aria-required={true} name="icon" label="Icon">
+                    <Field aria-required={true} name="youtube" label="youtube">
                       {({ fieldProps }) => {
                         return (
                           <Fragment>
                             <Tooltip
                               position="top"
-                              content="Local path or remote URL to an image to use for your app's icon.
-                        We recommend that you use a 1024x1024 png file.
-                        This icon will appear on the home screen and within the Expo app."
+                              content="YouTube channel link"
                             >
                               <TextField
                                 type="text"
                                 {...fieldProps}
-                                value={formData?.icon}
+                                value={formData?.youtube}
                                 onChange={(e) => handleChange(e)}
                               />
                             </Tooltip>
@@ -176,100 +163,21 @@ const Submit = () => {
                         );
                       }}
                     </Field>
-                    <Field
-                      aria-required={true}
-                      name="bundleIdentifier"
-                      label="Bundle Identifier"
-                      isRequired
-                      defaultValue={formData?.bundleIdentifier}
-                    >
-                      {({ fieldProps, error }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="A bundle identifier lets iOS and macOS recognize any updates to your app.
-                      Your bundle ID must be registered with Apple and be unique to your app.
-                      Bundle identifiers are written out in reverse DNS notation (I.e com.myCompany.myApp).
-                      "
-                            >
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.bundleIdentifier}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                            {error && <ErrorMessage>{error}</ErrorMessage>}
-                          </Fragment>
-                        );
-                      }}
-                    </Field>
-                    <Field aria-required={true} name="splash" label="Splash">
+                    <Field aria-required={true} name="cover" label="Cover">
                       {({ fieldProps }) => {
                         return (
                           <Fragment>
                             <Tooltip
                               position="top"
-                              content="Local path or remote URL to an image to fill the background of the loading screen. 
-                        Image size and aspect ratio are up to you. Must be a .png."
+                              content="YouTube channel cover"
                             >
                               <TextField
                                 type="text"
                                 {...fieldProps}
-                                value={formData?.splash}
+                                value={formData?.cover}
                                 onChange={(e) => handleChange(e)}
                               />
                             </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>
-                    <Field
-                      aria-required={true}
-                      name="adaptiveIcon"
-                      label="Adaptive Icon"
-                    >
-                      {({ fieldProps }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="Local path or remote URL to an image to use for your app's icon on Android. If specified, this overrides the top-level icon and the android.icon keys."
-                            >
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.adaptiveIcon}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>
-                    <Field
-                      aria-required={true}
-                      name="email"
-                      label="Email"
-                      isRequired
-                      defaultValue={formData?.email}
-                    >
-                      {({ fieldProps, error }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="This email will receive the app's apk and ipa links."
-                            >
-                              <TextField
-                                type="email"
-                                {...fieldProps}
-                                value={formData?.email}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                            {error && <ErrorMessage>{error}</ErrorMessage>}
                           </Fragment>
                         );
                       }}
