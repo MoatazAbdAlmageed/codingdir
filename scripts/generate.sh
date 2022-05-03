@@ -5,6 +5,7 @@
 # youtube=https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux
 # cover=https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux
 # site=site
+fileName="${title// /_}"
 cp content/template.md content/$fileName.md
 sed -i "s/{title}/$title/"  content/$fileName.md 
 sed -i "s/{category}/$category/"  content/$fileName.md 

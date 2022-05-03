@@ -8,12 +8,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      fileName:
-        description: "File Name"
-        required: true
-        default: "mohammed-besar"
-        type: string
-      
       title:
         description: "title"
         required: true
@@ -48,7 +42,6 @@ jobs:
   create-md-file-in-content-dir:
     runs-on: ubuntu-latest
     env:
-      fileName: ${{ github.event.inputs.fileName }}
       title: ${{ github.event.inputs.title }}
       category: ${{ github.event.inputs.category }}
       tag: ${{ github.event.inputs.tag }}
