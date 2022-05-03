@@ -1,0 +1,28 @@
+name: Expo CI CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      channelName:
+        description: "channel Name"
+        required: true
+        default: "Arab Hardware"
+        type: string
+
+jobs:
+  create-md-file-in-content-dir:
+    runs-on: ubuntu-latest
+    env:
+      APP_NAME: ${{ github.event.inputs.channelName }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: create md file
+        run: echo $APP_NAME
