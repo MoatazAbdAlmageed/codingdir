@@ -56,14 +56,14 @@ jobs:
         with:
           node-version: 14.x
       - name: generate md file
-        id: date
+        id: branch
         run: |
           # make file runnable, might not be necessary
           chmod +x "${GITHUB_WORKSPACE}/scripts/generate.sh"
           
           # run script
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
-          echo "::set-output name=date::$(date +'%Y-%m-%d')"
+          echo "::set-output name=branch::${github.event.inputs.title// /_}"
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
@@ -73,7 +73,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: ${{ steps.date.outputs.date }}
+          branch: ${{ steps.branch.outputs.branch }}
           delete-branch: true
           title: "add ${{ github.event.inputs.title }} channel"
           body: |
