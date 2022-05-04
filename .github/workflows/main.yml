@@ -62,8 +62,6 @@ jobs:
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
-        run: |
-          BRANCH="${github.event.inputs.title// /_}"
         with:
           token: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
           commit-message: "add ${{ github.event.inputs.title }} channel"
@@ -84,4 +82,6 @@ jobs:
             maintainers
           milestone: 1
           draft: false
+        run: |
+          BRANCH="${github.event.inputs.title// /_}"
           
