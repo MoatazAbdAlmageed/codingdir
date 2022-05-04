@@ -69,7 +69,7 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: ${{ github.ref }}
-          delete-branch: true
+          # delete-branch: true
           title: "add ${{ github.event.inputs.title }} channel"
           body: |
             "add ${{ github.event.inputs.title }} channel"
