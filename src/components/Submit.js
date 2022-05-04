@@ -23,7 +23,6 @@ const Submit = () => {
     youtube: "",
     cover: "",
     tag: "",
-    email: "",
   });
 
   const onSubmit = () => {
@@ -31,7 +30,7 @@ const Submit = () => {
       method: "POST",
       headers: {
         Accept: "application/vnd.github.everest-preview+json",
-        Authorization: "Bearer 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s",
+        Authorization: "Bearer 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",
       },
       body: JSON.stringify({
         ref: "main",
@@ -70,6 +69,9 @@ const Submit = () => {
     });
   };
 
+  const onChangeCategory = ({ value }) => {
+    setFormData({ ...formData, category: value });
+  };
   return (
     <Layout>
       <Stack className={styles.page} direction={{ base: "column", md: "row" }}>
@@ -87,10 +89,10 @@ const Submit = () => {
                     <Field
                       aria-required={true}
                       name="title"
-                      label="Title"
+                      label="Channel Title"
                       isRequired
                     >
-                      {({ fieldProps, error }) => (
+                      {({ fieldProps }) => (
                         <Fragment>
                           <Tooltip content="Channel title" position="top">
                             <TextField
@@ -102,16 +104,50 @@ const Submit = () => {
                         </Fragment>
                       )}
                     </Field>
-                    <Select
+                    <Field
+                      aria-required={true}
+                      name="tag"
+                      label="Tag"
+                      isRequired
+                    >
+                      {({ fieldProps, error }) => {
+                        return (
+                          <Fragment>
+                            <Tooltip position="top" content="Tag">
+                              <TextField
+                                type="text"
+                                {...fieldProps}
+                                value={formData?.tag}
+                                onChange={(e) => handleChange(e)}
+                              />
+                            </Tooltip>
+                            {error && <ErrorMessage>{error}</ErrorMessage>}
+                          </Fragment>
+                        );
+                      }}
+                    </Field>
+                    <Field
+                      aria-required={true}
                       name="category"
-                      classNamePrefix="react-select"
-                      options={[
-                        { label: "عربي", value: "عربي" },
-                        { label: "English", value: "English" },
-                      ]}
-                      placeholder="Choose Language"
-                    />
-                    <Field aria-required={true} name="youtube" label="youtube">
+                      label="Category"
+                      isRequired
+                    >
+                      {({ fieldProps }) => {
+                        return (
+                          <Select
+                            {...fieldProps}
+                            classNamePrefix="react-select"
+                            options={[
+                              { label: "عربي", value: "عربي" },
+                              { label: "English", value: "English" },
+                            ]}
+                            placeholder="Choose Language"
+                            onChange={onChangeCategory}
+                          />
+                        );
+                      }}
+                    </Field>
+                    <Field aria-required={true} name="youtube" label="Link">
                       {({ fieldProps }) => {
                         return (
                           <Fragment>
