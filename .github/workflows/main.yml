@@ -63,7 +63,8 @@ jobs:
           
           # run script
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
-          echo "::set-output name=branch::${${{ github.event.inputs.title }}// /_}"
+          title=${{ github.event.inputs.title }}
+          echo "::set-output name=branch::${title// /_}"
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
