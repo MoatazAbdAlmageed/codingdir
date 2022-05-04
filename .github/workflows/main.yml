@@ -68,7 +68,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: ${{BRANCH}}
+          branch: ${github.event.inputs.title// /_}
           delete-branch: true
           title: "add ${{ github.event.inputs.title }} channel"
           body: |
@@ -82,6 +82,4 @@ jobs:
             maintainers
           milestone: 1
           draft: false
-        run: |
-          BRANCH="${github.event.inputs.title// /_}"
           
