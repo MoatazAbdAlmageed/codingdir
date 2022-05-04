@@ -31,7 +31,7 @@ const Submit = () => {
       method: "POST",
       headers: {
         Accept: "application/vnd.github.everest-preview+json",
-        Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
+        Authorization: "Bearer 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s",
       },
       body: JSON.stringify({
         ref: "main",
