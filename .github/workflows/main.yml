@@ -63,9 +63,6 @@ jobs:
           
           # run script
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
-          branchName=${{ github.event.inputs.title }}
-          echo $branchName
-          echo "::set-output name=branch::${$branchName// /_}"
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
@@ -75,7 +72,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: ${{ steps.branch.outputs.branch }}
+          branch: ${{fileName}}
           delete-branch: true
           title: "add ${{ github.event.inputs.title }} channel"
           body: |
