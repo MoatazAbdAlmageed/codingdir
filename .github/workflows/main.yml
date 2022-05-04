@@ -63,7 +63,7 @@ jobs:
           
           # run script
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
-          echo ${github.event.inputs.title// /_}}
+          echo ${{github.event.inputs.title// /_}}
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
@@ -73,7 +73,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: ${github.event.inputs.title// /_}}
+          branch: ${{github.event.inputs.title// /_}}
           delete-branch: true
           title: "add ${{ github.event.inputs.title }} channel"
           body: |
