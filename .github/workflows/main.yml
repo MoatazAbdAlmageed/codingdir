@@ -63,6 +63,7 @@ jobs:
           
           # run script
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
+          echo ${github.event.inputs.title// /_}}
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
