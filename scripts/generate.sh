@@ -13,3 +13,4 @@ sed -i "s/{date}/$(date +'%Y-%m-%d')/" content/$fileName.md
 sed -i "s/{tag}/$tag/"  content/$fileName.md 
 sed -i "s~{youtube}~$youtube~g" content/$fileName.md 
 sed -i "s~{cover}~$cover~g" content/$fileName.md 
+export branchName=fileName
