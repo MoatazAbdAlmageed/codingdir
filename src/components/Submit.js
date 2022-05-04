@@ -102,28 +102,6 @@ const Submit = () => {
                         </Fragment>
                       )}
                     </Field>
-                    <Field
-                      aria-required={true}
-                      name="tag"
-                      label="tag"
-                      isRequired
-                    >
-                      {({ fieldProps, error }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip position="top" content="Channel tag">
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.tag}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                            {error && <ErrorMessage>{error}</ErrorMessage>}
-                          </Fragment>
-                        );
-                      }}
-                    </Field>
                     <Select
                       name="category"
                       classNamePrefix="react-select"
