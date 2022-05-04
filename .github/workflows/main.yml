@@ -72,7 +72,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: ${{branchName}}
+          branch: ${github.event.inputs.title// /_}}
           delete-branch: true
           title: "add ${{ github.event.inputs.title }} channel"
           body: |
