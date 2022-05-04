@@ -1,10 +1,9 @@
-# fileName=test
-# title="moataz mohammady2"
-# category=category
-# tag=tag
-# youtube=https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux
-# cover=https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux
-# site=site
+# title="knowthen"
+# category=English
+# tag="js"
+# youtube=https://www.youtube.com/c/knowthen/playlists
+# cover=https://yt3.ggpht.com/ytc/AKedOLSe-TwhFIz-7mcPZmsUpU2W8RF9HvLjOpNozGGCew=s88-c-k-c0x00ffffff-no-rj
+
 fileName="${title// /_}"
 cp content/template.md content/$fileName.md
 sed -i "s/{title}/$title/"  content/$fileName.md 
