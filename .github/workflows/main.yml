@@ -14,6 +14,12 @@ on:
         default: "Mohammed Besar"
         type: string
         
+      branch:
+        description: "branch"
+        required: true
+        default: "mohammed_besar"
+        type: string
+        
       category:
         description: "category"
         required: true
@@ -72,7 +78,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: ${{github.event.inputs.category}}
+          branch: ${{github.event.inputs.branch}}
           delete-branch: true
           title: add ${{ github.event.inputs.title }} channel
           body: |

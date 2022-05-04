@@ -20,6 +20,7 @@ const Submit = () => {
   const [formData, setFormData] = useState({
     title: "",
     category: "",
+    branch: "",
     youtube: "",
     cover: "",
     tag: "",
@@ -35,6 +36,9 @@ const Submit = () => {
       body: JSON.stringify({
         ref: "main",
         inputs: {
+          branch: `add ${formData?.branch
+            .replace(/\s+/g, "-")
+            .toLowerCase()} channel`,
           category: formData?.category,
           title: formData?.title,
           tag: formData?.tag,
@@ -56,6 +60,7 @@ const Submit = () => {
     setFormData({
       title: "",
       category: "",
+      branch: "",
       youtube: "",
       cover: "",
       tag: "",
@@ -86,6 +91,24 @@ const Submit = () => {
                     description="* indicates a required field"
                   />
                   <FormSection>
+                    <Field
+                      aria-required={true}
+                      name="branch"
+                      label="Branch"
+                      isRequired
+                    >
+                      {({ fieldProps }) => (
+                        <Fragment>
+                          <Tooltip content="Branch" position="top">
+                            <TextField
+                              {...fieldProps}
+                              value={formData?.branch}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          </Tooltip>
+                        </Fragment>
+                      )}
+                    </Field>{" "}
                     <Field
                       aria-required={true}
                       name="title"
