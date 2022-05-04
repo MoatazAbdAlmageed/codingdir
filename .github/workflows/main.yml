@@ -68,8 +68,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: "{{github.event.inputs.title|replace(' ','_')}}"  
-
+          branch: ${{ github.event.inputs.title | replace(' ','_') }} 
           delete-branch: true
           title: "add ${{ github.event.inputs.title }} channel"
           body: |
