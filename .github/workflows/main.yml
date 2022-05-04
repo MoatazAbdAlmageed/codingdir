@@ -68,5 +68,6 @@ jobs:
           git add -A
           git commit -m "add $title"
           git push --set-upstream origin add_${title// /_}_channel
+          gh auth login --with-token ${{ secrets.REACT_APP_GITHUB_TOKEN }}
           gh pr create --title add_${title// /_}_channel
           
