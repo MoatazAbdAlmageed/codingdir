@@ -71,7 +71,7 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
 
           touch .env
-          echo ${{ secrets.REACT_APP_GITHUB_TOKEN }} >> .env
+          echo REACT_APP_GITHUB_TOKEN=${{ secrets.REACT_APP_GITHUB_TOKEN }} >> .env
           cat .env
       - name: Create Pull Request
         id: cpr
