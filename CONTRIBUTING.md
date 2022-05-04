@@ -1,4 +1,4 @@
-# Submit Channel?
+# CONTRIBUTING
 
 If you need to submit your channel or another useful one please submit a pull request to project repo here
 

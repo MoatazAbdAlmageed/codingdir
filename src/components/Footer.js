@@ -3,7 +3,7 @@ import * as React from "react";
 
 const Footer = () => (
   <Container as="footer" role="contentinfo">
-    <Text fontSize="sm" color="subtle">
+    <Text textAlign="center" fontSize="sm" color="subtle">
       <a
         style={{ color: "orange" }}
         target="_blank"
@@ -11,6 +11,7 @@ const Footer = () => (
       >
         By Moataz Mohammady
       </a>{" "}
+      <br />
       &copy; {new Date().getFullYear()} Built with ♥ using{" "}
       <a href="https://www.gatsbyjs.com/" target="_blank">
         Gatsby
@@ -19,6 +20,14 @@ const Footer = () => (
       <a href="https://chakra-ui.com/" target="_blank">
         Chakra UI
       </a>{" "}
+      <br />
+      <a
+        style={{ color: "orange" }}
+        target="_blank"
+        href="https://github.com/MoatazAbdAlmageed/YouTube-Channels/blob/main/CONTRIBUTING.md"
+      >
+        Contributing?
+      </a>
     </Text>
   </Container>
 );

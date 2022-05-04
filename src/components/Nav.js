@@ -85,14 +85,13 @@ const DesktopNav = (props) => {
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <Menu size="sm">
               <Link
-                target={navItem.label == "Contribute 💁" && "_blank"}
                 key={navItem.label}
                 py={2}
                 href={navItem.href}
                 fontSize="14px"
               >
                 <MenuButton fontSize="14px">
-                  {navItem.label == "Contribute 💁" ? (
+                  {navItem.label == "Submit 💁" ? (
                     <MenuItem
                       backgroundColor="orange"
                       color="white"
@@ -479,12 +478,7 @@ const NAV_ITEMS = [
     href: "/tags/website",
   },
   {
-    label: "Submit",
+    label: "Submit 💁",
     href: "/submit",
-  },
-  {
-    label: "Contribute 💁",
-    href:
-      "https://github.com/MoatazAbdAlmageed/YouTube-Channels/blob/main/CONTRIBUTING.md",
   },
 ];

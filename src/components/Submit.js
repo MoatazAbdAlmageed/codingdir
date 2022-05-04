@@ -2,7 +2,6 @@ import { Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import Layout from "../layout/index";
-import styles from "../pages/index.module.scss";
 import React, { Fragment, useState } from "react";
 import Tooltip from "@atlaskit/tooltip";
 import Button from "@atlaskit/button";
@@ -51,10 +50,8 @@ const Submit = () => {
       requestOptions
     ).then((res) => {
       console.log(formData);
-      console.log(res?.status);
       console.log(success);
       res?.status === 204 ? setSuccess(true) : setSuccess(false);
-      alert(success);
     });
     setFormData({
       title: "",
@@ -77,7 +74,7 @@ const Submit = () => {
   };
   return (
     <Layout>
-      <Stack className={styles.page} direction={{ base: "column", md: "row" }}>
+      <Stack direction={{ base: "column", md: "row" }}>
         <Flex p={8} flex={1}>
           <Stack spacing={6} w={"full"} maxW={"lg"}>
             <Helmet title={`Submit Channel | ${config.siteTitle}`} />
