@@ -64,13 +64,13 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
-          commit-message: Update report
+          commit-message: "add ${{ github.event.inputs.title }} channel"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: example-patches
           delete-branch: true
-          title: "add ${title} channel"
+          title: "add ${{ github.event.inputs.title }} channel"
           body: |
             Update report
             - Updated with *today's* date
