@@ -18,7 +18,10 @@ on:
         description: "category"
         required: true
         default: "عربي"
-        type: string        
+        type: choice
+        options:
+        - عربي
+        - English
       
       tag:
         description: "tag"
@@ -53,12 +56,14 @@ jobs:
         with:
           node-version: 14.x
       - name: generate md file
+        id: date
         run: |
           # make file runnable, might not be necessary
           chmod +x "${GITHUB_WORKSPACE}/scripts/generate.sh"
           
           # run script
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
+          echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
@@ -68,6 +73,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
+          branch: ${{ steps.date.outputs.date }}
           delete-branch: true
           title: "add ${{ github.event.inputs.title }} channel"
           body: |
