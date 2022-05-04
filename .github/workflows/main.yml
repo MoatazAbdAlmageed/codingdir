@@ -70,7 +70,7 @@ jobs:
           signoff: false
           branch: example-patches
           delete-branch: true
-          title: "add $title channel"
+          title: "add ${title} channel"
           body: |
             Update report
             - Updated with *today's* date
