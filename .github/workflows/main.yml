@@ -59,10 +59,11 @@ jobs:
           
           # run script
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
-          BRANCH="${github.event.inputs.title// /_}"
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
+        run: |
+          BRANCH="${github.event.inputs.title// /_}"
         with:
           token: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
           commit-message: "add ${{ github.event.inputs.title }} channel"
