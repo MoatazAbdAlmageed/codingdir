@@ -68,15 +68,15 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
-          commit-message: "add ${{ github.event.inputs.title }} channel"
+          commit-message: add ${{ github.event.inputs.title }} channel
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: ${{github.event.inputs.title// /_}}
+          branch: ${{github.event.inputs.category}}
           delete-branch: true
-          title: "add ${{ github.event.inputs.title }} channel"
+          title: add ${{ github.event.inputs.title }} channel
           body: |
-            "add ${{ github.event.inputs.title }} channel"
+            add ${{ github.event.inputs.title }} channel
           labels: |
             automated pr
           assignees: MoatazAbdAlmageed
