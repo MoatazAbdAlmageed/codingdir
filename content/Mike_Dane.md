@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "sql,mongodb,python,php,c,ruby,html,css,js,gatsby"
+    "sql","mongodb","python","php","c","ruby","html","css","js","gatsby","pin"
   ]
 
 youtube: "https://www.youtube.com/c/GiraffeAcademy/playlists"
