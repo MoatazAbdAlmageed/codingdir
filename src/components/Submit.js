@@ -74,7 +74,10 @@ const Submit = ({ pageContext }) => {
     setFormData({ ...formData, category: value });
   };
   const onChangeTag = (tags) => {
-    setFormData({ ...formData, tag: String(tags.map(({ value }) => value)) });
+    setFormData({
+      ...formData,
+      tag: tags.map(({ value }) => value).toString(),
+    });
   };
   return (
     <Layout>
@@ -128,7 +131,7 @@ const Submit = ({ pageContext }) => {
                                   };
                                 })}
                                 isMulti
-                                isSearchable={false}
+                                isSearchable={true}
                                 placeholder="Choose Tag"
                                 onChange={onChangeTag}
                               />

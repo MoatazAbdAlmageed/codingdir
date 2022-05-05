@@ -5,7 +5,8 @@ categories:
   - "English"
 tags:
   [
-    "js"
+    "js",
+    "pin"
   ]
 
 youtube: "https://www.youtube.com/channel/UCyLNhHSiEVkVwPSFKxJAfSA/videos"
