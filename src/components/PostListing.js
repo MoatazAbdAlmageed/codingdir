@@ -46,7 +46,7 @@ const PostListing = ({ postEdges }) => {
 
   const handleInputChange = (event) => {
     console.log(event.target.value);
-    const query = event.target.value;
+    const query = event.target.value.trim();
     const filteredData = postList.filter(({ excerpt, title, tags }) => {
       const low = query.toLowerCase();
       return (

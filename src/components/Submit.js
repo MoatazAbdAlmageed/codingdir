@@ -39,10 +39,10 @@ const Submit = ({ pageContext }) => {
             .replace(/\s+/g, "-")
             .toLowerCase()}_channel`,
           category: formData?.category,
-          title: formData?.title,
+          title: formData?.title.trim(),
           tag: formData?.tag,
-          youtube: formData?.youtube,
-          cover: formData?.cover,
+          youtube: formData?.youtube.trim(),
+          cover: formData?.cover.trim(),
         },
       }),
     };
