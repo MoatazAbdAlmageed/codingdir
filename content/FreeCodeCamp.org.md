@@ -14,7 +14,7 @@ tags:
   - "database"
   - "frontend"
   - "backend"
-  - "mnogodb"
+  - "mongodb"
   - "react"
   - "ai"
   - "ml"

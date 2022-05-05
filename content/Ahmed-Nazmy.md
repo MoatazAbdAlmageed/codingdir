@@ -5,7 +5,7 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLSOggBlxMdOoKIV7s0C0M_PsGvfqQY_x89UupZULA
 categories:
   - "عربي"
 tags:
-  - "network"
+  - "networking"
   - "MCSA"
   - "CCNA"
   - "LINUX"

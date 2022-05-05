@@ -25,7 +25,7 @@ const BlogTags = (props) => {
         return (
           <Tag margin={(0, 1)} variant="solid" colorScheme="orange" key={tag}>
             <Link key={tag} to={`/tags/${_.kebabCase(tag)}`}>
-              <span>{tag.toUpperCase()}</span>
+              <span>{tag.charAt(0).toUpperCase() + tag.slice(1)}</span>
             </Link>
           </Tag>
         );

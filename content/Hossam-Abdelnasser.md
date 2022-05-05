@@ -8,7 +8,7 @@ tags:
   - "compiler"
   - "encryption"
   - "js"
-  - "network"
+  - "networking"
   - "network programming"
   - "python"
   - "react"

@@ -20,7 +20,7 @@ const AllTags = ({ pageContext }) => {
               return (
                 <Link to={`/tags/${_.kebabCase(tag)}`}>
                   {" "}
-                  <span>{tag.toUpperCase()}</span>
+                  <span>{tag.charAt(0).toUpperCase() + tag.slice(1)}</span>
                 </Link>
               );
             })}

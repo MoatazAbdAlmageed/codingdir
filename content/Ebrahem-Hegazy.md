@@ -8,8 +8,8 @@ tags:
   - "security"
   - "hacking"
   - "linux"
-  - "Bug Bounty"
-  - "Cyber Security"
+  - "bug-bounty"
+  - "cyber-security"
   - "pin"
 ---
 

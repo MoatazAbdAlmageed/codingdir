@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "DDD"
+  - "ddd"
   - ".NET"
 ---
 

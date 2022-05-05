@@ -11,7 +11,7 @@ tags:
   - "laravel"
   - "linux"
   - "mysql"
-  - "network"
+  - "networking"
   - "python"
   - "database"
 ---

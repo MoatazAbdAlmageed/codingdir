@@ -10,7 +10,10 @@ const TagTemplate = ({ data, pageContext }) => (
   <Layout>
     <main>
       <Helmet title={`${pageContext.tag} Channels | ${config.siteTitle}`} />
-      <Heading mb={5}>Tag: {pageContext.tag.toUpperCase()}</Heading>
+      <Heading mb={5}>
+        Tag:{" "}
+        {pageContext.tag.charAt(0).toUpperCase() + pageContext.tag.slice(1)}
+      </Heading>
       <PostListing postEdges={data.allMarkdownRemark.edges} />
     </main>
   </Layout>

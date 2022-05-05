@@ -6,7 +6,7 @@ categories:
   - "عربي"
 tags:
   - "linux"
-  - "SECURITY"
+  - "security"
   - "devops"
 ---
 

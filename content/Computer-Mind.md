@@ -4,7 +4,7 @@ date: "2021-06-02"
 categories:
   - "عربي"
 tags:
-  - "network"
+  - "networking"
   - "networking"
 ---
 
