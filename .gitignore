@@ -59,4 +59,4 @@ public/
 bundle-stats.json
 
 content/test.md
-.env
+.env.*

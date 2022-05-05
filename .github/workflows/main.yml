@@ -56,7 +56,6 @@ jobs:
       tag: ${{ github.event.inputs.tag }}
       youtube: ${{ github.event.inputs.youtube }}
       cover: ${{ github.event.inputs.cover }}
-      GATSBY_APP_GITHUB_TOKEN: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
