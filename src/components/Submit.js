@@ -35,9 +35,9 @@ const Submit = ({ pageContext }) => {
       body: JSON.stringify({
         ref: "main",
         inputs: {
-          branch: `add ${formData?.title
+          branch: `add_${formData?.title
             .replace(/\s+/g, "-")
-            .toLowerCase()} channel`,
+            .toLowerCase()}_channel`,
           category: formData?.category,
           title: formData?.title,
           tag: formData?.tag,
