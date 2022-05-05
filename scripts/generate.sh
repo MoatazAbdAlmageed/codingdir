@@ -1,8 +1,8 @@
-title="test"
-category=English
-tag="solid,angular"
-youtube=https://www.youtube.com/c/knowthen/playlists
-cover=https://yt3.ggpht.com/ytc/AKedOLSe-TwhFIz-7mcPZmsUpU2W8RF9HvLjOpNozGGCew=s88-c-k-c0x00ffffff-no-rj
+# title="test"
+# category=English
+# tag="solid,angular"
+# youtube=https://www.youtube.com/c/knowthen/playlists
+# cover=https://yt3.ggpht.com/ytc/AKedOLSe-TwhFIz-7mcPZmsUpU2W8RF9HvLjOpNozGGCew=s88-c-k-c0x00ffffff-no-rj
 
 fileName="${title// /_}"
 cp content/template.md content/$fileName.md
