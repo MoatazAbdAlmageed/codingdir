@@ -44,7 +44,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const postPage = path.resolve("src/templates/post.js");
-  const SubmitChannel = path.resolve("src/pages/submit_channel.js");
   const Submit = path.resolve("src/components/Submit.js");
   const tagPage = path.resolve("src/templates/tag.js");
   const categoryPage = path.resolve("src/templates/category.js");
@@ -140,12 +139,11 @@ exports.createPages = async ({ graphql, actions }) => {
     },
   });
   createPage({
-    path: `/submit-channel`,
-    component: SubmitChannel,
-  });
-  createPage({
     path: `/submit`,
     component: Submit,
+    context: {
+      tags: [...tagSet],
+    },
   });
 
   // Generate link foreach tag page

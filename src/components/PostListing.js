@@ -13,8 +13,8 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { FaYoutube } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import uuid from "react-uuid";
-import PostCategories from "../components/PostCategories";
 
 const PostListing = ({ postEdges }) => {
   const getPostList = () => {
@@ -93,51 +93,66 @@ const PostListing = ({ postEdges }) => {
         </Text>
       </Box>
       <SimpleGrid columns={{ lg: 5, sm: 1, md: 3 }} spacing="40px">
-        {posts.map((post) => (
-          <Box
-            textAlign="center"
-            boxShadow="md"
-            rounded="lg"
-            w="100%"
-            key={uuid()}
-            overflow="hidden"
-            transition="0.3s ease-in-out"
-            _hover={{
-              transform: "scale(1.05)",
-            }}
-          >
-            <a
-              href={post.path}
-              textDecoration="none"
-              _hover={{ textDecoration: "none" }}
+        {posts
+          .filter(({ title }) => title !== "{title}")
+          .map((post) => (
+            <Box
+              textAlign="center"
+              boxShadow="md"
+              rounded="lg"
+              w="100%"
+              key={uuid()}
+              overflow="hidden"
+              transition="0.3s ease-in-out"
+              _hover={{
+                transform: "scale(1.05)",
+              }}
             >
-              <Text mb={2}>{post.title}</Text>
+              <a
+                href={post.path}
+                textDecoration="none"
+                _hover={{ textDecoration: "none" }}
+              >
+                <Text p={5}>
+                  {post.title}
+                  <Text m={(0, 2)}>
+                    {post.categories &&
+                      `(${post.categories.map(
+                        (category) =>
+                          category.charAt(0).toUpperCase() + category.slice(1)
+                      )})`}
+                  </Text>
+                </Text>
 
-              <Center>
-                <Image
-                  borderRadius="full"
-                  boxSize="150px"
-                  src={post.cover}
-                  fallbackSrc="/YouTube-Icon-Gray-Box.jpg"
-                  width="150px"
-                />
-              </Center>
-            </a>
-            <PostCategories categories={post.categories} margin="auto" />
-            {post.youtube && (
-              <Center>
-                <a
-                  href={post.youtube}
-                  target="_blank"
-                  textDecoration="none"
-                  _hover={{ textDecoration: "none" }}
-                >
-                  <FaYoutube color="#ff0000" />
-                </a>
-              </Center>
-            )}
-          </Box>
-        ))}
+                <Center>
+                  <Image
+                    borderRadius="full"
+                    boxSize="150px"
+                    src={post.cover}
+                    fallbackSrc="/YouTube-Icon-Gray-Box.jpg"
+                    width="150px"
+                  />
+                </Center>
+              </a>
+              {post.tags?.includes("pin") && (
+                <Center>
+                  <FaStar color="orange" />
+                </Center>
+              )}{" "}
+              {post.youtube && (
+                <Center>
+                  <a
+                    href={post.youtube}
+                    target="_blank"
+                    textDecoration="none"
+                    _hover={{ textDecoration: "none" }}
+                  >
+                    <FaYoutube color="#ff0000" />
+                  </a>
+                </Center>
+              )}
+            </Box>
+          ))}
       </SimpleGrid>
     </Stack>
   );

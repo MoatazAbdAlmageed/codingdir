@@ -12,12 +12,10 @@ import { graphql, Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
-import PostCategories from "../components/PostCategories";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
 import Layout from "../layout";
 import styles from "./post.module.scss";
-// import "./prism-okaidia.css";
 const _ = require("lodash");
 
 const BlogTags = (props) => {
@@ -86,7 +84,12 @@ export default ({ data, pageContext }) => {
         marginTop={{ base: "3", sm: "0" }}
       >
         <Heading marginBottom={2}>{post.title}</Heading>
-        <PostCategories categories={post.categories} />
+        <Text m={2}>
+          {post.categories &&
+            `(${post.categories.map(
+              (category) => category.charAt(0).toUpperCase() + category.slice(1)
+            )})`}
+        </Text>
         <BlogTags tags={[...new Set(post.tags)]} />
 
         {post.youtube && (

@@ -15,7 +15,9 @@ const PostCategories = ({ categories, margin }) => {
             margin={margin}
           >
             <Link key={category} to={`/${_.kebabCase(category)}`}>
-              <span>{category.toUpperCase()}</span>
+              <span>
+                {category.charAt(0).toUpperCase() + category.slice(1)}
+              </span>
             </Link>
           </Tag>
         ))}

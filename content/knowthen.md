@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "js"
+    "js","seo"
   ]
 
 youtube: "https://www.youtube.com/c/knowthen/playlists"

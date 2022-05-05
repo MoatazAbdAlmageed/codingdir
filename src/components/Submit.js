@@ -14,7 +14,8 @@ import Form, {
   FormHeader,
   FormSection,
 } from "@atlaskit/form";
-const Submit = () => {
+const Submit = ({ pageContext }) => {
+  const { tags } = pageContext;
   const [success, setSuccess] = useState(false);
   const [formData, setFormData] = useState({
     title: "",
@@ -72,6 +73,9 @@ const Submit = () => {
   const onChangeCategory = ({ value }) => {
     setFormData({ ...formData, category: value });
   };
+  const onChangeTag = (tags) => {
+    setFormData({ ...formData, tag: String(tags.map(({ value }) => value)) });
+  };
   return (
     <Layout>
       <Stack direction={{ base: "column", md: "row" }}>
@@ -114,11 +118,19 @@ const Submit = () => {
                         return (
                           <Fragment>
                             <Tooltip position="top" content="Tag">
-                              <TextField
-                                type="text"
+                              <Select
                                 {...fieldProps}
-                                value={formData?.tag}
-                                onChange={(e) => handleChange(e)}
+                                classNamePrefix="react-select"
+                                options={tags.map((tag) => {
+                                  return {
+                                    label: tag,
+                                    value: tag,
+                                  };
+                                })}
+                                isMulti
+                                isSearchable={false}
+                                placeholder="Choose Tag"
+                                onChange={onChangeTag}
                               />
                             </Tooltip>
                             {error && <ErrorMessage>{error}</ErrorMessage>}
