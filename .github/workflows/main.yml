@@ -9,19 +9,19 @@ on:
   workflow_dispatch:
     inputs:
       title:
-        description: "title"
+        description: "Title"
         required: true
         default: "Mohammed Besar"
         type: string
         
       branch:
-        description: "branch"
+        description: "Branch"
         required: true
         default: "mohammed_besar"
         type: string
         
       category:
-        description: "category"
+        description: "Language"
         required: true
         default: "عربي"
         type: choice
@@ -30,13 +30,13 @@ on:
         - English
       
       tag:
-        description: "tag"
+        description: "Tag"
         required: true
-        default: "tips"
+        default: "tips,pin,sql,js"
         type: string        
       
       youtube:
-        description: "youtube"
+        description: "Youtube"
         required: true
         default: "https://www.youtube.com/watch?v=CRADesdEtO4&ab_channel=MohammedBesar-%D9%85%D8%AD%D9%85%D8%AF%D8%A8%D9%8A%D8%B5%D8%A7%D8%B1"
         type: string      
