@@ -4,5 +4,8 @@
 
 # YouTube Channels
 
+
+## Scripts
+### rename
 you can use this script to bulk rename files
 `yarn rename content/ " " "-"`
