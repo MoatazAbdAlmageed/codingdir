@@ -7,7 +7,7 @@ categories:
   - "عربي"
 
 tags:
-  - "microservice"
+  - "Microservices"
   - "software architecture"
   - "islamic"
   - "software architecture"
