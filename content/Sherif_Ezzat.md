@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "math"
+    "math","assembly"
   ]
 
 youtube: "https://www.youtube.com/c/SherifEzzat/playlists"
