@@ -4,11 +4,7 @@ import * as React from "react";
 const Footer = () => (
   <Container as="footer" role="contentinfo">
     <Text textAlign="center" fontSize="sm" color="subtle">
-      <a
-        style={{ color: "orange" }}
-        target="_blank"
-        href="https://moatazabdalmageed.github.io/"
-      >
+      <a style={{ color: "orange" }} href="/moataz-mohammady">
         By Moataz Mohammady
       </a>{" "}
       <br />

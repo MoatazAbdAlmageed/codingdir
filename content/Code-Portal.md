@@ -6,13 +6,13 @@ categories:
 tags:
   - "agile"
   - "algorithms"
-  - "csharp"
+  - "C Sharp"
   - "cryptographic"
   - "data structures"
   - "database"
   - "jquery"
-  - "js"
-  - "microsoft"
+  - "JS"
+
   - "security"
 ---
 

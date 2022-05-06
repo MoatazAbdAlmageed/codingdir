@@ -4,15 +4,15 @@ date: "2020-11-17"
 categories:
   - "عربي"
 tags:
-  - "dotnet"
+  - ".NET"
   - "bootstrap"
-  - "cplusplus"
+  - "CPlusPlus"
   - "c"
-  - "css"
+  - "CSS"
   - "entity-framework"
   - "html"
   - "jquery"
-  - "js"
+  - "JS"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

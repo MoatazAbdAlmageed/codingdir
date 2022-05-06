@@ -5,8 +5,8 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "cs"
-  - "cplusplus"
+  - "CS"
+  - "CPlusPlus"
   - "competitive-programming"
   - "kids"
   - "talks"

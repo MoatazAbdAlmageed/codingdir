@@ -5,9 +5,9 @@ categories:
   - "عربي"
 tags:
   - "clean code"
-  - "css"
+  - "CSS"
   - "html"
-  - "microsoft"
+
 ---
 
 [https://youtube.com/c/TechAWay](https://youtube.com/c/TechAWay)

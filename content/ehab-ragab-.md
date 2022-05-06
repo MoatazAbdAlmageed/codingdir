@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "computer science"
-  - "cs"
+  - "CS"
 ---
 
 > ehab ragab

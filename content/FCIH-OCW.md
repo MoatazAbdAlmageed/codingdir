@@ -6,7 +6,7 @@ youtube: "[https://youtube.com/user/FCIHOCW]()"
 categories:
   - "عربي"
 tags:
-  - "cs"
+  - "CS"
   - "pin"
   - "math"
   - "data"

@@ -6,8 +6,8 @@ categories:
 tags:
   - "web"
   - "python"
-  - "ml"
-  - "php"
+  - "ML"
+  - "PHP"
   - "wordpress"
   - "angular"
   - "crawling"

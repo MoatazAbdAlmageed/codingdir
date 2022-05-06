@@ -5,12 +5,12 @@ categories:
   - "english"
 
 tags:
-  - "css"
+  - "CSS"
   - "flutter"
   - "frontend"
   - "graphics"
   - "hooks"
-  - "js"
+  - "JS"
   - "react"
   - "react native"
   - "typescript"

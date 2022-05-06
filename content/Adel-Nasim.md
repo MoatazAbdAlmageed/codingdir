@@ -6,10 +6,10 @@ categories:
 
 tags:
   - "backend"
-  - "cplusplus"
+  - "CPlusPlus"
   - "data structures"
   - "java"
-  - "oop"
+  - "OOP"
   - "pin"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTVHakJgSMEOJKcgJSZwMdYADteCYYet7lqKt9sqg=s88-c-k-c0x00ffffff-no-rj"
 ---

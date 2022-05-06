@@ -5,12 +5,12 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "css"
+  - "CSS"
   - "data structures"
   - "database"
   - "graphics"
   - "html"
-  - "js"
+  - "JS"
   - "web"
 ---
 

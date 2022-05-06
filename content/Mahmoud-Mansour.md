@@ -5,8 +5,8 @@ categories:
   - "عربي"
 tags:
   - "freelancing"
-  - "ui/ux"
-  - "ui/ux"
+  - "UI/UX"
+  - "UI/UX"
 ---
 
 [https://youtube.com/c/MahmoudMansourSec](https://youtube.com/c/MahmoudMansourSec)

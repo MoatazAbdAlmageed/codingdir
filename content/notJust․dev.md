@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "js"
+    "JS"
   ]
 
 youtube: "https://www.youtube.com/c/notjustdev/playlists"

@@ -8,7 +8,7 @@ tags:
   - "axios"
   - "backend"
   - "cli"
-  - "css"
+  - "CSS"
   - "design-principles"
   - "docker"
   - "flask"
@@ -20,7 +20,7 @@ tags:
   - "gupl"
   - "hooks"
   - "html"
-  - "js"
+  - "JS"
   - "jwt"
   - "laravel"
   - "lodash"
@@ -28,7 +28,7 @@ tags:
   - "mongodb"
   - "nodejs"
   - "parcel"
-  - "php"
+  - "PHP"
   - "problem solving"
   - "python"
   - "react"
@@ -39,7 +39,8 @@ tags:
   - "vuejs"
   - "webpack"
   - "yarn"
-cover: "/YouTube-Icon-Gray-Box.png"
+  - "pin"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTS1Y1qbgA_T_aNo9FdHkSDAaPhQ1zXgGZaAhH9jQ=s88-c-k-c0x00ffffff-no-rj"
 ---
 
 [https://youtube.com/c/algorithmCoding](https://youtube.com/c/algorithmCoding)

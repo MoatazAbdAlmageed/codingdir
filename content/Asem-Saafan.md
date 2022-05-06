@@ -4,7 +4,7 @@ date: "2021-8-22"
 categories:
   - "عربي"
 tags:
-  - "ui/ux"
+  - "UI/UX"
   - "algorithms"
   - "Data Structures"
   - "dart"

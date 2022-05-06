@@ -5,7 +5,7 @@
 # cover=https://yt3.ggpht.com/ytc/AKedOLSe-TwhFIz-7mcPZmsUpU2W8RF9HvLjOpNozGGCew=s88-c-k-c0x00ffffff-no-rj
 
 fileName="${title// /_}"
-cp content/template.md content/$fileName.md
+cp template/template.md content/$fileName.md
 
 
 tags="${tag//,/'","'}"

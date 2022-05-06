@@ -6,7 +6,7 @@ categories:
 tags:
   - "chakra ui"
   - "react"
-  - "ui/ux"
+  - "UI/UX"
 cover: "https://yt3.ggpht.com/ytc/AKedOLRmG-E2g-vl3XZ_TzYrTa2LP7EIFRr7UTdUa2wxmA=s176-c-k-c0x00ffffff-no-rj"
 ---
 

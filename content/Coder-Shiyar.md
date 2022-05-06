@@ -6,11 +6,11 @@ categories:
 tags:
   - "android"
   - "backend"
-  - "css"
+  - "CSS"
   - "html"
   - "java"
-  - "js"
-  - "php"
+  - "JS"
+  - "PHP"
   - "python"
   - "database"
 ---

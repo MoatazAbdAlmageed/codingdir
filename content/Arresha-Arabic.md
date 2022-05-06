@@ -4,8 +4,8 @@ date: "2021-03-10"
 categories:
   - "عربي"
 tags:
-  - "ui/ux"
-  - "ui/ux"
+  - "UI/UX"
+  - "UI/UX"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

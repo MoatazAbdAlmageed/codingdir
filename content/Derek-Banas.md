@@ -6,9 +6,9 @@ categories:
 
 tags:
   - "backend"
-  - "csharp"
+  - "C Sharp"
   - "frontend"
-  - "js"
+  - "JS"
   - "math"
   - "python"
 cover: "/YouTube-Icon-Gray-Box.png"

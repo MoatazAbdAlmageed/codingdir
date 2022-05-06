@@ -6,7 +6,7 @@ categories:
 tags:
   - "cloud"
   - "devops"
-  - "microsoft"
+
 ---
 
 > https://www.youtube.com/c/MoamenHany/playlists

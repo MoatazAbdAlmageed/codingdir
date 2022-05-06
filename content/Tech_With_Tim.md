@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "python","mongodb","java","js","flutter","golang"
+    "python","mongodb","java","JS","flutter","golang"
   ]
 
 youtube: "https://www.youtube.com/c/TechWithTim/featured"

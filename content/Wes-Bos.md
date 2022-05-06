@@ -5,8 +5,8 @@ categories:
   - "english"
 
 tags:
-  - "css"
-  - "js"
+  - "CSS"
+  - "JS"
   - "nodejs"
   - "reacr"
 cover: "/YouTube-Icon-Gray-Box.png"

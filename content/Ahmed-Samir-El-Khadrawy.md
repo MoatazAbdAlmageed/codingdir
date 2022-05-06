@@ -5,7 +5,8 @@ categories:
   - "عربي"
 
 tags:
-  - "csharp"
+  - "pin"
+  - "C Sharp"
   - "asp"
   - "azure"
   - "backend"

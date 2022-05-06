@@ -7,10 +7,10 @@ categories:
 tags:
   - "angular"
   - "backend"
-  - "csharp"
-  - "css"
+  - "C Sharp"
+  - "CSS"
   - "html"
-  - "js"
+  - "JS"
   - "nodejs"
   - "python"
   - "react"

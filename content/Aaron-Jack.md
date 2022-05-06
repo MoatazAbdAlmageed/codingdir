@@ -5,9 +5,9 @@ categories:
   - "english"
 
 tags:
-  - "css"
+  - "CSS"
   - "html"
-  - "js"
+  - "JS"
 ---
 
 [https://youtube.com/c/AaronJack](https://youtube.com/c/AaronJack)

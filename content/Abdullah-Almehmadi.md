@@ -8,10 +8,10 @@ tags:
   - "android"
   - "backend"
   - "java"
-  - "js"
+  - "JS"
   - "mysql"
-  - "oop"
-  - "php"
+  - "OOP"
+  - "PHP"
   - "python"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

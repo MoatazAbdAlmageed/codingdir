@@ -4,7 +4,7 @@ date: "2021-03-08"
 categories:
   - "عربي"
 tags:
-  - "js"
+  - "JS"
   - "react"
   - "vim"
 ---

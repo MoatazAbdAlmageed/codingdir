@@ -6,8 +6,8 @@ categories:
 tags:
   - "freelancing"
   - "graphics"
-  - "ui/ux"
-  - "ui/ux"
+  - "UI/UX"
+  - "UI/UX"
   - "web design"
   - "xd"
 cover: "/YouTube-Icon-Gray-Box.png"

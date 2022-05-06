@@ -6,7 +6,7 @@ categories:
 tags:
   - "backend"
   - "laravel"
-  - "php"
+  - "PHP"
   - "testing"
   - "unit testing"
 cover: "/YouTube-Icon-Gray-Box.png"

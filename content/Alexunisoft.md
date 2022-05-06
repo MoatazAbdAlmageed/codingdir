@@ -9,7 +9,7 @@ tags:
   - "books"
   - "clean code"
   - "laravel"
-  - "php"
+  - "PHP"
   - "testing"
   - "pin"
 cover: "https://yt3.ggpht.com/ytc/AKedOLSz0_fhpp6-jXcNm38TBMu3Cb36PqHN6mmTFPUw=s176-c-k-c0x00ffffff-no-rj"

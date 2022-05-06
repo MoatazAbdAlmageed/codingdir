@@ -4,8 +4,8 @@ date: "2021-05-01"
 categories:
   - "english"
 tags:
-  - "dotnet"
-  - "microsoft"
+  - ".NET"
+
 ---
 
 [https://youtube.com/c/MyTestedASPNETTV](https://youtube.com/c/MyTestedASPNETTV)

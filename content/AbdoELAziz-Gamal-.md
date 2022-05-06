@@ -4,9 +4,9 @@ date: "2021-04-22"
 categories:
   - "عربي"
 tags:
-  - "css"
+  - "CSS"
   - "html"
-  - "js"
+  - "JS"
 ---
 
 > https://www.youtube.com/c/AbdoELAzizGamal/playlists

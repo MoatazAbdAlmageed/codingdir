@@ -5,14 +5,14 @@ categories:
   - "عربي"
 tags:
   - "backend"
-  - "css"
+  - "CSS"
   - "frontend"
   - "html"
-  - "js"
+  - "JS"
   - "python"
   - "react"
-  - "ui/ux"
-  - "ui/ux"
+  - "UI/UX"
+  - "UI/UX"
   - "web design"
   - "xd"
 ---

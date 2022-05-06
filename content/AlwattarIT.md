@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "csharp"
+  - "C Sharp"
   - "python"
   - "html"
 

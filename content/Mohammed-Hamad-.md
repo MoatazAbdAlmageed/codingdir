@@ -4,10 +4,10 @@ date: "2021-04-11"
 categories:
   - "عربي"
 tags:
-  - "css"
+  - "CSS"
   - "html"
   - "jquery"
-  - "js"
+  - "JS"
 ---
 
 > https://www.youtube.com/c/mohammed9895/playlists

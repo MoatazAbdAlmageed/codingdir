@@ -6,8 +6,8 @@ categories:
 tags:
   - "live"
   - "talks"
-  - "ui/ux"
-  - "ui/ux"
+  - "UI/UX"
+  - "UI/UX"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

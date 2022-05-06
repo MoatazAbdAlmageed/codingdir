@@ -7,8 +7,8 @@ tags:
   - "blazor"
   - "database"
   - "ddd"
-  - "js"
-  - "microsoft"
+  - "JS"
+
   - "database"
 ---
 

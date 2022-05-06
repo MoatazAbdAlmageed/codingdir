@@ -6,7 +6,7 @@ categories:
 tags:
   - "algorithms"
   - "data structures"
-  - "oop"
+  - "OOP"
   - "python"
 ---
 

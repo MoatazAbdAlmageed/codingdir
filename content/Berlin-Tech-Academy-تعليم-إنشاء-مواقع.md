@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "bootstrap"
-  - "css"
+  - "CSS"
   - "html"
   - "ruby on rails"
   - "ruby"

@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "pdo"
-  - "php"
+  - "PHP"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

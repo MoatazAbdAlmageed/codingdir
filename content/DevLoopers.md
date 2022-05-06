@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "clean code"
-  - "cs"
+  - "CS"
   - "cs50"
   - "solid"
   - "tips"

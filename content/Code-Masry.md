@@ -7,7 +7,7 @@ tags:
   - "algorithms"
   - "computer programming"
   - "data structures"
-  - "oop"
+  - "OOP"
   - "ruby"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

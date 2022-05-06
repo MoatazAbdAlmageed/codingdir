@@ -5,10 +5,10 @@ categories:
   - "عربي"
 tags:
   - "html"
-  - "css"
-  - "js"
+  - "CSS"
+  - "JS"
   - "jquery"
-  - "php"
+  - "PHP"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLRo8WHxi7DyWct9eLFmOcePJRXr-IDH7ip_A8KW=s88-c-k-c0x00ffffff-no-rj"
 ---

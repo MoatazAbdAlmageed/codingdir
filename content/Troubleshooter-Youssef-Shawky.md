@@ -9,9 +9,9 @@ categories:
 tags:
   - "pin"
   - "c"
-  - "cplusplus"
-  - "cs"
-  - "microsoft"
+  - "CPlusPlus"
+  - "CS"
+
   - "database"
   - "pin"
 ---

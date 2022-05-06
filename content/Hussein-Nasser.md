@@ -6,7 +6,7 @@ categories:
   - "english"
 
 tags:
-  - "dotnet"
+  - ".NET"
   - "backend"
   - "c"
   - "database"

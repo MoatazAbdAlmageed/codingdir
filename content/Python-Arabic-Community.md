@@ -10,7 +10,7 @@ tags:
   - "talks"
   - "tips"
   - "podcast"
-  - "cs"
-  - "ai"
+  - "CS"
+  - "AI"
   - "pin"
 ---

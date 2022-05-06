@@ -5,7 +5,9 @@ categories:
   - "English"
 tags:
   [
-    "{tag}"
+    "python",
+    "react",
+    "JS"
   ]
 
 youtube: "https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q"

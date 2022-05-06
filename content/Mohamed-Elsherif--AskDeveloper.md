@@ -7,10 +7,10 @@ categories:
   - "عربي"
 
 tags:
-  - "csharp"
+  - "C Sharp"
   - "c"
   - "meetup"
-  - "microsoft"
+
   - "podcast"
   - "software development"
   - "talks"

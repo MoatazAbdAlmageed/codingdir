@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "mobile"
-  - "sql"
+  - "SQL"
   - "flutter"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLQXfrIBrLUv2smrGPshK8ahEBjHDVWrbuzQic7_=s88-c-k-c0x00ffffff-no-rj"

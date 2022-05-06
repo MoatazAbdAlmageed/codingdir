@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "js","live","algorithms"
+    "JS","live","algorithms"
   ]
 
 youtube: "https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw"

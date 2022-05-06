@@ -7,9 +7,9 @@ categories:
   - "عربي"
 tags:
   - "unity"
-  - "php"
-  - "css"
-  - "js"
+  - "PHP"
+  - "CSS"
+  - "JS"
   - "jquery"
   - "pin"
   - "ajax"

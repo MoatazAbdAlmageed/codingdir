@@ -6,8 +6,8 @@ categories:
 tags:
   - "backend"
   - "frontend"
-  - "js"
-  - "php"
+  - "JS"
+  - "PHP"
   - "react"
   - "pin"
 ---

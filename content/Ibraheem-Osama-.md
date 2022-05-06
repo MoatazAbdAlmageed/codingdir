@@ -11,7 +11,7 @@ tags:
 - "golang"
 - "golang"
 - "ionic"
-- "js"
+- "JS"
 - "solid"
 - "testing"
 

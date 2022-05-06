@@ -3,7 +3,7 @@ title: "OutsideTheCode"
 date: "2021-06-03"
 tags:
   - "blockchain"
-  - "js"
+  - "JS"
   - "python"
   - "security"
 ---

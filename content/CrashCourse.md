@@ -5,7 +5,7 @@ categories:
   - "english"
 
 tags:
-  - "cs"
+  - "CS"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AKedOLTvu1OUcurcqfbPStA-6PEj0Uki1OnnYowr3nwpxw=s176-c-k-c0x00ffffff-no-rj)

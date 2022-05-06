@@ -7,10 +7,10 @@ tags:
   - "asp"
   - "bootstrap"
   - "c"
-  - "css"
+  - "CSS"
   - "design patterns"
   - "html"
-  - "js"
+  - "JS"
   - "mvc"
   - "web design"
 ---

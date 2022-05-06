@@ -13,6 +13,6 @@ tags:
   - "talks"
   - "podcast"
   - "chrome"
-  - "cs"
+  - "CS"
   - "tips"
 ---

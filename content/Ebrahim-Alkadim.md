@@ -4,9 +4,9 @@ date: "2021-07-07"
 categories:
   - "عربي"
 tags:
-  - "dotnet"
+  - ".NET"
   - "frontend"
-  - "microsoft"
+
   - "react"
   - "redux"
 ---

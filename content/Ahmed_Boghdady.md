@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "js"
+    "JS"
   ]
 
 youtube: "https://www.youtube.com/channel/UCh6hjnYcpklzL63UOFoAPsA/playlists"

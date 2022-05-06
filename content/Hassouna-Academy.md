@@ -4,14 +4,14 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "dotnet"
+  - ".NET"
   - "bootstrap"
-  - "csharp"
-  - "css"
+  - "C Sharp"
+  - "CSS"
   - "django"
   - "html"
   - "java"
-  - "js"
+  - "JS"
   - "python"
   - "ring"
 ---

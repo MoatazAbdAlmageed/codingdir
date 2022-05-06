@@ -11,7 +11,7 @@ tags:
   - "frontend"
   - "hooks"
   - "laravel"
-  - "php"
+  - "PHP"
   - "react"
   - "vuejs"
   - "web design"

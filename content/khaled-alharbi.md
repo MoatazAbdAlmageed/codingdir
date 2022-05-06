@@ -4,7 +4,7 @@ date: "2021-05-18"
 categories:
   - "عربي"
 tags:
-  - "cs"
+  - "CS"
   - "database"
 ---
 

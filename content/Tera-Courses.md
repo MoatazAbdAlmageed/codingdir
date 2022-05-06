@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "nodejs"
-  - "seo"
+  - "SEO"
 ---
 
 https://www.youtube.com/c/TeraCourses/playlists

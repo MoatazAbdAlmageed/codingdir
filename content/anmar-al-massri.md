@@ -5,12 +5,12 @@ categories:
   - "عربي"
 tags:
   - "asp"
-  - "csharp"
+  - "C Sharp"
   - "crm"
   - "entity-framework"
   - "iti"
-  - "js"
-  - "microsoft"
+  - "JS"
+
   - "mvc"
   - "sharepoint"
   - "web servers"

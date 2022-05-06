@@ -8,10 +8,10 @@ categories:
 tags:
   - "bootstrap"
   - "cs50"
-  - "css"
+  - "CSS"
   - "django"
   - "html"
-  - "js"
+  - "JS"
   - "python"
   - "pin"
 ---

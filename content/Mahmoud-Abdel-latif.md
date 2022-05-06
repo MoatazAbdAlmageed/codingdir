@@ -7,7 +7,7 @@ tags:
   - "web"
   - "odoo"
   - "laravel"
-  - "php"
+  - "PHP"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLR61P-zjjoJW9ynm3-IzrFNP_pijp6dOPCj1r-cXw=s88-c-k-c0x00ffffff-no-rj"
 ---

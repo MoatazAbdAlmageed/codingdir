@@ -5,12 +5,12 @@ categories:
   - "english"
 
 tags:
-  - "css"
+  - "CSS"
   - "figma"
   - "frontend"
   - "gatsby"
   - "html"
-  - "js"
+  - "JS"
   - "nextjs"
   - "react"
   - "xd"

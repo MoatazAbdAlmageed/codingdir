@@ -4,9 +4,9 @@ date: "2021-03-04"
 categories:
   - "عربي"
 tags:
-  - "ai"
+  - "AI"
   - "iot"
-  - "ml"
+  - "ML"
 ---
 
 [https://www.youtube.com/channel/UCqZ84W_AX_1WC-4uoYxJ_5w](https://www.youtube.com/channel/UCqZ84W_AX_1WC-4uoYxJ_5w)

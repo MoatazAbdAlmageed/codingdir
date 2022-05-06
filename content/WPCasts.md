@@ -5,7 +5,7 @@ categories:
   - "english"
 tags:
   - "gatsby"
-  - "js"
+  - "JS"
   - "wordpress"
 ---
 

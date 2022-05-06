@@ -7,7 +7,7 @@ categories:
 tags:
   - "backend"
   - "laravel"
-  - "php"
+  - "PHP"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

@@ -5,8 +5,8 @@ categories:
   - "عربي"
 tags:
   - "java"
-  - "cplusplus"
-  - "oop"
+  - "CPlusPlus"
+  - "OOP"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLRPUHqUBK0QUQ8sVJqp8eucuiTJ3rgxxOhGqNzM=s88-c-k-c0x00ffffff-no-rj"
 ---

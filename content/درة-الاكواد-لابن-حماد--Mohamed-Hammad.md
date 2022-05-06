@@ -6,13 +6,14 @@ categories:
 
 tags:
   - "pin"
-  - "ai"
-  - "dotnet"
-  - "csharp"
-  - "cs"
+  - "AI"
+  - ".NET"
+  - "C Sharp"
+  - "CS"
   - "declarative programming"
   - "functional-programming"
-  - "microsoft"
+  - "Programming paradigm"
+
 cover: "https://yt3.ggpht.com/ytc/AKedOLRCKVTF49I6AWHXA8BRkhfsU0k2H69F56fkQX2v=s88-c-k-c0x00ffffff-no-rj"
 ---
 

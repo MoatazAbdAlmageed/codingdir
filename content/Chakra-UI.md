@@ -7,7 +7,7 @@ categories:
 tags:
   - "chakra ui"
   - "react"
-  - "ui/ux"
+  - "UI/UX"
 ---
 
 https://www.youtube.com/channel/UC4TmDovH46TB4S0SM0Y4CIg/featured

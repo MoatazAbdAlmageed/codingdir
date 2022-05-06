@@ -4,9 +4,9 @@ date: "2021-07-09"
 categories:
   - "عربي"
 tags:
-  - "css"
+  - "CSS"
   - "html"
-  - "js"
+  - "JS"
   - "kids"
 ---
 

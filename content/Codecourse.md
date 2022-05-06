@@ -6,12 +6,12 @@ categories:
 
 tags:
   - "backend"
-  - "css"
+  - "CSS"
   - "frontend"
   - "html"
-  - "js"
+  - "JS"
   - "laravel"
-  - "php"
+  - "PHP"
   - "testing"
   - "vuejs"
 ---

@@ -10,7 +10,7 @@ tags:
   - "ionic"
   - "math"
   - "mysql"
-  - "php"
+  - "PHP"
   - "react"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

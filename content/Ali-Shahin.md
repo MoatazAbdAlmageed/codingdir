@@ -6,9 +6,9 @@ categories:
 
 tags:
   - "angular"
-  - "csharp"
+  - "C Sharp"
   - "data science"
-  - "oop"
+  - "OOP"
   - "software engineering"
   - "tips"
 cover: "/YouTube-Icon-Gray-Box.png"

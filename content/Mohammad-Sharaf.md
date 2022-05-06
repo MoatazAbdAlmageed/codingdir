@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "books"
-  - "js"
+  - "JS"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AAUvwnhCnPnq_Va9wbUzMWuMgNrHBha8kWM7bHaa6QLK=s176-c-k-c0x00ffffff-no-rj)

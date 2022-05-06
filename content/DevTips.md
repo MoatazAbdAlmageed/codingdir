@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "xd"
-  - "css"
+  - "CSS"
   - "git"
   - "github"
   - "react"

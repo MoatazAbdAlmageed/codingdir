@@ -4,10 +4,10 @@ date: "2021-05-31"
 categories:
   - "english"
 tags:
-  - "css"
+  - "CSS"
   - "e-commerce"
   - "html"
-  - "js"
+  - "JS"
   - "web design"
 ---
 

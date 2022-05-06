@@ -4,7 +4,7 @@ date: "2021-07-13"
 categories: 
   - "english"
 tags: 
-  - "css"
+  - "CSS"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AKedOLSUFPv6RynnHfRCMpRBGW425R5RK0J3fOyaKTA1eg=s176-c-k-c0x00ffffff-no-rj)

@@ -5,10 +5,10 @@ categories:
   - "english"
 
 tags:
-  - "css"
+  - "CSS"
   - "frontend"
   - "html"
-  - "js"
+  - "JS"
   - "react"
   - "web"
 cover: "/YouTube-Icon-Gray-Box.png"

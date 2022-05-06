@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "oop"
+  - "OOP"
   - "python"
 ---
 

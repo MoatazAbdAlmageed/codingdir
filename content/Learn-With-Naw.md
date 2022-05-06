@@ -5,13 +5,14 @@ categories:
   - "عربي"
 tags:
   - "web"
+  - "pin"
   - "vim"
   - "react"
   - "nodejs"
   - "linux"
   - "wordpress"
-  - "js"
-  - "php"
+  - "JS"
+  - "PHP"
   - "vuejs"
 
 cover: "https://yt3.ggpht.com/icr7pst7OmhzsrqqYv7OAMrYX2W4unur-F7TyDJQ-PDzcr00d7Lxnp1qBAfELLTdquEh67IGoQ=s88-c-k-c0x00ffffff-no-rj"

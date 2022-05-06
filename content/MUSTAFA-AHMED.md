@@ -8,10 +8,10 @@ tags:
   - "data structures"
   - "frontend"
   - "java"
-  - "js"
+  - "JS"
   - "laravel"
   - "mysql"
-  - "php"
+  - "PHP"
   - "vuejs"
 ---
 

@@ -6,14 +6,15 @@ categories:
 
 tags:
   - "pin"
+  - "algorithms"
   - "backend"
   - "bootstrap"
-  - "css"
+  - "CSS"
   - "frontend"
   - "html"
-  - "js"
+  - "JS"
   - "mysql"
-  - "php"
+  - "PHP"
   - "python"
   - "database"
   - "wordpress"

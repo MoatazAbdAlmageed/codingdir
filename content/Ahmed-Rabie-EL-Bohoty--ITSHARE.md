@@ -8,9 +8,9 @@ tags:
   - "asp"
   - "blockchain"
   - "c"
-  - "js"
+  - "JS"
   - "sharepoint"
-  - "sql"
+  - "SQL"
 ---
 
 https://www.youtube.com/user/Ahmedbohoty/playlists

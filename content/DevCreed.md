@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "pin"
-  - "dotnet"
+  - ".NET"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTA5YPQYMfeVPoEN0larOhB8PjSF3XvmsOyXDoF=s88-c-k-c0x00ffffff-no-rj"
 youtube: "https://www.youtube.com/c/DevCreed/playlists"
 ---

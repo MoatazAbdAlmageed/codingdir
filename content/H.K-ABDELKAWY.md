@@ -5,11 +5,11 @@ categories:
   - "عربي"
 tags:
   - "dl"
-  - "ai"
-  - "ip"
-  - "csharp"
+  - "AI"
+  - "IP"
+  - "C Sharp"
   - "data structures"
-  - "cs"
+  - "CS"
 ---
 
 https://www.youtube.com/user/enghazemkhaled/playlists

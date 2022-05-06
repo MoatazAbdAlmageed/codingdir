@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "js",
+    "JS",
     "pin"
   ]
 

@@ -11,7 +11,7 @@ tags:
   - "books"
   - "computer programming"
   - "computer science"
-  - "cs"
+  - "CS"
   - "java"
   - "solid"
   - "pin"

@@ -7,7 +7,7 @@ tags:
   - "backend"
   - "design patterns"
   - "docker"
-  - "php"
+  - "PHP"
   - "pin"
   - "symfony"
 youtube: "https://www.youtube.com/c/PencilsoftNet/videos"

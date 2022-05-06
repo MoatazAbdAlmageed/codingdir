@@ -6,8 +6,8 @@ categories:
 tags:
   - "backend"
   - "books"
-  - "cs"
-  - "php"
+  - "CS"
+  - "PHP"
   - "software engineering"
 ---
 

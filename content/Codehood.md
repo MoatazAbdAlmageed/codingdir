@@ -4,7 +4,7 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "js"
+  - "JS"
   - "tips"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

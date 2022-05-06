@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "cs"
+  - "CS"
   - "cs50"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

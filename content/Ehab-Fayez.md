@@ -4,8 +4,8 @@ date: "2021-05-15"
 categories:
   - "عربي"
 tags:
-  - "ui/ux"
-  - "ui/ux"
+  - "UI/UX"
+  - "UI/UX"
 ---
 
 [https://youtube.com/c/EhabFayez](https://youtube.com/c/EhabFayez)

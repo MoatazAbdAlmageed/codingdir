@@ -8,7 +8,7 @@ tags:
   - "java"
   - "maven"
   - "mongodb"
-  - "oop"
+  - "OOP"
   - "swagger"
   - "devops"
   - "docker"

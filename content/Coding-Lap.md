@@ -4,8 +4,8 @@ date: "2021-04-10"
 categories:
   - "عربي"
 tags:
-  - "ui/ux"
-  - "ui/ux"
+  - "UI/UX"
+  - "UI/UX"
 ---
 
 [https://youtube.com/channel/UCYMlRxJ4mF0zL8aRoAJXb3g](https://youtube.com/channel/UCYMlRxJ4mF0zL8aRoAJXb3g)

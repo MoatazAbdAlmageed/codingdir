@@ -5,11 +5,11 @@ categories:
   - "عربي"
 
 tags:
-  - "csharp"
+  - "C Sharp"
   - "backend"
-  - "csharp"
+  - "C Sharp"
   - "html"
-  - "php"
+  - "PHP"
   - "python"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLRXovB3JjwFmfjJ7dW-x3Ceuf2jp2xdNnqfF-VPQg=s176-c-k-c0x00ffffff-no-rj"

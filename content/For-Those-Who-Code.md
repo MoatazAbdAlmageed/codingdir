@@ -4,7 +4,7 @@ date: "2021-03-13"
 categories:
   - "english"
 tags:
-  - "js"
+  - "JS"
   - "nodejs"
   - "react"
   - "vuejs"

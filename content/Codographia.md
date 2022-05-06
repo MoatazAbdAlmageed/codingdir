@@ -5,8 +5,8 @@ categories:
   - "عربي"
 
 tags:
-  - "dotnet"
-  - "csharp"
+  - ".NET"
+  - "C Sharp"
   - "c"
   - "docker"
   - "wordpress"

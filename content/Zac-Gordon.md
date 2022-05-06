@@ -8,7 +8,7 @@ tags:
   - "frontity"
   - "gatsby"
   - "graphql"
-  - "js"
+  - "JS"
   - "react"
   - "wordpress"
 cover: "/YouTube-Icon-Gray-Box.png"

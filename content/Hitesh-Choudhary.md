@@ -5,9 +5,9 @@ categories:
   - "english"
 
 tags:
-  - "css"
+  - "CSS"
   - "docker"
-  - "js"
+  - "JS"
   - "react"
 ---
 

@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "cplusplus"
+  - "CPlusPlus"
   - "c"
   - "data structures"
   - "regular-expressions"

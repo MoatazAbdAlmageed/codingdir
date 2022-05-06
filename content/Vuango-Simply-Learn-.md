@@ -4,7 +4,7 @@ date: "2021-03-11"
 categories:
   - "عربي"
 tags:
-  - "js"
+  - "JS"
   - "vuejs"
   - "vuejs"
 ---

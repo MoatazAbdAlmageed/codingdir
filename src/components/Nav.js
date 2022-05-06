@@ -17,7 +17,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { Link } from "gatsby";
-import { upperCase } from "lodash";
+import { startCase } from "lodash";
 import React from "react";
 import config from "../../data/SiteConfig";
 
@@ -128,7 +128,7 @@ const DesktopNav = (props) => {
                 <MenuList fontSize="14px">
                   {navItem.children.map((child) => (
                     <Link size="sm" key={child.label} py={2} href={child.href}>
-                      <MenuItem>{upperCase(child.label)}</MenuItem>
+                      <MenuItem>{startCase(child.label)}</MenuItem>
                     </Link>
                   ))}
                 </MenuList>
@@ -201,7 +201,7 @@ const MobileNavItem = ({ label, children, href }) => {
           {children &&
             children.map((child) => (
               <Link key={child.label} py={2} href={child.href}>
-                {upperCase(child.label)}
+                {startCase(child.label)}
               </Link>
             ))}
         </Stack>
@@ -221,6 +221,11 @@ const NAV_ITEMS = [
     label: "CS 🏫",
     href: "#",
     children: [
+      {
+        label: "CS",
+        subLabel: "CS description here",
+        href: "/tags/cs",
+      },
       {
         label: "problem-solving",
         subLabel: "problem-solving description here",
@@ -284,6 +289,11 @@ const NAV_ITEMS = [
 
     children: [
       {
+        label: "FrontEnd",
+        subLabel: "FrontEnd description here",
+        href: "/tags/frontend",
+      },
+      {
         label: "HTML",
         subLabel: "HTML description here",
         href: "/tags/html",
@@ -328,11 +338,16 @@ const NAV_ITEMS = [
     href: "#",
     children: [
       {
+        label: "BackEnd",
+        subLabel: "BackEnd description here",
+        href: "/tags/backend",
+      },
+      {
         label: "nodejs",
         href: "/tags/nodejs",
       },
       {
-        label: "php",
+        label: "PHP",
         href: "/tags/php",
       },
       {
@@ -370,6 +385,11 @@ const NAV_ITEMS = [
     href: "#",
     children: [
       {
+        label: "Database",
+        subLabel: "Database description here",
+        href: "/tags/database",
+      },
+      {
         label: "sql",
         href: "/tags/sql",
       },
@@ -400,6 +420,15 @@ const NAV_ITEMS = [
     href: "#",
     children: [
       {
+        label: "Mobile",
+        subLabel: "Mobile description here",
+        href: "/tags/mobile",
+      },
+      {
+        label: "react-native",
+        href: "/tags/react-native",
+      },
+      {
         label: "android",
         href: "/tags/android",
       },
@@ -415,16 +444,17 @@ const NAV_ITEMS = [
         label: "Swift",
         href: "/tags/swift",
       },
-      {
-        label: "react-native",
-        href: "/tags/react-native",
-      },
     ],
   },
   {
     label: "Devops 🖲",
     href: "#",
     children: [
+      {
+        label: "Devops",
+        subLabel: "Devops description here",
+        href: "/tags/devops",
+      },
       {
         label: "git",
         href: "/tags/git",

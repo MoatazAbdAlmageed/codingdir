@@ -8,7 +8,7 @@ tags:
   - "devops"
   - "web"
   - "mobile"
-  - "dotnet"
+  - ".NET"
 
 cover: "https://yt3.ggpht.com/ytc/AKedOLQIQB-HPzmSXhVReAyJ8c5Hj7Kh6-BXuLtErPlSgw=s88-c-k-c0x00ffffff-no-rj"
 ---

@@ -5,12 +5,12 @@ categories:
   - "عربي"
 tags:
   - "backend"
-  - "css"
+  - "CSS"
   - "frontend"
   - "html"
-  - "js"
+  - "JS"
   - "mysql"
-  - "php"
+  - "PHP"
 ---
 
 https://www.youtube.com/c/AbdallaMohmed/playlists

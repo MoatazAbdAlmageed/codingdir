@@ -4,7 +4,7 @@ date: "2021-06-13"
 categories:
   - "عربي"
 tags:
-  - "cs"
+  - "CS"
   - "java"
 ---
 

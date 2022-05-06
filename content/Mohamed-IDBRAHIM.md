@@ -10,7 +10,7 @@ tags:
   - "api"
   - "es"
   - "git"
-  - "js"
+  - "JS"
   - "laravel"
   - "nodejs"
   - "python"

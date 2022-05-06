@@ -5,9 +5,9 @@ categories:
   - "عربي"
 
 tags:
-  - "dotnet"
+  - ".NET"
   - "angular"
-  - "csharp"
+  - "C Sharp"
   - "java"
   - "testing"
   - "windows"

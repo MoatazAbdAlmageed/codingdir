@@ -6,11 +6,11 @@ categories:
 
 tags:
   - "c"
-  - "css"
+  - "CSS"
   - "docker"
   - "frontend"
   - "java"
-  - "js"
+  - "JS"
   - "nodejs"
   - "python"
   - "react"

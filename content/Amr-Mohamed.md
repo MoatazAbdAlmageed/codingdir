@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "solid"
-  - "oop"
+  - "OOP"
   - "angular"
   - "html"
   - "html5"

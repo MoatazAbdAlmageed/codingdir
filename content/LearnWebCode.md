@@ -5,11 +5,11 @@ categories:
   - "english"
 
 tags:
-  - "css"
+  - "CSS"
   - "frontend"
   - "git"
   - "html"
-  - "js"
+  - "JS"
   - "react"
   - "wordpress"
 ---

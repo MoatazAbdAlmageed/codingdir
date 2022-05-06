@@ -7,7 +7,7 @@ tags:
   - "algorithms"
   - "compiler"
   - "encryption"
-  - "js"
+  - "JS"
   - "networking"
   - "network programming"
   - "python"

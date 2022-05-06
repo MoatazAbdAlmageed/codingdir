@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "es6"
-  - "js"
+  - "JS"
   - "react"
   - "redux"
   - "pin"

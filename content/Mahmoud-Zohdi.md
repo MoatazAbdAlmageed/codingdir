@@ -5,10 +5,10 @@ categories:
   - "عربي"
 
 tags:
-  - "css"
+  - "CSS"
   - "frontend"
   - "html"
-  - "js"
+  - "JS"
   - "nuxtjs"
   - "tailwind"
   - "vuejs"

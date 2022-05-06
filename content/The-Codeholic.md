@@ -6,14 +6,14 @@ categories:
   - "english"
 
 tags:
-  - "php"
+  - "PHP"
   - "yii2"
   - "vuejs"
   - "deno"
   - "git"
-  - "oop"
+  - "OOP"
   - "webpack"
-  - "js"
+  - "JS"
   - "web"
   - "pin"
 

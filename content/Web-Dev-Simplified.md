@@ -7,13 +7,13 @@ categories:
   - "english"
 
 tags:
-  - "css"
+  - "CSS"
   - "data structures"
   - "firebase"
   - "frontend"
   - "graphql"
   - "html"
-  - "js"
+  - "JS"
   - "linux"
   - "react"
   - "database"

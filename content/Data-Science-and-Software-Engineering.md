@@ -7,7 +7,7 @@ categories:
   - "عربي"
 tags:
   - "computer programming"
-  - "cs"
+  - "CS"
   - "database"
   - "java"
   - "python"

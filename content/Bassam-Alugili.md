@@ -4,6 +4,6 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "csharp"
+  - "C Sharp"
   - "entity-framework"
 ---

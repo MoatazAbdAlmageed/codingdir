@@ -4,7 +4,7 @@ date: "2020-01-07"
 categories:
   - "عربي"
 tags:
-  - "php"
+  - "PHP"
   - "slim"
   - "git"
   - "android"

@@ -4,7 +4,7 @@ date: "2021-03-19"
 categories:
   - "عربي"
 tags:
-  - "csharp"
+  - "C Sharp"
 ---
 
 [https://youtube.com/channel/UCj-BtddpgJakNHlSE7ujywg](https://youtube.com/channel/UCj-BtddpgJakNHlSE7ujywg)

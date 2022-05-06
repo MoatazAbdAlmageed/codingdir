@@ -6,7 +6,7 @@ categories:
 tags:
   - "android"
   - "kotlin"
-  - "oop"
+  - "OOP"
   - "python"
 ---
 

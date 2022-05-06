@@ -4,10 +4,10 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "ai"
+  - "AI"
   - "big-data"
-  - "csharp"
-  - "js"
+  - "C Sharp"
+  - "JS"
   - "nodejs"
   - "python"
   - "database"

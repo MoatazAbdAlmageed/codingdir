@@ -5,10 +5,10 @@ categories:
   - "english"
 
 tags:
-  - "css"
+  - "CSS"
   - "frontend"
   - "html"
-  - "js"
+  - "JS"
   - "wordpress"
   - "xd"
 ---

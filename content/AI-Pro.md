@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "ai"
+  - "AI"
 cover: "https://yt3.ggpht.com/ytc/AKedOLRDb8PBIiIgjcIZ0J6EZzHgqCvIp473yRoxww=s176-c-k-c0x00ffffff-no-rj"
 ---
 

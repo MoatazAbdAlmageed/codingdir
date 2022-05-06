@@ -6,7 +6,7 @@ categories:
 tags:
   - "chrome extension"
   - "frontend"
-  - "js"
+  - "JS"
   - "react"
 ---
 
