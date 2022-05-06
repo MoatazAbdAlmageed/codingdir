@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "python","js"
+    "python","JS"
   ]
 
 youtube: "https://www.youtube.com/c/sentdex/featured"
