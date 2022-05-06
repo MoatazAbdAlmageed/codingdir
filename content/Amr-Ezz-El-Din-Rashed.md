@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "matlab"
-  - "cs"
+  - "CS"
   - "python"
   - "networking"
   - "assembly"

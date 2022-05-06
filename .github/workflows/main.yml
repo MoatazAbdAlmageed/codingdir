@@ -12,7 +12,7 @@ on:
       
       description:
         description: "Description"
-        required: true
+        required: false
         default: "Mohammed Besar"
         type: string
         
