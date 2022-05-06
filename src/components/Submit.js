@@ -194,7 +194,7 @@ const Submit = ({ pageContext }) => {
                     <Field
                       aria-required={true}
                       name="youtube"
-                      label="Link"
+                      label="Youtube"
                       isRequired
                     >
                       {({ fieldProps }) => {
@@ -279,7 +279,7 @@ const Submit = ({ pageContext }) => {
                     <Field
                       aria-required={true}
                       name="cover"
-                      label="Cover"
+                      label="Logo"
                       isRequired
                     >
                       {({ fieldProps }) => {
@@ -287,7 +287,7 @@ const Submit = ({ pageContext }) => {
                           <Fragment>
                             <Tooltip
                               position="top"
-                              content="YouTube channel cover (image URL)"
+                              content="YouTube channel Logo URL"
                             >
                               <TextField
                                 type="text"
