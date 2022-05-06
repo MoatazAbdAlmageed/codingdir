@@ -55,7 +55,7 @@ jobs:
     env:
       title: ${{ github.event.inputs.title }}
       category: ${{ github.event.inputs.category }}
-      tag: ${{ github.event.inputs.tag }}
+      tags: ${{ github.event.inputs.tags }}
       youtube: ${{ github.event.inputs.youtube }}
       cover: ${{ github.event.inputs.cover }}
       description: ${{ github.event.inputs.description }}
