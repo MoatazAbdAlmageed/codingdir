@@ -281,6 +281,10 @@ const NAV_ITEMS = [
         label: "software-systems",
         href: "/tags/software-systems",
       },
+      {
+        label: "microservice",
+        href: "/tags/microservice",
+      },
     ],
   },
   {
