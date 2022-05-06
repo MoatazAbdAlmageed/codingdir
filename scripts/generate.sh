@@ -1,4 +1,5 @@
 # title="test"
+# description="test"
 # category=English
 # tag="solid,angular"
 # youtube=https://www.youtube.com/c/knowthen/playlists
@@ -13,6 +14,7 @@ echo tags: $tags
 
 
 sed -i "s/{title}/$title/"  content/$fileName.md 
+sed -i "s/{description}/$description/"  content/$fileName.md 
 sed -i "s/{category}/$category/"  content/$fileName.md 
 sed -i "s/{date}/$(date +'%Y-%m-%d')/" content/$fileName.md
 sed -i "s/{tag}/$tags/"  content/$fileName.md 

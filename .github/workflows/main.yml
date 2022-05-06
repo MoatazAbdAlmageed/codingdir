@@ -13,6 +13,12 @@ on:
         required: true
         default: "Mohammed Besar"
         type: string
+      
+      description:
+        description: "Description"
+        required: true
+        default: "Mohammed Besar"
+        type: string
         
       branch:
         description: "Branch"
@@ -56,6 +62,7 @@ jobs:
       tag: ${{ github.event.inputs.tag }}
       youtube: ${{ github.event.inputs.youtube }}
       cover: ${{ github.event.inputs.cover }}
+      description: ${{ github.event.inputs.description }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1

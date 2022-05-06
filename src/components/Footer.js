@@ -20,9 +20,9 @@ const Footer = () => (
       <a
         style={{ color: "orange" }}
         target="_blank"
-        href="https://github.com/MoatazAbdAlmageed/YouTube-Channels/blob/main/CONTRIBUTING.md"
+        href="https://github.com/MoatazAbdAlmageed/YouTube-Channels"
       >
-        Contributing?
+        Github Repo
       </a>
     </Text>
   </Container>
