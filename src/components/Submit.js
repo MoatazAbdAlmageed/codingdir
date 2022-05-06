@@ -154,7 +154,6 @@ const Submit = ({ pageContext }) => {
                                 isSearchable={true}
                                 placeholder="Choose Tag"
                                 onChange={onChangeTag}
-                                selected={formData?.tags}
                               />
                             </Tooltip>
                             {error && <ErrorMessage>{error}</ErrorMessage>}
