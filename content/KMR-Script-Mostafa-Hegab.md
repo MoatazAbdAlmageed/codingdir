@@ -7,6 +7,7 @@ categories:
 
 tags:
   - "pin"
+  - "assembly"
   - "algorithms"
   - "angular"
   - "backend"
