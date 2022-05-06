@@ -10,5 +10,7 @@ tags:
 
 youtube: "{youtube}"
 cover: "{cover}"
+github: "{github}"
+linkedin: "{linkedin}"
 ---
 {description}

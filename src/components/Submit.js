@@ -24,6 +24,8 @@ const Submit = ({ pageContext }) => {
     youtube: "",
     cover: "",
     tags: "",
+    github: "",
+    linkedin: "",
   });
 
   const onSubmit = () => {
@@ -45,6 +47,8 @@ const Submit = ({ pageContext }) => {
           tags: formData?.tags,
           youtube: formData?.youtube.trim(),
           cover: formData?.cover.trim(),
+          github: formData?.github.trim(),
+          linkedin: formData?.linkedin.trim(),
         },
       }),
     };
@@ -63,6 +67,8 @@ const Submit = ({ pageContext }) => {
       youtube: "",
       cover: "",
       tags: "",
+      github: "",
+      linkedin: "",
     });
   };
 
@@ -206,6 +212,54 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>
+                    <Field
+                      aria-required={true}
+                      name="github"
+                      label="Github"
+                      isRequired
+                    >
+                      {({ fieldProps }) => {
+                        return (
+                          <Fragment>
+                            <Tooltip
+                              position="top"
+                              content="Github account link"
+                            >
+                              <TextField
+                                type="text"
+                                {...fieldProps}
+                                value={formData?.github}
+                                onChange={(e) => handleChange(e)}
+                              />
+                            </Tooltip>
+                          </Fragment>
+                        );
+                      }}
+                    </Field>{" "}
+                    <Field
+                      aria-required={true}
+                      name="linkedin"
+                      label="Linkedin"
+                      isRequired
+                    >
+                      {({ fieldProps }) => {
+                        return (
+                          <Fragment>
+                            <Tooltip
+                              position="top"
+                              content="Linkedin account link"
+                            >
+                              <TextField
+                                type="text"
+                                {...fieldProps}
+                                value={formData?.linkedin}
+                                onChange={(e) => handleChange(e)}
+                              />
+                            </Tooltip>
+                          </Fragment>
+                        );
+                      }}
+                    </Field>{" "}
                     <Field
                       aria-required={true}
                       name="cover"

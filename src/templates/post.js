@@ -1,4 +1,10 @@
-import { FaYoutube } from "react-icons/fa";
+import {
+  FaYoutube,
+  FaLinkedinIn,
+  FaGithub,
+  FaBehance,
+  FaLink,
+} from "react-icons/fa";
 
 import {
   Box,
@@ -91,62 +97,71 @@ export default ({ data, pageContext }) => {
             )})`}
         </Text>
         <BlogTags tags={[...new Set(post.tags)]} />
-
-        {post.youtube && (
-          <a
-            style={{ color: "orange" }}
-            target="_blank"
-            href={post.youtube}
-            activeClassName={styles.activeNav}
-          >
-            <FaYoutube color="#ff0000" />
-            {post.youtube}
-          </a>
-        )}
-        <br />
-        {post.linkedin && (
-          <a
-            style={{ color: "orange" }}
-            target="_blank"
-            href={post.linkedin}
-            activeClassName={styles.activeNav}
-          >
-            {post.linkedin}
-          </a>
-        )}
-        <br />
-        {post.github && (
-          <a
-            style={{ color: "orange" }}
-            target="_blank"
-            href={post.github}
-            activeClassName={styles.activeNav}
-          >
-            {post.github}
-          </a>
-        )}
-        <br />
-        {post.site && (
-          <a
-            style={{ color: "orange" }}
-            target="_blank"
-            href={post.site}
-            activeClassName={styles.activeNav}
-          >
-            {post.site}
-          </a>
-        )}
-        <br />
-        {post.behance && (
-          <a
-            style={{ color: "orange" }}
-            target="_blank"
-            href={post.behance}
-            activeClassName={styles.activeNav}
-          >
-            {post.behance}
-          </a>
-        )}
+        <ul>
+          {post.youtube && (
+            <li>
+              <a
+                style={{ color: "orange" }}
+                target="_blank"
+                href={post.youtube}
+                activeClassName={styles.activeNav}
+              >
+                <FaYoutube color="#ff0000" />
+                {post.youtube}
+              </a>
+            </li>
+          )}
+          {post.github && (
+            <a
+              style={{ color: "orange" }}
+              target="_blank"
+              href={post.github}
+              activeClassName={styles.activeNav}
+            >
+              <FaGithub />
+              {post.github}
+            </a>
+          )}{" "}
+          {post.linkedin && (
+            <li>
+              <a
+                style={{ color: "orange" }}
+                target="_blank"
+                href={post.linkedin}
+                activeClassName={styles.activeNav}
+              >
+                <FaLinkedinIn />
+                {post.linkedin}
+              </a>
+            </li>
+          )}
+          {post.site && (
+            <li>
+              <a
+                style={{ color: "orange" }}
+                target="_blank"
+                href={post.site}
+                activeClassName={styles.activeNav}
+              >
+                <FaLink />
+                {post.site}
+              </a>
+            </li>
+          )}
+          {post.behance && (
+            <li>
+              <a
+                style={{ color: "orange" }}
+                target="_blank"
+                href={post.behance}
+                activeClassName={styles.activeNav}
+              >
+                <FaBehance />
+                {post.behance}
+              </a>
+            </li>
+          )}
+        </ul>
 
         <Text
           as="p"
@@ -160,7 +175,6 @@ export default ({ data, pageContext }) => {
             }}
           />
         </Text>
-
         <a
           className="admin_only"
           style={{ color: "orange", visibility: "hidden" }}

@@ -41,6 +41,18 @@ on:
         description: "Youtube"
         required: true
         default: "https://www.youtube.com/watch?v=CRADesdEtO4&ab_channel=MohammedBesar-%D9%85%D8%AD%D9%85%D8%AF%D8%A8%D9%8A%D8%B5%D8%A7%D8%B1"
+        type: string  
+
+      github:
+        description: "Github"
+        required: false
+        default: ""
+        type: string
+      
+      linkedin:
+        description: "Linkedin"
+        required: false
+        default: ""
         type: string      
       
       cover:
@@ -57,6 +69,8 @@ jobs:
       category: ${{ github.event.inputs.category }}
       tags: ${{ github.event.inputs.tags }}
       youtube: ${{ github.event.inputs.youtube }}
+      github: ${{ github.event.inputs.github }}
+      linkedin: ${{ github.event.inputs.linkedin }}
       cover: ${{ github.event.inputs.cover }}
       description: ${{ github.event.inputs.description }}
     steps:
