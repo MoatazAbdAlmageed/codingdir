@@ -7,7 +7,7 @@
 
 fileName="${title// /_}"
 cp template/template.md content/$fileName.md
-formattedTags="${tag//,/'","'}"
+formattedTags="${tags//,/'","'}"
 
 sed -i "s/{title}/$title/"  content/$fileName.md 
 sed -i "s/{description}/$description/"  content/$fileName.md 
