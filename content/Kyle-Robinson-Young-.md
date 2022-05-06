@@ -6,7 +6,7 @@ categories:
 tags:
   - "electronjs"
   - "JS"
-  - "vujs"
+  - "vuejs"
   - "webpack"
 ---
 
