@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "CS"
+    "CS","assembly"
   ]
 
 youtube: "https://www.youtube.com/channel/UCLGLZiAH0qmMWzurK6TaPDw/videos"
