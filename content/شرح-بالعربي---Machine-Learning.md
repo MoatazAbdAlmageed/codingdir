@@ -9,7 +9,7 @@ tags:
   - "data science"
   - "deep learning"
   - "design patterns"
-  - "games development"
+  - "game development"
   - "Machine Learning ML"
   - "network programming"
   - "nlp"

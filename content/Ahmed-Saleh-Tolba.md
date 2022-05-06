@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "embedded"
-  - "games development"
+  - "game development"
 ---
 
 [https://youtube.com/user/ahmedragia21](https://youtube.com/user/ahmedragia21)
