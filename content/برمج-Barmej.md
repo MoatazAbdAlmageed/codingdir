@@ -7,7 +7,7 @@ categories:
   - "عربي"
 tags:
   - "android"
-  - ".NET"
+  - "ASP.NET"
   - "C Sharp"
   - "c"
   - "CPlusPlus"

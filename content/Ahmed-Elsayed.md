@@ -4,7 +4,7 @@ date: "2021-05-07"
 categories:
   - "عربي"
 tags:
-  - ".NET"
+  - "ASP.NET"
   - "C Sharp"
 
 ---

@@ -17,7 +17,7 @@ tags:
   - "mongodb"
   - "react"
   - "AI"
-  - "ML"
+  - "Machine Learning ML"
 cover: "https://yt3.ggpht.com/ytc/AKedOLRyPFojwY3CXV5ks5TwPrt2VifQn-nYNfkgLvVPkw=s48-c-k-c0x00ffffff-no-rj"
 ---
 

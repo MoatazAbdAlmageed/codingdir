@@ -8,7 +8,7 @@ tags:
   - "networking"
   - "MCSA"
   - "CCNA"
-  - "LINUX"
+  - "linux"
   - "WINDOWS"
 ---
 

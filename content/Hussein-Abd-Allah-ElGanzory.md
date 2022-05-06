@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "C Sharp"
-  - ".NET"
+  - "ASP.NET"
   - "JS"
   - "android"
   - "html"

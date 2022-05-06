@@ -6,7 +6,7 @@ categories:
 tags:
   - "web"
   - "python"
-  - "ML"
+  - "Machine Learning ML"
   - "PHP"
   - "wordpress"
   - "angular"

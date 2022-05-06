@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "analysis","ML","assembly"
+    "analysis","Machine Learning ML","assembly"
   ]
 
 youtube: "https://www.youtube.com/c/SparkTeam/playlists"

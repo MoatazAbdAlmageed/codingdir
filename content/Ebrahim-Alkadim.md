@@ -4,7 +4,7 @@ date: "2021-07-07"
 categories:
   - "عربي"
 tags:
-  - ".NET"
+  - "ASP.NET"
   - "frontend"
 
   - "react"

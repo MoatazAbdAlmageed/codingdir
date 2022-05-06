@@ -4,9 +4,9 @@ date: "2021-04-04"
 categories:
   - "عربي"
 tags:
-  - ".NET"
+  - "ASP.NET"
   - "c"
-  - "mvc"
+  - "MVC"
 ---
 
 > https://www.youtube.com/c/DevCreed/playlists

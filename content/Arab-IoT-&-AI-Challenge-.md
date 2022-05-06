@@ -6,7 +6,7 @@ categories:
 tags:
   - "AI"
   - "iot"
-  - "ML"
+  - "Machine Learning ML"
 ---
 
 [https://www.youtube.com/channel/UCqZ84W_AX_1WC-4uoYxJ_5w](https://www.youtube.com/channel/UCqZ84W_AX_1WC-4uoYxJ_5w)

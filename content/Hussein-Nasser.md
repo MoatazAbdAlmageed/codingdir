@@ -6,7 +6,7 @@ categories:
   - "english"
 
 tags:
-  - ".NET"
+  - "ASP.NET"
   - "backend"
   - "c"
   - "database"

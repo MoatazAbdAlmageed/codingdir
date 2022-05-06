@@ -15,7 +15,7 @@ tags:
   - "software development"
   - "design patterns"
   - "database"
-  - "ML"
+  - "Machine Learning ML"
   - "network programming"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

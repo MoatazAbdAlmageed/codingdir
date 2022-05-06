@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "angular"
-  - "asp"
+  - "ASP.NET"
   - "blockchain"
   - "c"
   - "JS"

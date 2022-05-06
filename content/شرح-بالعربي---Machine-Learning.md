@@ -10,7 +10,7 @@ tags:
   - "deep learning"
   - "design patterns"
   - "games development"
-  - "ML"
+  - "Machine Learning ML"
   - "network programming"
   - "nlp"
   - "python"

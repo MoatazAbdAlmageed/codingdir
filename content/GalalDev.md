@@ -6,7 +6,7 @@ categories:
 tags:
   - "blazor"
   - "database"
-  - "ddd"
+  - "Domain-driven design DDD"
   - "JS"
 
   - "database"

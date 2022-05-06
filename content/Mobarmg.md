@@ -6,7 +6,7 @@ categories:
 tags:
   - "ajax"
   - "angular"
-  - ".NET"
+  - "ASP.NET"
   - "bootstrap"
   - "C Sharp"
   - "CSS"
@@ -17,7 +17,7 @@ tags:
   - "linq"
 
   - "mongodb"
-  - "mvc"
+  - "MVC"
   - "nodejs"
   - "redux"
   - "sass"

@@ -4,7 +4,7 @@ date: "2021-03-16"
 categories:
   - "عربي"
 tags:
-  - ".NET"
+  - "ASP.NET"
   - "unity"
   - "android"
   - "angular"

@@ -5,8 +5,8 @@ categories:
   - "عربي"
 
 tags:
-  - "ddd"
-  - ".NET"
+  - "Domain-driven design DDD"
+  - "ASP.NET"
 ---
 
 [https://youtube.com/user/egyptioncoder](https://youtube.com/user/egyptioncoder)

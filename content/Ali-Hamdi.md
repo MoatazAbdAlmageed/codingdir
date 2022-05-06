@@ -11,7 +11,7 @@ tags:
   - "frontend"
   - "html"
   - "laravel"
-  - "mvc"
+  - "MVC"
   - "mysql"
   - "PHP"
   - "python"

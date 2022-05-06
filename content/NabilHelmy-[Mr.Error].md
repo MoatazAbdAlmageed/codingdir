@@ -4,14 +4,14 @@ date: "2021-03-24"
 categories:
   - "عربي"
 tags:
-  - "asp"
+  - "ASP.NET"
   - "bootstrap"
   - "c"
   - "CSS"
   - "design patterns"
   - "html"
   - "JS"
-  - "mvc"
+  - "MVC"
   - "web design"
 ---
 

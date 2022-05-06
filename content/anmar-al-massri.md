@@ -4,14 +4,14 @@ date: "2020-11-11"
 categories:
   - "عربي"
 tags:
-  - "asp"
+  - "ASP.NET"
   - "C Sharp"
   - "crm"
   - "entity-framework"
   - "iti"
   - "JS"
 
-  - "mvc"
+  - "MVC"
   - "sharepoint"
   - "web servers"
 ---
