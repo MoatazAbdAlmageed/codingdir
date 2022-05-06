@@ -5,6 +5,7 @@ categories:
   - "عربي"
 tags:
   - "pin"
+  - "assembly"
   - "cloud"
   - "security"
   - "CS"

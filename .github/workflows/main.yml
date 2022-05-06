@@ -83,7 +83,7 @@ jobs:
           delete-branch: true
           title: add ${{ github.event.inputs.title }} channel
           body: |
-            add ${{ github.event.inputs.title }} channel
+            add ${{ github.event.inputs.title }} channel ${{ github.event.inputs.youtube }}
           labels: |
             automated pr
           assignees: MoatazAbdAlmageed
