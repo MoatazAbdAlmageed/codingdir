@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "tips","pin","sql","js"
+    "problem solving","website"
   ]
 
 youtube: "https://coderbyte.com/"

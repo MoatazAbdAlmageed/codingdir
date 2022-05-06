@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "tips","pin","sql","js"
+    "website","problem solving"
   ]
 
 youtube: "https://www.codechef.com/"

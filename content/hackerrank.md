@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "tips","pin","sql","js","website"
+    "problem solving","website"
   ]
 
 youtube: "https://www.hackerrank.com/"
