@@ -31,7 +31,7 @@ on:
         - عربي
         - English
       
-      tag:
+      tags:
         description: "Tag"
         required: true
         default: "tips,pin,sql,js"

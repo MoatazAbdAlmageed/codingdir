@@ -19,10 +19,11 @@ const Submit = ({ pageContext }) => {
   const [success, setSuccess] = useState(false);
   const [formData, setFormData] = useState({
     title: "",
+    description: "",
     category: "",
     youtube: "",
     cover: "",
-    tag: "",
+    tags: "",
   });
 
   const onSubmit = () => {
@@ -40,7 +41,8 @@ const Submit = ({ pageContext }) => {
             .toLowerCase()}_channel`,
           category: formData?.category,
           title: formData?.title.trim(),
-          tag: formData?.tag,
+          description: formData?.description.trim(),
+          tags: formData?.tags,
           youtube: formData?.youtube.trim(),
           cover: formData?.cover.trim(),
         },
@@ -56,10 +58,11 @@ const Submit = ({ pageContext }) => {
     });
     setFormData({
       title: "",
+      description: "",
       category: "",
       youtube: "",
       cover: "",
-      tag: "",
+      tags: "",
     });
   };
 
@@ -76,7 +79,7 @@ const Submit = ({ pageContext }) => {
   const onChangeTag = (tags) => {
     setFormData({
       ...formData,
-      tag: tags.map(({ value }) => value).toString(),
+      tags: tags.map(({ value }) => value).toString(),
     });
   };
   return (
@@ -110,17 +113,34 @@ const Submit = ({ pageContext }) => {
                           </Tooltip>
                         </Fragment>
                       )}
+                    </Field>{" "}
+                    <Field
+                      aria-required={true}
+                      name="description"
+                      label="Description"
+                    >
+                      {({ fieldProps }) => (
+                        <Fragment>
+                          <Tooltip content="Channel description" position="top">
+                            <TextField
+                              {...fieldProps}
+                              value={formData?.description}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          </Tooltip>
+                        </Fragment>
+                      )}
                     </Field>
                     <Field
                       aria-required={true}
-                      name="tag"
-                      label="Tag"
+                      name="tags"
+                      label="Tags"
                       isRequired
                     >
                       {({ fieldProps, error }) => {
                         return (
                           <Fragment>
-                            <Tooltip position="top" content="Tag">
+                            <Tooltip position="top" content="Tags">
                               <Select
                                 {...fieldProps}
                                 classNamePrefix="react-select"
@@ -134,6 +154,7 @@ const Submit = ({ pageContext }) => {
                                 isSearchable={true}
                                 placeholder="Choose Tag"
                                 onChange={onChangeTag}
+                                selected={formData?.tags}
                               />
                             </Tooltip>
                             {error && <ErrorMessage>{error}</ErrorMessage>}
@@ -162,7 +183,12 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>
-                    <Field aria-required={true} name="youtube" label="Link">
+                    <Field
+                      aria-required={true}
+                      name="youtube"
+                      label="Link"
+                      isRequired
+                    >
                       {({ fieldProps }) => {
                         return (
                           <Fragment>
@@ -181,13 +207,18 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>
-                    <Field aria-required={true} name="cover" label="Cover">
+                    <Field
+                      aria-required={true}
+                      name="cover"
+                      label="Cover"
+                      isRequired
+                    >
                       {({ fieldProps }) => {
                         return (
                           <Fragment>
                             <Tooltip
                               position="top"
-                              content="YouTube channel cover"
+                              content="YouTube channel cover (image URL)"
                             >
                               <TextField
                                 type="text"
