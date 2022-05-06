@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    ""
+    "python,js,hacking"
   ]
 
 youtube: "https://www.youtube.com/c/NetworkChuck/featured"

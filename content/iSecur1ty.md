@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "bash"
-  - "hacker"
+  - "hacking"
   - "linux"
   - "python"
   - "ruby"
