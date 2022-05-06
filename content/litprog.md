@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    ""
+    "data structures","algorithms"
   ]
 
 youtube: "https://www.youtube.com/c/litprog/videos"
