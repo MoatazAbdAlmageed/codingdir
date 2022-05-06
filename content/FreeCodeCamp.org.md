@@ -7,6 +7,7 @@ categories:
 tags:
   - "pin"
   - "web"
+  - "website"
   - "html"
   - "CSS"
   - "PHP"
