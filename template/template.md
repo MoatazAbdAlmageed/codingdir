@@ -12,5 +12,6 @@ youtube: "{youtube}"
 cover: "{cover}"
 github: "{github}"
 linkedin: "{linkedin}"
+twitter: "{twitter}"
 ---
 {description}

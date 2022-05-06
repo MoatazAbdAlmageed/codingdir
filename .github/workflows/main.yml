@@ -53,6 +53,12 @@ on:
         description: "Linkedin"
         required: false
         default: ""
+        type: string    
+        
+      twitter:
+        description: "Twitter"
+        required: false
+        default: ""
         type: string      
       
       cover:
@@ -71,6 +77,7 @@ jobs:
       youtube: ${{ github.event.inputs.youtube }}
       github: ${{ github.event.inputs.github }}
       linkedin: ${{ github.event.inputs.linkedin }}
+      twitter: ${{ github.event.inputs.twitter }}
       cover: ${{ github.event.inputs.cover }}
       description: ${{ github.event.inputs.description }}
     steps:
