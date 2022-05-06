@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "CPlusPlus","problem solving","Data Structures","algorithms"
+    "CPlusPlus","problem solving","data structures","algorithms"
   ]
 
 youtube: "https://www.youtube.com/c/GammalTech/playlists"

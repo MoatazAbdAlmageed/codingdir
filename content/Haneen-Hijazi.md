@@ -4,7 +4,7 @@ date: "2021-07-04"
 categories:
   - "عربي"
 tags:
-  - "Operating System"
+  - "operating-system"
   - "project-management"
 ---
 

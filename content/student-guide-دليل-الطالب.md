@@ -13,7 +13,7 @@ tags:
   - "java"
   - "math"
   - "mysql"
-  - "operating-systems"
+  - "operating-system"
   - "database"
   - "system analysis"
 ---

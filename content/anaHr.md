@@ -8,7 +8,7 @@ categories:
 tags:
   - "linux"
   - "math"
-  - "operating-systems"
+  - "operating-system"
   - "pin"
   - "mechanics"
   - "computing"

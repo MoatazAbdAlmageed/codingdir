@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "networking"
-  - "Operating System"
+  - "operating-system"
   - "programming"
   - "PROGRAMMING languages"
   - "python"

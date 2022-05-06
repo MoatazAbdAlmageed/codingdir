@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "problem solving","java","Data Structures","CPlusPlus"
+    "problem solving","java","data structures","CPlusPlus"
   ]
 
 youtube: "https://www.youtube.com/c/DrMohammedElSaid/playlists"

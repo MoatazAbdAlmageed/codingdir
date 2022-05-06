@@ -11,7 +11,7 @@ tags:
   - "web"
   - "AI"
   - "python"
-  - "Operating System"
+  - "operating-system"
   - "software development"
   - "design patterns"
   - "database"

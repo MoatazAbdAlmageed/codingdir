@@ -6,7 +6,7 @@ categories:
 tags:
   - "android"
   - "haskell"
-  - "Operating System"
+  - "operating-system"
   - "CSS"
   - "html"
 cover: "https://yt3.ggpht.com/ytc/AKedOLSKeNKNdlG8sVqiGDZ-KsMXAyKzuEWV7uMSdUj96Q=s176-c-k-c0x00ffffff-no-rj"

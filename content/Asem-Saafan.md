@@ -6,7 +6,7 @@ categories:
 tags:
   - "UI/UX"
   - "algorithms"
-  - "Data Structures"
+  - "data structures"
   - "dart"
   - "flutter"
 cover: "https://yt3.ggpht.com/ytc/AKedOLS3L9K-Hu6OX7bAU9sUfjJC9xLbxVpuUuXeGRjgfA=s176-c-k-c0x00ffffff-no-rj"
