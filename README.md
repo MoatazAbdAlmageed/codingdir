@@ -9,3 +9,7 @@
 ### rename
 you can use this script to bulk rename files
 `yarn rename content/ " " "-"`
+
+
+### Extract channel content
+in browser console run `const items = [...document.querySelectorAll('#video-title')].map((item)=>{return item.text});items` then add it in description input in https://youtubechannels.gatsbyjs.io/submit

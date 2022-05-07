@@ -47,18 +47,21 @@ const PostListing = ({ postEdges }) => {
   const handleInputChange = (event) => {
     console.log(event.target.value);
     const query = event.target.value.trim();
-    const filteredData = postList.filter(({ excerpt, title, tags }) => {
-      const low = query.toLowerCase();
-      return (
-        excerpt.toLowerCase().includes(low) ||
-        title.toLowerCase().includes(low) ||
-        (tags &&
-          tags
-            .join("")
-            .toLowerCase()
-            .includes(low))
-      );
-    });
+    const filteredData = postList.filter(
+      ({ description, excerpt, title, tags }) => {
+        const low = query.toLowerCase();
+        return (
+          description.toLowerCase().includes(low) ||
+          excerpt.toLowerCase().includes(low) ||
+          title.toLowerCase().includes(low) ||
+          (tags &&
+            tags
+              .join("")
+              .toLowerCase()
+              .includes(low))
+        );
+      }
+    );
 
     setState({
       query,

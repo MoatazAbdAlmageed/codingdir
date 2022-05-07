@@ -15,3 +15,4 @@ linkedin: "{linkedin}"
 twitter: "{twitter}"
 description: "{description}"
 ---
+{excerpt}
