@@ -17,10 +17,10 @@ import { FaStar } from "react-icons/fa";
 import uuid from "react-uuid";
 
 const PostListing = ({ data }) => {
-  const postEdges = data.allMarkdownRemark.edges;
+  const postEdges = data?.allMarkdownRemark?.edges;
   const getPostList = () => {
     const postList = [];
-    postEdges.forEach((postEdge) => {
+    postEdges?.forEach((postEdge) => {
       console.log("postEdge");
       console.log(postEdge);
       postList.push({
