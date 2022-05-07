@@ -25,6 +25,7 @@ tags:
   - "golang"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTM6bGgJWtayEJrZHApYyJSaBqWLkMnXixAVvc85Q=s88-c-k-c0x00ffffff-no-rj"
 youtube: "https://www.youtube.com/c/Academind/playlists"
+---
 
 
     "D3.js Introduction",
