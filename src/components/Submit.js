@@ -46,7 +46,13 @@ const Submit = ({ pageContext }) => {
             .toLowerCase()}_channel`,
           category: formData?.category,
           title: formData?.title.trim(),
-          description: formData?.description,
+          description: formData?.description
+            .trim()
+            .replace(/"/g, "")
+            .replace(/,/g, "")
+            .replace(/]/g, "")
+            .replace(/\[/g, "")
+            .replace(/\\/g, ""),
           tags: formData?.tags,
           youtube: formData?.youtube.trim(),
           cover: formData?.cover.trim(),
