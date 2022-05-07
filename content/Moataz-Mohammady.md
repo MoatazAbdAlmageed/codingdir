@@ -20,3 +20,23 @@ cover: "https://yt3.ggpht.com/fovXj2JjKgxm0BptZvZ57jja6sZnjedDQA509LfXmXLf4yteOH
 ---
 
 I am a Full stack Web Developer with +6 years of experience. I work for Wuilt. I am looking forward to taking on more work and increase my skills as a Web Developer. I'm married and I have 2 sons; Hamza and Bilal
+
+
+    "[Arabic] Camtasia: Screen Recorder & Video Editor",
+    "[Arabic] Zapier",
+    "[Arabic]  Youtube Channels Project Update 1",
+    "[Arabic] AutoHotkey",
+    "[Arabic]  CSS rules to hide Trending Topics on  Twitter.",
+    "[Arabic]  Subtitles For YouTube",
+    "[Arabic] FastStone Capture",
+    "[Arabic]  English to Arabic sheet",
+    "[Arabic] Wappalyzer   Technology profiler",
+    "[Arabic] Fast Bookmark && Recursive Bookmark Sorter",
+    "[Arabic] TabCopy",
+    "[Arabic] Fake Filler",
+    "[Arabic] Disable Extensions Temporarily",
+    "[Arabic] Prayer Times Chrome Extension",
+    "[Arabic] Stylebot",
+    "[Arabic]  TransOver",
+    "[Arabic] Pronounce Chrome extension",
+    "Stylebot Intro"

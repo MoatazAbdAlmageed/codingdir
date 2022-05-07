@@ -16,11 +16,15 @@ import { FaYoutube } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import uuid from "react-uuid";
 
-const PostListing = ({ postEdges }) => {
+const PostListing = ({ data }) => {
+  const postEdges = data.allMarkdownRemark.edges;
   const getPostList = () => {
     const postList = [];
     postEdges.forEach((postEdge) => {
+      console.log("postEdge");
+      console.log(postEdge);
       postList.push({
+        html: postEdge.node.html,
         path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
         categories: postEdge.node.frontmatter.categories,
@@ -48,9 +52,12 @@ const PostListing = ({ postEdges }) => {
     console.log(event.target.value);
     const query = event.target.value.trim();
     const filteredData = postList.filter(
-      ({ description, excerpt, title, tags }) => {
+      ({ description, excerpt, title, tags, html }) => {
+        console.log("html");
+        console.log(html);
         const low = query.toLowerCase();
         return (
+          html?.toLowerCase().includes(low) ||
           description?.toLowerCase().includes(low) ||
           excerpt?.toLowerCase().includes(low) ||
           title?.toLowerCase().includes(low) ||

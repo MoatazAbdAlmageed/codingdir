@@ -107,6 +107,12 @@ export default ({ data, pageContext }) => {
           }}
         ></Text>
 
+        <Text
+          as="p"
+          marginTop="2"
+          color={useColorModeValue("gray.700", "gray.200")}
+        ></Text>
+
         <ul>
           {post.youtube && (
             <li>
@@ -221,7 +227,9 @@ export const pageQuery = graphql`
         site
         github
         linkedin
+        twitter
         behance
+        description
       }
       fields {
         slug

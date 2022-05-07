@@ -11,7 +11,7 @@ const Index = ({ data }) => (
     <main>
       <Helmet title={config.siteTitle} />
       <SEO />
-      <PostListing postEdges={data.allMarkdownRemark.edges} />
+      <PostListing data={data} />
     </main>
   </Layout>
 );
@@ -32,6 +32,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
           }
           excerpt
+          html
           timeToRead
           frontmatter {
             title
