@@ -6,7 +6,7 @@ categories:
 tags:
   - "xd"
   - "aws"
-  - "CSS"
+  - "css"
   - "java"
 ---
 

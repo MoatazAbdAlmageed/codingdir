@@ -7,7 +7,7 @@ tags:
   - "ASP.NET"
   - "bootstrap"
   - "C Sharp"
-  - "CSS"
+  - "css"
   - "django"
   - "html"
   - "java"

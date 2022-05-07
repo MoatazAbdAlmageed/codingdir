@@ -9,7 +9,7 @@ tags:
   - "web"
   - "website"
   - "html"
-  - "CSS"
+  - "css"
   - "PHP"
   - "JS"
   - "database"

@@ -7,7 +7,7 @@ categories:
 tags:
   - "adonis"
   - "backend"
-  - "CSS"
+  - "css"
   - "database"
   - "frontend"
   - "JS"

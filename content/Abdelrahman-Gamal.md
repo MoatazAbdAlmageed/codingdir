@@ -8,7 +8,7 @@ categories:
 tags:
   - "bootstrap"
   - "cs50"
-  - "CSS"
+  - "css"
   - "django"
   - "html"
   - "JS"

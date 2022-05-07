@@ -6,7 +6,7 @@ categories:
 tags:
   - "bootstrap"
   - "CPlusPlus"
-  - "CSS"
+  - "css"
   - "html"
   - "JS"
   - "jquery"

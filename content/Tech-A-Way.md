@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "clean code"
-  - "CSS"
+  - "css"
   - "html"
 
 ---

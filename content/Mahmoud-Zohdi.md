@@ -5,7 +5,7 @@ categories:
   - "عربي"
 
 tags:
-  - "CSS"
+  - "css"
   - "frontend"
   - "html"
   - "JS"

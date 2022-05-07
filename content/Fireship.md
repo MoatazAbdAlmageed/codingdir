@@ -9,7 +9,7 @@ tags:
     "cypress",
     "linux",
     "react",
-    "CSS",
+    "css",
     "html",
     "prisma",
     "ruby",

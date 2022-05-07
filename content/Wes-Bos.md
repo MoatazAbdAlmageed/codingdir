@@ -5,7 +5,7 @@ categories:
   - "english"
 
 tags:
-  - "CSS"
+  - "css"
   - "JS"
   - "nodejs"
   - "reacr"

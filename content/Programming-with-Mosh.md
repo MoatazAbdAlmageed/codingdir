@@ -8,7 +8,7 @@ tags:
   - "angular"
   - "backend"
   - "C Sharp"
-  - "CSS"
+  - "css"
   - "html"
   - "JS"
   - "nodejs"

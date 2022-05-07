@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "tips","html","CSS","JS","PHP"
+    "tips","html","css","JS","PHP"
   ]
 
 youtube: "https://www.youtube.com/c/StefanMischook/playlists"

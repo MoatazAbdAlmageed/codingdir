@@ -178,7 +178,10 @@ export default ({ data, pageContext }) => {
             __html: postNode.html
               .replace(/href/g, "target='_blank' href")
               .replace(/"/g, "")
-              .replace(/,/g, ""),
+              .replace(/,/g, "")
+              .replace(/]/g, "")
+              .replace(/\[/g, "")
+              .replace(/\\/g, ""),
           }}
         ></Text>
 

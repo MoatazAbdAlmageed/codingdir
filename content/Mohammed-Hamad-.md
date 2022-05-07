@@ -4,7 +4,7 @@ date: "2021-04-11"
 categories:
   - "عربي"
 tags:
-  - "CSS"
+  - "css"
   - "html"
   - "jquery"
   - "JS"

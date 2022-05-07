@@ -7,7 +7,7 @@ tags:
   - "ASP.NET"
   - "bootstrap"
   - "c"
-  - "CSS"
+  - "css"
   - "design patterns"
   - "html"
   - "JS"

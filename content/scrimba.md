@@ -7,7 +7,7 @@ categories:
 tags:
   - "website"
   - "html"
-  - "CSS"
+  - "css"
   - "JS"
   - "react"
   - "pin"

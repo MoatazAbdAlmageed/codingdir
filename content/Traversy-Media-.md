@@ -7,7 +7,7 @@ categories:
 tags:
   - "backend"
   - "bootstrap"
-  - "CSS"
+  - "css"
   - "database"
   - "dom"
   - "frontend"

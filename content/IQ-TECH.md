@@ -6,7 +6,7 @@ categories:
   - "عربي"
 tags:
   - "bootstrap"
-  - "CSS"
+  - "css"
   - "jquery"
   - "laravel"
   - "linux"

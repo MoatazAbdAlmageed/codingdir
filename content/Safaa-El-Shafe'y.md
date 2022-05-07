@@ -4,7 +4,7 @@ date: "2021-07-09"
 categories:
   - "عربي"
 tags:
-  - "CSS"
+  - "css"
   - "html"
   - "JS"
   - "kids"

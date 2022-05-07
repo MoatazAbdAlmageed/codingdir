@@ -9,7 +9,7 @@ tags:
   - "ASP.NET"
   - "bootstrap"
   - "C Sharp"
-  - "CSS"
+  - "css"
   - "design patterns"
   - "es6"
   - "html"

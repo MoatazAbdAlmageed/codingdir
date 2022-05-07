@@ -8,7 +8,7 @@ tags:
   - "bootstrap"
   - "CPlusPlus"
   - "c"
-  - "CSS"
+  - "css"
   - "entity-framework"
   - "html"
   - "jquery"

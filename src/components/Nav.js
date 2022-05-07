@@ -303,7 +303,7 @@ const NAV_ITEMS = [
         href: "/tags/html",
       },
       {
-        label: "CSS",
+        label: "css",
         href: "/tags/css",
       },
       {

@@ -6,7 +6,7 @@ categories:
 tags:
   - "android"
   - "backend"
-  - "CSS"
+  - "css"
   - "html"
   - "java"
   - "JS"

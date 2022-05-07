@@ -7,7 +7,7 @@ categories:
   - "english"
 
 tags:
-  - "CSS"
+  - "css"
   - "data structures"
   - "firebase"
   - "frontend"

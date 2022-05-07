@@ -13,7 +13,7 @@ tags:
   - "blockchain"
   - "bootstrap"
   - "C Sharp"
-  - "CSS"
+  - "css"
   - "dart"
   - "database"
   - "devops"

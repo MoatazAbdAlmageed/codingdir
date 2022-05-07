@@ -8,7 +8,7 @@ tags:
   - "azur"
   - "blazor"
   - "c"
-  - "CSS"
+  - "css"
   - "delphi"
   - "devops"
   - "frontend"

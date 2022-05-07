@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "algorithms"
-  - "CSS"
+  - "css"
   - "data structures"
   - "database"
   - "graphics"

@@ -8,7 +8,7 @@ categories:
 tags:
   - "unity"
   - "PHP"
-  - "CSS"
+  - "css"
   - "JS"
   - "jquery"
   - "pin"

@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "pin","firebase","android","PHP","mysql","html","CSS","JS","laravel"
+    "pin","firebase","android","PHP","mysql","html","css","JS","laravel"
   ]
 
 youtube: "https://www.youtube.com/c/safaaalla/playlists"

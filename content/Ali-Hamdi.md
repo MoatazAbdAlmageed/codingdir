@@ -6,7 +6,7 @@ categories:
 tags:
   - "backend"
   - "bootstrap"
-  - "CSS"
+  - "css"
   - "data science"
   - "frontend"
   - "html"

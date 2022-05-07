@@ -8,7 +8,7 @@ tags:
   - "pin"
   - "html"
   - "web"
-  - "CSS"
+  - "css"
   - "es6"
   - "frontend"
   - "git"

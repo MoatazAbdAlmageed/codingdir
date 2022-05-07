@@ -5,7 +5,7 @@ categories:
   - "English"
 tags:
   [
-    "html","CSS","JS","sass","freelancing"
+    "html","css","JS","sass","freelancing"
   ]
 
 youtube: "https://www.youtube.com/kepowob/playlists"

@@ -11,7 +11,7 @@ tags:
   - "backend"
   - "blockhain"
   - "C Sharp"
-  - "CSS"
+  - "css"
   - "data structures"
   - "firebase"
   - "frontend"

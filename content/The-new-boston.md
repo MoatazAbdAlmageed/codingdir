@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "c"
-  - "CSS"
+  - "css"
   - "docker"
   - "frontend"
   - "java"
