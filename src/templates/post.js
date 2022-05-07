@@ -170,10 +170,7 @@ export default ({ data, pageContext }) => {
           )}
         </ul>
 
-        <Text
-          as="p"
-          marginTop="2"
-          color={useColorModeValue("gray.700", "gray.200")}
+        <div
           dangerouslySetInnerHTML={{
             __html: postNode.html
               .replace(/href/g, "target='_blank' href")
@@ -183,8 +180,7 @@ export default ({ data, pageContext }) => {
               .replace(/\[/g, "")
               .replace(/\\/g, ""),
           }}
-        ></Text>
-
+        />
         <a
           className="admin_only"
           style={{ color: "orange", visibility: "hidden" }}
