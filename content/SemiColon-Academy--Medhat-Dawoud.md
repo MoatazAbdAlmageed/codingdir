@@ -28,3 +28,15 @@ facebook: "https://www.facebook.com/SemiColonAcademy/"
 ---
 
 MedhatDawoud : https://www.youtube.com/c/MedhatDawoud/videos
+
+
+
+    "Mastering Unit Testing",
+    "Mastering Git",
+    "جافاسكريبت ES6 | FastCode",
+    "بدون كود",
+    "Q/A",
+    "UI challenges",
+    "[Project] SPA with JavaScript",
+    "React Hooks",
+    "موضوعات متنوعة"

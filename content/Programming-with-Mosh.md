@@ -23,3 +23,17 @@ youtube: "https://www.youtube.com/user/programmingwithmosh"
 ---
 
 
+
+    "Java Tutorials",
+    "Mobile Development",
+    "Job Interview Preparation Videos",
+    "Programming Languages",
+    "Front-end Development",
+    "Back-end Development",
+    "Beginner's Questions",
+    "Python Tutorials",
+    "JavaScript Tutorials",
+    "Node js Tutorials",
+    "TypeScript Tutorials for Angular/React Developers",
+    "Angular Tutorials",
+    "C#.NET Tutorials"

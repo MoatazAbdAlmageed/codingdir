@@ -175,7 +175,10 @@ export default ({ data, pageContext }) => {
           marginTop="2"
           color={useColorModeValue("gray.700", "gray.200")}
           dangerouslySetInnerHTML={{
-            __html: postNode.html.replace(/href/g, "target='_blank' href"),
+            __html: postNode.html
+              .replace(/href/g, "target='_blank' href")
+              .replace(/"/g, "")
+              .replace(/,/g, ""),
           }}
         ></Text>
 

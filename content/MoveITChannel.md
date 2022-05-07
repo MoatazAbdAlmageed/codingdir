@@ -21,3 +21,21 @@ tags:
   - "Microservices"
   - "ReactiveX"
 ---
+    "Domain Driven Design",
+    "machine learning with python",
+    "مبادئ هامة في البرمجة",
+    "Advanced Topics",
+    "SCRUM COURSE (ENGLISH)",
+    "الأدارة باطار عمل اسكرم Scrum",
+    "البرمجة الموجهة بالاختبارات ATDD",
+    "رعاية مشاريع Mentoring",
+    "هندسة وادارة البرمجيات Software engineering and management",
+    "برمجة سحابية Cloud Development",
+    "منهج الحاسب الآلي هندسة المطرية جامعة حلوان",
+    "Database Modeling and Patterns",
+    "Cloud Computing with Windows Azure",
+    "سيناريو الحوار User stories",
+    "Project Management",
+    "codeSmell رائحة الكود",
+    "Funny",
+    "Asp.Net MVC"

@@ -30,16 +30,6 @@ description: "Life Is Short, Start Learning"
 github: "https://github.com/ElzeroWebSchool"
 ---
 
-- https://elzero.org/
-- أكاديمية الزيرو: https://elzero.org/
-- https://twitter.com/Osama_Elzero: https://twitter.com/Osama_Elzero
-- Osama on CodePen: https://codepen.io/OsamaElzero/
-- Osama Mohamed | Facebook: https://www.facebook.com/OsElzero
-- كيف تدعمنا؟ | أكاديمية الزيرو: https://elzero.org/support/
-- Osama Elzero is Creating Educational Videos On Youtube: https://www.buymeacoffee.com/OsamaElzero
-
-
-[
     "PHP Bootcamp 2022",
     "Deal With Hosting",
     "Bootstrap 5 Design 01 Bondi",
@@ -123,4 +113,14 @@ github: "https://github.com/ElzeroWebSchool"
     "Learn jQuery in Arabic",
     "Learn CSS In Arabic",
     "Web Design Tutorials"
-]
+
+
+
+- https://elzero.org/
+- أكاديمية الزيرو: https://elzero.org/
+- https://twitter.com/Osama_Elzero: https://twitter.com/Osama_Elzero
+- Osama on CodePen: https://codepen.io/OsamaElzero/
+- Osama Mohamed | Facebook: https://www.facebook.com/OsElzero
+- كيف تدعمنا؟ | أكاديمية الزيرو: https://elzero.org/support/
+- Osama Elzero is Creating Educational Videos On Youtube: https://www.buymeacoffee.com/OsamaElzero
+

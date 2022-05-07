@@ -17,3 +17,13 @@ tags:
 ---
 
 Also please check https://www.youtube.com/user/MoveITChannel/featured
+
+    "في دقيقة",
+    "البرمجة والإيمان",
+    "خبرة في خمسة",
+    "Live events",
+    "Istanbul Coding BootCamp",
+    "Top1%: Software Architecture Series",
+    "SOA and Microservices",
+    "Software Engineering",
+    "SW Development"

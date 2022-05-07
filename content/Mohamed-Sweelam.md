@@ -12,3 +12,5 @@ youtube: "https://www.youtube.com/channel/UCO6pkv5y1IDMunRehJlWx2w/playlists"
 ---
 
 
+    "Twelve-Factor App in Arabic",
+    "Microservices Architecture in Arabic"

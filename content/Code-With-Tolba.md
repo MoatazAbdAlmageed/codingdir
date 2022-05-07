@@ -15,7 +15,42 @@ tags:
   - "software architecture"
   - "tips"
   - "typescript"
-cover: "/YouTube-Icon-Gray-Box.png"
+cover: "https://yt3.ggpht.com/ytc/AKedOLTghddo6Mg1UFCyjABZ6yAEk8NJKHFh0XHeUX-IpA=s88-c-k-c0x00ffffff-no-rj"
+youtube: "https://www.youtube.com/channel/UCOpR7Tg8CVUdgZCUbQlKY-g"
 ---
 
-https://www.youtube.com/channel/UCOpR7Tg8CVUdgZCUbQlKY-g
+
+    "Microsoft Visual Studio",
+    "General",
+    ".NET Core",
+    "Products Development",
+    "MEAN",
+    "Software Architecture",
+    "Software Architecture",
+    "Cloud Development",
+    "Real Agility",
+    "Code Tips",
+    ".NET",
+    "TypeScript",
+    "Career Tips",
+    "JavaScript",
+    "Angular",
+    "سؤال وجواب في قراءة كتاب",
+    "سؤال وجواب في قراءة كتاب",
+    "Developer Tools",
+    "الذكاء الاصطناعي",
+    "React",
+    "Angular 2",
+    "Design patterns",
+    "Freelancing",
+    "IOT",
+    "Machine learning",
+    "Startup",
+    "UWP",
+    "NativeScript",
+    "Xamarin",
+    "BizTalk",
+    "JavaScript",
+    "Dynamics",
+    "Azure",
+    "SalesForce"

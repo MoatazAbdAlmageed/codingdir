@@ -11,3 +11,11 @@ tags:
 youtube: "https://www.hackerrank.com/"
 cover: ""
 ---
+
+    "Missed our live event? Watch it here!",
+    "About HackerRank",
+    "Data Structures",
+    "Algorithms",
+    "Customer Stories",
+    "Webinars",
+    "Podcasts"

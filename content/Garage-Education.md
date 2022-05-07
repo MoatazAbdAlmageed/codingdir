@@ -15,6 +15,13 @@ tags:
   - "software development"
   - "software engineering"
 cover: "https://yt3.ggpht.com/ytc/AKedOLSRCACLRmr-u23wVC_SSrxRe0m5xS4oKELuiD1l=s88-c-k-c0x00ffffff-no-rj"
+youtube: "https://www.youtube.com/c/GarageEducation/playlists"
 ---
 
-https://www.youtube.com/c/GarageEducation/playlists
+    "Tech Stories",
+    "Data Engineering Discussion",
+    "Hadoop & Distributed Systems",
+    "ETL Practice | Telecom Use Case",
+    "كود ع المكشوف",
+    "Containerization",
+    "Big Data Engineering In Depth"
