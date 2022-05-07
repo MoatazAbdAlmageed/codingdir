@@ -9,6 +9,13 @@ tags:
   - "english"
 ---
 
+Learn English from the absolute beginner's level and make your way up to fluency.
+You won't need paid courses.
+My name is Ibrahim and I have been an English teacher for the past 12 years of my life. I have taught English as a foreign and as a second language in a number of countries in both Africa and Asia.
+Through this channel, I'm manifesting that learning English can be both serious and fun at the same time.
+Join our community and see for yourself
+
+
 
 [
     "<p><a href='https://www.youtube.com/watch?v=PuSQbR4u1Gk&list=PLp22-4PivYmKpHQio7q6UsspV1lpXwzAp'>كورس الإستماع</a></p>",
