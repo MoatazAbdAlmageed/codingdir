@@ -22,7 +22,6 @@ const Submit = ({ pageContext }) => {
   const [formData, setFormData] = useState({
     title: "",
     description: "",
-    html: "",
     category: "",
     youtube: "",
     cover: "",
@@ -48,7 +47,6 @@ const Submit = ({ pageContext }) => {
           category: formData?.category,
           title: formData?.title.trim(),
           description: formData?.description.trim(),
-          html: formData?.html.trim(),
           tags: formData?.tags,
           youtube: formData?.youtube.trim(),
           cover: formData?.cover.trim(),
@@ -69,7 +67,6 @@ const Submit = ({ pageContext }) => {
     setFormData({
       title: "",
       description: "",
-      html: "",
       category: "",
       youtube: "",
       cover: "",
@@ -131,26 +128,8 @@ const Submit = ({ pageContext }) => {
                     <Field
                       aria-required={true}
                       name="description"
-                      label="Short Description"
+                      label="Description"
                     >
-                      {({ fieldProps }) => (
-                        <Fragment>
-                          <Tooltip
-                            content="Channel short description"
-                            position="top"
-                          >
-                            <TextArea
-                              {...fieldProps}
-                              resize="auto"
-                              minimumRows="4"
-                              value={formData?.description}
-                              onChange={(e) => handleChange(e)}
-                            />
-                          </Tooltip>
-                        </Fragment>
-                      )}
-                    </Field>{" "}
-                    <Field aria-required={true} name="html" label="Description">
                       {({ fieldProps }) => (
                         <Fragment>
                           <Tooltip content="Description" position="top">
@@ -158,7 +137,7 @@ const Submit = ({ pageContext }) => {
                               {...fieldProps}
                               minimumRows="10"
                               resize="auto"
-                              value={formData?.html}
+                              value={formData?.description}
                               onChange={(e) => handleChange(e)}
                             />
                           </Tooltip>

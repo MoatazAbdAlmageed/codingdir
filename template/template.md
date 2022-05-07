@@ -13,6 +13,5 @@ cover: "{cover}"
 github: "{github}"
 linkedin: "{linkedin}"
 twitter: "{twitter}"
-description: "{description}"
 ---
-{html}
+{description}
