@@ -97,6 +97,16 @@ export default ({ data, pageContext }) => {
             )})`}
         </Text>
         <BlogTags tags={[...new Set(post.tags)]} />
+
+        <Text
+          as="p"
+          marginTop="2"
+          color={useColorModeValue("gray.700", "gray.200")}
+          dangerouslySetInnerHTML={{
+            __html: postNode.html.replace(/href/g, "target='_blank' href"),
+          }}
+        ></Text>
+
         <ul>
           {post.youtube && (
             <li>
@@ -163,18 +173,6 @@ export default ({ data, pageContext }) => {
           )}
         </ul>
 
-        <Text
-          as="p"
-          marginTop="2"
-          color={useColorModeValue("gray.700", "gray.200")}
-          fontSize="lg"
-        >
-          <div
-            dangerouslySetInnerHTML={{
-              __html: postNode.html.replace(/href/g, "target='_blank' href"),
-            }}
-          />
-        </Text>
         <a
           className="admin_only"
           style={{ color: "orange", visibility: "hidden" }}

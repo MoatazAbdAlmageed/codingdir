@@ -40,6 +40,7 @@ export const pageQuery = graphql`
             date
             youtube
             categories
+            description
           }
         }
       }

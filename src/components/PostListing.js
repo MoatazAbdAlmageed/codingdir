@@ -51,9 +51,9 @@ const PostListing = ({ postEdges }) => {
       ({ description, excerpt, title, tags }) => {
         const low = query.toLowerCase();
         return (
-          description.toLowerCase().includes(low) ||
-          excerpt.toLowerCase().includes(low) ||
-          title.toLowerCase().includes(low) ||
+          description?.toLowerCase().includes(low) ||
+          excerpt?.toLowerCase().includes(low) ||
+          title?.toLowerCase().includes(low) ||
           (tags &&
             tags
               .join("")

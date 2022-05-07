@@ -12,4 +12,6 @@ you can use this script to bulk rename files
 
 
 ### Extract channel content
-in browser console run `const items = [...document.querySelectorAll('#video-title')].map((item)=>{return item.text});items` then add it in description input in https://youtubechannels.gatsbyjs.io/submit
+in browser console run 
+`const items = [...document.querySelectorAll('#video-title')].map((item)=>{return `<a href="${item.href}">${item.text}</a>` });items` 
+then add it in excerpt input in https://youtubechannels.gatsbyjs.io/submit
