@@ -102,15 +102,6 @@ export default ({ data, pageContext }) => {
           as="p"
           marginTop="2"
           color={useColorModeValue("gray.700", "gray.200")}
-          dangerouslySetInnerHTML={{
-            __html: postNode.html.replace(/href/g, "target='_blank' href"),
-          }}
-        ></Text>
-
-        <Text
-          as="p"
-          marginTop="2"
-          color={useColorModeValue("gray.700", "gray.200")}
         ></Text>
 
         <ul>
@@ -178,6 +169,15 @@ export default ({ data, pageContext }) => {
             </li>
           )}
         </ul>
+
+        <Text
+          as="p"
+          marginTop="2"
+          color={useColorModeValue("gray.700", "gray.200")}
+          dangerouslySetInnerHTML={{
+            __html: postNode.html.replace(/href/g, "target='_blank' href"),
+          }}
+        ></Text>
 
         <a
           className="admin_only"
