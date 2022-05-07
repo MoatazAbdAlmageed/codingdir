@@ -17,8 +17,7 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLQaMAyaNa8kHfl-jF4fYBzpkllbkXvEpQkFOjl5=s
 youtube: "https://www.youtube.com/c/ArabicCompetitiveProgramming/playlists"
 ---
 
-    
-    [
+[
     "<p><a href='https://www.youtube.com/watch?v=0d6FcBTtXbA&list=PLPt2dINI2MIZlW_K9M2ZL-29B3nYDdpZj'>فيديوهات مفيدة في مجال علوم حاسب</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=KEc4TFKGzJU&list=PLPt2dINI2MIaEnp3dSwZEGL7_o03Js9oG'>Online Talks</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=vlMAybK9UTY&list=PLPt2dINI2MIbICxgAsCKK-el8SR7CkxYy'>Mastering critical SKILLS in Data Structures using C++(English @Udemy)</a></p>",
@@ -48,8 +47,5 @@ youtube: "https://www.youtube.com/c/ArabicCompetitiveProgramming/playlists"
     "<p><a href='https://www.youtube.com/watch?v=iXxP_liQklk&list=PLPt2dINI2MIbJYBTHmRuZuGLIP5PnkzMH'>Greedy Algorithm</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=gFdP6X4CyKU&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p'>Dynamic Programming</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=WTr12dK2Se0&list=PLPt2dINI2MIa3AdNEfMlWS-RXqkpMdUC3'>Competitve - Thinking Techniques</a></p>",
-    "<p><a href='https://www.youtube.com/watch?v=EQzmtn4PzYQ&list=PLPt2dINI2MIYOPOhyU_5_bjhpC7J-nNDI'>Complexity of Algorithms</a></p>",
-    "<p><a href='https://www.youtube.com/watch?v=Syx2qDjj7TE&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ'>Math for Competitive Programming</a></p>",
-    "<p><a href='https://www.youtube.com/watch?v=hqOqr6vFPp8&list=PLPt2dINI2MIZeC3RhQ-edPLuwtS9NRZ80'>Competitve - Misc</a></p>",
-    "<p><a href='https://www.youtube.com/watch?v=mURktueKdmU&list=PLPt2dINI2MIaNcU070HIAO8JWYBcafuyG'>ACM/ICPC - Newcomers</a></p>"
+    "<p><a href='https://www.youtube.com/watch?v=EQzmtn4PzYQ&list=PLPt2dINI2MIYOPOhyU_5_bjhpC7J-nNDI'>Complexity of Algorithms</a></p>"
 ]
