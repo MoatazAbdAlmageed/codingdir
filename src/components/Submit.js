@@ -7,6 +7,8 @@ import Tooltip from "@atlaskit/tooltip";
 import Button from "@atlaskit/button";
 import Select from "@atlaskit/select";
 import TextField from "@atlaskit/textfield";
+import TextArea from "@atlaskit/textarea";
+
 import Form, {
   ErrorMessage,
   Field,
@@ -20,6 +22,7 @@ const Submit = ({ pageContext }) => {
   const [formData, setFormData] = useState({
     title: "",
     description: "",
+    html: "",
     category: "",
     youtube: "",
     cover: "",
@@ -45,6 +48,7 @@ const Submit = ({ pageContext }) => {
           category: formData?.category,
           title: formData?.title.trim(),
           description: formData?.description.trim(),
+          html: formData?.html.trim(),
           tags: formData?.tags,
           youtube: formData?.youtube.trim(),
           cover: formData?.cover.trim(),
@@ -65,6 +69,7 @@ const Submit = ({ pageContext }) => {
     setFormData({
       title: "",
       description: "",
+      html: "",
       category: "",
       youtube: "",
       cover: "",
@@ -126,14 +131,34 @@ const Submit = ({ pageContext }) => {
                     <Field
                       aria-required={true}
                       name="description"
-                      label="Description"
+                      label="Short Description"
                     >
                       {({ fieldProps }) => (
                         <Fragment>
-                          <Tooltip content="Channel description" position="top">
-                            <TextField
+                          <Tooltip
+                            content="Channel short description"
+                            position="top"
+                          >
+                            <TextArea
                               {...fieldProps}
+                              resize="auto"
+                              minimumRows="4"
                               value={formData?.description}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          </Tooltip>
+                        </Fragment>
+                      )}
+                    </Field>{" "}
+                    <Field aria-required={true} name="html" label="Description">
+                      {({ fieldProps }) => (
+                        <Fragment>
+                          <Tooltip content="Description" position="top">
+                            <TextArea
+                              {...fieldProps}
+                              minimumRows="10"
+                              resize="auto"
+                              value={formData?.html}
                               onChange={(e) => handleChange(e)}
                             />
                           </Tooltip>

@@ -12,6 +12,7 @@ excerpt=""
 
 sed -i "s/{title}/$title/"  content/$fileName.md 
 sed -i "s/{description}/$description/"  content/$fileName.md 
+sed -i "s~{html}~$html~g" content/$fileName.md 
 sed -i "s/{category}/$category/"  content/$fileName.md 
 sed -i "s/{date}/$(date +'%Y-%m-%d')/" content/$fileName.md
 sed -i "s/{tag}/$formattedTags/"  content/$fileName.md 

@@ -14,6 +14,12 @@ on:
         description: "Description"
         required: false
         default: ""
+        type: string  
+
+      html:
+        description: "Html"
+        required: false
+        default: ""
         type: string
         
       branch:
@@ -80,6 +86,7 @@ jobs:
       twitter: ${{ github.event.inputs.twitter }}
       cover: ${{ github.event.inputs.cover }}
       description: ${{ github.event.inputs.description }}
+      html: ${{ github.event.inputs.html }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1

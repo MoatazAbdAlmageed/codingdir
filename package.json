@@ -7,6 +7,7 @@
     "@atlaskit/button": "^16.3.0",
     "@atlaskit/form": "^8.5.4",
     "@atlaskit/select": "^15.2.12",
+    "@atlaskit/textarea": "^4.3.4",
     "@atlaskit/textfield": "^5.1.10",
     "@atlaskit/tooltip": "^17.5.8",
     "@chakra-ui/gatsby-plugin": "^2.0.1",

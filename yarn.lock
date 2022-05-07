@@ -16,7 +16,7 @@
   dependencies:
     tslib "^2.0.0"
 
-"@atlaskit/analytics-next@^8.2.0":
+"@atlaskit/analytics-next@^8.0.0", "@atlaskit/analytics-next@^8.2.0":
   version "8.3.1"
   resolved "https://registry.yarnpkg.com/@atlaskit/analytics-next/-/analytics-next-8.3.1.tgz#20bb3438ca879b38af6f379aa0b21bcfa5bbc723"
   integrity sha512-vM1pMtn2IvCbUG6ZufWYJ8PUFluhUWVNtVZG+vR6ywdOC7M2bWrcfb18jBaIq2GfL/DzUQwOO3dZ2NFVpQTSLA==
@@ -133,6 +133,17 @@
   resolved "https://registry.yarnpkg.com/@atlaskit/spinner/-/spinner-15.1.10.tgz#cac5cc7603bb3bf6f121c06918a00d97f9e2e373"
   integrity sha512-ZQCyhaR0GSOGt/ytXURMqRzJ/fYh0Loia+yZir7seiNdA+aAi1meVQB2oSPoWxERFGsaiYlgO49aMLrIznwOSg==
   dependencies:
+    "@atlaskit/theme" "^12.1.0"
+    "@atlaskit/tokens" "^0.9.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+
+"@atlaskit/textarea@^4.3.4":
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/@atlaskit/textarea/-/textarea-4.3.4.tgz#9686457b30f08ade78ce660859a3e6b7a653e12e"
+  integrity sha512-TF8h22vPGn9LR3CjCQI7RK4mIgnK0EwO5zXn+6CPkOPqbiGGF5b8LAtUyIObPt8BJUOa97bXciFdnqFvjwb6Zg==
+  dependencies:
+    "@atlaskit/analytics-next" "^8.0.0"
     "@atlaskit/theme" "^12.1.0"
     "@atlaskit/tokens" "^0.9.0"
     "@babel/runtime" "^7.0.0"
