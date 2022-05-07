@@ -7,7 +7,7 @@ tags:
   - "angular"
   - "nodejs"
   - "react"
-  - "spring"
+  - "Springboot"
   - "mongodb"
   - "testing"
   - "pin"
