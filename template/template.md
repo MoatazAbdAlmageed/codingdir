@@ -14,4 +14,3 @@ github: "{github}"
 linkedin: "{linkedin}"
 twitter: "{twitter}"
 ---
-{description}
