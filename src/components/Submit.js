@@ -52,7 +52,7 @@ const Submit = ({ pageContext }) => {
             .replace(/,/g, "")
             .replace(/]/g, "")
             .replace(/\[/g, "")
-            .replace(/\\/g, "")}'`
+            .replace(/\\/g, "")}'`,
           tags: formData?.tags,
           youtube: formData?.youtube.trim(),
           cover: formData?.cover.trim(),
