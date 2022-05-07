@@ -14,4 +14,22 @@ github: ""
 linkedin: ""
 twitter: "https://twitter.com/udacity"
 ---
-{description}
+
+    "Udacity's Women in STEM Conference",
+    "Learn with Udacity",
+    "Udacity's Learning Lab Podcast",
+    "Udacity Mentors",
+    "Pledge to Equality Scholarship Program",
+    "#AskUdacityAnything",
+    "Developing Android Apps",
+    "Web Performance Optimization",
+    "HTML5 Game Development",
+    "Mobile Web Development",
+    "Developing Scalable Apps with Java",
+    "Responsive Web Design Fundamentals",
+    "Intro to HTML and CSS",
+    "Javascript Basics",
+    "JavaScript Design Patterns",
+    "Object Oriented JavaScript",
+    "Intro to Ajax",
+    "Intro to jQuery"
