@@ -62,7 +62,14 @@ const Submit = ({ pageContext }) => {
     ).then((res) => {
       console.log(formData);
       console.log(success);
-      res?.status === 204 ? setSuccess(true) : setSuccess(false);
+      if (res?.status === 204) {
+        setSuccess(true);
+        location.href =
+          "https://github.com/MoatazAbdAlmageed/YouTube-Channels/actions";
+      } else {
+        setSuccess(false);
+        alert("Error");
+      }
     });
     setFormData({
       title: "",
