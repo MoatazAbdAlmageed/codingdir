@@ -86,7 +86,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - name: generate md file
+      - name: Generate .MD file
         id: branch
         run: |
           # make file runnable, might not be necessary

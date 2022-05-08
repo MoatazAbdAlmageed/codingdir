@@ -5,7 +5,6 @@ categories:
   - "English"
 tags:
   [
-    "tips","pin","sql","js"
   ]
 
 youtube: "https://www.youtube.com/c/CodingTutorials360/playlists"
