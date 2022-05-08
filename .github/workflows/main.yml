@@ -69,7 +69,7 @@ on:
         type: string      
 
 jobs:
-  create-md-file-in-content-dir:
+  Create-MD-File-In-Content-Dir:
     runs-on: ubuntu-latest
     env:
       title: ${{ github.event.inputs.title }}
@@ -89,6 +89,7 @@ jobs:
       - name: Generate .MD file
         id: branch
         run: |
+          echo "🎉 Generate MD"
           # make file runnable, might not be necessary
           chmod +x "${GITHUB_WORKSPACE}/scripts/generate.sh"
           
@@ -105,6 +106,7 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: ${{github.event.inputs.branch}}
+          delete-branch: true
           title: add ${{ github.event.inputs.title }} channel
           body: |
             add ${{ github.event.inputs.title }} channel ${{ github.event.inputs.youtube }}
