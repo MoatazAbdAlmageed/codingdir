@@ -34,8 +34,8 @@ on:
       
       tags:
         description: "Tag"
-        required: true
-        default: "tips,pin,sql,js"
+        required: false
+        default: ""
         type: string        
       
       youtube:
