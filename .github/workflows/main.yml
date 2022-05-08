@@ -105,7 +105,6 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: ${{github.event.inputs.branch}}
-          delete-branch: true
           title: add ${{ github.event.inputs.title }} channel
           body: |
             add ${{ github.event.inputs.title }} channel ${{ github.event.inputs.youtube }}
