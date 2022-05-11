@@ -23,18 +23,15 @@ tags:
 cover: "https://yt3.ggpht.com/ytc/AKedOLQBFiy-urLmvQpjRxsZNutt53btgsu-JMTpMdojQQ=s88-c-k-c0x00ffffff-no-rj"
 ---
 
+Arabic channel https://www.youtube.com/user/thecountedmond/videos
 
-
-
-    "<p><a href='https://www.youtube.com/watch?v=M_bN1ecKQmQ'>التحكم في كمية الازدحام  TCP Congestion and Flow Control</a></p>",
+  "<p><a href='https://www.youtube.com/watch?v=M_bN1ecKQmQ'>التحكم في كمية الازدحام  TCP Congestion and Flow Control</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=6PBFPOHB9C4'>الفرق بين TCP و UDP</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=c6DbrBSog74'>المصافحة الثلاثية TCP ، ترقيم وتأكيد البيانات</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=ts0215zz2gM'>شرح تفصيلي لعقد CORS</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=k17mvV6YDFw'>لقائي مع المهندس محمد الشريف -  هندسه البرمجيات</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=vsdjigi06JM'>ماذا يحصل عند زياره موقع قوقل خلف الكواليس؟  - DNS, TCP, TLS</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=7kE1cb7NG90'>مرحبا - حسين ناصر هندسه البرمجيات</a></p>",
-
-
     "<p><a href='https://www.youtube.com/watch?v=pdC3H8SX-F4'>1 Hour of Popular Web Attacks (XSS, CSRF, SSRF, SQL Injection, MIME Sniffing, Smuggling and more!)</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=mnuYVi5pcfQ'>10 FrontEnd Performance Tips To Improve Your Application (Any Programming Language)</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=eusHw-mUa8Y'>10 YouTube Backend, Protocols, Networking, Database Channels to Follow in 2021 (I watch them all)</a></p>",
@@ -756,4 +753,3 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLQBFiy-urLmvQpjRxsZNutt53btgsu-JMTpMdojQQ
 
 
 
-Arabic channel https://www.youtube.com/user/thecountedmond/videos
