@@ -4,6 +4,7 @@ date: "2021-04-04"
 youtube: "https://www.youtube.com/c/HusseinNasser-software-engineering/videos"
 categories:
   - "english"
+  - "عربي"
 
 tags:
   - "ASP.NET"
@@ -21,7 +22,7 @@ tags:
   - "pin"
 cover: "https://yt3.ggpht.com/ytc/AKedOLQBFiy-urLmvQpjRxsZNutt53btgsu-JMTpMdojQQ=s88-c-k-c0x00ffffff-no-rj"
 ---
-
+Arabic channel https://www.youtube.com/user/thecountedmond/videos
 
     "ASMR Engineering",
     "IIS",
