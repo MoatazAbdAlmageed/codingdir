@@ -22,8 +22,7 @@ tags:
   - "pin"
 cover: "https://yt3.ggpht.com/ytc/AKedOLQBFiy-urLmvQpjRxsZNutt53btgsu-JMTpMdojQQ=s88-c-k-c0x00ffffff-no-rj"
 ---
-Arabic channel https://www.youtube.com/user/thecountedmond/videos
-[
+
 
 
 
@@ -754,4 +753,7 @@ Arabic channel https://www.youtube.com/user/thecountedmond/videos
     "<p><a href='https://www.youtube.com/watch?v=oebtXK16WuU'>when indexes are useless | The Backend Engineering Show</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=WmPKzFYKijM'>why it is very hard to cancel an HTTP request</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=cAFd_dZhY5U'>🔴 Facebook's is all about QUIC, MASQUE, RIP Kafka's Zookeeper, dotNET 5 - Live with Hussein Nasser</a></p>"
-]
+
+
+
+Arabic channel https://www.youtube.com/user/thecountedmond/videos
