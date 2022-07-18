@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "oddo" , "wordpress"
+    "odoo" , "wordpress"
   ]
 
 youtube: "https://www.youtube.com/channel/UCXAYTOE5K_-jbtYc_jqSUGg"
