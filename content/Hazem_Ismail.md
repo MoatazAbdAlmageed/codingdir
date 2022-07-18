@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    ""
+    "odoo"
   ]
 
 youtube: "https://www.youtube.com/channel/UCjD1tyh7NLBCKjUUQQ1CFtA/playlists"
