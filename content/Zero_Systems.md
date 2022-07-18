@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    ""
+    "odoo"
   ]
 
 youtube: "https://www.youtube.com/c/zeroforinformationsystems/playlists"
