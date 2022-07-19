@@ -226,6 +226,34 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>
+                    
+                    
+                     <Field
+                      aria-required={true}
+                      name="cover"
+                      label="Logo"
+                      isRequired
+                    >
+                      {({ fieldProps }) => {
+                        return (
+                          <Fragment>
+                            <Tooltip
+                              position="top"
+                              content="YouTube channel Logo URL"
+                            >
+                              <TextField
+                                type="text"
+                                {...fieldProps}
+                                value={formData?.cover}
+                                onChange={(e) => handleChange(e)}
+                              />
+                            </Tooltip>
+                          </Fragment>
+                        );
+                      }}
+                    </Field>
+                    
+                    
                     <Field aria-required={true} name="github" label="Github">
                       {({ fieldProps }) => {
                         return (
@@ -287,30 +315,7 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>{" "}
-                    <Field
-                      aria-required={true}
-                      name="cover"
-                      label="Logo"
-                      isRequired
-                    >
-                      {({ fieldProps }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="YouTube channel Logo URL"
-                            >
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.cover}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>
+                   
                   </FormSection>
 
                   <FormFooter>
