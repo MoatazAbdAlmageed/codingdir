@@ -45,7 +45,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const postPage = path.resolve("src/templates/post.js");
   const Submit = path.resolve("src/components/Submit.js");
-  const Add = path.resolve("src/components/Add.js");
+  const PlaceYourAdHere = path.resolve("src/components/PlaceYourAdHere.js");
   const tagPage = path.resolve("src/templates/tag.js");
   const categoryPage = path.resolve("src/templates/category.js");
   const allTagsTemplate = path.resolve(`src/templates/all-tags.js`);
@@ -147,8 +147,8 @@ exports.createPages = async ({ graphql, actions }) => {
     },
   });
   createPage({
-    path: `/add`,
-    component: Add,
+    path: `/place-your-ad-here`,
+    component: PlaceYourAdHere,
   });
 
   // Generate link foreach tag page

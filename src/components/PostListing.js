@@ -85,7 +85,7 @@ const PostListing = ({ data }) => {
     <Stack>
       <Box>
         <Center>
-          <a href="/add">
+          <a href="/place-your-ad-here">
             <img src="/place-your-ad-here.jpg" alt="logo" />
           </a>
         </Center>
