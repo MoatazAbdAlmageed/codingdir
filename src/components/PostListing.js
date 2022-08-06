@@ -12,8 +12,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
-import { FaYoutube } from "react-icons/fa";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaYoutube } from "react-icons/fa";
 import uuid from "react-uuid";
 
 const PostListing = ({ data }) => {
@@ -85,6 +84,11 @@ const PostListing = ({ data }) => {
   return (
     <Stack>
       <Box>
+        <Center>
+          <a href="/place-your-ad-here">
+            <img src="/place-your-ad-here.jpg" alt="logo" />
+          </a>
+        </Center>
         <InputGroup mt={2}>
           <InputLeftElement
             zIndex={0}
