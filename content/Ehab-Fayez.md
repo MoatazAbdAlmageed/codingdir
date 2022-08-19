@@ -5,7 +5,8 @@ categories:
   - "عربي"
 tags:
   - "UI/UX"
-  - "UI/UX"
+  - "figma"
+  - "xd"
 ---
 
 [https://youtube.com/c/EhabFayez](https://youtube.com/c/EhabFayez)
