@@ -1,17 +1,16 @@
-import React from "react";
+import { Heading } from "@chakra-ui/react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
+import React from "react";
 import config from "../../data/SiteConfig";
-import { Heading } from "@chakra-ui/react";
+import { graphql } from "gatsby";
 
 const TagTemplate = ({ data, pageContext }) => (
   <Layout>
     <main>
       <Helmet title={`${pageContext.tag} Channels | ${config.siteTitle}`} />
       <Heading mb={5}>
-        Tag:{" "}
         {pageContext.tag.charAt(0).toUpperCase() + pageContext.tag.slice(1)}
       </Heading>
       <PostListing data={data} />

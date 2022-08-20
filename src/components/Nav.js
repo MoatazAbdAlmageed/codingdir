@@ -1,214 +1,36 @@
-import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
-  Box,
-  Collapse,
-  Flex,
-  Icon,
-  IconButton,
+  Button,
+  Heading,
   Menu,
   MenuButton,
   MenuItem,
   MenuList,
-  Popover,
-  Stack,
-  Text,
-  useBreakpointValue,
-  useColorModeValue,
-  useDisclosure,
 } from "@chakra-ui/react";
+
+import { ChevronDownIcon } from "@chakra-ui/icons";
 import { Link } from "gatsby";
-import { startCase } from "lodash";
 import React from "react";
 import config from "../../data/SiteConfig";
 
-export default function Nav(props) {
-  const { isOpen, onToggle } = useDisclosure();
+export default function Nav() {
   return (
-    <Box>
-      <Flex
-        bg={useColorModeValue("white", "gray.800")}
-        color={useColorModeValue("gray.600", "white")}
-        minH={"60px"}
-        py={{ base: 2 }}
-        px={{ base: 4 }}
-        borderBottom={1}
-        borderStyle={"solid"}
-        borderColor={useColorModeValue("gray.200", "gray.900")}
-        align={"center"}
-      >
-        <Flex
-          flex={{ base: 1, md: "auto" }}
-          ml={{ base: -2 }}
-          display={{ base: "flex", md: "none" }}
-        >
-          <IconButton
-            onClick={onToggle}
-            icon={
-              isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
-            }
-            variant={"ghost"}
-            aria-label={"Toggle Navigation"}
-          />
-        </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-          <Text
-            textAlign={useBreakpointValue({ base: "center", md: "left" })}
-            fontFamily={"heading"}
-            color={useColorModeValue("gray.800", "white")}
-          >
-            <Link
-              href="/"
-              _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}
-            >
-              {config.siteTitle}
+    <>
+      <Heading>{config.siteTitle}</Heading>
+      <Menu>
+        <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+          Topics
+        </MenuButton>
+        <MenuList>
+          {NAV_ITEMS.map((navItem) => (
+            <Link key={navItem.label} href={navItem.href}>
+              <MenuItem>{navItem.label}</MenuItem>
             </Link>
-          </Text>
-
-          <Flex display={{ base: "none", md: "flex" }} ml={10}>
-            <DesktopNav zIndex={props.zIndex} />
-          </Flex>
-        </Flex>
-      </Flex>
-
-      <Collapse in={isOpen} animateOpacity>
-        <MobileNav zIndex={props.zIndex} />
-      </Collapse>
-    </Box>
+          ))}
+        </MenuList>
+      </Menu>
+    </>
   );
 }
-
-const DesktopNav = (props) => {
-  return (
-    <Stack direction={"row"} spacing={4} zIndex={props.zIndex}>
-      {NAV_ITEMS.map((navItem) => (
-        <Box key={navItem.label}>
-          <Popover trigger={"hover"} placement={"bottom-start"}>
-            <Menu size="sm">
-              <Link
-                key={navItem.label}
-                py={2}
-                href={navItem.href}
-                fontSize="14px"
-              >
-                <MenuButton fontSize="14px">
-                  {navItem.label == "Submit 💁" ? (
-                    <MenuItem
-                      backgroundColor="orange"
-                      color="white"
-                      px={4}
-                      py={2}
-                      size="sm"
-                      transition="all 0.2s"
-                      borderRadius="md"
-                      borderWidth="1px"
-                      _hover={{ bg: "gray.400" }}
-                      _expanded={{ bg: "blue.400" }}
-                      _focus={{ boxShadow: "outline" }}
-                      fontSize="14px"
-                    >
-                      {navItem.label}
-                    </MenuItem>
-                  ) : (
-                    <MenuItem padding={1}>
-                      {navItem.label}
-                      {navItem.children && (
-                        <Icon
-                          color="orange"
-                          as={ChevronDownIcon}
-                          transition={"all .25s ease-in-out"}
-                          w={6}
-                          h={6}
-                        />
-                      )}
-                    </MenuItem>
-                  )}
-                </MenuButton>
-              </Link>
-              {navItem.children && (
-                <MenuList fontSize="14px">
-                  {navItem.children.map((child) => (
-                    <Link size="sm" key={child.label} py={2} href={child.href}>
-                      <MenuItem>{startCase(child.label)}</MenuItem>
-                    </Link>
-                  ))}
-                </MenuList>
-              )}
-            </Menu>
-          </Popover>
-        </Box>
-      ))}
-    </Stack>
-  );
-};
-
-const MobileNav = (props) => {
-  return (
-    <Stack
-      bg={useColorModeValue("white", "gray.800")}
-      p={4}
-      display={{ md: "none" }}
-      zIndex={props.zIndex}
-    >
-      {NAV_ITEMS.map((navItem) => (
-        <MobileNavItem key={navItem.label} {...navItem} />
-      ))}
-    </Stack>
-  );
-};
-
-const MobileNavItem = ({ label, children, href }) => {
-  const { isOpen, onToggle } = useDisclosure();
-
-  return (
-    <Stack spacing={4} onClick={children && onToggle}>
-      <Flex
-        py={2}
-        as={Link}
-        href={href ?? "#"}
-        justify={"space-between"}
-        align={"center"}
-        _hover={{
-          textDecoration: "none",
-        }}
-      >
-        <Text
-          fontWeight={600}
-          color={useColorModeValue("gray.600", "gray.200")}
-        >
-          {label}
-        </Text>
-        {children && (
-          <Icon
-            color="orange"
-            as={ChevronDownIcon}
-            transition={"all .25s ease-in-out"}
-            transform={isOpen ? "rotate(180deg)" : ""}
-            w={6}
-            h={6}
-          />
-        )}
-      </Flex>
-
-      <Collapse in={isOpen} animateOpacity style={{ marginTop: "0!important" }}>
-        <Stack
-          mt={2}
-          pl={4}
-          borderLeft={1}
-          borderStyle={"solid"}
-          borderColor={useColorModeValue("gray.200", "gray.700")}
-          align={"start"}
-        >
-          {children &&
-            children.map((child) => (
-              <Link key={child.label} py={2} href={child.href}>
-                {startCase(child.label)}
-              </Link>
-            ))}
-        </Stack>
-      </Collapse>
-    </Stack>
-  );
-};
 
 const NAV_ITEMS = [
   {
@@ -219,7 +41,7 @@ const NAV_ITEMS = [
   },
   {
     label: "CS 🏫",
-    href: "#",
+    href: "/tags/cs",
     children: [
       {
         label: "CS",
@@ -289,7 +111,7 @@ const NAV_ITEMS = [
   },
   {
     label: "FrontEnd 🎨",
-    href: "#",
+    href: "/tags/frontend",
 
     children: [
       {
@@ -339,7 +161,7 @@ const NAV_ITEMS = [
 
   {
     label: "BackEnd ⚙",
-    href: "#",
+    href: "/tags/backend",
     children: [
       {
         label: "BackEnd",
@@ -386,7 +208,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Database 🗃️",
-    href: "#",
+    href: "/tags/database",
     children: [
       {
         label: "Database",
@@ -421,7 +243,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Mobile 📱",
-    href: "#",
+    href: "/tags/mobile",
     children: [
       {
         label: "Mobile",
@@ -452,7 +274,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Devops 🖲",
-    href: "#",
+    href: "/tags/devops",
     children: [
       {
         label: "Devops",
