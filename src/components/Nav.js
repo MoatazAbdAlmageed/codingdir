@@ -3,27 +3,46 @@ import {
   Heading,
   Menu,
   MenuButton,
-  MenuItem,
+  MenuItemOption,
   MenuList,
+  MenuOptionGroup,
 } from "@chakra-ui/react";
 
-import { ChevronDownIcon } from "@chakra-ui/icons";
 import { Link } from "gatsby";
 import React from "react";
 import config from "../../data/SiteConfig";
 
 export default function Nav() {
+  console.log("NAV_ITEMS", NAV_ITEMS);
+
   return (
     <>
-      <Heading>{config.siteTitle}</Heading>
-      <Menu>
-        <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+      <Link href={"/"}>
+        <Heading>{config.siteTitle}</Heading>
+      </Link>
+      <Menu closeOnSelect={false}>
+        <MenuButton as={Button} variantColor="blue">
           Topics
         </MenuButton>
         <MenuList>
           {NAV_ITEMS.map((navItem) => (
             <Link key={navItem.label} href={navItem.href}>
-              <MenuItem>{navItem.label}</MenuItem>
+              <MenuOptionGroup
+                defaultValue="asc"
+                title={
+                  navItem.label.charAt(0).toUpperCase() + navItem.label.slice(1)
+                }
+                type="radio"
+              >
+                {navItem?.children?.map((navChildItem) => (
+                  <Link key={navChildItem.label} href={navChildItem.href}>
+                    <MenuItemOption value="asc">
+                      {navChildItem.label.charAt(0).toUpperCase() +
+                        navChildItem.label.slice(1)}
+                    </MenuItemOption>
+                  </Link>
+                ))}
+              </MenuOptionGroup>
             </Link>
           ))}
         </MenuList>
@@ -43,11 +62,6 @@ const NAV_ITEMS = [
     label: "CS 🏫",
     href: "/tags/cs",
     children: [
-      {
-        label: "CS",
-        subLabel: "CS description here",
-        href: "/tags/cs",
-      },
       {
         label: "problem-solving",
         subLabel: "problem-solving description here",
@@ -115,11 +129,6 @@ const NAV_ITEMS = [
 
     children: [
       {
-        label: "FrontEnd",
-        subLabel: "FrontEnd description here",
-        href: "/tags/frontend",
-      },
-      {
         label: "HTML",
         subLabel: "HTML description here",
         href: "/tags/html",
@@ -164,11 +173,6 @@ const NAV_ITEMS = [
     href: "/tags/backend",
     children: [
       {
-        label: "BackEnd",
-        subLabel: "BackEnd description here",
-        href: "/tags/backend",
-      },
-      {
         label: "nodejs",
         href: "/tags/nodejs",
       },
@@ -211,11 +215,6 @@ const NAV_ITEMS = [
     href: "/tags/database",
     children: [
       {
-        label: "Database",
-        subLabel: "Database description here",
-        href: "/tags/database",
-      },
-      {
         label: "sql",
         href: "/tags/sql",
       },
@@ -246,11 +245,6 @@ const NAV_ITEMS = [
     href: "/tags/mobile",
     children: [
       {
-        label: "Mobile",
-        subLabel: "Mobile description here",
-        href: "/tags/mobile",
-      },
-      {
         label: "react-native",
         href: "/tags/react-native",
       },
@@ -276,11 +270,6 @@ const NAV_ITEMS = [
     label: "Devops 🖲",
     href: "/tags/devops",
     children: [
-      {
-        label: "Devops",
-        subLabel: "Devops description here",
-        href: "/tags/devops",
-      },
       {
         label: "git",
         href: "/tags/git",
