@@ -19,7 +19,7 @@ export default function Nav() {
   return (
     <>
       <Link href={"/"}>
-        <Heading>{config.siteTitle}</Heading>
+        <Heading color="#f00">{config.siteTitle}</Heading>
       </Link>
       <Menu closeOnSelect={false}>
         <MenuButton
@@ -37,6 +37,7 @@ export default function Nav() {
                   navItem.label.charAt(0).toUpperCase() + navItem.label.slice(1)
                 }
                 type="radio"
+                color="#f00"
               >
                 {navItem?.children?.map((navChildItem) => (
                   <Link key={navChildItem.label} href={navChildItem.href}>
