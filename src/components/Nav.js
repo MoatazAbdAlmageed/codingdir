@@ -1,6 +1,7 @@
+import { ArrowForwardIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
-  Button,
   Heading,
+  IconButton,
   Menu,
   MenuButton,
   MenuItemOption,
@@ -21,9 +22,12 @@ export default function Nav() {
         <Heading>{config.siteTitle}</Heading>
       </Link>
       <Menu closeOnSelect={false}>
-        <MenuButton as={Button} variantColor="blue">
-          Topics
-        </MenuButton>
+        <MenuButton
+          as={IconButton}
+          aria-label="Options"
+          icon={<HamburgerIcon />}
+          variant="outline"
+        />
         <MenuList>
           {NAV_ITEMS.map((navItem) => (
             <Link key={navItem.label} href={navItem.href}>
@@ -37,6 +41,7 @@ export default function Nav() {
                 {navItem?.children?.map((navChildItem) => (
                   <Link key={navChildItem.label} href={navChildItem.href}>
                     <MenuItemOption value="asc">
+                      <ArrowForwardIcon />{" "}
                       {navChildItem.label.charAt(0).toUpperCase() +
                         navChildItem.label.slice(1)}
                     </MenuItemOption>
@@ -61,6 +66,8 @@ const NAV_ITEMS = [
   {
     label: "CS 🏫",
     href: "/tags/cs",
+    description:
+      "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.",
     children: [
       {
         label: "problem-solving",
@@ -181,11 +188,11 @@ const NAV_ITEMS = [
         href: "/tags/php",
       },
       {
-        label: "::Laravel",
+        label: "Laravel",
         href: "/tags/laravel",
       },
       {
-        label: "::wordpress",
+        label: "Wordpress",
         href: "/tags/wordpress",
       },
       {
