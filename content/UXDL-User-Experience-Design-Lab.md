@@ -6,6 +6,7 @@ categories:
 tags:
   - "UI/UX"
   - "UI/UX"
+  - "figma"
 ---
 
 [https://youtube.com/channel/UC7PzIyzMSoDbXQPYuXwl9gA](https://youtube.com/channel/UC7PzIyzMSoDbXQPYuXwl9gA)
