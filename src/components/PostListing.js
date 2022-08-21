@@ -1,4 +1,3 @@
-import { SearchIcon } from "@chakra-ui/icons";
 import {
   Badge,
   Box,
@@ -11,9 +10,11 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import moment from "moment";
-import React from "react";
 import { FaStar, FaYoutube } from "react-icons/fa";
+
+import React from "react";
+import { SearchIcon } from "@chakra-ui/icons";
+import moment from "moment";
 import uuid from "react-uuid";
 
 const PostListing = ({ data }) => {
@@ -128,10 +129,10 @@ const PostListing = ({ data }) => {
               <Center>
                 <Image
                   borderRadius="full"
-                  boxSize="150px"
                   src={post.cover}
                   fallbackSrc="/YouTube-Icon-Gray-Box.jpg"
-                  width="150px"
+                  boxSize="88px"
+                  width="auto"
                 />
               </Center>
               <Text>
