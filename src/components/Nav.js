@@ -7,14 +7,13 @@ import {
   MenuButton,
   MenuItemOption,
   MenuList,
-  MenuOptionGroup
+  MenuOptionGroup,
 } from "@chakra-ui/react";
 
 import { Link } from "gatsby";
 import React from "react";
 
 export default function Nav() {
-
   return (
     <Grid templateColumns="repeat(5, 1fr)" gap={4} p={4}>
       <GridItem colSpan={2} h="10">
@@ -69,7 +68,7 @@ const NAV_ITEMS = [
       "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
   },
   {
-    label: "CS 🏫",
+    label: "Computer science 🏫",
     href: "/tags/cs",
     description:
       "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.",
