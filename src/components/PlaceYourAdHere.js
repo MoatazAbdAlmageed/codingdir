@@ -1,13 +1,14 @@
-import TextArea from "@atlaskit/textarea";
-import TextField from "@atlaskit/textfield";
 import { Button, Flex, Heading, Stack } from "@chakra-ui/react";
-import { useForm, ValidationError } from "@formspree/react";
-import { default as React } from "react";
-import Helmet from "react-helmet";
-import config from "../../data/SiteConfig";
-import Layout from "../layout/index";
+import { ValidationError, useForm } from "@formspree/react";
 
 import Form from "@atlaskit/form";
+import Helmet from "react-helmet";
+import Layout from "../layout/index";
+import { default as React } from "react";
+import TextArea from "@atlaskit/textarea";
+import TextField from "@atlaskit/textfield";
+import config from "../../data/SiteConfig";
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("moqbazwj");
 
@@ -33,6 +34,7 @@ function ContactForm() {
                         field="email"
                         errors={state.errors}
                       />
+                      <br />
 
                       <label htmlFor="message">Message</label>
                       <TextArea id="message" name="message" />
@@ -41,7 +43,7 @@ function ContactForm() {
                         field="message"
                         errors={state.errors}
                       />
-
+                      <br />
                       <Button type="submit" disabled={state.submitting}>
                         Submit
                       </Button>
