@@ -12,10 +12,7 @@ module.exports = {
       feed_url: urljoin(config.siteUrl, config.pathPrefix, config.siteRss),
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${urljoin(
-        config.siteUrl,
-        config.pathPrefix
-      )}/logos/logo-48.png`,
+      image_url: `${urljoin(config.siteUrl, config.pathPrefix)}/logos/main.png`,
       copyright: config.copyright,
     },
   },

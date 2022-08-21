@@ -1,6 +1,7 @@
 import { ArrowForwardIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
-  Heading,
+  Grid,
+  GridItem,
   IconButton,
   Menu,
   MenuButton,
@@ -11,49 +12,53 @@ import {
 
 import { Link } from "gatsby";
 import React from "react";
-import config from "../../data/SiteConfig";
 
 export default function Nav() {
   console.log("NAV_ITEMS", NAV_ITEMS);
 
   return (
-    <>
-      <Link href={"/"}>
-        <Heading color="#f00">{config.siteTitle}</Heading>
-      </Link>
-      <Menu closeOnSelect={false}>
-        <MenuButton
-          as={IconButton}
-          aria-label="Options"
-          icon={<HamburgerIcon />}
-          variant="outline"
-        />
-        <MenuList>
-          {NAV_ITEMS.map((navItem) => (
-            <Link key={navItem.label} href={navItem.href}>
-              <MenuOptionGroup
-                defaultValue="asc"
-                title={
-                  navItem.label.charAt(0).toUpperCase() + navItem.label.slice(1)
-                }
-                type="radio"
-                color="#f00"
-              >
-                {navItem?.children?.map((navChildItem) => (
-                  <Link key={navChildItem.label} href={navChildItem.href}>
-                    <MenuItemOption value="asc">
-                      <ArrowForwardIcon />{" "}
-                      {navChildItem.label.charAt(0).toUpperCase() +
-                        navChildItem.label.slice(1)}
-                    </MenuItemOption>
-                  </Link>
-                ))}
-              </MenuOptionGroup>
-            </Link>
-          ))}
-        </MenuList>
-      </Menu>
-    </>
+    <Grid templateColumns="repeat(5, 1fr)" gap={4} p={4}>
+      <GridItem colSpan={2} h="10">
+        <Link href={"/"}>
+          <img src="/logos/main.png" />
+        </Link>
+      </GridItem>
+      <GridItem colStart={6} colEnd={6} h="10">
+        <Menu closeOnSelect={false}>
+          <MenuButton
+            as={IconButton}
+            aria-label="Options"
+            icon={<HamburgerIcon />}
+            variant="outline"
+          />
+          <MenuList>
+            {NAV_ITEMS.map((navItem) => (
+              <Link key={navItem.label} href={navItem.href}>
+                <MenuOptionGroup
+                  defaultValue="asc"
+                  title={
+                    navItem.label.charAt(0).toUpperCase() +
+                    navItem.label.slice(1)
+                  }
+                  type="radio"
+                  color="#f00"
+                >
+                  {navItem?.children?.map((navChildItem) => (
+                    <Link key={navChildItem.label} href={navChildItem.href}>
+                      <MenuItemOption value="asc">
+                        <ArrowForwardIcon />{" "}
+                        {navChildItem.label.charAt(0).toUpperCase() +
+                          navChildItem.label.slice(1)}
+                      </MenuItemOption>
+                    </Link>
+                  ))}
+                </MenuOptionGroup>
+              </Link>
+            ))}
+          </MenuList>
+        </Menu>
+      </GridItem>
+    </Grid>
   );
 }
 
