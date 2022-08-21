@@ -6,6 +6,9 @@ categories:
 tags:
   - "cloud"
   - "devops"
+  - "docker"
+  - "azure"
+  - "kubernetes"
 
 ---
 
