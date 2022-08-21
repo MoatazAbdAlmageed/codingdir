@@ -20,8 +20,6 @@ const PostListing = ({ data }) => {
   const getPostList = () => {
     const postList = [];
     postEdges?.forEach((postEdge) => {
-      console.log("postEdge");
-      console.log(postEdge);
       postList.push({
         html: postEdge.node.html,
         path: postEdge.node.fields.slug,
@@ -48,12 +46,9 @@ const PostListing = ({ data }) => {
   });
 
   const handleInputChange = (event) => {
-    console.log(event.target.value);
     const query = event.target.value.trim();
     const filteredData = postList.filter(
       ({ description, excerpt, title, tags, html }) => {
-        console.log("html");
-        console.log(html);
         const low = query.toLowerCase();
         return (
           html?.toLowerCase().includes(low) ||
@@ -126,6 +121,15 @@ const PostListing = ({ data }) => {
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
+              <Center>
+                <Image
+                  borderRadius="full"
+                  boxSize="150px"
+                  src={post.cover}
+                  fallbackSrc="/YouTube-Icon-Gray-Box.jpg"
+                  width="150px"
+                />
+              </Center>
               <Text>
                 <b>{post.title}</b>
                 <Text m={(0, 2)}>
@@ -136,16 +140,6 @@ const PostListing = ({ data }) => {
                     )})`}
                 </Text>
               </Text>
-
-              <Center>
-                <Image
-                  borderRadius="full"
-                  boxSize="150px"
-                  src={post.cover}
-                  fallbackSrc="/YouTube-Icon-Gray-Box.jpg"
-                  width="150px"
-                />
-              </Center>
             </a>
             {post.tags?.includes("pin") && (
               <Center>

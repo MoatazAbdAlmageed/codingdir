@@ -7,14 +7,13 @@ import {
   MenuButton,
   MenuItemOption,
   MenuList,
-  MenuOptionGroup,
+  MenuOptionGroup
 } from "@chakra-ui/react";
 
 import { Link } from "gatsby";
 import React from "react";
 
 export default function Nav() {
-  console.log("NAV_ITEMS", NAV_ITEMS);
 
   return (
     <Grid templateColumns="repeat(5, 1fr)" gap={4} p={4}>
