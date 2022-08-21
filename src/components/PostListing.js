@@ -10,8 +10,8 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { FaStar, FaYoutube } from "react-icons/fa";
 
+import { FaStar } from "react-icons/fa";
 import React from "react";
 import { SearchIcon } from "@chakra-ui/icons";
 import moment from "moment";
@@ -126,6 +126,13 @@ const PostListing = ({ data }) => {
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
+              <Text m={(0, 2)}>
+                {post.categories &&
+                  `${post.categories.map(
+                    (category) => `${category === "english" ? "🇬🇧" : "🇦🇪"} `
+                  )}`}
+              </Text>
+
               <Center>
                 <Image
                   borderRadius="full"
@@ -137,13 +144,6 @@ const PostListing = ({ data }) => {
               </Center>
               <Text>
                 <b>{post.title}</b>
-                <Text m={(0, 2)}>
-                  {post.categories &&
-                    `(${post.categories.map(
-                      (category) =>
-                        category.charAt(0).toUpperCase() + category.slice(1)
-                    )})`}
-                </Text>
               </Text>
             </a>
             {post.tags?.includes("pin") && (
@@ -151,18 +151,6 @@ const PostListing = ({ data }) => {
                 <FaStar color="orange" />
               </Center>
             )}{" "}
-            {post.youtube && (
-              <Center>
-                <a
-                  href={post.youtube}
-                  target="_blank"
-                  textDecoration="none"
-                  _hover={{ textDecoration: "none" }}
-                >
-                  <FaYoutube color="#ff0000" />
-                </a>
-              </Center>
-            )}
           </Box>
         ))}
       </SimpleGrid>
