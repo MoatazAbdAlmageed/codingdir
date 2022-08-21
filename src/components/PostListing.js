@@ -11,6 +11,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
+import moment from "moment";
 import React from "react";
 import { FaStar, FaYoutube } from "react-icons/fa";
 import uuid from "react-uuid";
@@ -72,9 +73,12 @@ const PostListing = ({ data }) => {
   const { filteredData, query } = state;
   const hasSearchResults = filteredData && query;
   const rowPosts = hasSearchResults ? filteredData : postList;
-  const posts = [...new Set(rowPosts)]
-    .filter(({ title }) => title !== "Template")
-    .sort((a, b) => (a?.tags?.length > b?.tags?.length ? -1 : 1));
+  const posts = [...new Set(rowPosts)].sort((a, b) =>
+    moment(a.date, "DD/MM/YYYY").toDate() >
+    moment(b.date, "DD/MM/YYYY").toDate()
+      ? 1
+      : -1
+  );
 
   return (
     <Stack>
