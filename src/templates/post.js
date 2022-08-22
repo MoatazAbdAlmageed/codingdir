@@ -182,8 +182,8 @@ export default ({ data, pageContext }) => {
           style={{ color: "orange", visibility: "hidden" }}
           target="_blank"
           href={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
-            .replace(/ /g, "-")
-            .replace(/\./g, "-")}.md`}
+            .replace(/ /g, "_")
+            .replace(/\./g, "_")}.md`}
         >
           Edit ✏
         </a>
