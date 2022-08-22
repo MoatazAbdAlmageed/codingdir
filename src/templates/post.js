@@ -1,9 +1,9 @@
 import {
-  FaYoutube,
-  FaLinkedinIn,
-  FaGithub,
   FaBehance,
+  FaGithub,
   FaLink,
+  FaLinkedinIn,
+  FaYoutube,
 } from "react-icons/fa";
 
 import {
@@ -93,7 +93,7 @@ export default ({ data, pageContext }) => {
         <Text m={2}>
           {post.categories &&
             `(${post.categories.map(
-              (category) => category.charAt(0).toUpperCase() + category.slice(1)
+              (category) => `${category === "english" ? "🇬🇧" : "🇸🇦"} `
             )})`}
         </Text>
         <BlogTags tags={[...new Set(post.tags)]} />
