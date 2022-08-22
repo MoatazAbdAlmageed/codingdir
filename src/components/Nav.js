@@ -1,66 +1,80 @@
-import { ArrowForwardIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
-  Grid,
-  GridItem,
+  Box,
+  Flex,
+  HStack,
   Heading,
   IconButton,
-  Menu,
-  MenuButton,
-  MenuItemOption,
-  MenuList,
-  MenuOptionGroup,
+  Link,
+  Stack,
+  useColorModeValue,
+  useDisclosure,
 } from "@chakra-ui/react";
+import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 
-import { Link } from "gatsby";
 import React from "react";
 import config from "../../data/SiteConfig";
 
-export default function Nav() {
+const NavLink = ({ children: { href, label } }) => (
+  <Link
+    px={2}
+    py={1}
+    rounded={"md"}
+    _hover={{
+      textDecoration: "none",
+      bg: useColorModeValue("gray.200", "gray.700"),
+    }}
+    href={href}
+  >
+    {label}
+  </Link>
+);
+
+export default function withAction() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   return (
-    <Grid templateColumns="repeat(5, 1fr)" gap={4} p={4}>
-      <GridItem colSpan={2} h="10">
-        <Link href={"/"}>
-          <Heading size="sm" color="#000">
-            🏠 {config.siteTitle}
-          </Heading>
-        </Link>
-      </GridItem>
-      <GridItem colStart={6} colEnd={6} h="10">
-        <Menu closeOnSelect={false}>
-          <MenuButton
-            as={IconButton}
-            aria-label="Options"
-            icon={<HamburgerIcon />}
-            variant="outline"
+    <>
+      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+          <IconButton
+            size={"md"}
+            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            aria-label={"Open Menu"}
+            display={{ md: "none" }}
+            onClick={isOpen ? onClose : onOpen}
           />
-          <MenuList>
-            {NAV_ITEMS.map((navItem) => (
-              <Link key={navItem.label} href={navItem.href}>
-                <MenuOptionGroup
-                  defaultValue="asc"
-                  title={
-                    navItem.label.charAt(0).toUpperCase() +
-                    navItem.label.slice(1)
-                  }
-                  type="radio"
-                  color="#f00"
-                >
-                  {navItem?.children?.map((navChildItem) => (
-                    <Link key={navChildItem.label} href={navChildItem.href}>
-                      <MenuItemOption value="asc">
-                        <ArrowForwardIcon />{" "}
-                        {navChildItem.label.charAt(0).toUpperCase() +
-                          navChildItem.label.slice(1)}
-                      </MenuItemOption>
-                    </Link>
-                  ))}
-                </MenuOptionGroup>
+          <HStack spacing={8} alignItems={"center"}>
+            <Box>
+              {" "}
+              <Link href={"/"}>
+                <Heading size="sm" color="#000">
+                  🏠 {config.siteTitle}
+                </Heading>
               </Link>
-            ))}
-          </MenuList>
-        </Menu>
-      </GridItem>
-    </Grid>
+            </Box>
+            <HStack
+              as={"nav"}
+              spacing={4}
+              display={{ base: "none", md: "flex" }}
+            >
+              {NAV_ITEMS.map((item) => (
+                <NavLink key={item.label}>{item}</NavLink>
+              ))}
+            </HStack>
+          </HStack>
+        </Flex>
+
+        {isOpen ? (
+          <Box pb={4} display={{ md: "none" }}>
+            <Stack as={"nav"} spacing={4}>
+              {NAV_ITEMS.map((item) => (
+                <NavLink key={item.label}>{item}</NavLink>
+              ))}
+            </Stack>
+          </Box>
+        ) : null}
+      </Box>
+    </>
   );
 }
 
