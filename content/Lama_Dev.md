@@ -2,11 +2,8 @@
 title: "Lama Dev"
 date: "2022-05-12"
 categories:
-  - "English"
-tags:
-  [
-    "react"
-  ]
+  - "english"
+tags: ["react"]
 
 youtube: "https://www.youtube.com/c/LamaDev/videos"
 cover: "https://yt3.ggpht.com/ytc/AKedOLR-TP_Uc-gh9UWENj1CsWNVyxDRwCikaVARVwhY=s88-c-k-c0x00ffffff-no-rj"
