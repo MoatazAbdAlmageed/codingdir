@@ -1,9 +1,9 @@
 ---
 title: "React Conf"
 date: "2020-11-24"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "react"
   - "talks"
 ---

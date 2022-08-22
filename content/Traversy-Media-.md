@@ -29,7 +29,6 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLSxHOOxxa9Af8Bfb2XMop3lm4tor9bViWiC-d5aaw
 
 https://www.youtube.com/c/TraversyMedia/playlists
 
-
     "Learn The MERN Stack",
     "Guest Creators",
     "React Projects",

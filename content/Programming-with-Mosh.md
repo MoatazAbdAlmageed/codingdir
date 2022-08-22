@@ -22,8 +22,6 @@ cover: "https://yt3.ggpht.com/tBEPr-zTNXEeae7VZKSZYfiy6azzs9OHowq5ZvogJeHoVtKtEw
 youtube: "https://www.youtube.com/user/programmingwithmosh"
 ---
 
-
-
     "Java Tutorials",
     "Mobile Development",
     "Job Interview Preparation Videos",

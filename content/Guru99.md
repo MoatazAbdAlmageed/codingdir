@@ -1,9 +1,9 @@
 ---
 title: "Guru99"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "graphics"
   - "java"
 ---

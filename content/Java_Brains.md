@@ -2,10 +2,19 @@
 title: "Java Brains"
 date: "2022-05-06"
 categories:
-  - "English"
+  - "english"
 tags:
   [
-    "pin","Microservices","java","spring","testing","JS","angular","nodejs","maven","game development"
+    "pin",
+    "Microservices",
+    "java",
+    "spring",
+    "testing",
+    "JS",
+    "angular",
+    "nodejs",
+    "maven",
+    "game development",
   ]
 
 youtube: "https://www.youtube.com/c/JavaBrainsChannel/playlists"

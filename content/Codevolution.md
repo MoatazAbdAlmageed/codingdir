@@ -10,9 +10,6 @@ cover: "https://yt3.ggpht.com/os7Yw6RimtysXXpc8NrXraci87TjXgZSUQyAezi0D3RrNL3YP5
 youtube: "https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw"
 ---
 
-
-
-
     "<p><a href='https://www.youtube.com/watch?v=0awA5Uw6SJE&list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3'>Redux Toolkit Tutorial</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=BHEPVdfBAqE&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO'>React Material UI Tutorial</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=N8YMl4Ezp4g&list=PLC3y8-rFHvwhuX4qGvFx-wPy_MEi6Jdp7'>Crash Courses 2022</a></p>",
@@ -25,5 +22,3 @@ youtube: "https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw"
     "<p><a href='https://www.youtube.com/watch?v=0awA5Uw6SJE&list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3'>Redux Toolkit Tutorial</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=VtWkSCZX0Ec&list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2'>React Query Tutorial for Beginners</a></p>",
     "<p><a href='https://www.youtube.com/watch?v=BHEPVdfBAqE&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO'>React Material UI Tutorial</a></p>"
-
-

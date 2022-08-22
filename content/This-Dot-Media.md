@@ -1,9 +1,9 @@
 ---
 title: "This Dot Media"
 date: "2020-11-12"
-categories: 
+categories:
   - "english"
-tags: 
+tags:
   - "angular"
   - "dart"
   - "graphql"
@@ -11,5 +11,3 @@ tags:
   - "talks"
   - "vuejs"
 ---
-
-

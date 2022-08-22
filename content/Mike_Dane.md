@@ -2,10 +2,20 @@
 title: "Mike Dane"
 date: "2022-05-05"
 categories:
-  - "English"
+  - "english"
 tags:
   [
-    "SQL","mongodb","python","PHP","c","ruby","html","css","JS","gatsby","pin"
+    "SQL",
+    "mongodb",
+    "python",
+    "PHP",
+    "c",
+    "ruby",
+    "html",
+    "css",
+    "JS",
+    "gatsby",
+    "pin",
   ]
 
 youtube: "https://www.youtube.com/c/GiraffeAcademy/playlists"

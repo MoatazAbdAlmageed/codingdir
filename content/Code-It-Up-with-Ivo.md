@@ -5,7 +5,4 @@ categories:
   - "english"
 tags:
   - "ASP.NET"
-
----
-
-[https://youtube.com/c/MyTestedASPNETTV](https://youtube.com/c/MyTestedASPNETTV)
+---[https://youtube.com/c/MyTestedASPNETTV](https://youtube.com/c/MyTestedASPNETTV)
