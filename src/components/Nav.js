@@ -20,7 +20,9 @@ export default function Nav() {
     <Grid templateColumns="repeat(5, 1fr)" gap={4} p={4}>
       <GridItem colSpan={2} h="10">
         <Link href={"/"}>
-          <Heading color="#f00">{config.siteTitle}</Heading>
+          <Heading size="sm" color="#000">
+            {config.siteTitle}
+          </Heading>
         </Link>
       </GridItem>
       <GridItem colStart={6} colEnd={6} h="10">
