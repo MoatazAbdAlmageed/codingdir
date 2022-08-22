@@ -1,17 +1,15 @@
-import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
+import React from "react";
 import config from "../../data/SiteConfig";
-import { Heading } from "@chakra-ui/react";
+import { graphql } from "gatsby";
 
 const CategoryTemplate = ({ data, pageContext }) => (
   <Layout>
     <main>
       <Helmet title={` "${pageContext.category}" - ${config.siteTitle}`} />
-      <Heading mb={5}>Category: {pageContext.category.toUpperCase()}</Heading>
-      <PostListing data={data} />
+      <PostListing data={data} title={`Channels in ${pageContext.category}`} />
     </main>
   </Layout>
 );

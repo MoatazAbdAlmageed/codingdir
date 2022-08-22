@@ -1,6 +1,5 @@
-import { Link, Text } from "@chakra-ui/react";
-
 import React from "react";
+import { Text } from "@chakra-ui/react";
 
 export function LanguageFlag({ post }) {
   return !post?.categories ? (
@@ -8,9 +7,9 @@ export function LanguageFlag({ post }) {
   ) : (
     post?.categories?.map((category) => (
       <Text m={(0, 2)}>
-        <Link to={`/${category}`}>
+        <a href={`/${category}`}>
           {category.toLowerCase() === "english" ? "🇬🇧" : "🇸🇦"}
-        </Link>
+        </a>
       </Text>
     ))
   );

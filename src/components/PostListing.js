@@ -121,13 +121,12 @@ const PostListing = ({ data, title }) => {
               transform: "scale(1.05)",
             }}
           >
+            <LanguageFlag post={post} />
             <a
               href={post.path}
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              <LanguageFlag post={post} />
-
               <Center>
                 <Image
                   borderRadius="full"
