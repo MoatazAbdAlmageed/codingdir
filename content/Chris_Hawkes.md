@@ -5,10 +5,10 @@ date: "2022-05-07"
 categories:
 
 - "english"
-  tags:
-  [
-  "python"
-  ]
+
+tags:
+
+- "python"
 
 youtube: "https://www.youtube.com/c/noobtoprofessional/playlists"
 cover: "https://yt3.ggpht.com/3PgNCajsk3e3TJEClwqYQ5vTEfK7RwJ8RJCU9DU7-6Ewpw_IAMId6EkJjtP2mZ7lK4nIgB7Z5g=s88-c-k-c0x00ffffff-no-rj"
