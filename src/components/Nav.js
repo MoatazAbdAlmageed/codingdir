@@ -2,6 +2,7 @@ import { ArrowForwardIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
   Grid,
   GridItem,
+  Heading,
   IconButton,
   Menu,
   MenuButton,
@@ -12,13 +13,14 @@ import {
 
 import { Link } from "gatsby";
 import React from "react";
+import config from "../../data/SiteConfig";
 
 export default function Nav() {
   return (
     <Grid templateColumns="repeat(5, 1fr)" gap={4} p={4}>
       <GridItem colSpan={2} h="10">
         <Link href={"/"}>
-          <img src="/logos/main.png" />
+          <Heading color="#f00">{config.siteTitle}</Heading>
         </Link>
       </GridItem>
       <GridItem colStart={6} colEnd={6} h="10">

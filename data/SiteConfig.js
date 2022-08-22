@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: "YouTube Channels", // Site title.
-  siteTitleShort: "YouTube Channels", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "YouTube Channels", // Alternative site title for SEO.
+  siteTitle: "Coding YouTube Channels", // Site title.
+  siteTitleShort: "Coding YouTube Channels", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Coding YouTube Channels", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://youtubechannels.gatsbyjs.io/", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.

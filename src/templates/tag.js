@@ -1,4 +1,3 @@
-import { Heading } from "@chakra-ui/react";
 import Helmet from "react-helmet";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
@@ -10,10 +9,7 @@ const TagTemplate = ({ data, pageContext }) => (
   <Layout>
     <main>
       <Helmet title={`${pageContext.tag} Channels | ${config.siteTitle}`} />
-      <Heading mb={5}>
-        {pageContext.tag.charAt(0).toUpperCase() + pageContext.tag.slice(1)}
-      </Heading>
-      <PostListing data={data} />
+      <PostListing data={data} title={pageContext.tag} />
     </main>
   </Layout>
 );

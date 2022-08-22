@@ -129,9 +129,6 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
-  console.log("\n".repeat);
-  console.log("************ [...tagSet] **************");
-  console.log([...tagSet]);
   createPage({
     path: `/tags`,
     component: allTagsTemplate,

@@ -1,17 +1,17 @@
-import { graphql } from "gatsby";
-import React from "react";
 import Helmet from "react-helmet";
-import config from "../../data/SiteConfig";
-import PostListing from "../components/PostListing";
-import SEO from "../components/SEO";
 import Layout from "../layout";
+import PostListing from "../components/PostListing";
+import React from "react";
+import SEO from "../components/SEO";
+import config from "../../data/SiteConfig";
+import { graphql } from "gatsby";
 
 const Index = ({ data }) => (
   <Layout>
     <main>
       <Helmet title={config.siteTitle} />
       <SEO />
-      <PostListing data={data} />
+      <PostListing data={data} title="Latest Channels" />
     </main>
   </Layout>
 );
@@ -22,8 +22,8 @@ export default Index;
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [fields___date], order: ASC }
+      limit: 50
+      sort: { fields: [fields___date], order: DESC }
     ) {
       edges {
         node {

@@ -1,7 +1,7 @@
 import {
-  Badge,
   Box,
   Center,
+  Heading,
   Image,
   Input,
   InputGroup,
@@ -11,14 +11,14 @@ import {
   Text,
 } from "@chakra-ui/react";
 
+import { FaStar } from "react-icons/fa";
+import { LanguageFlag } from "./LanguageFlag";
+import React from "react";
 import { SearchIcon } from "@chakra-ui/icons";
 import moment from "moment";
-import React from "react";
-import { FaStar } from "react-icons/fa";
 import uuid from "react-uuid";
-import { LanguageFlag } from "./LanguageFlag";
 
-const PostListing = ({ data }) => {
+const PostListing = ({ data, title }) => {
   const postEdges = data?.allMarkdownRemark?.edges;
   const getPostList = () => {
     const postList = [];
@@ -78,8 +78,8 @@ const PostListing = ({ data }) => {
   const posts = [...new Set(rowPosts)].sort((a, b) =>
     moment(a.date, "DD/MM/YYYY").toDate() >
     moment(b.date, "DD/MM/YYYY").toDate()
-      ? 1
-      : -1
+      ? -1
+      : 1
   );
 
   return (
@@ -90,6 +90,8 @@ const PostListing = ({ data }) => {
             <img src="/place-your-ad-here.jpg" alt="logo" />
           </a>
         </Center>
+
+        <Heading mb={5}>{title}</Heading>
         <InputGroup mt={2}>
           <InputLeftElement
             zIndex={0}
@@ -103,9 +105,6 @@ const PostListing = ({ data }) => {
             onChange={handleInputChange}
           />
         </InputGroup>
-        <Text mt={2}>
-          <Badge colorScheme="red">{posts.length}</Badge> channel(s) found
-        </Text>
       </Box>
       <SimpleGrid columns={{ lg: 5, sm: 1, md: 3 }} spacing="40px">
         {posts.map((post) => (
