@@ -1,13 +1,13 @@
-import { Flex, Heading, Stack, Text } from "@chakra-ui/react";
+import Button from "@atlaskit/button";
+import Select from "@atlaskit/select";
+import TextArea from "@atlaskit/textarea";
+import TextField from "@atlaskit/textfield";
+import Tooltip from "@atlaskit/tooltip";
+import { Flex, Stack } from "@chakra-ui/react";
+import React, { Fragment, useState } from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import Layout from "../layout/index";
-import React, { Fragment, useState } from "react";
-import Tooltip from "@atlaskit/tooltip";
-import Button from "@atlaskit/button";
-import Select from "@atlaskit/select";
-import TextField from "@atlaskit/textfield";
-import TextArea from "@atlaskit/textarea";
 
 import Form, {
   ErrorMessage,
@@ -194,7 +194,7 @@ const Submit = ({ pageContext }) => {
                             classNamePrefix="react-select"
                             options={[
                               { label: "عربي", value: "عربي" },
-                              { label: "English", value: "English" },
+                              { label: "English", value: "english" },
                             ]}
                             placeholder="Choose Language"
                             onChange={onChangeCategory}
@@ -226,9 +226,7 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>
-                    
-                    
-                     <Field
+                    <Field
                       aria-required={true}
                       name="cover"
                       label="Logo"
@@ -252,8 +250,6 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>
-                    
-                    
                     <Field aria-required={true} name="github" label="Github">
                       {({ fieldProps }) => {
                         return (
@@ -315,7 +311,6 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>{" "}
-                   
                   </FormSection>
 
                   <FormFooter>
