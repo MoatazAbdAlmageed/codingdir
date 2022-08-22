@@ -3,6 +3,7 @@ title: "Safaa Al-Hayali"
 date: "2022-05-06"
 categories:
   - "english"
+  - "عربي"
 tags:
   ["pin", "firebase", "android", "PHP", "mysql", "html", "css", "JS", "laravel"]
 
