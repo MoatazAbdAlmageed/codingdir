@@ -9,64 +9,63 @@ on:
         required: true
         default: "Mohammed Besar"
         type: string
-      
+
       description:
         description: "Description"
         required: false
         default: ""
-        type: string  
+        type: string
 
-        
       branch:
         description: "Branch"
         required: true
         default: "mohammed_besar"
         type: string
-        
+
       category:
         description: "Language"
         required: true
         default: "عربي"
         type: choice
         options:
-        - عربي
-        - English
-      
+          - عربي
+          - english
+
       tags:
         description: "Tag"
         required: false
         default: ""
-        type: string        
-      
+        type: string
+
       youtube:
         description: "Youtube"
         required: true
         default: "https://www.youtube.com/watch?v=CRADesdEtO4&ab_channel=MohammedBesar-%D9%85%D8%AD%D9%85%D8%AF%D8%A8%D9%8A%D8%B5%D8%A7%D8%B1"
-        type: string  
+        type: string
 
       github:
         description: "Github"
         required: false
         default: ""
         type: string
-      
+
       linkedin:
         description: "Linkedin"
         required: false
         default: ""
-        type: string    
-        
+        type: string
+
       twitter:
         description: "Twitter"
         required: false
         default: ""
-        type: string      
-      
+        type: string
+
       cover:
         description: "cover"
         required: true
         default: ""
-        type: string      
+        type: string
 
 jobs:
   Create-MD-File-In-Content-Dir:
@@ -92,7 +91,7 @@ jobs:
           echo "🎉 Generate MD"
           # make file runnable, might not be necessary
           chmod +x "${GITHUB_WORKSPACE}/scripts/generate.sh"
-          
+
           # run script
           "${GITHUB_WORKSPACE}/scripts/generate.sh"
 
@@ -118,4 +117,3 @@ jobs:
             owners
             maintainers
           draft: false
-          
