@@ -1,6 +1,6 @@
 ---
 title: "Amr Mohamed"
-date: "2022-11-11"
+date: "2021-11-11"
 categories:
   - "عربي"
 tags:
