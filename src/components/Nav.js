@@ -21,7 +21,7 @@ export default function Nav() {
       <GridItem colSpan={2} h="10">
         <Link href={"/"}>
           <Heading size="sm" color="#000">
-            {config.siteTitle}
+            🏠 {config.siteTitle}
           </Heading>
         </Link>
       </GridItem>
