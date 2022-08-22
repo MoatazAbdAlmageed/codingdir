@@ -129,7 +129,7 @@ const PostListing = ({ data }) => {
               <Text m={(0, 2)}>
                 {post.categories &&
                   `${post.categories.map(
-                    (category) => `${category === "english" ? "🇬🇧" : "🇦🇪"} `
+                    (category) => `${category === "english" ? "🇬🇧" : "🇸🇦"} `
                   )}`}
               </Text>
 
