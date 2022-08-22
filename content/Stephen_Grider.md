@@ -2,7 +2,7 @@
 title: "Stephen Grider"
 date: "2022-06-12"
 categories:
-  - "عربي"
+  - "english"
 tags:
   [
     ""
