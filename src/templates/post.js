@@ -18,6 +18,7 @@ import { graphql, Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
+import { LanguageFlag } from "../components/LanguageFlag";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
 import Layout from "../layout";
@@ -90,12 +91,7 @@ export default ({ data, pageContext }) => {
         marginTop={{ base: "3", sm: "0" }}
       >
         <Heading marginBottom={2}>{post.title}</Heading>
-        <Text m={2}>
-          {post.categories &&
-            `(${post.categories.map(
-              (category) => `${category === "english" ? "🇬🇧" : "🇸🇦"} `
-            )})`}
-        </Text>
+        <LanguageFlag post={post} />
         <BlogTags tags={[...new Set(post.tags)]} />
 
         <Text

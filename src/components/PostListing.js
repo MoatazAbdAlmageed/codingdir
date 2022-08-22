@@ -11,11 +11,12 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-import { FaStar } from "react-icons/fa";
-import React from "react";
 import { SearchIcon } from "@chakra-ui/icons";
 import moment from "moment";
+import React from "react";
+import { FaStar } from "react-icons/fa";
 import uuid from "react-uuid";
+import { LanguageFlag } from "./LanguageFlag";
 
 const PostListing = ({ data }) => {
   const postEdges = data?.allMarkdownRemark?.edges;
@@ -126,12 +127,7 @@ const PostListing = ({ data }) => {
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              <Text m={(0, 2)}>
-                {post.categories &&
-                  `${post.categories.map(
-                    (category) => `${category === "english" ? "🇬🇧" : "🇸🇦"} `
-                  )}`}
-              </Text>
+              <LanguageFlag post={post} />
 
               <Center>
                 <Image
