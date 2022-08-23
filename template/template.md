@@ -3,7 +3,7 @@ title: "{title}"
 date: "{date}"
 categories:
   - "{category}"
-tags: []
+tags: ["{tag}"]
 
 youtube: "{youtube}"
 cover: "{cover}"
