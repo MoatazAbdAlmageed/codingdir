@@ -6,7 +6,7 @@ categories:
 tags:
   [
     "pin",
-    "Microservices",
+    "microservices",
     "java",
     "spring",
     "testing",

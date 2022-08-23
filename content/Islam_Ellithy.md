@@ -5,7 +5,13 @@ categories:
   - "عربي"
 tags:
   [
-    "flutter","kafka","java","android","productivity","software engineering",".NET"
+    "flutter",
+    "kafka",
+    "java",
+    "android",
+    "productivity",
+    "software engineering",
+    ".NET",
   ]
 
 youtube: "https://www.youtube.com/channel/UChnShSC_XGY-fmhIpN5UOmA/playlists"
@@ -15,7 +21,6 @@ linkedin: ""
 twitter: ""
 description: "هنا في قناتي احاول ان ابسط علوم الحاسب بالغة العربية لكي يصبح لدي العرب جيل قادر علي استعاب المعلومات والتقنيات المتطورة في مجال علوم الحاسب بل ومنافسة الغرب في هذا التقنيات المتعلقة بعلوم الحاسب"
 ---
-
 
     "Flutter",
     "Kafka بالعربي",
@@ -41,7 +46,7 @@ description: "هنا في قناتي احاول ان ابسط علوم الحا�
     "MPI Library",
     "tensorflow",
     "IS",
-    "Software Engineering",
+    "software engineering",
     "شعراوي",
     "Computer Vision",
     "CS50",

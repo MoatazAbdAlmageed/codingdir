@@ -7,10 +7,9 @@ categories:
   - "عربي"
 
 tags:
-  - "Microservices"
+  - "microservices"
   - "software architecture"
   - "islamic"
-  - "software architecture"
   - "software development"
   - "software engineering"
   - "pin"

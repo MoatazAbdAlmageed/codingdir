@@ -27,7 +27,7 @@ tags:
 "Back-end development",
 "Algorithms and Data Structures",
 "Computer Networking Full Course",
-"Software Development",
+"software development",
 "Interviews",
 "Web Development",
 "Visual Studio Code",

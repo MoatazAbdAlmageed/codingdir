@@ -91,7 +91,9 @@ const PostListing = ({ data, title }) => {
           </a>
         </Center>
 
-        <Heading mb={5}>{title}</Heading>
+        <Heading mb={5}>
+          {title.charAt(0).toUpperCase() + title.slice(1)}
+        </Heading>
         <InputGroup mt={2}>
           <InputLeftElement
             zIndex={0}

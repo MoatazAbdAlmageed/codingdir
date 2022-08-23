@@ -19,14 +19,13 @@ cover: "https://yt3.ggpht.com/ytc/AKedOLTghddo6Mg1UFCyjABZ6yAEk8NJKHFh0XHeUX-IpA
 youtube: "https://www.youtube.com/channel/UCOpR7Tg8CVUdgZCUbQlKY-g"
 ---
 
-
     "Microsoft Visual Studio",
     "General",
     ".NET Core",
     "Products Development",
     "MEAN",
-    "Software Architecture",
-    "Software Architecture",
+    "software architecture",
+    "software architecture",
     "Cloud Development",
     "Real Agility",
     "Code Tips",
