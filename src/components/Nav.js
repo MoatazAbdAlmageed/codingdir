@@ -362,8 +362,16 @@ const NAV_ITEMS = [
         href: "/tags/wordpress",
       },
       {
-        label: "c#",
-        href: "/tags/c#",
+        label: "c",
+        href: "/tags/c",
+      },
+      {
+        label: "c++",
+        href: "/tags/CPlusPlus",
+      },
+      {
+        label: "CSharp",
+        href: "/tags/csharp",
       },
       {
         label: "python",
