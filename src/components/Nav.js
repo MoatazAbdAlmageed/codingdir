@@ -95,22 +95,9 @@ const DesktopNav = () => {
                   color: linkHoverColor,
                 }}
               >
-                {`${_.kebabCase(navItem.label)}`}
+                {navItem.label.charAt(0).toUpperCase() + navItem.label.slice(1)}
                 {navItem.children && (
-                  <Flex
-                    transition={"all .3s ease"}
-                    transform={"translateX(-10px)"}
-                    opacity={0.5}
-                    _groupHover={{
-                      opacity: "100%",
-                      transform: "translateX(0)",
-                    }}
-                    justify={"flex-end"}
-                    align={"center"}
-                    flex={1}
-                  >
-                    <Icon color={"red.400"} w={5} h={5} as={ChevronDownIcon} />
-                  </Flex>
+                  <Icon color={"red.400"} w={5} h={5} as={ChevronDownIcon} />
                 )}
               </Link>
             </PopoverTrigger>
@@ -155,7 +142,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
             _groupHover={{ color: "red.400" }}
             fontWeight={500}
           >
-            {label}
+            {label.charAt(0).toUpperCase() + label.slice(1)}
           </Text>
           <Text fontSize={"sm"}>{subLabel}</Text>
         </Box>
@@ -222,7 +209,7 @@ const MobileNavItem = ({ label, children, href }) => {
           {children &&
             children.map((child) => (
               <Link key={child.label} py={2} href={child.href}>
-                {child.label}
+                {child.label.charAt(0).toUpperCase() + child.label.slice(1)}
               </Link>
             ))}
         </Stack>
@@ -239,7 +226,7 @@ const NAV_ITEMS = [
       "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
   },
   {
-    label: "Computer science 🏫",
+    label: "Computer science",
     href: "/tags/cs",
     description:
       "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.",
@@ -300,10 +287,18 @@ const NAV_ITEMS = [
         label: "microservice",
         href: "/tags/microservices",
       },
+      {
+        label: "design patterns",
+        href: "/tags/design-patterns",
+      },
+      {
+        label: "solid",
+        href: "/tags/solid",
+      },
     ],
   },
   {
-    label: "FrontEnd 🎨",
+    label: "FrontEnd",
     href: "/tags/frontend",
 
     children: [
@@ -347,7 +342,7 @@ const NAV_ITEMS = [
   },
 
   {
-    label: "BackEnd ⚙",
+    label: "BackEnd",
     href: "/tags/backend",
     children: [
       {
@@ -389,7 +384,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Database 🗃️",
+    label: "Database",
     href: "/tags/database",
     children: [
       {
@@ -419,7 +414,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Mobile 📱",
+    label: "Mobile",
     href: "/tags/mobile",
     children: [
       {
@@ -445,7 +440,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Devops 🖲",
+    label: "Devops",
     href: "/tags/devops",
     children: [
       {
@@ -480,28 +475,28 @@ const NAV_ITEMS = [
   },
 
   {
-    label: "Podcasts 🔉",
+    label: "Podcasts",
     href: "/tags/podcast",
   },
   {
-    label: "Islamic 🕌",
+    label: "Islamic",
     href: "/tags/islamic",
   },
   {
-    label: "English 🗣️",
+    label: "English",
     href: "/tags/english",
   },
 
   {
-    label: "Topics 🏷️",
+    label: "Topics",
     href: "/tags",
   },
   {
-    label: "Websites 🕸️",
+    label: "Websites",
     href: "/tags/website",
   },
   {
-    label: "Submit 💁",
+    label: "Submit",
     href: "/submit",
   },
 ];
