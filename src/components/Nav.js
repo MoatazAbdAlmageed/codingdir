@@ -19,6 +19,8 @@ import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import React from "react";
 import config from "../../data/SiteConfig";
 
+const _ = require("lodash");
+
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
 
@@ -93,7 +95,7 @@ const DesktopNav = () => {
                   color: linkHoverColor,
                 }}
               >
-                {navItem.label}
+                {`${_.kebabCase(navItem.label)}`}
                 {navItem.children && (
                   <Flex
                     transition={"all .3s ease"}
@@ -244,17 +246,14 @@ const NAV_ITEMS = [
     children: [
       {
         label: "problem-solving",
-        subLabel: "problem-solving description here",
         href: "/tags/problem-solving",
       },
       {
         label: "data-structures",
-        subLabel: "data-structures description here",
         href: "/tags/data-structures",
       },
       {
         label: "algorithms",
-        subLabel: "algorithms description here",
         href: "/tags/algorithms",
       },
       {
@@ -310,7 +309,6 @@ const NAV_ITEMS = [
     children: [
       {
         label: "HTML",
-        subLabel: "HTML description here",
         href: "/tags/html",
       },
       {
