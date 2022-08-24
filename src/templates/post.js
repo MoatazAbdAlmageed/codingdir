@@ -6,6 +6,8 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { graphql, Link } from "gatsby";
+import { capitalize, kebabCase } from "lodash";
 import {
   FaBehance,
   FaGithub,
@@ -13,16 +15,14 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
-import { Link, graphql } from "gatsby";
-import { capitalize, kebabCase } from "lodash";
 
-import Helmet from "react-helmet";
-import { LanguageFlag } from "../components/LanguageFlag";
-import Layout from "../layout";
 import React from "react";
+import Helmet from "react-helmet";
+import config from "../../data/SiteConfig";
+import { LanguageFlag } from "../components/LanguageFlag";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
-import config from "../../data/SiteConfig";
+import Layout from "../layout";
 import styles from "./post.module.scss";
 
 const BlogTags = (props) => {
@@ -91,30 +91,29 @@ export default ({ data, pageContext }) => {
         justifyContent="center"
         marginTop={{ base: "3", sm: "0" }}
       >
-        <Heading marginBottom={2}>{post.title}</Heading>
+        <Heading marginBottom={2}>
+          {post.youtube && (
+            <a
+              style={{ fontSize: ".8em" }}
+              target="_blank"
+              href={post.youtube}
+              activeClassName={styles.activeNav}
+            >
+              <FaYoutube color="#ff613d" />
+              Click here to visit{" "}
+              <i style={{ color: "orange" }}>{post.title}</i> Youtube channel
+            </a>
+          )}
+        </Heading>
         <LanguageFlag post={post} />
+        Topics:
         <BlogTags tags={[...new Set(post.tags)]} />
-
         <Text
           as="p"
           marginTop="2"
           color={useColorModeValue("gray.700", "gray.200")}
         ></Text>
-
         <ul>
-          {post.youtube && (
-            <li>
-              <a
-                style={{ color: "orange" }}
-                target="_blank"
-                href={post.youtube}
-                activeClassName={styles.activeNav}
-              >
-                <FaYoutube color="#ff0000" />
-                {post.youtube}
-              </a>
-            </li>
-          )}
           {post.github && (
             <a
               style={{ color: "orange" }}
@@ -166,7 +165,6 @@ export default ({ data, pageContext }) => {
             </li>
           )}
         </ul>
-
         <div
           dangerouslySetInnerHTML={{
             __html: postNode.html
