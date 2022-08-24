@@ -69,6 +69,7 @@ export default ({ data, pageContext }) => {
             src={post.cover || "/YouTube-Icon-Gray-Box.jpg"}
             alt={post.title}
             objectFit="contain"
+            width="200px"
           />
         </Box>
         <Box width="100%" position="absolute" height="100%">
