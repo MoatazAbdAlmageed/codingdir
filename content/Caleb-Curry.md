@@ -5,7 +5,7 @@ categories:
   - "english"
 tags:
   - "algorithms"
-  - "CPlusPlus"
+  - "cplusplus"
   - "data structures"
   - "java"
   - "python"

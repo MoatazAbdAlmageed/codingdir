@@ -366,11 +366,11 @@ const NAV_ITEMS = [
       },
       {
         label: "c++",
-        href: "/tags/CPlusPlus",
+        href: "/tags/cplusplus",
       },
       {
         label: "CSharp",
-        href: "/tags/csharp",
+        href: "/tags/c-sharp",
       },
       {
         label: "python",

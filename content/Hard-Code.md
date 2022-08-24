@@ -8,7 +8,7 @@ categories:
 tags:
   - "pin"
   - "algorithms"
-  - "CPlusPlus"
+  - "cplusplus"
   - "c"
   - "data structures"
   - "regular-expressions"

@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "bootstrap"
-  - "CPlusPlus"
+  - "cplusplus"
   - "css"
   - "html"
   - "JS"

@@ -7,7 +7,7 @@ categories:
   - "عربي"
 
 tags:
-  - "CPlusPlus"
+  - "cplusplus"
   - "linux"
   - "math"
   - "groovy"
@@ -19,5 +19,3 @@ tags:
   - "python"
   - "pin"
 ---
-
-

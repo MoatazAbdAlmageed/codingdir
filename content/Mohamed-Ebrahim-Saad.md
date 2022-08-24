@@ -6,7 +6,7 @@ categories:
 tags:
   - "ASP.NET"
   - "bootstrap"
-  - "CPlusPlus"
+  - "cplusplus"
   - "c"
   - "css"
   - "entity-framework"
