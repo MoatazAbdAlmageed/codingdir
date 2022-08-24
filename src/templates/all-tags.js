@@ -1,10 +1,10 @@
 import { Heading, SimpleGrid } from "@chakra-ui/react";
 
-import Helmet from "react-helmet";
-import Layout from "../layout";
 import { Link } from "gatsby";
 import React from "react";
+import Helmet from "react-helmet";
 import styles from "../components/PostTags.module.scss";
+import Layout from "../layout";
 const _ = require("lodash");
 
 const AllTags = ({ pageContext }) => {
@@ -24,7 +24,7 @@ const AllTags = ({ pageContext }) => {
                 return (
                   <Link to={`/tags/${_.kebabCase(tag)}`}>
                     {" "}
-                    <span>{tag.charAt(0).toUpperCase() + tag.slice(1)}</span>
+                    <span>{_.capitalize(tag)}</span>
                   </Link>
                 );
               })}

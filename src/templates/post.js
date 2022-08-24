@@ -1,12 +1,4 @@
 import {
-  FaBehance,
-  FaGithub,
-  FaLink,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
-
-import {
   Box,
   Heading,
   Image,
@@ -14,15 +6,24 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { graphql, Link } from "gatsby";
-import React from "react";
+import {
+  FaBehance,
+  FaGithub,
+  FaLink,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
+import { Link, graphql } from "gatsby";
+
 import Helmet from "react-helmet";
-import config from "../../data/SiteConfig";
 import { LanguageFlag } from "../components/LanguageFlag";
+import Layout from "../layout";
+import React from "react";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
-import Layout from "../layout";
+import config from "../../data/SiteConfig";
 import styles from "./post.module.scss";
+
 const _ = require("lodash");
 
 const BlogTags = (props) => {
@@ -32,7 +33,7 @@ const BlogTags = (props) => {
         return (
           <Tag margin={(0, 1)} variant="solid" colorScheme="orange" key={tag}>
             <Link key={tag} to={`/tags/${_.kebabCase(tag)}`}>
-              <span>{tag.charAt(0).toUpperCase() + tag.slice(1)}</span>
+              <span>{_.capitalize(tag)}</span>
             </Link>
           </Tag>
         );

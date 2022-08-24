@@ -86,7 +86,7 @@ const DesktopNav = () => {
             <PopoverTrigger>
               <Link
                 p={2}
-                href={navItem.href ?? "#"}
+                href={navItem?.children?.length ? "#" : navItem.href}
                 fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
@@ -95,7 +95,7 @@ const DesktopNav = () => {
                   color: linkHoverColor,
                 }}
               >
-                {navItem.label.charAt(0).toUpperCase() + navItem.label.slice(1)}
+                {_.capitalize(navItem.label)}
                 {navItem.children && (
                   <Icon color={"red.400"} w={5} h={5} as={ChevronDownIcon} />
                 )}
@@ -142,7 +142,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
             _groupHover={{ color: "red.400" }}
             fontWeight={500}
           >
-            {label.charAt(0).toUpperCase() + label.slice(1)}
+            {_.capitalize(label)}
           </Text>
           <Text fontSize={"sm"}>{subLabel}</Text>
         </Box>
@@ -173,7 +173,7 @@ const MobileNavItem = ({ label, children, href }) => {
       <Flex
         py={2}
         as={Link}
-        href={href ?? "#"}
+        href={children?.length ? "#" : href}
         justify={"space-between"}
         align={"center"}
         _hover={{
@@ -209,7 +209,7 @@ const MobileNavItem = ({ label, children, href }) => {
           {children &&
             children.map((child) => (
               <Link key={child.label} py={2} href={child.href}>
-                {child.label.charAt(0).toUpperCase() + child.label.slice(1)}
+                {_.capitalize(child.label)}
               </Link>
             ))}
         </Stack>

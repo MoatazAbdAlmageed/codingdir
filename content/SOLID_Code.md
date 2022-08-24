@@ -3,7 +3,7 @@ title: "SOLID Code"
 date: "2022-05-10"
 categories:
   - "عربي"
-tags: ["pin", "system design", "kafka", "microservices"]
+tags: ["pin", "system design", "kafka", "microservices", "git", "linux", "vim"]
 
 youtube: "https://www.youtube.com/c/pragma-ar/videos"
 cover: "https://yt3.ggpht.com/a5Z3-RRTZUjgoSnHGbO3d3Pm8GMtScGcFuerBaVfvLnlbkxpKlT0XTJoXIbM0NR3lN1ZJuz1=s88-c-k-c0x00ffffff-no-rj"

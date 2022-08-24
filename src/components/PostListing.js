@@ -8,7 +8,7 @@ import {
   InputLeftElement,
   SimpleGrid,
   Stack,
-  Text,
+  Text
 } from "@chakra-ui/react";
 
 import { FaStar } from "react-icons/fa";
@@ -92,7 +92,8 @@ const PostListing = ({ data, title }) => {
         </Center>
 
         <Heading mb={5}>
-          {title.charAt(0).toUpperCase() + title.slice(1)}
+          {_.capitalize(title)}
+
         </Heading>
         <InputGroup mt={2}>
           <InputLeftElement
