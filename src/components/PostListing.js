@@ -15,10 +15,11 @@ import { FaStar } from "react-icons/fa";
 import { LanguageFlag } from "./LanguageFlag";
 import React from "react";
 import { SearchIcon } from "@chakra-ui/icons";
+import _ from "lodash";
 import moment from "moment";
 import uuid from "react-uuid";
 
-const PostListing = ({ data, title }) => {
+const PostListing = ({ data, title: listTitle }) => {
   const postEdges = data?.allMarkdownRemark?.edges;
   const getPostList = () => {
     const postList = [];
@@ -91,7 +92,7 @@ const PostListing = ({ data, title }) => {
           </a>
         </Center>
 
-        <Heading mb={5}>{_.capitalize(title)}</Heading>
+        <Heading mb={5}>{_.capitalize(listTitle)}</Heading>
         <InputGroup mt={2}>
           <InputLeftElement
             zIndex={0}
