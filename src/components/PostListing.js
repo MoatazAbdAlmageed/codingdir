@@ -15,7 +15,7 @@ import { FaStar } from "react-icons/fa";
 import { LanguageFlag } from "./LanguageFlag";
 import React from "react";
 import { SearchIcon } from "@chakra-ui/icons";
-import _ from "lodash";
+import { capitalize } from "lodash";
 import moment from "moment";
 import uuid from "react-uuid";
 
@@ -92,7 +92,7 @@ const PostListing = ({ data, title: listTitle }) => {
           </a>
         </Center>
 
-        <Heading mb={5}>{_.capitalize(listTitle)}</Heading>
+        <Heading mb={5}>{capitalize(listTitle)}</Heading>
         <InputGroup mt={2}>
           <InputLeftElement
             zIndex={0}
@@ -135,6 +135,7 @@ const PostListing = ({ data, title: listTitle }) => {
                   fallbackSrc="/YouTube-Icon-Gray-Box.jpg"
                   boxSize="88px"
                   width="auto"
+                  alt="YouTube-Icon-Gray-Box"
                 />
               </Center>
               <Text>

@@ -17,9 +17,8 @@ import {
 import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 
 import React from "react";
+import { capitalize } from "lodash";
 import config from "../../data/SiteConfig";
-
-const _ = require("lodash");
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -95,7 +94,7 @@ const DesktopNav = () => {
                   color: linkHoverColor,
                 }}
               >
-                {_.capitalize(navItem.label)}
+                {capitalize(navItem.label)}
                 {navItem.children && (
                   <Icon color={"red.400"} w={5} h={5} as={ChevronDownIcon} />
                 )}
@@ -142,7 +141,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
             _groupHover={{ color: "red.400" }}
             fontWeight={500}
           >
-            {_.capitalize(label)}
+            {capitalize(label)}
           </Text>
           <Text fontSize={"sm"}>{subLabel}</Text>
         </Box>
@@ -209,7 +208,7 @@ const MobileNavItem = ({ label, children, href }) => {
           {children &&
             children.map((child) => (
               <Link key={child.label} py={2} href={child.href}>
-                {_.capitalize(child.label)}
+                {capitalize(child.label)}
               </Link>
             ))}
         </Stack>

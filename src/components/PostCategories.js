@@ -1,7 +1,9 @@
 import { HStack, Tag } from "@chakra-ui/react";
+import { capitalize, kebabCase } from "lodash";
+
 import { Link } from "gatsby";
-import _ from "lodash";
 import React from "react";
+
 const PostCategories = ({ categories, margin }) => {
   return (
     <HStack marginBottom={1}>
@@ -14,8 +16,8 @@ const PostCategories = ({ categories, margin }) => {
             colorScheme="blue"
             margin={margin}
           >
-            <Link key={category} to={`/${_.kebabCase(category)}`}>
-              <span>{_.capitalize(category)}</span>
+            <Link key={category} to={`/${kebabCase(category)}`}>
+              <span>{capitalize(category)}</span>
             </Link>
           </Tag>
         ))}

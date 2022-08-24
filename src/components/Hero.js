@@ -1,14 +1,6 @@
-import React from "react";
+import { Button, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 
-import {
-  Button,
-  Flex,
-  Heading,
-  Image,
-  Stack,
-  Text,
-  useBreakpointValue,
-} from "@chakra-ui/react";
+import React from "react";
 
 export default function Hero() {
   return (

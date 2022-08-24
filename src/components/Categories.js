@@ -1,6 +1,8 @@
+import { Link, graphql, useStaticQuery } from "gatsby";
+
 import React from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
-import _ from "lodash";
+
+const { kebabCase } = require("lodash");
 
 const Categories = (props) => {
   const data = useStaticQuery(graphql`
@@ -19,7 +21,7 @@ const Categories = (props) => {
       {data.allMarkdownRemark.group.map((category) => (
         <li key={category.fieldValue}>
           <Link
-            to={`/${_.kebabCase(category.fieldValue)}`}
+            to={`/${kebabCase(category.fieldValue)}`}
             key={category.fieldValue}
             activeClassName={props.activeClassName}
           >

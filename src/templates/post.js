@@ -14,6 +14,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { Link, graphql } from "gatsby";
+import { capitalize, kebabCase } from "lodash";
 
 import Helmet from "react-helmet";
 import { LanguageFlag } from "../components/LanguageFlag";
@@ -24,16 +25,14 @@ import SocialLinks from "../components/SocialLinks";
 import config from "../../data/SiteConfig";
 import styles from "./post.module.scss";
 
-const _ = require("lodash");
-
 const BlogTags = (props) => {
   return (
     <Box marginTop={props.marginTop}>
       {props.tags.map((tag) => {
         return (
           <Tag margin={(0, 1)} variant="solid" colorScheme="orange" key={tag}>
-            <Link key={tag} to={`/tags/${_.kebabCase(tag)}`}>
-              <span>{_.capitalize(tag)}</span>
+            <Link key={tag} to={`/tags/${kebabCase(tag)}`}>
+              <span>{capitalize(tag)}</span>
             </Link>
           </Tag>
         );
