@@ -1,16 +1,19 @@
+import { Grid, Text } from "@chakra-ui/react";
+
 import React from "react";
-import { Text } from "@chakra-ui/react";
 
 export function LanguageFlag({ post }) {
   return !post?.categories ? (
     <></>
   ) : (
-    post?.categories?.map((category) => (
-      <Text m={(0, 2)}>
-        <a href={`/${category}`}>
-          {category.toLowerCase() === "english" ? "🇬🇧" : "🇸🇦"}
-        </a>
-      </Text>
-    ))
+    <Grid templateColumns="repeat(2, 1fr)" gap={2}>
+      {post?.categories?.map((category) => (
+        <Text m={(0, 2)}>
+          <a href={`/${category}`}>
+            {category.toLowerCase() === "english" ? "🇬🇧" : "🇸🇦"}
+          </a>
+        </Text>
+      ))}
+    </Grid>
   );
 }

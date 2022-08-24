@@ -1,8 +1,9 @@
-import { Container, Text } from "@chakra-ui/react";
 import * as React from "react";
 
+import { Container, Text } from "@chakra-ui/react";
+
 const Footer = () => (
-  <Container as="footer" role="contentinfo">
+  <Container as="footer" role="contentinfo" mt={5}>
     <Text textAlign="center" fontSize="sm" color="subtle">
       <a style={{ color: "orange" }} href="/moataz-mohammady">
         By Moataz Mohammady
