@@ -478,6 +478,14 @@ const NAV_ITEMS = [
         label: "cloud",
         href: "/tag/cloud",
       },
+      {
+        label: "aws",
+        href: "/tag/aws",
+      },
+      {
+        label: "azure",
+        href: "/tag/azure",
+      },
     ],
   },
 
