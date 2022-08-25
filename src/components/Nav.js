@@ -19,6 +19,7 @@ import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 
 import React from "react";
 import { capitalize } from "lodash";
+import config from "../../data/SiteConfig";
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -57,7 +58,12 @@ export default function WithSubnavigation() {
             color={useColorModeValue("gray.800", "white")}
           >
             <Link href={"/"}>
-              <Image src="/logos/main.png" alt={config.siteTitle} />
+              <Image
+                src="/logos/main.png"
+                alt={config.siteTitle}
+                height="auto"
+                width="250px"
+              />
             </Link>
           </Text>
 
