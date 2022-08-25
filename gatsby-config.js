@@ -89,18 +89,8 @@ module.exports = {
         display: "minimal-ui",
         icons: [
           {
-            src: "/logos/logo-48.png",
-            sizes: "48x48",
-            type: "image/png",
-          },
-          {
-            src: "/logos/logo-1024.png",
-            sizes: "1024x1024",
-            type: "image/png",
-          },
-          {
-            src: "YouTube-Icon-Gray-Box.png",
-            sizes: "494x493",
+            src: "main.png",
+            sizes: "1000x200",
             type: "image/png",
           },
         ],
