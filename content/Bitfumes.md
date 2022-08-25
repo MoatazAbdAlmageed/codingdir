@@ -19,7 +19,5 @@ tags:
   - "react"
   - "sass"
   - "tailwindcss"
-cover: "/YouTube-Icon-Gray-Box.png"
+cover: "https://yt3.ggpht.com/XnZIeUhhkHTU1iY_veQpGnWqTwLKWLM7r44sMRmQxZ7Xg3RUdmZYik3oBI5rYCj78TG1MeD5BLY=s88-c-k-c0x00ffffff-no-rj"
 ---
-
-[https://youtube.com/c/Bitfumes](https://youtube.com/c/Bitfumes)

@@ -19,7 +19,9 @@ const AllTags = ({ pageContext }) => {
           <SimpleGrid columns={{ lg: 5, sm: 1, md: 3 }}>
             {tags
               .filter((tag) => tag != "")
-              .sort()
+              .sort(function(a, b) {
+                return a.toLowerCase().localeCompare(b.toLowerCase());
+              })
               .map((tag) => {
                 return (
                   <Link to={`/tag/${kebabCase(tag)}`}>

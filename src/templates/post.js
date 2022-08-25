@@ -4,14 +4,14 @@ import {
   Image,
   Tag,
   Text,
-  useColorModeValue
+  useColorModeValue,
 } from "@chakra-ui/react";
 import {
   FaBehance,
   FaGithub,
   FaLink,
   FaLinkedinIn,
-  FaYoutube
+  FaYoutube,
 } from "react-icons/fa";
 import { Link, graphql } from "gatsby";
 import { capitalize, kebabCase } from "lodash";
@@ -92,7 +92,7 @@ export default ({ data, pageContext }) => {
         marginTop={{ base: "3", sm: "0" }}
       >
         <Heading marginBottom={2}>
-          {post.youtube && (
+          {post.youtube ? (
             <a
               style={{ fontSize: ".8em" }}
               target="_blank"
@@ -103,6 +103,8 @@ export default ({ data, pageContext }) => {
               Click here to visit{" "}
               <i style={{ color: "orange" }}>{post.title}</i> Youtube channel
             </a>
+          ) : (
+            post.title
           )}
         </Heading>
         <LanguageFlag post={post} />
