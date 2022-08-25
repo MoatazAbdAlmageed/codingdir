@@ -49,7 +49,7 @@ description: "هنا في قناتي احاول ان ابسط علوم الحا�
     "software engineering",
     "شعراوي",
     "Computer Vision",
-    "CS50",
+    "cs50",
     "Web Development",
     "Computer Architecture MIT",
     "Android",
