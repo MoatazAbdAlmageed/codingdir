@@ -5,7 +5,7 @@ import { Container, Text } from "@chakra-ui/react";
 const Footer = () => (
   <Container as="footer" role="contentinfo" mt={5}>
     <Text textAlign="center" fontSize="sm" color="subtle">
-      <a style={{ color: "orange" }} href="/moataz-mohammady">
+      <a style={{ color: "#e72c33" }} href="/moataz-mohammady">
         By Moataz Mohammady
       </a>{" "}
       <br />
@@ -19,7 +19,7 @@ const Footer = () => (
       </a>{" "}
       <br />
       <a
-        style={{ color: "orange" }}
+        style={{ color: "#e72c33" }}
         target="_blank"
         href="https://github.com/MoatazAbdAlmageed/YouTube-Channels"
       >

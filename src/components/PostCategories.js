@@ -10,7 +10,7 @@ const PostCategories = ({ categories, margin }) => {
       {categories &&
         categories.map((category) => (
           <Tag
-            style={{ background: "orange" }}
+            style={{ background: "#e72c33" }}
             size={"md"}
             variant="solid"
             colorScheme="blue"

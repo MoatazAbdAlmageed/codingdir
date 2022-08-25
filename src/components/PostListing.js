@@ -11,13 +11,13 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-import { FaStar } from "react-icons/fa";
-import { LanguageFlag } from "./LanguageFlag";
-import React from "react";
 import { SearchIcon } from "@chakra-ui/icons";
 import { capitalize } from "lodash";
 import moment from "moment";
+import React from "react";
+import { FaStar } from "react-icons/fa";
 import uuid from "react-uuid";
+import { LanguageFlag } from "./LanguageFlag";
 
 const PostListing = ({ data, title: listTitle }) => {
   const postEdges = data?.allMarkdownRemark?.edges;
@@ -144,7 +144,7 @@ const PostListing = ({ data, title: listTitle }) => {
             </a>
             {post.tags?.includes("pin") && (
               <Center>
-                <FaStar color="orange" />
+                <FaStar color="#e72c33" />
               </Center>
             )}{" "}
           </Box>
