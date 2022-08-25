@@ -4,6 +4,7 @@ import {
   Flex,
   Icon,
   IconButton,
+  Image,
   Link,
   Popover,
   PopoverContent,
@@ -18,7 +19,6 @@ import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 
 import React from "react";
 import { capitalize } from "lodash";
-import config from "../../data/SiteConfig";
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -56,7 +56,9 @@ export default function WithSubnavigation() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Link href={"/"}>🏠 {config.siteTitle}</Link>
+            <Link href={"/"}>
+              <Image src="/logos/main.png" alt={config.siteTitle} />
+            </Link>
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
