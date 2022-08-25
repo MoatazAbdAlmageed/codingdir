@@ -1,3 +1,4 @@
+import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
   Box,
   Collapse,
@@ -15,10 +16,9 @@ import {
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react";
-import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 
-import React from "react";
 import { capitalize } from "lodash";
+import React from "react";
 import config from "../../data/SiteConfig";
 
 export default function WithSubnavigation() {
@@ -104,7 +104,7 @@ const DesktopNav = () => {
               >
                 {capitalize(navItem.label)}
                 {navItem.children && (
-                  <Icon color={"red.400"} w={5} h={5} as={ChevronDownIcon} />
+                  <Icon color={"#e72c33"} w={5} h={5} as={ChevronDownIcon} />
                 )}
               </Link>
             </PopoverTrigger>
@@ -146,7 +146,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
         <Box>
           <Text
             transition={"all .3s ease"}
-            _groupHover={{ color: "red.400" }}
+            _groupHover={{ color: "#e72c33" }}
             fontWeight={500}
           >
             {capitalize(label)}

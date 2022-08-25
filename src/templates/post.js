@@ -6,6 +6,8 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { graphql, Link } from "gatsby";
+import { capitalize, kebabCase } from "lodash";
 import {
   FaBehance,
   FaGithub,
@@ -13,16 +15,14 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
-import { Link, graphql } from "gatsby";
-import { capitalize, kebabCase } from "lodash";
 
-import Helmet from "react-helmet";
-import { LanguageFlag } from "../components/LanguageFlag";
-import Layout from "../layout";
 import React from "react";
+import Helmet from "react-helmet";
+import config from "../../data/SiteConfig";
+import { LanguageFlag } from "../components/LanguageFlag";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
-import config from "../../data/SiteConfig";
+import Layout from "../layout";
 import styles from "./post.module.scss";
 
 const BlogTags = (props) => {
@@ -30,7 +30,7 @@ const BlogTags = (props) => {
     <Box marginTop={props.marginTop}>
       {props.tags.map((tag) => {
         return (
-          <Tag margin={(0, 1)} variant="solid" colorScheme="orange" key={tag}>
+          <Tag margin={(0, 1)} variant="solid" colorScheme="red" key={tag}>
             <Link key={tag} to={`/tag/${kebabCase(tag)}`}>
               <span>{capitalize(tag)}</span>
             </Link>
@@ -75,8 +75,8 @@ export default ({ data, pageContext }) => {
         <Box width="100%" position="absolute" height="100%">
           <Box
             bgGradient={useColorModeValue(
-              "radial(orange.600 1px, transparent 1px)",
-              "radial(orange.300 1px, transparent 1px)"
+              "radial(#e72c33.600 1px, transparent 1px)",
+              "radial(#e72c33.300 1px, transparent 1px)"
             )}
             backgroundSize="20px 20px"
             opacity="0.4"
@@ -91,7 +91,7 @@ export default ({ data, pageContext }) => {
         justifyContent="center"
         marginTop={{ base: "3", sm: "0" }}
       >
-        <Heading marginBottom={2}>
+        <Heading color="#454159" marginBottom={2}>
           {post.youtube ? (
             <a
               style={{ fontSize: ".8em" }}
@@ -101,7 +101,7 @@ export default ({ data, pageContext }) => {
             >
               <FaYoutube color="#ff613d" />
               Click here to visit{" "}
-              <i style={{ color: "orange" }}>{post.title}</i> Youtube channel
+              <i style={{ color: "#e72c33" }}>{post.title}</i> Youtube channel
             </a>
           ) : (
             post.title
@@ -118,7 +118,7 @@ export default ({ data, pageContext }) => {
         <ul>
           {post.github && (
             <a
-              style={{ color: "orange" }}
+              style={{ color: "#e72c33" }}
               target="_blank"
               href={post.github}
               activeClassName={styles.activeNav}
@@ -130,7 +130,7 @@ export default ({ data, pageContext }) => {
           {post.linkedin && (
             <li>
               <a
-                style={{ color: "orange" }}
+                style={{ color: "#e72c33" }}
                 target="_blank"
                 href={post.linkedin}
                 activeClassName={styles.activeNav}
@@ -143,7 +143,7 @@ export default ({ data, pageContext }) => {
           {post.site && (
             <li>
               <a
-                style={{ color: "orange" }}
+                style={{ color: "#e72c33" }}
                 target="_blank"
                 href={post.site}
                 activeClassName={styles.activeNav}
@@ -156,7 +156,7 @@ export default ({ data, pageContext }) => {
           {post.behance && (
             <li>
               <a
-                style={{ color: "orange" }}
+                style={{ color: "#e72c33" }}
                 target="_blank"
                 href={post.behance}
                 activeClassName={styles.activeNav}
@@ -180,7 +180,7 @@ export default ({ data, pageContext }) => {
         />
         <a
           className="admin_only"
-          style={{ color: "orange", visibility: "hidden" }}
+          style={{ color: "#e72c33", visibility: "hidden" }}
           target="_blank"
           href={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
             .replace(/ /g, "_")

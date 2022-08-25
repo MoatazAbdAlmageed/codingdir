@@ -6,7 +6,10 @@ const Footer = () => (
   <Container as="footer" role="contentinfo" mt={5}>
     <Text textAlign="center" fontSize="sm" color="subtle">
       <a style={{ color: "#e72c33" }} href="/moataz-mohammady">
-        By Moataz Mohammady
+        By{" "}
+        <i>
+          <b> Moataz Mohammady</b>
+        </i>
       </a>{" "}
       <br />
       &copy; {new Date().getFullYear()} Built with ♥ using{" "}

@@ -92,7 +92,9 @@ const PostListing = ({ data, title: listTitle }) => {
           </a>
         </Center>
 
-        <Heading mb={5}>{capitalize(listTitle)}</Heading>
+        <Heading color="#e72c33" mb={5}>
+          {capitalize(listTitle)}
+        </Heading>
         <InputGroup mt={2}>
           <InputLeftElement
             zIndex={0}
@@ -138,7 +140,7 @@ const PostListing = ({ data, title: listTitle }) => {
                   alt="YouTube-Icon-Gray-Box"
                 />
               </Center>
-              <Text>
+              <Text color={"#454159"}>
                 <b>{post.title}</b>
               </Text>
             </a>
