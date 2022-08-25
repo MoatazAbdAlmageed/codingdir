@@ -7,7 +7,7 @@ const PostTags = ({ tags }) => {
     <div className={styles.tagContainer}>
       {tags &&
         tags.map((tag) => (
-          <Link key={tag} to={`/tags/${kebabCase(tag)}`}>
+          <Link key={tag} to={`/tag/${kebabCase(tag)}`}>
             <span>{tag.toUpperCase()}</span>
           </Link>
         ))}

@@ -22,7 +22,7 @@ const AllTags = ({ pageContext }) => {
               .sort()
               .map((tag) => {
                 return (
-                  <Link to={`/tags/${kebabCase(tag)}`}>
+                  <Link to={`/tag/${kebabCase(tag)}`}>
                     {" "}
                     <span>{capitalize(tag)}</span>
                   </Link>

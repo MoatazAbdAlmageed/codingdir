@@ -4,25 +4,25 @@ import {
   Image,
   Tag,
   Text,
-  useColorModeValue,
+  useColorModeValue
 } from "@chakra-ui/react";
-import { graphql, Link } from "gatsby";
-import { capitalize, kebabCase } from "lodash";
 import {
   FaBehance,
   FaGithub,
   FaLink,
   FaLinkedinIn,
-  FaYoutube,
+  FaYoutube
 } from "react-icons/fa";
+import { Link, graphql } from "gatsby";
+import { capitalize, kebabCase } from "lodash";
 
-import React from "react";
 import Helmet from "react-helmet";
-import config from "../../data/SiteConfig";
 import { LanguageFlag } from "../components/LanguageFlag";
+import Layout from "../layout";
+import React from "react";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
-import Layout from "../layout";
+import config from "../../data/SiteConfig";
 import styles from "./post.module.scss";
 
 const BlogTags = (props) => {
@@ -31,7 +31,7 @@ const BlogTags = (props) => {
       {props.tags.map((tag) => {
         return (
           <Tag margin={(0, 1)} variant="solid" colorScheme="orange" key={tag}>
-            <Link key={tag} to={`/tags/${kebabCase(tag)}`}>
+            <Link key={tag} to={`/tag/${kebabCase(tag)}`}>
               <span>{capitalize(tag)}</span>
             </Link>
           </Tag>

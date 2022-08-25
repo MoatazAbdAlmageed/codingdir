@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "gatsby";
-import config from "../../data/SiteConfig";
 import Categories from "./Categories";
+import { Link } from "gatsby";
+import React from "react";
+import config from "../../data/SiteConfig";
 import styles from "./Header.module.scss";
 
 const Header = () => (
@@ -14,13 +14,13 @@ const Header = () => (
     <nav>
       <ul className={styles.mainNav}>
         <li>
-          <Link to="/tags/podcast">Podcasts</Link>
+          <Link to="/tag/podcast">Podcasts</Link>
         </li>
         <li>
-          <Link to="/tags/talks">Talks</Link>
+          <Link to="/tag/talks">Talks</Link>
         </li>
         <li>
-          <Link to="/tags/podcast">Podcasts</Link>
+          <Link to="/tag/podcast">Podcasts</Link>
         </li>
         <li>
           <Link to="/tags">TAGS</Link>
