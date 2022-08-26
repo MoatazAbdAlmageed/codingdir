@@ -1,14 +1,4 @@
-import Button from "@atlaskit/button";
-import Select from "@atlaskit/select";
-import TextArea from "@atlaskit/textarea";
-import TextField from "@atlaskit/textfield";
-import Tooltip from "@atlaskit/tooltip";
 import { Flex, Stack } from "@chakra-ui/react";
-import React, { Fragment, useState } from "react";
-import Helmet from "react-helmet";
-import config from "../../data/SiteConfig";
-import Layout from "../layout/index";
-
 import Form, {
   ErrorMessage,
   Field,
@@ -16,6 +6,17 @@ import Form, {
   FormHeader,
   FormSection,
 } from "@atlaskit/form";
+import React, { Fragment, useState } from "react";
+
+import Button from "@atlaskit/button";
+import Helmet from "react-helmet";
+import Layout from "../layout/index";
+import Select from "@atlaskit/select";
+import TextArea from "@atlaskit/textarea";
+import TextField from "@atlaskit/textfield";
+import Tooltip from "@atlaskit/tooltip";
+import config from "../../data/SiteConfig";
+
 const Submit = ({ pageContext }) => {
   const { tags } = pageContext;
   const [success, setSuccess] = useState(false);
@@ -304,6 +305,22 @@ const Submit = ({ pageContext }) => {
                                 type="text"
                                 {...fieldProps}
                                 value={formData?.twitter}
+                                onChange={(e) => handleChange(e)}
+                              />
+                            </Tooltip>
+                          </Fragment>
+                        );
+                      }}
+                    </Field>{" "}
+                    <Field aria-required={true} name="site" label="Site">
+                      {({ fieldProps }) => {
+                        return (
+                          <Fragment>
+                            <Tooltip position="top" content="site">
+                              <TextField
+                                type="text"
+                                {...fieldProps}
+                                value={formData?.site}
                                 onChange={(e) => handleChange(e)}
                               />
                             </Tooltip>

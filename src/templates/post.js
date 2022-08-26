@@ -102,7 +102,7 @@ export default ({ data, pageContext }) => {
             >
               <FaYoutube color="#ff613d" />
               Click here to visit{" "}
-              <i style={{ color: "#e72c33" }}>{post.title}</i> Youtube channel
+              <i style={{ color: "#e72c33" }}>{post.title}</i>
             </a>
           ) : (
             post.title
