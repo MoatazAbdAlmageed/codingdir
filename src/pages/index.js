@@ -11,7 +11,7 @@ const Index = ({ data }) => (
     <main>
       <Helmet title={config.siteTitle} />
       <SEO />
-      <PostListing data={data} title="Latest Channels" />
+      <PostListing data={data} title="Latest Channels/Websites" />
     </main>
   </Layout>
 );
