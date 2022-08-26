@@ -1,6 +1,8 @@
 ---
 title: "Bitfumes"
 date: "2021-07-18"
+site: "https://bitfumes.com/"
+youtube: "https://www.youtube.com/bitfumes"
 categories:
   - "english"
 
