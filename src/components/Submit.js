@@ -200,12 +200,7 @@ const Submit = ({ pageContext }) => {
                         );
                       }}
                     </Field>
-                    <Field
-                      aria-required={true}
-                      name="youtube"
-                      label="Youtube"
-                      isRequired
-                    >
+                    <Field aria-required={true} name="youtube" label="Youtube">
                       {({ fieldProps }) => {
                         return (
                           <Fragment>
