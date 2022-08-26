@@ -10,7 +10,6 @@ sed -i "s/{tag}/$formattedTags/"  content/$fileName.md
 sed -i "s~{youtube}~$youtube~g" content/$fileName.md
 sed -i "s~{github}~$github~g" content/$fileName.md
 sed -i "s~{linkedin}~$linkedin~g" content/$fileName.md
-sed -i "s~{twitter}~$twitter~g" content/$fileName.md
 sed -i "s~{site}~$site~g" content/$fileName.md
 sed -i "s~{cover}~$cover~g" content/$fileName.md
 sed -i "s~{excerpt}~$excerpt~g" content/$fileName.md

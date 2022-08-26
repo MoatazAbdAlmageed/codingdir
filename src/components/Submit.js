@@ -29,7 +29,6 @@ const Submit = ({ pageContext }) => {
     tags: "",
     github: "",
     linkedin: "",
-    twitter: "",
   });
 
   const onSubmit = () => {
@@ -53,7 +52,6 @@ const Submit = ({ pageContext }) => {
           cover: formData?.cover.trim(),
           github: formData?.github.trim(),
           linkedin: formData?.linkedin.trim(),
-          twitter: formData?.twitter.trim(),
         },
       }),
     };
@@ -81,7 +79,6 @@ const Submit = ({ pageContext }) => {
       tags: "",
       github: "",
       linkedin: "",
-      twitter: "",
     });
   };
 
@@ -286,25 +283,6 @@ const Submit = ({ pageContext }) => {
                                 type="text"
                                 {...fieldProps}
                                 value={formData?.linkedin}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>{" "}
-                    <Field aria-required={true} name="twitter" label="Twitter">
-                      {({ fieldProps }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="Twitter account link"
-                            >
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.twitter}
                                 onChange={(e) => handleChange(e)}
                               />
                             </Tooltip>

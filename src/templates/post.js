@@ -100,7 +100,7 @@ export default ({ data, pageContext }) => {
               href={post.youtube}
               activeClassName={styles.activeNav}
             >
-              <FaYoutube color="#ff613d" />
+              <FaYoutube color="#e72c33" />
               Click here to visit{" "}
               <i style={{ color: "#e72c33" }}>{post.title}</i>
             </a>

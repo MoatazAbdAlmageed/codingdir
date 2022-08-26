@@ -55,12 +55,6 @@ on:
         default: ""
         type: string
 
-      twitter:
-        description: "Twitter"
-        required: false
-        default: ""
-        type: string
-
       site:
         description: "Site"
         required: false
@@ -83,7 +77,6 @@ jobs:
       youtube: ${{ github.event.inputs.youtube }}
       github: ${{ github.event.inputs.github }}
       linkedin: ${{ github.event.inputs.linkedin }}
-      twitter: ${{ github.event.inputs.twitter }}
       site: ${{ github.event.inputs.site }}
       cover: ${{ github.event.inputs.cover }}
       description: ${{ github.event.inputs.description }}
