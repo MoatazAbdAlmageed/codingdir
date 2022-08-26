@@ -29,6 +29,7 @@ const Submit = ({ pageContext }) => {
     tags: "",
     github: "",
     linkedin: "",
+    site: "",
   });
 
   const onSubmit = () => {
@@ -52,6 +53,7 @@ const Submit = ({ pageContext }) => {
           cover: formData?.cover.trim(),
           github: formData?.github.trim(),
           linkedin: formData?.linkedin.trim(),
+          site: formData?.site.trim(),
         },
       }),
     };
@@ -75,6 +77,7 @@ const Submit = ({ pageContext }) => {
       description: "",
       category: "",
       youtube: "",
+      site: "",
       cover: "",
       tags: "",
       github: "",
