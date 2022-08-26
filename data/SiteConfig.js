@@ -1,11 +1,11 @@
 const config = {
-  siteTitle: "YouTube Coding Channels", // Site title.
-  siteTitleShort: "YouTube Coding Channels", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "YouTube Coding Channels", // Alternative site title for SEO.
+  siteTitle: "Coding Dir", // Site title.
+  siteTitleShort: "Coding Dir", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Coding Dir", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://youtubechannels.gatsbyjs.io/", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "YouTube Coding Channels", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Coding Directory", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   googleAnalyticsID: "UA-205524940-1", // GA tracking ID.
