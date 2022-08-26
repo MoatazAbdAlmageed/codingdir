@@ -6,8 +6,6 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { graphql, Link } from "gatsby";
-import { capitalize, kebabCase } from "lodash";
 import {
   FaBehance,
   FaGithub,
@@ -15,14 +13,16 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
+import { Link, graphql } from "gatsby";
+import { capitalize, kebabCase } from "lodash";
 
-import React from "react";
 import Helmet from "react-helmet";
-import config from "../../data/SiteConfig";
 import { LanguageFlag } from "../components/LanguageFlag";
+import Layout from "../layout";
+import React from "react";
 import SEO from "../components/SEO";
 import SocialLinks from "../components/SocialLinks";
-import Layout from "../layout";
+import config from "../../data/SiteConfig";
 import styles from "./post.module.scss";
 
 const BlogTags = (props) => {
@@ -65,11 +65,12 @@ export default ({ data, pageContext }) => {
         >
           <Image
             margin={"auto"}
-            borderRadius="lg"
+            borderRadius="full"
             src={post.cover || "/YouTube-Icon-Gray-Box.jpg"}
             alt={post.title}
             objectFit="contain"
-            width="200px"
+            height="88px"
+            width="auto"
           />
         </Box>
         <Box width="100%" position="absolute" height="100%">
