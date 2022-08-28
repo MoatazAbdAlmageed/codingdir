@@ -233,6 +233,11 @@ const NAV_ITEMS = [
       "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
   },
   {
+    label: "Topics",
+    href: "/tags",
+  },
+
+  {
     label: "Computer science",
     href: "/tag/cs",
     description:
@@ -510,10 +515,6 @@ const NAV_ITEMS = [
     href: "/tag/english",
   },
 
-  {
-    label: "Topics",
-    href: "/tags",
-  },
   {
     label: "Websites",
     href: "/tag/website",
