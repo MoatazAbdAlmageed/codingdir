@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    ""
+    "GitOps","K8s","books","pin"
   ]
 
 youtube: "https://www.youtube.com/channel/UCYmPRHG8l6LMihiIV6xPhag/playlists"
