@@ -1,5 +1,5 @@
 ---
-title: "frontendmasters"
+title: "Frontend Masters"
 date: "2022-09-04"
 categories:
   - "english"
