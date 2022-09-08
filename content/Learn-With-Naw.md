@@ -14,6 +14,8 @@ tags:
   - "JS"
   - "PHP"
   - "vuejs"
+  - "graphql"
+  - "Apollo"
 
 cover: "https://yt3.ggpht.com/icr7pst7OmhzsrqqYv7OAMrYX2W4unur-F7TyDJQ-PDzcr00d7Lxnp1qBAfELLTdquEh67IGoQ=s88-c-k-c0x00ffffff-no-rj"
 youtube: "https://www.youtube.com/c/LearnWithNaw/playlists"
