@@ -8,7 +8,7 @@ tags:
   - "css"
   - "JS"
   - "nodejs"
-  - "reacr"
+  - "react"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

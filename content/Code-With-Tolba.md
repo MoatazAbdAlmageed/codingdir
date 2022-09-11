@@ -29,7 +29,7 @@ youtube: "https://www.youtube.com/channel/UCOpR7Tg8CVUdgZCUbQlKY-g"
     "Cloud Development",
     "Real Agility",
     "Code Tips",
-    ".NET",
+    "ASP.NET",
     "TypeScript",
     "Career Tips",
     "JavaScript",

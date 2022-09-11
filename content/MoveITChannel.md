@@ -8,7 +8,7 @@ categories:
 tags:
   - "pin"
   - "ASP.NET"
-  - "Acceptance test–driven development ATDD"
+  - "ATDD"
   - "C Sharp"
   - "clean code"
   - "cloud"

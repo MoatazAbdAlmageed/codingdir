@@ -7,7 +7,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { capitalize, kebabCase } from "lodash";
+import { capitalize, kebabCase, uniq } from "lodash";
 
 import { FaStar } from "react-icons/fa";
 import { LanguageFlag } from "./LanguageFlag";
@@ -18,7 +18,7 @@ import { navigate } from "gatsby";
 import uuid from "react-uuid";
 
 const PostListing = ({ data, title: listTitle }) => {
-  const tags = [
+  const rowTags = [
     "english",
     "productivity",
     "books",
@@ -61,7 +61,7 @@ const PostListing = ({ data, title: listTitle }) => {
     "laravel",
     "SQL",
     "devops",
-    ".NET",
+    "ASP.NET",
     "ASP.NET",
     "solid",
     "linq",
@@ -124,7 +124,6 @@ const PostListing = ({ data, title: listTitle }) => {
     "design patterns",
     "chakra ui",
     "tech",
-    "GitHub",
     "web",
     "crawling",
     "chat",
@@ -150,8 +149,7 @@ const PostListing = ({ data, title: listTitle }) => {
     "istqb",
     "OOP",
     "html5",
-    "XD",
-    "arduio",
+    "arduino",
     "azure",
     "AI",
     "haskell",
@@ -231,9 +229,9 @@ const PostListing = ({ data, title: listTitle }) => {
     "solid-principles",
     "regular-expressions",
     "computer science",
-    "short",
+    "shorts",
     "angularjs",
-    "azur",
+    "azure",
     "delphi",
     "razor",
     "hosting",
@@ -264,11 +262,10 @@ const PostListing = ({ data, title: listTitle }) => {
     "ccna",
     "emotional-intelligence",
     "electronic",
-    "Acceptance test–driven development ATDD",
+    "ATDD",
     "software-system",
     "scrum",
     "ReactiveX",
-    "illustrator",
     "django",
     "ios",
     "strapi",
@@ -308,7 +305,7 @@ const PostListing = ({ data, title: listTitle }) => {
     "dom",
     "cms",
     "font-end",
-    "reacr",
+    "react",
     "frontity",
     "unit testing",
     "big-data",
@@ -370,7 +367,7 @@ const PostListing = ({ data, title: listTitle }) => {
     "scrapping ",
     "shell",
   ];
-
+  const tags = uniq(rowTags);
   const postEdges = data?.allMarkdownRemark?.edges;
   const getPostList = () => {
     const postList = [];
@@ -431,12 +428,17 @@ const PostListing = ({ data, title: listTitle }) => {
         <Select
           width="100%"
           classNamePrefix="react-select"
-          options={tags.map((tag) => {
-            return {
-              label: tag,
-              value: tag,
-            };
-          })}
+          options={tags
+            .filter((tag) => tag !== "")
+            .sort(function(a, b) {
+              return a.toLowerCase().localeCompare(b.toLowerCase());
+            })
+            .map((tag) => {
+              return {
+                label: capitalize(tag),
+                value: tag,
+              };
+            })}
           isSearchable={true}
           placeholder="I want to learn"
           onChange={handleSelectChange}

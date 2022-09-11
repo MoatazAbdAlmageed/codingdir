@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "UI/UX"
-  - "XD"
+  - "xd"
 cover: "https://yt3.ggpht.com/T1Wu3Y7cNEhaHcgFYiPoC3mS2l8xNlZx6mwCsFYXYCp8K85RZchdIQmDRCeGYkkkrO8up4kGtA=s176-c-k-c0x00ffffff-no-rj"
 ---
 

@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "angularjs"
-  - "azur"
+  - "azure"
   - "blazor"
   - "c"
   - "css"

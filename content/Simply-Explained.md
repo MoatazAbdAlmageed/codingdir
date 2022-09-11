@@ -4,7 +4,7 @@ date: "2021-04-20"
 categories:
   - "english"
 tags:
-  - "short"
+  - "shorts"
 ---
 
 [https://youtube.com/c/Savjee](https://youtube.com/c/Savjee)

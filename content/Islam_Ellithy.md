@@ -11,7 +11,7 @@ tags:
     "android",
     "productivity",
     "software engineering",
-    ".NET",
+    "ASP.NET",
   ]
 
 youtube: "https://www.youtube.com/channel/UChnShSC_XGY-fmhIpN5UOmA/playlists"
