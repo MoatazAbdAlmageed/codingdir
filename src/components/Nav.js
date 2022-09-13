@@ -1,4 +1,3 @@
-import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
   Box,
   Collapse,
@@ -16,9 +15,10 @@ import {
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react";
+import { ChevronDownIcon, CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 
-import { capitalize } from "lodash";
 import React from "react";
+import { capitalize } from "lodash";
 import config from "../../data/SiteConfig";
 
 export default function WithSubnavigation() {
@@ -232,11 +232,6 @@ const NAV_ITEMS = [
     img:
       "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
   },
-  {
-    label: "Topics",
-    href: "/tags",
-  },
-
   {
     label: "Computer science",
     href: "/tag/cs",

@@ -48,7 +48,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const PlaceYourAdHere = path.resolve("src/components/PlaceYourAdHere.js");
   const tagPage = path.resolve("src/templates/tag.js");
   const categoryPage = path.resolve("src/templates/category.js");
-  const allTagsTemplate = path.resolve(`src/templates/all-tags.js`);
 
   const markdownQueryResult = await graphql(
     `
@@ -128,13 +127,6 @@ exports.createPages = async ({ graphql, actions }) => {
         prevslug: prevEdge.node.fields.slug,
       },
     });
-  });
-  createPage({
-    path: `/tags`,
-    component: allTagsTemplate,
-    context: {
-      tags: [...tagSet],
-    },
   });
   createPage({
     path: `/submit`,
