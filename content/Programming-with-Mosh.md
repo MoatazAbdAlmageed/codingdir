@@ -10,7 +10,7 @@ tags:
   - "C Sharp"
   - "css"
   - "html"
-  - "JS"
+  - "javascript"
   - "nodejs"
   - "python"
   - "react"

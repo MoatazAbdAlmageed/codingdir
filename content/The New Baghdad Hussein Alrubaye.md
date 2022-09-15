@@ -18,7 +18,7 @@ tags:
   - "html"
   - "ios"
   - "java"
-  - "JS"
+  - "javascript"
   - "kotlin"
   - "laravel"
   - "mysql"
@@ -29,8 +29,6 @@ tags:
 cover: "https://yt3.ggpht.com/ytc/AKedOLSeacVVzXt9t2Whln1XD0Cm4Fs_t9_sAK3-uI9dGQ=s88-c-k-c0x00ffffff-no-rj"
 youtube: "https://www.youtube.com/c/hussienahmmed"
 ---
-
-
 
     "اسئلة مقابلات عمل مع شركات برمجية كبيرة",
     "The Complete C++ course | 2021",

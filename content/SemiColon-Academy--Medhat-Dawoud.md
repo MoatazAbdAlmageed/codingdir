@@ -13,7 +13,7 @@ tags:
   - "frontend"
   - "git"
   - "graphql"
-  - "JS"
+  - "javascript"
   - "react"
   - "sap"
   - "testing"
@@ -28,8 +28,6 @@ facebook: "https://www.facebook.com/SemiColonAcademy/"
 ---
 
 MedhatDawoud : https://www.youtube.com/c/MedhatDawoud/videos
-
-
 
     "Mastering Unit Testing",
     "Mastering Git",

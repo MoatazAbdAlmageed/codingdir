@@ -9,7 +9,7 @@ tags:
   - "css"
   - "frontend"
   - "html"
-  - "JS"
+  - "javascript"
   - "laravel"
   - "PHP"
   - "testing"

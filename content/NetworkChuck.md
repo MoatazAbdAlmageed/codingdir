@@ -3,7 +3,7 @@ title: "NetworkChuck"
 date: "2022-05-06"
 categories:
   - "english"
-tags: ["python", "js", "hacking"]
+tags: ["python", "javascript", "hacking"]
 
 youtube: "https://www.youtube.com/c/NetworkChuck/featured"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTHjL08GyIUwy_6DxA3GtUzyPU1aOs2CwgNtuRJ4A=s88-c-k-c0x00ffffff-no-rj"

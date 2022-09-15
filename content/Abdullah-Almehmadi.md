@@ -8,7 +8,7 @@ tags:
   - "android"
   - "backend"
   - "java"
-  - "JS"
+  - "javascript"
   - "mysql"
   - "OOP"
   - "PHP"

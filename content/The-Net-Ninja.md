@@ -23,7 +23,7 @@ tags:
   - "grunt"
   - "gulp"
   - "html"
-  - "JS"
+  - "javascript"
   - "json"
   - "laravel"
   - "material-ui"

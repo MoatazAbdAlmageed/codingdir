@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "gatsbyjs"
-  - "JS"
+  - "javascript"
   - "typescript"
   - "flutter"
   - "github"

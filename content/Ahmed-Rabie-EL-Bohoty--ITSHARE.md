@@ -8,7 +8,7 @@ tags:
   - "ASP.NET"
   - "blockchain"
   - "c"
-  - "JS"
+  - "javascript"
   - "sharepoint"
   - "SQL"
 ---

@@ -11,7 +11,7 @@ tags:
   - "data structures"
   - "database"
   - "jquery"
-  - "JS"
+  - "javascript"
 
   - "security"
 ---

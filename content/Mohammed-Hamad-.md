@@ -7,7 +7,7 @@ tags:
   - "css"
   - "html"
   - "jquery"
-  - "JS"
+  - "javascript"
 ---
 
 > https://www.youtube.com/c/mohammed9895/playlists

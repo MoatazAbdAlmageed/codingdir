@@ -11,7 +11,7 @@ tags:
   - "html"
   - "css"
   - "PHP"
-  - "JS"
+  - "javascript"
   - "database"
   - "frontend"
   - "backend"

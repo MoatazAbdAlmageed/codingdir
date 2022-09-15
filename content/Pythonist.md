@@ -5,7 +5,7 @@ tags:
   - "flask"
   - "frontend"
   - "html"
-  - "JS"
+  - "javascript"
   - "react"
   - "talk"
   - "talks"

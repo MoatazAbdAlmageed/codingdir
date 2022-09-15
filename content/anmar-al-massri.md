@@ -9,7 +9,7 @@ tags:
   - "crm"
   - "entity-framework"
   - "iti"
-  - "JS"
+  - "javascript"
 
   - "MVC"
   - "sharepoint"

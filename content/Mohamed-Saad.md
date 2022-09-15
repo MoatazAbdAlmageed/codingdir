@@ -9,7 +9,7 @@ tags:
   - "unity"
   - "PHP"
   - "css"
-  - "JS"
+  - "javascript"
   - "jquery"
   - "pin"
   - "ajax"

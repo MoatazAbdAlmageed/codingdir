@@ -6,7 +6,7 @@ categories:
 tags:
   - "css"
   - "html"
-  - "JS"
+  - "javascript"
   - "kids"
 ---
 

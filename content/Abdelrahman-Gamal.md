@@ -11,9 +11,7 @@ tags:
   - "css"
   - "django"
   - "html"
-  - "JS"
+  - "javascript"
   - "python"
   - "pin"
 ---
-
-

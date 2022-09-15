@@ -8,7 +8,7 @@ tags:
   - "data structures"
   - "frontend"
   - "java"
-  - "JS"
+  - "javascript"
   - "laravel"
   - "mysql"
   - "PHP"

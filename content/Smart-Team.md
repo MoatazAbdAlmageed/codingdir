@@ -10,7 +10,7 @@ tags:
   - "database"
   - "graphics"
   - "html"
-  - "JS"
+  - "javascript"
   - "web"
 ---
 

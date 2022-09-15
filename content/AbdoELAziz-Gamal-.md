@@ -6,7 +6,7 @@ categories:
 tags:
   - "css"
   - "html"
-  - "JS"
+  - "javascript"
 ---
 
 > https://www.youtube.com/c/AbdoELAzizGamal/playlists

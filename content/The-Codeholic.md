@@ -13,7 +13,7 @@ tags:
   - "git"
   - "OOP"
   - "webpack"
-  - "JS"
+  - "javascript"
   - "web"
   - "pin"
 

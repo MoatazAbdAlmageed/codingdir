@@ -9,7 +9,7 @@ tags:
   - "css"
   - "html"
   - "java"
-  - "JS"
+  - "javascript"
   - "PHP"
   - "python"
   - "database"

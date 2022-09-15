@@ -10,7 +10,7 @@ tags:
   - "docker"
   - "frontend"
   - "java"
-  - "JS"
+  - "javascript"
   - "nodejs"
   - "python"
   - "react"

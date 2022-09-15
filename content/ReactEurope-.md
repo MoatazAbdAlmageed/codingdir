@@ -4,7 +4,7 @@ date: "2021-03-10"
 categories:
   - "english"
 tags:
-  - "JS"
+  - "javascript"
   - "react"
 ---
 

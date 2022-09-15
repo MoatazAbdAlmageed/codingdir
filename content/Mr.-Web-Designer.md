@@ -8,7 +8,7 @@ tags:
   - "css"
   - "frontend"
   - "html"
-  - "JS"
+  - "javascript"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

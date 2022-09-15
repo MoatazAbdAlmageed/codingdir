@@ -5,7 +5,7 @@ categories:
   - "english"
 
 tags:
-  - "JS"
+  - "javascript"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AKedOLRMxFq0_oDPmgEOpgfCvoSlZ8_2uS51Ch4_wDFs=s176-c-k-c0x00ffffff-no-rj)

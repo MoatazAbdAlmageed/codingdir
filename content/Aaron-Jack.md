@@ -7,7 +7,7 @@ categories:
 tags:
   - "css"
   - "html"
-  - "JS"
+  - "javascript"
 ---
 
 [https://youtube.com/c/AaronJack](https://youtube.com/c/AaronJack)

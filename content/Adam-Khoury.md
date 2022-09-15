@@ -9,7 +9,7 @@ tags:
   - "backend"
   - "frontend"
   - "html"
-  - "JS"
+  - "javascript"
   - "PHP"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---

@@ -4,7 +4,7 @@ date: "2021-07-13"
 categories:
   - "english"
 tags:
-  - "JS"
+  - "javascript"
 ---
 
 ![](https://yt3.ggpht.com/ytc/AKedOLTTnK-J9BQCH8cLBtZuDCjTqqriUm8F9eoUeG2dNg=s176-c-k-c0x00ffffff-no-rj)

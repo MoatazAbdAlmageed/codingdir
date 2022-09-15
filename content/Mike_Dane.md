@@ -13,7 +13,7 @@ tags:
     "ruby",
     "html",
     "css",
-    "JS",
+    "javascript",
     "gatsby",
     "pin",
   ]

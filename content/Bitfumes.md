@@ -12,7 +12,7 @@ tags:
   - "css"
   - "database"
   - "frontend"
-  - "JS"
+  - "javascript"
   - "laravel"
   - "nextjs"
   - "nodejs"

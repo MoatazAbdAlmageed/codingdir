@@ -13,7 +13,7 @@ tags:
   - "frontend"
   - "graphql"
   - "html"
-  - "JS"
+  - "javascript"
   - "jwt"
   - "laravel"
   - "pin"

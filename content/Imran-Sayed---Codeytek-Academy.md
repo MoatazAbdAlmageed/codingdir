@@ -9,7 +9,7 @@ tags:
   - "frontend"
   - "gatsby"
   - "graphql"
-  - "JS"
+  - "javascript"
   - "nextjs"
   - "PHP"
   - "react"

@@ -3,7 +3,7 @@ title: "Kevin Powell"
 date: "2022-05-06"
 categories:
   - "english"
-tags: ["html", "css", "JS", "sass", "freelancing"]
+tags: ["html", "css", "javascript", "sass", "freelancing"]
 
 youtube: "https://www.youtube.com/kepowob/playlists"
 cover: "https://yt3.ggpht.com/ytc/AKedOLT1tLx7BgAa7_SHaXE0hDRjQu1BRihsEDZ3lmUUcg=s88-c-k-c0x00ffffff-no-rj"

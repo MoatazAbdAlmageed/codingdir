@@ -7,7 +7,7 @@ categories:
   - "english"
 tags:
   - "docker"
-  - "JS"
+  - "javascript"
   - "pin"
   - "kafka"
   - "mongodb"

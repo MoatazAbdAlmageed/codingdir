@@ -5,7 +5,7 @@ categories:
   - "english"
 tags:
   - "frontend"
-  - "JS"
+  - "javascript"
   - "react"
 ---
 

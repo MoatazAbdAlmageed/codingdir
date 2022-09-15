@@ -6,7 +6,7 @@ categories:
 tags:
   - "frontend"
   - "gatsby"
-  - "JS"
+  - "javascript"
   - "react"
 ---
 

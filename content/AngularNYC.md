@@ -6,7 +6,7 @@ categories:
 tags:
   - "angular"
   - "ionic"
-  - "JS"
+  - "javascript"
   - "ngrx"
   - "rx"
 ---

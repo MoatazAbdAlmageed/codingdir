@@ -5,7 +5,17 @@ categories:
   - "english"
   - "عربي"
 tags:
-  ["pin", "firebase", "android", "PHP", "mysql", "html", "css", "JS", "laravel"]
+  [
+    "pin",
+    "firebase",
+    "android",
+    "PHP",
+    "mysql",
+    "html",
+    "css",
+    "javascript",
+    "laravel",
+  ]
 
 youtube: "https://www.youtube.com/c/safaaalla/playlists"
 cover: "https://yt3.ggpht.com/ytc/AKedOLTvoANtX3izugjsj1rLVqvzdvwomDngV_FtJp8OWA=s88-c-k-c0x00ffffff-no-rj"

@@ -8,7 +8,7 @@ tags:
   - "css"
   - "frontend"
   - "html"
-  - "JS"
+  - "javascript"
   - "mysql"
   - "PHP"
 ---

@@ -8,7 +8,7 @@ tags:
   - "backend"
   - "C Sharp"
   - "frontend"
-  - "JS"
+  - "javascript"
   - "math"
   - "python"
 cover: "/YouTube-Icon-Gray-Box.png"

@@ -8,7 +8,7 @@ categories:
 tags:
   - "automation"
   - "cypress"
-  - "JS"
+  - "javascript"
   - "notion"
   - "productivity"
   - "react"

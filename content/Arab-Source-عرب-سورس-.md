@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "arduino"
-  - "JS"
+  - "javascript"
 ---
 
 > https://www.youtube.com/c/ArabSource/playlists

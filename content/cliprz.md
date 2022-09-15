@@ -6,7 +6,7 @@ categories:
 tags:
   - "html"
   - "css"
-  - "JS"
+  - "javascript"
   - "jquery"
   - "PHP"
 

@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   - "git"
-  - "JS"
+  - "javascript"
   - "react"
   - "vuejs"
   - "pin"

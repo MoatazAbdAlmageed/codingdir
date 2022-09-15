@@ -12,7 +12,7 @@ tags:
   - "entity-framework"
   - "html"
   - "jquery"
-  - "JS"
+  - "javascript"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
 

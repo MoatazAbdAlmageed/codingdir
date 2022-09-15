@@ -10,7 +10,7 @@ tags:
   - "api"
   - "es"
   - "git"
-  - "JS"
+  - "javascript"
   - "laravel"
   - "nodejs"
   - "python"
@@ -21,5 +21,3 @@ tags:
   - "rxjs"
   - "pin"
 ---
-
-

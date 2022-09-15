@@ -7,7 +7,7 @@ tags:
   - "frontend"
   - "gatsby"
   - "headless-cmd"
-  - "JS"
+  - "javascript"
   - "react"
   - "strapi"
 ---

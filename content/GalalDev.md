@@ -7,7 +7,7 @@ tags:
   - "blazor"
   - "database"
   - "Domain-driven design DDD"
-  - "JS"
+  - "javascript"
 
   - "database"
 ---

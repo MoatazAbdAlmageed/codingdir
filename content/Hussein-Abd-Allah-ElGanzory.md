@@ -6,7 +6,7 @@ categories:
 tags:
   - "C Sharp"
   - "ASP.NET"
-  - "JS"
+  - "javascript"
   - "android"
   - "html"
 

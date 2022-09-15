@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "frontend"
-  - "JS"
+  - "javascript"
   - "react"
 ---
 

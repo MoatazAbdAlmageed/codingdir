@@ -10,7 +10,7 @@ tags:
     "java",
     "spring",
     "testing",
-    "JS",
+    "javascript",
     "angular",
     "nodejs",
     "maven",

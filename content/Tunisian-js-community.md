@@ -4,7 +4,7 @@ date: "2021-05-15"
 categories:
   - "عربي"
 tags:
-  - "JS"
+  - "javascript"
 ---
 
 [https://youtube.com/channel/UCeWHKEOX998dAebsYhI6gKw](https://youtube.com/channel/UCeWHKEOX998dAebsYhI6gKw)

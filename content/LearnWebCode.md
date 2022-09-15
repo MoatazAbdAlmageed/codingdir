@@ -9,7 +9,7 @@ tags:
   - "frontend"
   - "git"
   - "html"
-  - "JS"
+  - "javascript"
   - "react"
   - "wordpress"
 ---

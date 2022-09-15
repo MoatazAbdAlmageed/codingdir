@@ -7,7 +7,7 @@ tags:
   - "css"
   - "e-commerce"
   - "html"
-  - "JS"
+  - "javascript"
   - "web design"
 ---
 

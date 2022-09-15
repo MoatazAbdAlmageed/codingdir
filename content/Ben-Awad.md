@@ -10,7 +10,7 @@ tags:
   - "frontend"
   - "graphics"
   - "hooks"
-  - "JS"
+  - "javascript"
   - "react"
   - "react native"
   - "typescript"

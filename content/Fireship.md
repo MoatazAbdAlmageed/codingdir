@@ -5,7 +5,7 @@ tags:
     "pin",
     "CS",
     "tips",
-    "JS",
+    "javascript",
     "cypress",
     "linux",
     "react",

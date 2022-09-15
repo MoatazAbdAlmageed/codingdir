@@ -11,7 +11,7 @@ tags:
   - "django"
   - "html"
   - "java"
-  - "JS"
+  - "javascript"
   - "python"
   - "ring"
 ---

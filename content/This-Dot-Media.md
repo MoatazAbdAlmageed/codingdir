@@ -7,7 +7,7 @@ tags:
   - "angular"
   - "dart"
   - "graphql"
-  - "JS"
+  - "javascript"
   - "talks"
   - "vuejs"
 ---

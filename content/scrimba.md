@@ -8,7 +8,7 @@ tags:
   - "website"
   - "html"
   - "css"
-  - "JS"
+  - "javascript"
   - "react"
   - "pin"
 ---

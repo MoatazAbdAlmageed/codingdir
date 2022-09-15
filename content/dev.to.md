@@ -7,7 +7,7 @@ tags:
   [
     "html",
     "css",
-    "js",
+    "javascript",
     "react",
     "javascript",
     "sass",

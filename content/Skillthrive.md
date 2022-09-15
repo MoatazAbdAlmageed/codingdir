@@ -10,7 +10,7 @@ tags:
   - "frontend"
   - "gatsby"
   - "html"
-  - "JS"
+  - "javascript"
   - "nextjs"
   - "react"
   - "xd"

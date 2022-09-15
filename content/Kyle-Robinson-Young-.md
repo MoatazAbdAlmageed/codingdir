@@ -5,7 +5,7 @@ categories:
   - "english"
 tags:
   - "electronjs"
-  - "JS"
+  - "javascript"
   - "vuejs"
   - "webpack"
 ---

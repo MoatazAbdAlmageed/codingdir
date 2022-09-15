@@ -19,7 +19,7 @@ tags:
   - "html"
   - "ios"
   - "java"
-  - "JS"
+  - "javascript"
   - "python"
   - "swift"
   - "UI/UX"

@@ -6,7 +6,7 @@ categories:
 
 tags:
   - "docker"
-  - "JS"
+  - "javascript"
   - "nodejs"
   - "react"
 ---

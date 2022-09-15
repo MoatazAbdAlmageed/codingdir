@@ -5,7 +5,7 @@ youtube: "https://www.youtube.com/c/ArabicJS/playlists"
 categories:
   - "عربي"
 tags:
-  - "JS"
-  - "JS"
+  - "javascript"
+  - "javascript"
   - "react native"
 ---

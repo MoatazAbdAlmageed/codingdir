@@ -7,6 +7,6 @@ categories:
 tags:
   - "angular"
   - "blockchain"
-  - "JS"
+  - "javascript"
   - "ASP.NET"
 ---

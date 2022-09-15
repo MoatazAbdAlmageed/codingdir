@@ -9,7 +9,7 @@ tags:
   - "angular"
   - "books"
   - "design patterns"
-  - "JS"
+  - "javascript"
   - "Machine Learning ML"
   - "react"
   - "software architecture"

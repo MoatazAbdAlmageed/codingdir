@@ -6,7 +6,7 @@ categories:
 tags:
   - "pin"
   - "es6"
-  - "JS"
+  - "javascript"
   - "react"
   - "redux"
   - "css"

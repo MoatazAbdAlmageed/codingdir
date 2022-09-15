@@ -318,8 +318,8 @@ const NAV_ITEMS = [
         href: "/tag/css",
       },
       {
-        label: "JS",
-        href: "/tag/js",
+        label: "javascript",
+        href: "/tag/javascript",
       },
       {
         label: "react",

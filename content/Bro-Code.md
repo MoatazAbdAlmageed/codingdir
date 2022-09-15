@@ -10,7 +10,7 @@ tags:
   - "data structures"
   - "html"
   - "java"
-  - "JS"
+  - "javascript"
   - "python"
 ---
 

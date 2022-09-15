@@ -10,7 +10,7 @@ tags:
   - "css"
   - "design patterns"
   - "html"
-  - "JS"
+  - "javascript"
   - "MVC"
   - "web design"
 ---

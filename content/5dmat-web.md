@@ -12,7 +12,7 @@ tags:
   - "frontend"
   - "hmvc"
   - "jade"
-  - "JS"
+  - "javascript"
   - "laravel"
   - "mysql"
   - "nextjs"
