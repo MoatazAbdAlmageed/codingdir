@@ -11,4 +11,5 @@ cover: "https://yt3.ggpht.com/ytc/AMLnZu__R2Na9E4qF_rxND7ifcqyocm3di8bV9Qbc1y5ow
 github: ""
 linkedin: ""
 site: ""
+udemy: "https://www.udemy.com/user/jonasschmedtmann/"
 ---
