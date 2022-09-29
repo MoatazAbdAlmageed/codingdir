@@ -5,7 +5,7 @@ categories:
   - "english"
 
 tags:
-  - "gatsbyjs"
+  - "gatsby"
   - "javascript"
   - "typescript"
   - "flutter"
