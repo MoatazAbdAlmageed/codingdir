@@ -10,7 +10,7 @@ tags:
   - "html"
   - "javascript"
   - "nuxtjs"
-  - "tailwind"
+  - "tailwindcss"
   - "vuejs"
 cover: "/YouTube-Icon-Gray-Box.png"
 ---
