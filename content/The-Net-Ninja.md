@@ -5,6 +5,7 @@ categories:
   - "english"
 
 tags:
+  - "tailwindcss"
   - "angular"
   - "mongodb"
   - "backend"
