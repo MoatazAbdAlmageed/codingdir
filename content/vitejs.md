@@ -3,7 +3,7 @@ title: "vitejs"
 date: "2022-10-07"
 categories:
   - "english"
-tags: ["tools" ,"front-end"]
+tags: ["tools" ,"front-end" ,"frontend"]
 
 youtube: "https://www.youtube.com/results?search_query=vitejs"
 cover: "https://vitejs.dev/logo.svg"
