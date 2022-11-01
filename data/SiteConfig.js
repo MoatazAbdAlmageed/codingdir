@@ -23,7 +23,7 @@ const config = {
   copyright: "Copyright © 2021. All rights reserved.", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "red", // Used for setting manifest background color.
-  REACT_APP_SITE_KEY: "6Lep6c0iAAAAAKc4uMszguapnASF0Yi0gdRm9ZGi",
+  REACT_APP_SITE_KEY: "6Lfc_s0iAAAAAF0b-897nEV1vJBHMr2n5fb8h9fY",
 };
 
 // Validate
