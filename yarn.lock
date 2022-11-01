@@ -13690,7 +13690,7 @@ prompts@^2.3.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.5.10, prop-types@^15.6.0:
+prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.6.0:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -13949,6 +13949,14 @@ rc@^1.1.0, rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-async-script@^1.1.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-async-script/-/react-async-script-1.2.0.tgz#ab9412a26f0b83f5e2e00de1d2befc9400834b21"
+  integrity sha512-bCpkbm9JiAuMGhkqoAiC0lLkb40DJ0HOEJIku+9JDjxX3Rcs+ztEOG13wbrOskt3n2DTrjshhaQ/iay+SnGg5Q==
+  dependencies:
+    hoist-non-react-statics "^3.3.0"
+    prop-types "^15.5.0"
+
 react-clientside-effect@^1.2.2:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/react-clientside-effect/-/react-clientside-effect-1.2.5.tgz#e2c4dc3c9ee109f642fac4f5b6e9bf5bcd2219a3"
@@ -14016,6 +14024,14 @@ react-focus-lock@2.5.0:
     react-clientside-effect "^1.2.2"
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
+
+react-google-recaptcha@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-google-recaptcha/-/react-google-recaptcha-2.1.0.tgz#9f6f4954ce49c1dedabc2c532347321d892d0a16"
+  integrity sha512-K9jr7e0CWFigi8KxC3WPvNqZZ47df2RrMAta6KmRoE4RUi7Ys6NmNjytpXpg4HI/svmQJLKR+PncEPaNJ98DqQ==
+  dependencies:
+    prop-types "^15.5.0"
+    react-async-script "^1.1.1"
 
 react-helmet@^5.2.1:
   version "5.2.1"

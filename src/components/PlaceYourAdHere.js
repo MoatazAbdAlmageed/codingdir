@@ -1,13 +1,14 @@
 import { Button, Flex, Heading, Stack } from "@chakra-ui/react";
-import { ValidationError, useForm } from "@formspree/react";
+import { useForm, ValidationError } from "@formspree/react";
 
 import Form from "@atlaskit/form";
-import Helmet from "react-helmet";
-import Layout from "../layout/index";
-import { default as React } from "react";
 import TextArea from "@atlaskit/textarea";
 import TextField from "@atlaskit/textfield";
+import { default as React } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
+import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
+import Layout from "../layout/index";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("moqbazwj");
@@ -47,6 +48,7 @@ function ContactForm() {
                       <Button type="submit" disabled={state.submitting}>
                         Submit
                       </Button>
+                      <ReCAPTCHA sitekey={config.REACT_APP_SITE_KEY} />
                     </form>
                   )}
                 </Form>
