@@ -4,4 +4,4 @@
 
 # Coding Directory
 
-Simple application to list youtube channels and websites that are related to coding!
+Simple application to list youtube channels and websites that are related to coding!!
