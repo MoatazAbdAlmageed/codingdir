@@ -57,7 +57,7 @@
     "gatsby-transformer-sharp": "^2.2.12",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.27.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-google-recaptcha": "^2.1.0",
