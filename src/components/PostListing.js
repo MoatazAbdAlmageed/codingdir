@@ -415,7 +415,7 @@ const PostListing = ({ data, title: listTitle }) => {
     <Stack>
       <Box>
         <Center>
-          <a href="/place-your-ad-here">
+          <a href="https://www.youtube.com/@MoatazMohamady">
             <img width="600px" src="/place-your-ad-here.jpg" alt="logo" />
           </a>
         </Center>
