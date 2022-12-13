@@ -414,11 +414,19 @@ const PostListing = ({ data, title: listTitle }) => {
   return (
     <Stack>
       <Box>
-        <Center>
-          <a href="https://www.youtube.com/@MoatazMohamady">
-            <img width="600px" src="/place-your-ad-here.jpg" alt="logo" />
-          </a>
-        </Center>
+        <Box>
+          <Center>
+            <Text fontSize="xs">
+              <a href="place-your-ad-here">Place your ad here? </a>
+            </Text>
+          </Center>
+
+          <Center>
+            <a href="https://www.youtube.com/@MoatazMohamady">
+              <img width="600px" src="/place-your-ad-here.jpg" alt="logo" />
+            </a>
+          </Center>
+        </Box>
 
         <Heading color="#e72c33" mb={5}>
           {capitalize(listTitle)}
