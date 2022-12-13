@@ -423,11 +423,7 @@ const PostListing = ({ data, title: listTitle }) => {
 
           <Center>
             <a href="https://www.youtube.com/@MoatazMohamady">
-              <img
-                width="600px"
-                src="/chrome-capture-2022-11-13.gif"
-                alt="logo"
-              />
+              <img width="600px" src="/animated.gif" alt="logo" />
             </a>
           </Center>
         </Box>
