@@ -5,7 +5,7 @@ categories:
   - "عربي"
 tags:
   [
-    "GitOps","K8s","books","pin"
+    "GitOps","K8s","books","pin" ,"backend" ,"system-design","scalability"
   ]
 
 youtube: "https://www.youtube.com/channel/UCYmPRHG8l6LMihiIV6xPhag/playlists"
