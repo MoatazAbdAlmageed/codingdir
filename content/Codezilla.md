@@ -14,5 +14,7 @@ tags:
   - "pin"
   - "tips"
   - "bot"
+  - "kids"
+  - "scratch"
 ---
 
