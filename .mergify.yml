@@ -1,7 +1,0 @@
-pull_request_rules:
-  - name: Automatic merge
-    conditions:
-      - label=dependencies
-    actions:
-      merge:
-        method: merge
