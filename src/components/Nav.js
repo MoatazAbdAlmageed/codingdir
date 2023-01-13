@@ -227,7 +227,12 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
   {
-    label: "Pin 📌",
+    label: "Add Channel 🆕",
+    href: "/submit",
+  },
+
+  {
+    label: "Favourites",
     href: "/tag/pin",
     img:
       "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
