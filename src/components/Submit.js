@@ -314,6 +314,7 @@ const Submit = ({ pageContext }) => {
 
         <GridItem spacing={6} w={"full"} maxW={"lg"}>
           <iframe
+            autoplay
             width="560"
             height="315"
             src="https://www.youtube.com/embed/LaYj1AXHuVc?start=24"
