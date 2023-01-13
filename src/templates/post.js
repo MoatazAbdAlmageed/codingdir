@@ -183,7 +183,7 @@ export default ({ data, pageContext }) => {
           className="admin_only"
           style={{ color: "#e72c33", visibility: "hidden" }}
           target="_blank"
-          href={`https://github.com/MoatazAbdAlmageed/YouTube-Channels/edit/main/content/${post.title
+          href={`https://github.com/MoatazAbdAlmageed/codingdir/edit/main/content/${post.title
             .replace(/ /g, "_")
             .replace(/\./g, "_")}.md`}
         >

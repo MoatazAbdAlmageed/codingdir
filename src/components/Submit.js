@@ -57,7 +57,7 @@ const Submit = ({ pageContext }) => {
       }),
     };
     fetch(
-      "https://api.github.com/repos/MoatazAbdAlmageed/YouTube-Channels/actions/workflows/main.yml/dispatches",
+      "https://api.github.com/repos/MoatazAbdAlmageed/codingdir/actions/workflows/main.yml/dispatches",
       requestOptions
     ).then((res) => {
       console.log(formData);
@@ -65,7 +65,7 @@ const Submit = ({ pageContext }) => {
       if (res?.status === 204) {
         setSuccess(true);
         location.href =
-          "https://github.com/MoatazAbdAlmageed/YouTube-Channels/actions";
+          "https://github.com/MoatazAbdAlmageed/codingdir/actions";
       } else {
         setSuccess(false);
         alert("Error");
