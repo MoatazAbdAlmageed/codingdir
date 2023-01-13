@@ -1,4 +1,3 @@
-import { Flex, Stack } from "@chakra-ui/react";
 import Form, {
   ErrorMessage,
   Field,
@@ -103,233 +102,228 @@ const Submit = ({ pageContext }) => {
   };
   return (
     <Layout>
-      <Stack direction={{ base: "column", md: "row" }}>
-        <Flex p={8} flex={1}>
-          <Stack spacing={6} w={"full"} maxW={"lg"}>
-            <Helmet title={`Submit Channel | ${config.siteTitle}`} />
-            <Form onSubmit={onSubmit}>
-              {({ formProps, submitting }) => (
-                <form {...formProps}>
-                  <FormHeader
-                    title="Add new channel"
-                    description="* indicates a required field"
-                  />
-                  <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/LaYj1AXHuVc?start=24"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
-                  <FormSection>
-                    <Field
-                      aria-required={true}
-                      name="title"
-                      label="Channel Title"
-                      isRequired
-                    >
-                      {({ fieldProps }) => (
-                        <Fragment>
-                          <Tooltip content="Channel title" position="top">
-                            <TextField
-                              {...fieldProps}
-                              value={formData?.title}
-                              onChange={(e) => handleChange(e)}
-                            />
-                          </Tooltip>
-                        </Fragment>
-                      )}
-                    </Field>{" "}
-                    <Field
-                      aria-required={true}
-                      name="description"
-                      label="Description"
-                    >
-                      {({ fieldProps }) => (
-                        <Fragment>
-                          <Tooltip content="Description" position="top">
-                            <TextArea
-                              {...fieldProps}
-                              minimumRows="10"
-                              resize="auto"
-                              value={formData?.description}
-                              onChange={(e) => handleChange(e)}
-                            />
-                          </Tooltip>
-                        </Fragment>
-                      )}
-                    </Field>
-                    <Field
-                      aria-required={true}
-                      name="tags"
-                      label="Tags"
-                      isRequired
-                    >
-                      {({ fieldProps, error }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip position="top" content="Tags">
-                              <Select
-                                {...fieldProps}
-                                classNamePrefix="react-select"
-                                options={tags.map((tag) => {
-                                  return {
-                                    label: tag,
-                                    value: tag,
-                                  };
-                                })}
-                                isMulti
-                                isSearchable={true}
-                                placeholder="Choose Tag"
-                                onChange={onChangeTag}
-                              />
-                            </Tooltip>
-                            {error && <ErrorMessage>{error}</ErrorMessage>}
-                          </Fragment>
-                        );
-                      }}
-                    </Field>
-                    <Field
-                      aria-required={true}
-                      name="category"
-                      label="Category"
-                      isRequired
-                    >
-                      {({ fieldProps }) => {
-                        return (
-                          <Select
-                            {...fieldProps}
-                            classNamePrefix="react-select"
-                            options={[
-                              { label: "عربي", value: "عربي" },
-                              { label: "English", value: "english" },
-                            ]}
-                            placeholder="Choose Language"
-                            onChange={onChangeCategory}
-                          />
-                        );
-                      }}
-                    </Field>
-                    <Field aria-required={true} name="youtube" label="Youtube">
-                      {({ fieldProps }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="YouTube channel link"
-                            >
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.youtube}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>
-                    <Field
-                      aria-required={true}
-                      name="cover"
-                      label="Logo"
-                      isRequired
-                    >
-                      {({ fieldProps }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="YouTube channel Logo URL"
-                            >
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.cover}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>
-                    <Field aria-required={true} name="github" label="Github">
-                      {({ fieldProps }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="Github account link"
-                            >
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.github}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>{" "}
-                    <Field
-                      aria-required={true}
-                      name="linkedin"
-                      label="Linkedin"
-                    >
-                      {({ fieldProps }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip
-                              position="top"
-                              content="Linkedin account link"
-                            >
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.linkedin}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>{" "}
-                    <Field aria-required={true} name="site" label="Site">
-                      {({ fieldProps }) => {
-                        return (
-                          <Fragment>
-                            <Tooltip position="top" content="site">
-                              <TextField
-                                type="text"
-                                {...fieldProps}
-                                value={formData?.site}
-                                onChange={(e) => handleChange(e)}
-                              />
-                            </Tooltip>
-                          </Fragment>
-                        );
-                      }}
-                    </Field>{" "}
-                  </FormSection>
+      <Grid p={8} flex={1}>
+        <GridItem spacing={6} w={"full"} maxW={"lg"}>
+          <Helmet title={`Submit Channel | ${config.siteTitle}`} />
+          <Form onSubmit={onSubmit}>
+            {({ formProps, submitting }) => (
+              <form {...formProps}>
+                <FormHeader
+                  title="Add new channel"
+                  description="* indicates a required field"
+                />
 
-                  <FormFooter>
-                    <Button
-                      type="submit"
-                      appearance="primary"
-                      isLoading={submitting}
-                    >
-                      Submit
-                    </Button>
-                  </FormFooter>
-                </form>
-              )}
-            </Form>
-          </Stack>
-        </Flex>
-      </Stack>
+                <FormSection>
+                  <Field
+                    aria-required={true}
+                    name="title"
+                    label="Channel Title"
+                    isRequired
+                  >
+                    {({ fieldProps }) => (
+                      <Fragment>
+                        <Tooltip content="Channel title" position="top">
+                          <TextField
+                            {...fieldProps}
+                            value={formData?.title}
+                            onChange={(e) => handleChange(e)}
+                          />
+                        </Tooltip>
+                      </Fragment>
+                    )}
+                  </Field>{" "}
+                  <Field
+                    aria-required={true}
+                    name="description"
+                    label="Description"
+                  >
+                    {({ fieldProps }) => (
+                      <Fragment>
+                        <Tooltip content="Description" position="top">
+                          <TextArea
+                            {...fieldProps}
+                            minimumRows="10"
+                            resize="auto"
+                            value={formData?.description}
+                            onChange={(e) => handleChange(e)}
+                          />
+                        </Tooltip>
+                      </Fragment>
+                    )}
+                  </Field>
+                  <Field
+                    aria-required={true}
+                    name="tags"
+                    label="Tags"
+                    isRequired
+                  >
+                    {({ fieldProps, error }) => {
+                      return (
+                        <Fragment>
+                          <Tooltip position="top" content="Tags">
+                            <Select
+                              {...fieldProps}
+                              classNamePrefix="react-select"
+                              options={tags.map((tag) => {
+                                return {
+                                  label: tag,
+                                  value: tag,
+                                };
+                              })}
+                              isMulti
+                              isSearchable={true}
+                              placeholder="Choose Tag"
+                              onChange={onChangeTag}
+                            />
+                          </Tooltip>
+                          {error && <ErrorMessage>{error}</ErrorMessage>}
+                        </Fragment>
+                      );
+                    }}
+                  </Field>
+                  <Field
+                    aria-required={true}
+                    name="category"
+                    label="Category"
+                    isRequired
+                  >
+                    {({ fieldProps }) => {
+                      return (
+                        <Select
+                          {...fieldProps}
+                          classNamePrefix="react-select"
+                          options={[
+                            { label: "عربي", value: "عربي" },
+                            { label: "English", value: "english" },
+                          ]}
+                          placeholder="Choose Language"
+                          onChange={onChangeCategory}
+                        />
+                      );
+                    }}
+                  </Field>
+                  <Field aria-required={true} name="youtube" label="Youtube">
+                    {({ fieldProps }) => {
+                      return (
+                        <Fragment>
+                          <Tooltip
+                            position="top"
+                            content="YouTube channel link"
+                          >
+                            <TextField
+                              type="text"
+                              {...fieldProps}
+                              value={formData?.youtube}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          </Tooltip>
+                        </Fragment>
+                      );
+                    }}
+                  </Field>
+                  <Field
+                    aria-required={true}
+                    name="cover"
+                    label="Logo"
+                    isRequired
+                  >
+                    {({ fieldProps }) => {
+                      return (
+                        <Fragment>
+                          <Tooltip
+                            position="top"
+                            content="YouTube channel Logo URL"
+                          >
+                            <TextField
+                              type="text"
+                              {...fieldProps}
+                              value={formData?.cover}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          </Tooltip>
+                        </Fragment>
+                      );
+                    }}
+                  </Field>
+                  <Field aria-required={true} name="github" label="Github">
+                    {({ fieldProps }) => {
+                      return (
+                        <Fragment>
+                          <Tooltip position="top" content="Github account link">
+                            <TextField
+                              type="text"
+                              {...fieldProps}
+                              value={formData?.github}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          </Tooltip>
+                        </Fragment>
+                      );
+                    }}
+                  </Field>{" "}
+                  <Field aria-required={true} name="linkedin" label="Linkedin">
+                    {({ fieldProps }) => {
+                      return (
+                        <Fragment>
+                          <Tooltip
+                            position="top"
+                            content="Linkedin account link"
+                          >
+                            <TextField
+                              type="text"
+                              {...fieldProps}
+                              value={formData?.linkedin}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          </Tooltip>
+                        </Fragment>
+                      );
+                    }}
+                  </Field>{" "}
+                  <Field aria-required={true} name="site" label="Site">
+                    {({ fieldProps }) => {
+                      return (
+                        <Fragment>
+                          <Tooltip position="top" content="site">
+                            <TextField
+                              type="text"
+                              {...fieldProps}
+                              value={formData?.site}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          </Tooltip>
+                        </Fragment>
+                      );
+                    }}
+                  </Field>{" "}
+                </FormSection>
+
+                <FormFooter>
+                  <Button
+                    type="submit"
+                    appearance="primary"
+                    isLoading={submitting}
+                  >
+                    Submit
+                  </Button>
+                </FormFooter>
+              </form>
+            )}
+          </Form>
+        </GridItem>
+
+        <GridItem spacing={6} w={"full"} maxW={"lg"}>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/LaYj1AXHuVc?start=24"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </GridItem>
+      </Grid>
     </Layout>
   );
 };
