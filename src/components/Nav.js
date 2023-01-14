@@ -227,13 +227,7 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
   {
-    label: "Pin 📌",
-    href: "/tag/pin",
-    img:
-      "https://e7.pngegg.com/pngimages/93/226/png-clipart-pin-pin-thumbnail.png",
-  },
-  {
-    label: "Computer science",
+    label: "CS",
     href: "/tag/cs",
     description:
       "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.",
