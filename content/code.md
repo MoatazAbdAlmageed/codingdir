@@ -6,6 +6,8 @@ categories:
 
 tags:
   - "website"
+  - "scratch"
+  - "kids"
 ---
 
 https://code.org/
