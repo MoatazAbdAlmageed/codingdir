@@ -9,13 +9,13 @@ import {
 } from "@chakra-ui/react";
 import { capitalize, kebabCase, uniq } from "lodash";
 
-import Select from "@atlaskit/select";
-import { navigate } from "gatsby";
-import moment from "moment";
-import React from "react";
 import { FaStar } from "react-icons/fa";
-import uuid from "react-uuid";
 import { LanguageFlag } from "./LanguageFlag";
+import React from "react";
+import Select from "@atlaskit/select";
+import moment from "moment";
+import { navigate } from "gatsby";
+import uuid from "react-uuid";
 
 const PostListing = ({ data, title: listTitle }) => {
   const rowTags = [
@@ -417,7 +417,7 @@ const PostListing = ({ data, title: listTitle }) => {
         <Box>
           <Center>
             <Text fontSize="xs">
-              <a href="place-your-ad-here">Place your ad here? </a>
+              <a href="/place-your-ad-here">Place your ad here? </a>
             </Text>
           </Center>
 
