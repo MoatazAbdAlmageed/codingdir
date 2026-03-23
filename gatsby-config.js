@@ -4,7 +4,6 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 module.exports = {
-  plugins: ['gatsby-plugin-netlify'],
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
     siteUrl: urljoin(config.siteUrl, config.pathPrefix),
