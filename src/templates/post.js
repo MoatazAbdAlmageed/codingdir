@@ -13,7 +13,7 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
-import { Link, graphql } from "gatsby";
+import { Link, graphql, withPrefix } from "gatsby";
 import { capitalize, kebabCase } from "lodash";
 
 import Helmet from "react-helmet";
@@ -66,7 +66,7 @@ export default ({ data, pageContext }) => {
           <Image
             margin={"auto"}
             borderRadius="full"
-            src={post.cover || "/YouTube-Icon-Gray-Box.jpg"}
+            src={post.cover || withPrefix("/YouTube-Icon-Gray-Box.jpg")}
             alt={post.title}
             objectFit="contain"
             height="88px"

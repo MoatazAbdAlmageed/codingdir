@@ -60,7 +60,7 @@ export default function WithSubnavigation() {
           >
             <Link href={withPrefix("/")}>
               <Image
-                src="/logos/main.png"
+                src={withPrefix("/logos/main.png")}
                 alt={config.siteTitle}
                 height="auto"
                 width="250px"

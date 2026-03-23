@@ -423,7 +423,7 @@ const PostListing = ({ data, title: listTitle }) => {
 
           <Center>
             <a href="https://www.youtube.com/@MoatazMohamady">
-              <img width="600px" src="/animated.gif" alt="logo" />
+              <img width="600px" src={withPrefix("/animated.gif")} alt="logo" />
             </a>
           </Center>
         </Box>
@@ -476,7 +476,7 @@ const PostListing = ({ data, title: listTitle }) => {
                 <Image
                   borderRadius="full"
                   src={post.cover}
-                  fallbackSrc="/YouTube-Icon-Gray-Box.jpg"
+                  fallbackSrc={withPrefix("/YouTube-Icon-Gray-Box.jpg")}
                   boxSize="88px"
                   width="auto"
                   alt="YouTube-Icon-Gray-Box"
