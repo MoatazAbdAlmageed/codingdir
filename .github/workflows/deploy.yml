@@ -16,13 +16,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '18' # Gatsby 2 needs at least Node 18 for modern deps, but use legacy-provider for SSL
+          node-version: '20' # Node 20 provides the 'File' global required by newer versions of undici
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
       - name: Build
-        run: npx gatsby build --prefix-paths
+        run: npm run build:pp
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
