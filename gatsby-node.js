@@ -179,7 +179,18 @@ exports.onCreateWebpackConfig = ({ loaders, actions }) => {
         {
           test: /\.js$|\.mjs$/,
           include: /node_modules\/@formspree/,
-          use: [loaders.js()],
+          use: [
+            {
+              loader: 'babel-loader',
+              options: {
+                presets: [['babel-preset-gatsby', { targets: { browsers: ['last 2 versions', 'ie 11'] } }]],
+                plugins: [
+                  require.resolve('@babel/plugin-proposal-optional-chaining'),
+                  require.resolve('@babel/plugin-proposal-nullish-coalescing-operator'),
+                ],
+              },
+            },
+          ],
         },
       ],
     },
