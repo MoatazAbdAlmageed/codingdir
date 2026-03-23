@@ -21,6 +21,211 @@ import { capitalize } from "lodash";
 import { withPrefix } from "gatsby";
 import config from "../../data/SiteConfig";
 
+const NAV_ITEMS = [
+  {
+    label: "CS",
+    href: withPrefix("/tag/cs"),
+    description:
+      "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.",
+    children: [
+      {
+        label: "problem-solving",
+        href: withPrefix("/tag/problem-solving"),
+      },
+      {
+        label: "data-structures",
+        href: withPrefix("/tag/data-structures"),
+      },
+      {
+        label: "algorithms",
+        href: withPrefix("/tag/algorithms"),
+      },
+      {
+        label: "design-patterns",
+        href: withPrefix("/tag/design-patterns"),
+      },
+      {
+        label: "oop",
+        href: withPrefix("/tag/oop"),
+      },
+      {
+        label: "solid",
+        href: withPrefix("/tag/solid"),
+      },
+      {
+        label: "clean-code",
+        href: withPrefix("/tag/clean-code"),
+      },
+    ],
+  },
+  {
+    label: "Frontend",
+    href: withPrefix("/tag/frontend"),
+    children: [
+      {
+        label: "html",
+        href: withPrefix("/tag/html"),
+      },
+      {
+        label: "css",
+        href: withPrefix("/tag/css"),
+      },
+      {
+        label: "js",
+        href: withPrefix("/tag/javascript"),
+      },
+      {
+        label: "react",
+        href: withPrefix("/tag/react"),
+      },
+      {
+        label: "vue",
+        href: withPrefix("/tag/vue"),
+      },
+      {
+        label: "angular",
+        href: withPrefix("/tag/angular"),
+      },
+      {
+        label: "nextjs",
+        href: withPrefix("/tag/nextjs"),
+      },
+      {
+        label: "gatsby",
+        href: withPrefix("/tag/gatsby"),
+      },
+    ],
+  },
+  {
+    label: "Backend",
+    href: withPrefix("/tag/backend"),
+
+    children: [
+      {
+        label: "nodejs",
+        href: withPrefix("/tag/nodejs"),
+      },
+      {
+        label: "php",
+        href: withPrefix("/tag/php"),
+      },
+      {
+        label: "laravel",
+        href: withPrefix("/tag/laravel"),
+      },
+      {
+        label: "python",
+        href: withPrefix("/tag/python"),
+      },
+      {
+        label: "django",
+        href: withPrefix("/tag/django"),
+      },
+      {
+        label: "java",
+        href: withPrefix("/tag/java"),
+      },
+      {
+        label: "spring",
+        href: withPrefix("/tag/spring"),
+      },
+      {
+        label: "golang",
+        href: withPrefix("/tag/golang"),
+      },
+    ],
+  },
+  {
+    label: "Database",
+    href: withPrefix("/tag/database"),
+    children: [
+      {
+        label: "mysql",
+        href: withPrefix("/tag/mysql"),
+      },
+      {
+        label: "postgresql",
+        href: withPrefix("/tag/postgresql"),
+      },
+      {
+        label: "mongodb",
+        href: withPrefix("/tag/mongodb"),
+      },
+      {
+        label: "firebase",
+        href: withPrefix("/tag/firebase"),
+      },
+    ],
+  },
+  {
+    label: "Mobile",
+    href: withPrefix("/tag/mobile"),
+
+    children: [
+      {
+        label: "react-native",
+        href: withPrefix("/tag/react-native"),
+      },
+      {
+        label: "flutter",
+        href: withPrefix("/tag/flutter"),
+      },
+      {
+        label: "ios",
+        href: withPrefix("/tag/ios"),
+      },
+      {
+        label: "android",
+        href: withPrefix("/tag/android"),
+      },
+    ],
+  },
+  {
+    label: "Devops",
+    href: withPrefix("/tag/devops"),
+
+    children: [
+      {
+        label: "docker",
+        href: withPrefix("/tag/docker"),
+      },
+      {
+        label: "kubernetes",
+        href: withPrefix("/tag/kubernetes"),
+      },
+      {
+        label: "aws",
+        href: withPrefix("/tag/aws"),
+      },
+      {
+        label: "git",
+        href: withPrefix("/tag/git"),
+      },
+    ],
+  },
+  {
+    label: "Podcasts",
+    href: withPrefix("/tag/podcast"),
+  },
+  {
+    label: "Islamic",
+    href: withPrefix("/tag/islamic"),
+  },
+  {
+    label: "English",
+    href: withPrefix("/tag/english"),
+  },
+
+  {
+    label: "Websites",
+    href: withPrefix("/tag/website"),
+  },
+  {
+    label: "Submit",
+    href: withPrefix("/submit"),
+  },
+];
+
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
 
@@ -229,291 +434,4 @@ const MobileNavItem = ({ label, children, href }) => {
   );
 };
 
-const NAV_ITEMS = [
-  {
-    label: "CS",
-    href: withPrefix("/tag/cs"),
-    description:
-      "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.",
-    children: [
-      {
-        label: "problem-solving",
-        href: withPrefix("/tag/problem-solving"),
-      },
-      {
-        label: "data-structures",
-        href: withPrefix("/tag/data-structures"),
-      },
-      {
-        label: "algorithms",
-        href: withPrefix("/tag/algorithms"),
-      },
-      {
-        label: "operating System",
-        href: withPrefix("/tag/operating-system"),
-      },
-      {
-        label: "networking",
-        href: withPrefix("/tag/networking"),
-      },
-      {
-        label: "computer-programming",
-        href: withPrefix("/tag/computer-programming"),
-      },
-      {
-        label: "system-design",
-        href: withPrefix("/tag/system-design"),
-      },
-      {
-        label: "system-analysis",
-        href: withPrefix("/tag/system-analysis"),
-      },
-      {
-        label: "computer-architecture",
-        href: withPrefix("/tag/computer-architecture"),
-      },
-      {
-        label: "software-engineering",
-        href: withPrefix("/tag/software-engineering"),
-      },
-      {
-        label: "software-architecture",
-        href: withPrefix("/tag/software-architecture"),
-      },
-      {
-        label: "software-development",
-        href: withPrefix("/tag/software-development"),
-      },
-      {
-        label: "software-systems",
-        href: withPrefix("/tag/software-systems"),
-      },
-      {
-        label: "microservice",
-        href: withPrefix("/tag/microservices"),
-      },
-      {
-        label: "design patterns",
-        href: withPrefix("/tag/design-patterns"),
-      },
-      {
-        label: "solid",
-        href: withPrefix("/tag/solid"),
-      },
-    ],
-  },
-  {
-    label: "FrontEnd",
-    href: withPrefix("/tag/frontend"),
 
-    children: [
-      {
-        label: "HTML",
-        href: withPrefix("/tag/html"),
-      },
-      {
-        label: "css",
-        href: withPrefix("/tag/css"),
-      },
-      {
-        label: "javascript",
-        href: withPrefix("/tag/javascript"),
-      },
-      {
-        label: "react",
-        href: withPrefix("/tag/react"),
-      },
-      {
-        label: "angular",
-        href: withPrefix("/tag/angular"),
-      },
-      {
-        label: "vuejs",
-        href: withPrefix("/tag/vuejs"),
-      },
-      {
-        label: "ui-ux",
-        href: withPrefix("/tag/ui-ux"),
-      },
-      {
-        label: "xd",
-        href: withPrefix("/tag/xd"),
-      },
-      {
-        label: "figma",
-        href: withPrefix("/tag/figma"),
-      },
-    ],
-  },
-
-  {
-    label: "BackEnd",
-    href: withPrefix("/tag/backend"),
-    children: [
-      {
-        label: "nodejs",
-        href: withPrefix("/tag/nodejs"),
-      },
-      {
-        label: "PHP",
-        href: withPrefix("/tag/php"),
-      },
-      {
-        label: "Laravel",
-        href: withPrefix("/tag/laravel"),
-      },
-      {
-        label: "Wordpress",
-        href: withPrefix("/tag/wordpress"),
-      },
-      {
-        label: "c",
-        href: withPrefix("/tag/c"),
-      },
-      {
-        label: "c++",
-        href: withPrefix("/tag/cplusplus"),
-      },
-      {
-        label: "CSharp",
-        href: withPrefix("/tag/c-sharp"),
-      },
-      {
-        label: "python",
-        href: withPrefix("/tag/python"),
-      },
-      {
-        label: "GOLANG",
-        href: withPrefix("/tag/golang"),
-      },
-      {
-        label: "java",
-        href: withPrefix("/tag/java"),
-      },
-      {
-        label: "Ruby",
-        href: withPrefix("/tag/ruby"),
-      },
-    ],
-  },
-  {
-    label: "Database",
-    href: withPrefix("/tag/database"),
-    children: [
-      {
-        label: "sql",
-        href: withPrefix("/tag/sql"),
-      },
-      {
-        label: "mysql",
-        href: withPrefix("/tag/mysql"),
-      },
-      {
-        label: "mongodb",
-        href: withPrefix("/tag/mongodb"),
-      },
-      {
-        label: "sqlite",
-        href: withPrefix("/tag/sqlite"),
-      },
-      {
-        label: "firebase",
-        href: withPrefix("/tag/firebase"),
-      },
-      {
-        label: "oracel",
-        href: withPrefix("/tag/oracel"),
-      },
-    ],
-  },
-  {
-    label: "Mobile",
-    href: withPrefix("/tag/mobile"),
-    children: [
-      {
-        label: "react-native",
-        href: withPrefix("/tag/react-native"),
-      },
-      {
-        label: "android",
-        href: withPrefix("/tag/android"),
-      },
-      {
-        label: "flutter",
-        href: withPrefix("/tag/flutter"),
-      },
-      {
-        label: "Kotlin",
-        href: withPrefix("/tag/kotlin"),
-      },
-      {
-        label: "Swift",
-        href: withPrefix("/tag/swift"),
-      },
-    ],
-  },
-  {
-    label: "Devops",
-    href: withPrefix("/tag/devops"),
-    children: [
-      {
-        label: "git",
-        href: withPrefix("/tag/git"),
-      },
-      {
-        label: "linux",
-        href: withPrefix("/tag/linux"),
-      },
-      {
-        label: "Jenkins",
-        href: withPrefix("/tag/jenkins"),
-      },
-      {
-        label: "containerization",
-        href: withPrefix("/tag/containerization"),
-      },
-      {
-        label: "docker",
-        href: withPrefix("/tag/docker"),
-      },
-      {
-        label: "Kubernetes",
-        href: withPrefix("/tag/kubernetes"),
-      },
-      {
-        label: "cloud",
-        href: withPrefix("/tag/cloud"),
-      },
-      {
-        label: "aws",
-        href: withPrefix("/tag/aws"),
-      },
-      {
-        label: "azure",
-        href: withPrefix("/tag/azure"),
-      },
-    ],
-  },
-
-  {
-    label: "Podcasts",
-    href: withPrefix("/tag/podcast"),
-  },
-  {
-    label: "Islamic",
-    href: withPrefix("/tag/islamic"),
-  },
-  {
-    label: "English",
-    href: withPrefix("/tag/english"),
-  },
-
-  {
-    label: "Websites",
-    href: withPrefix("/tag/website"),
-  },
-  {
-    label: "Submit",
-    href: withPrefix("/submit"),
-  },
-];
