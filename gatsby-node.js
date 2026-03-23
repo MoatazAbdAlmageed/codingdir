@@ -161,3 +161,13 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 };
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        'object.assign/polyfill': path.resolve(__dirname, 'node_modules/object.assign/polyfill.js'),
+      },
+    },
+  });
+};
