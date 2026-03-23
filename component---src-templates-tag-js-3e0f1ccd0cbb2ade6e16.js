@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{ccoC:function(e,t,a){"use strict";a.r(t);var n=a("TJpk"),l=a.n(n),c=a("83Zx"),i=a("lPsB"),r=a("q1tI"),o=a.n(r),p=a("IpnI"),s=a.n(p);t.default=function(e){var t=e.data,a=e.pageContext;return o.a.createElement(c.a,null,o.a.createElement("main",null,o.a.createElement(l.a,{title:a.tag+" Channels | "+s.a.siteTitle}),o.a.createElement(i.a,{data:t,title:a.tag})))}}}]);
+//# sourceMappingURL=component---src-templates-tag-js-3e0f1ccd0cbb2ade6e16.js.map
