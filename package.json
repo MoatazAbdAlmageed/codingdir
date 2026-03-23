@@ -5,11 +5,11 @@
   "author": "'Moataz Mohammady' <moataz.mohammady@gmail.com>",
   "scripts": {
     "rename": " node.exe scripts/rename.js ./content",
-    "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "develop": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "dev": "yarn run develop",
     "serve": "gatsby serve",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
-    "build:pp": "NODE_OPTIONS=--openssl-legacy-provider gatsby build --prefix-paths",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+    "build:pp": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby build --prefix-paths",
     "build:gh": "yarn run clean && yarn run build:pp && gh-pages -d public",
     "clean": "rm -rf public && rm -rf .cache",
     "lint:js": "eslint --ext .js",
@@ -73,6 +73,7 @@
   },
   "devDependencies": {
     "cli-glob": "^0.1.0",
+    "cross-env": "^10.1.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^4.3.0",
