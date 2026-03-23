@@ -162,12 +162,26 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 };
 
-exports.onCreateWebpackConfig = ({ actions }) => {
+exports.onCreateWebpackConfig = ({ loaders, actions }) => {
   actions.setWebpackConfig({
     resolve: {
       alias: {
-        'object.assign/polyfill': path.resolve(__dirname, 'node_modules/object.assign/polyfill.js'),
+        'object.assign/polyfill': require.resolve('object.assign/polyfill'),
       },
+    },
+    module: {
+      rules: [
+        {
+          test: /\.mjs$/,
+          include: /node_modules/,
+          type: 'javascript/auto',
+        },
+        {
+          test: /\.js$|\.mjs$/,
+          include: /node_modules\/@formspree/,
+          use: [loaders.js()],
+        },
+      ],
     },
   });
 };
