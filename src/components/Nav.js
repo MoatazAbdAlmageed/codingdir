@@ -4,7 +4,6 @@ import {
   Flex,
   Icon,
   IconButton,
-  Image,
   Link,
   Popover,
   PopoverContent,
@@ -28,14 +27,14 @@ export default function WithSubnavigation() {
   return (
     <Box>
       <Flex
-        bg={useColorModeValue("white", "gray.800")}
-        color={useColorModeValue("gray.600", "white")}
-        minH={"60px"}
+        bg={"surface.base"}
+        color={"text.primary"}
+        minH={"64px"}
         py={{ base: 2 }}
-        px={{ base: 4 }}
-        borderBottom={1}
+        px={{ base: 6 }}
+        borderBottom={2}
         borderStyle={"solid"}
-        borderColor={useColorModeValue("gray.200", "gray.900")}
+        borderColor={"brand.container"}
         align={"center"}
       >
         <Flex
@@ -58,13 +57,16 @@ export default function WithSubnavigation() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Link href={withPrefix("/")}>
-              <Image
-                src={withPrefix("/logos/main.png")}
-                alt={config.siteTitle}
-                height="auto"
-                width="250px"
-              />
+            <Link href={withPrefix("/")} _hover={{ opacity: 0.8 }}>
+              <Text 
+                fontFamily="mono" 
+                fontWeight="900" 
+                fontSize="xl" 
+                color="brand.primary" 
+                letterSpacing="-0.1em"
+              >
+                {config.siteTitle.toUpperCase().replace(/\s/g, "_")}
+              </Text>
             </Link>
           </Text>
 
@@ -82,10 +84,6 @@ export default function WithSubnavigation() {
 }
 
 const DesktopNav = () => {
-  const linkColor = useColorModeValue("gray.600", "gray.200");
-  const linkHoverColor = useColorModeValue("gray.800", "white");
-  const popoverContentBgColor = useColorModeValue("white", "gray.800");
-
   return (
     <Stack direction={"row"} spacing={4}>
       {NAV_ITEMS.map((navItem) => (
@@ -95,12 +93,15 @@ const DesktopNav = () => {
               <Link
                 p={2}
                 href={navItem?.children?.length ? "#" : navItem.href}
-                fontSize={"sm"}
-                fontWeight={500}
-                color={linkColor}
+                fontSize={"11px"}
+                fontFamily={"mono"}
+                fontWeight="700"
+                color={"text.primary"}
+                textTransform="uppercase"
+                letterSpacing="0.1em"
                 _hover={{
                   textDecoration: "none",
-                  color: linkHoverColor,
+                  color: "brand.primary",
                 }}
               >
                 {capitalize(navItem.label)}
@@ -114,10 +115,12 @@ const DesktopNav = () => {
               <PopoverContent
                 border={0}
                 boxShadow={"xl"}
-                bg={popoverContentBgColor}
+                bg={"surface.high"}
                 p={4}
-                rounded={"xl"}
+                borderRadius={"0px"}
                 minW={"sm"}
+                borderLeft={"4px solid"}
+                borderColor={"brand.accent"}
               >
                 <Stack>
                   {navItem.children.map((child) => (
@@ -139,9 +142,9 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
       href={href}
       role={"group"}
       display={"block"}
-      p={2}
-      rounded={"md"}
-      _hover={{ bg: useColorModeValue("red.50", "gray.900") }}
+      p={3}
+      borderRadius={"0px"}
+      _hover={{ bg: "surface.low" }}
     >
       <Stack direction={"row"} align={"center"}>
         <Box>

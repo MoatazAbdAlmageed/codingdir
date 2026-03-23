@@ -428,8 +428,8 @@ const PostListing = ({ data, title: listTitle }) => {
           </Center>
         </Box>
 
-        <Heading color="#e72c33" mb={5}>
-          {capitalize(listTitle)}
+        <Heading color="brand.primary" mb={8} size="2xl">
+          {listTitle.toUpperCase().replace(/\s/g, "_")}
         </Heading>
 
         <Select
@@ -454,16 +454,19 @@ const PostListing = ({ data, title: listTitle }) => {
       <SimpleGrid columns={{ lg: 5, sm: 1, md: 3 }} spacing="40px">
         {posts.map((post) => (
           <Box
-            p={5}
+            p={6}
             textAlign="center"
-            boxShadow="md"
-            rounded="lg"
+            bg="surface.high"
+            borderLeft="4px solid"
+            borderColor="brand.accent"
+            borderRadius="0px"
             w="100%"
             key={uuid()}
             overflow="hidden"
-            transition="0.3s ease-in-out"
+            transition="all 0.2s ease-in-out"
             _hover={{
-              transform: "scale(1.05)",
+              bg: "surface.low",
+              transform: "translateY(-4px)",
             }}
           >
             <LanguageFlag post={post} />
@@ -482,8 +485,8 @@ const PostListing = ({ data, title: listTitle }) => {
                   alt="YouTube-Icon-Gray-Box"
                 />
               </Center>
-              <Text color={"#454159"}>
-                <b>{post.title}</b>
+              <Text color="text.primary" mt={4}>
+                <b style={{ letterSpacing: "-0.02em" }}>{post.title}</b>
               </Text>
             </a>
             {post.tags?.includes("pin") && (
