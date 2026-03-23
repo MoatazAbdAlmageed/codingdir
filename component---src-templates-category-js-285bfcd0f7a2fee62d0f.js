@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{Mdw5:function(e,t,a){"use strict";a.r(t);var n=a("TJpk"),l=a.n(n),r=a("83Zx"),c=a("lPsB"),i=a("q1tI"),o=a.n(i),p=a("IpnI"),s=a.n(p);t.default=function(e){var t=e.data,a=e.pageContext;return o.a.createElement(r.a,null,o.a.createElement("main",null,o.a.createElement(l.a,{title:' "'+a.category+'" - '+s.a.siteTitle}),o.a.createElement(c.a,{data:t,title:"Channels in "+a.category})))}}}]);
+//# sourceMappingURL=component---src-templates-category-js-285bfcd0f7a2fee62d0f.js.map
