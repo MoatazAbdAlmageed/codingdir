@@ -162,37 +162,29 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 };
 
-exports.onCreateWebpackConfig = ({ loaders, actions }) => {
-  actions.setWebpackConfig({
-    resolve: {
-      alias: {
-        'object.assign/polyfill': require.resolve('object.assign/polyfill'),
-      },
-    },
-    module: {
-      rules: [
-        {
-          test: /\.mjs$/,
-          include: /node_modules/,
-          type: 'javascript/auto',
-        },
-        {
-          test: /\.js$|\.mjs$/,
-          include: /node_modules\/@formspree/,
-          use: [
-            {
-              loader: 'babel-loader',
-              options: {
-                presets: [['babel-preset-gatsby', { targets: { browsers: ['last 2 versions', 'ie 11'] } }]],
-                plugins: [
-                  require.resolve('@babel/plugin-proposal-optional-chaining'),
-                  require.resolve('@babel/plugin-proposal-nullish-coalescing-operator'),
-                ],
-              },
-            },
-          ],
-        },
-      ],
-    },
+exports.onCreateWebpackConfig = ({ actions, getConfig, loaders }) => {
+  const config = getConfig();
+
+  // 1. Force transpilation for modern packages like @formspree
+  // Using unshift to ensure this rule runs BEFORE the default gatsby rules
+  config.module.rules.unshift({
+    test: /\.(js|mjs)$/,
+    include: (filepath) => filepath.includes('@formspree') || filepath.includes('undici'),
+    use: [loaders.js()],
   });
+
+  // 2. Fix .mjs support for Webpack 4
+  config.module.rules.push({
+    test: /\.mjs$/,
+    include: /node_modules/,
+    type: 'javascript/auto'
+  });
+
+  // 3. Robust alias for polyfills
+  config.resolve.alias = {
+    ...config.resolve.alias,
+    'object.assign/polyfill': require.resolve('object.assign/polyfill'),
+  };
+
+  actions.replaceWebpackConfig(config);
 };
