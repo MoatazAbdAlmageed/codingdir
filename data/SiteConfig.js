@@ -12,7 +12,7 @@ const config = {
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "moataz.mohammady", // Username to display in the author segment.
-  userEmail: "moataz.mohammady@gmail.com", // Email used for RSS feed's author segment
+  userEmail: "hr@sporship.net", // Email used for RSS feed's author segment
   userTwitter: "https://twitter.com/MoatazMohammady", // Optionally renders "Follow Me" in the Bio segment.
   gitHub: "https://github.com/MoatazAbdAlmageed/YouTube-Channels", // Optionally renders "Follow Me" in the Bio segment.
   userLinkedin: "https://www.linkedin.com/in/moatazabdelmageed/", // Optionally renders "Follow Me" in the Bio segment.

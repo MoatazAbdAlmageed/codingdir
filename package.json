@@ -2,7 +2,7 @@
   "name": "gatsby-blog-advanced",
   "description": "GatsbyJS  Blog starter that includes examples for markdown use cases.",
   "version": "1.1.0",
-  "author": "'Moataz Mohammady' <moataz.mohammady@gmail.com>",
+  "author": "'Moataz Mohammady' <hr@sporship.net>",
   "scripts": {
     "rename": " node.exe scripts/rename.js ./content",
     "develop": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
