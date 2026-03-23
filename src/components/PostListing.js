@@ -14,7 +14,7 @@ import { LanguageFlag } from "./LanguageFlag";
 import React from "react";
 import Select from "@atlaskit/select";
 import moment from "moment";
-import { navigate } from "gatsby";
+import { navigate, withPrefix } from "gatsby";
 import uuid from "react-uuid";
 
 const PostListing = ({ data, title: listTitle }) => {
@@ -399,7 +399,7 @@ const PostListing = ({ data, title: listTitle }) => {
 
   const handleSelectChange = ({ value }) => {
     console.log("value", value);
-    navigate(`/tag/${kebabCase(value)}`);
+    navigate(withPrefix(`/tag/${kebabCase(value)}`));
   };
   const { filteredData, query } = state;
   const hasSearchResults = filteredData && query;
@@ -417,7 +417,7 @@ const PostListing = ({ data, title: listTitle }) => {
         <Box>
           <Center>
             <Text fontSize="xs">
-              <a href="/place-your-ad-here">Place your ad here? </a>
+              <a href={withPrefix("/place-your-ad-here")}>Place your ad here? </a>
             </Text>
           </Center>
 
@@ -468,7 +468,7 @@ const PostListing = ({ data, title: listTitle }) => {
           >
             <LanguageFlag post={post} />
             <a
-              href={post.path}
+              href={withPrefix(post.path)}
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
