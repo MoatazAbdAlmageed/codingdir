@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '14' # Gatsby 2 works best with Node 14
+          node-version: '18' # Gatsby 2 needs at least Node 18 for modern deps, but use legacy-provider for SSL
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
